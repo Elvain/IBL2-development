@@ -1,0 +1,9 @@
+version="1.24"
+tags={
+	"Historical"
+	"Map"
+	"Culture"
+	"Fixes"
+}
+name="IBL-Iberia"
+supported_version="1.4.4"
