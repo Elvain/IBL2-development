@@ -1,0 +1,258 @@
+###c_silves
+1747 = {	# SILVES
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	811.1.1 = { religion = muwalladi }
+	944.1.1 = { culture = andalusian }
+	1264.1.1 = {
+		culture = portuguese
+		religion = catholic
+	}
+}
+1746 = {	# LAGOS
+	holding = church_holding
+}
+1749 = {	# OURIQUE
+	holding = city_holding
+}
+
+###c_faro
+1748 = {	# Faro
+	#Misc	
+	culture = visigothic
+	religion = muwalladi
+	
+	holding = castle_holding
+	
+	# History
+	939.1.1 = {
+		culture = andalusian
+	}
+	1264.1.1 = {
+		culture = portuguese
+		religion = catholic
+	}
+}
+1750 = {	# MERTOLA
+	holding = city_holding
+}
+
+###c_alcacer_do_sal
+1752 = {	# ALCACER DO SAL
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	# History
+	939.1.1 = {
+		culture = andalusian
+		religion = muwalladi
+	}
+	1233.1.1 = {
+		culture = portuguese
+		religion = catholic
+	}
+}
+1778 = {	# AVIS
+	holding = none
+}
+1779 = {	# MONTEMOR
+	holding = city_holding
+}
+1780 = {	# VIANA DO ALENTEJO
+	holding = church_holding
+}
+
+###c_lisboa
+1754 = {	# Lisboa
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	944.1.1 = {
+		culture = andalusian
+		religion = muwalladi
+	}
+	1163.1.1 = {
+		culture = portuguese
+		religion = catholic
+	}
+}
+1755 = {	# SANTAREM
+	holding = city_holding
+}
+1753 = {	# SETUBAL
+	holding = church_holding
+}
+
+###c_elvas
+1776 = {	# ELVAS
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	944.1.1 = {
+		culture = andalusian
+		religion = muwalladi
+	}
+	1163.1.1 = {
+		culture = portuguese
+		religion = catholic
+	}
+}
+1774 = {	# NISA
+	holding = city_holding
+}
+1775 = {	# CRATO
+	holding = none
+	
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_beja/evora/Évora
+1777 = {	# EVORA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	811.1.1 = { religion = muwalladi }
+	939.1.1 = { culture = andalusian }
+	1253.1.1 = {
+		culture = portuguese
+		religion = catholic
+	}
+}
+1751 = {	# BEJA
+	holding = city_holding
+}
+
+#### d_badajoz
+###c_badajoz
+1835 = {	#  BADAJOZ
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	934.1.1 = { culture = andalusian }
+	1245.3.19 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1836 = {	# OLIVENZA
+	holding = city_holding
+}
+1992 = {	# ZAFRA
+	holding = none
+}
+
+###c_plasencia
+1832 = {	# ALCANTARA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	955.1.1 = { culture = asturleonese }
+}
+1831 = {	# PLASENCIA/Hervas
+	holding = city_holding
+}
+1830 = {	# CORIA
+	holding = city_holding
+}
+1917 = {	# ALMARAZ / YUSTE
+	holding = church_holding
+}
+
+###c_caceres
+1961 = {	# CABANEROS / ALBUQUERQUE
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	939.1.1 = { culture = andalusian }
+	1235.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+
+1954 = {	# CACERES
+	holding = city_holding
+}
+1833 = {	# ZALACA
+	holding = none
+}
+
+###c_medellin / Trujillo
+1955 = {	# TRUJILLO
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	934.1.1 = { culture = andalusian }
+	1245.3.19 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1956 = {	# CASTILBLANCO
+	holding = church_holding
+}
+
+###c_merida
+1834 = {	# MERIDA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	939.1.1 = { culture = andalusian }
+	1235.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1996 = {	# MEDELLIN
+	holding = none
+	
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+1997 = {	# HORNACHOS
+	holding = church_holding
+}
+
