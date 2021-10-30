@@ -52329,7 +52329,7 @@ e_spain = {
 					color = { 110 65 20 }
 					color2 = { 255 255 255 }
 				}
-				b_ainsa = { #Sobrarbe
+				b_ainsa = { #Sobrarbe->Ainsa
 					province = 1872
 
 					color = { 110 65 20 }
@@ -52440,7 +52440,7 @@ e_spain = {
 					color2 = { 255 255 255 }
 				}
 				b_tarazona = { #Olite -> Tarazona
-					province = 1890
+					province = 1902
 
 					color = { 155 145 15 }
 					color2 = { 255 255 255 }	
@@ -52896,7 +52896,7 @@ e_spain = {
 				color2 = { 255 255 255 }
 
 				b_tudela = {
-					province = 1902
+					province = 1890
 
 					color = { 155 145 15 }
 					color2 = { 255 255 255 }	
