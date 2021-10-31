@@ -128,6 +128,9 @@
 1859 = {	# TORTOSA
 	holding = church_holding
 }
+1858 = {	# AMPOSTA
+	holding = city_holding
+}
 1879 = {	# PRADES
 	holding = none
 	
@@ -303,3 +306,22 @@
 	holding = city_holding
 }
 
+###c_teruel
+1937 = {	# TERUEL
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	944.1.1 = { culture = andalusian }
+	1259.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+1942 = {	# MAESTRAZGO
+	holding = church_holding
+}
