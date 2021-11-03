@@ -51303,6 +51303,23 @@ e_spain = {
 					color2 = { 255 255 255 }
 				}
 			}
+			c_alarcon = {
+				color = { 195 125 25 }
+				color2 = { 255 255 255 }
+				
+				b_alarcon = {
+					province = 1949
+					
+					color = { 195 125 25 }
+					color2 = { 255 255 255 }
+				}
+				b_valeria = {
+					province = 1948
+					
+					color = { 195 125 25 }
+					color2 = { 255 255 255 }
+				}
+			}
 			c_calatrava = {
 				color = { 195 135 25 }
 				color2 = { 255 255 255 }
@@ -51748,14 +51765,14 @@ e_spain = {
 				color = { 65 210 130 }
 				color2 = { 255 255 255 }
 				
-				b_denia = {
-					province = 1854
+				b_guadalest = {
+					province = 9809
 					
 					color = { 65 210 130 }
 					color2 = { 255 255 255 }
 				}
-				b_guadalest = {
-					province = 9809
+				b_denia = {
+					province = 1854
 					
 					color = { 65 210 130 }
 					color2 = { 255 255 255 }
@@ -51777,13 +51794,13 @@ e_spain = {
 					color = { 95 160 100 }
 					color2 = { 255 255 255 }
 				}
-				b_albacete = {
+				b_albacete = { #Cofrentes
 					province = 1940
 					
 					color = { 95 160 100 }
 					color2 = { 255 255 255 }
 				}
-				b_almansa = { #Alcoy
+				b_almansa = { #Alcoy -> Xátiva
 					province = 1969
 					
 					color = { 95 160 100 }
@@ -51928,23 +51945,6 @@ e_spain = {
 					province = 2004
 					
 					color = { 5 115 60 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_alarcon = {
-				color = { 0 100 35 }
-				color2 = { 255 255 255 }
-				
-				b_alarcon = {
-					province = 1949
-					
-					color = { 0 100 35 }
-					color2 = { 255 255 255 }
-				}
-				b_valeria = {
-					province = 1948
-					
-					color = { 0 100 35 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -52141,7 +52141,7 @@ e_spain = {
 					color = { 245 225 15 }
 					color2 = { 255 255 255 }
 				}
-				b_arnedo = {
+				b_arnedo = { # -> Auca
 					province = 1903
 
 					color = { 245 225 15 }
@@ -52159,25 +52159,25 @@ e_spain = {
 				color = { 255 225 65 }
 				color2 = { 255 255 255 }
 
-				b_avila = {
-					province = 1912
-
-					color = { 255 225 65 }
-					color2 = { 255 255 255 }
-				}
-				b_laadrada = {
-					province = 1921
-
-					color = { 255 225 65 }
-					color2 = { 255 255 255 }
-				}
 				b_olmedo = {
 					province = 1915
 
 					color = { 255 225 65 }
 					color2 = { 255 255 255 }
 				}
-				b_coracera = {
+				b_avila = {
+					province = 1912
+
+					color = { 255 225 65 }
+					color2 = { 255 255 255 }
+				}
+				b_laadrada = { #Arevalo/Arévalo
+					province = 1921
+
+					color = { 255 225 65 }
+					color2 = { 255 255 255 }
+				}
+				b_coracera = { #Medina del Campo
 					province = 1922
 
 					color = { 255 225 65 }
@@ -52188,25 +52188,25 @@ e_spain = {
 				color = { 255 245 10 }
 				color2 = { 255 255 255 }
 
-				b_segovia = {
-					province = 1924
-
-					color = { 255 245 10 }
-					color2 = { 255 255 255 }
-				}
 				b_cuellar = {
 					province = 1925
 
 					color = { 255 245 10 }
 					color2 = { 255 255 255 }
 				}
-				b_uceda = {
+				b_segovia = {
+					province = 1924
+
+					color = { 255 245 10 }
+					color2 = { 255 255 255 }
+				}
+				b_uceda = { #Ayllón
 					province = 1926
 
 					color = { 255 245 10 }
 					color2 = { 255 255 255 }
 				}
-				b_arevalo = {
+				b_sepulveda = {
 					province = 9843
 
 					color = { 255 245 10 }
@@ -52254,7 +52254,7 @@ e_spain = {
 					color = { 238 195 50 }
 					color2 = { 255 255 255 }
 				}
-				b_medinadepomar = {
+				b_medinadepomar = { # Espinosa
 					province = 1812
 
 					color = { 238 195 50 }
@@ -52329,7 +52329,7 @@ e_spain = {
 					color = { 110 65 20 }
 					color2 = { 255 255 255 }
 				}
-				b_ainsa = { #Sobrarbe
+				b_ainsa = { #Sobrarbe->Ainsa
 					province = 1872
 
 					color = { 110 65 20 }
@@ -52369,6 +52369,12 @@ e_spain = {
 				color = { 175 75 15 }
 				color2 = { 255 255 255 }
 
+				b_montso = {
+					province = 9825
+
+					color = { 175 75 15 }
+					color2 = { 255 255 255 }
+				}
 				b_fraga = {
 					province = 1882
 
@@ -52377,12 +52383,6 @@ e_spain = {
 				}
 				b_barbastro = {
 					province = 1874
-
-					color = { 175 75 15 }
-					color2 = { 255 255 255 }
-				}
-				b_montso = {
-					province = 9825
 
 					color = { 175 75 15 }
 					color2 = { 255 255 255 }
@@ -52440,7 +52440,7 @@ e_spain = {
 					color2 = { 255 255 255 }
 				}
 				b_tarazona = { #Olite -> Tarazona
-					province = 1890
+					province = 1902
 
 					color = { 155 145 15 }
 					color2 = { 255 255 255 }	
@@ -52467,14 +52467,14 @@ e_spain = {
 				color = { 125 85 5 }
 				color2 = { 255 255 255 }
 				
-				b_calatayud = {
-					province = 1932
+				b_daroca = {
+					province = 1934
 
 					color = { 125 85 5 }
 					color2 = { 255 255 255 }
 				}
-				b_daroca = {
-					province = 1934
+				b_calatayud = {
+					province = 1932
 
 					color = { 125 85 5 }
 					color2 = { 255 255 255 }
@@ -52484,6 +52484,12 @@ e_spain = {
 				color = { 155 115 50 }
 				color2 = { 255 255 255 }
 				
+				b_calaceite = { #Hixar
+					province = 1893
+
+					color = { 155 115 50 }
+					color2 = { 255 255 255 }
+				}
 				b_alcaniz = {
 					province = 1892
 
@@ -52496,39 +52502,33 @@ e_spain = {
 					color = { 155 115 50 }
 					color2 = { 255 255 255 }
 				}
-				b_calaceite = {
-					province = 1893
-
-					color = { 155 115 50 }
-					color2 = { 255 255 255 }
-				}
 			}
 			c_soria = {
-				color = { 255 215 5 }
+				color = { 200 120 15 }
 				color2 = { 255 255 255 }
 				
+				b_gormaz = {
+					province = 9831
+
+					color = { 200 120 15 }
+					color2 = { 255 255 255 }
+				}
 				b_soria = {
 					province = 1901
 
-					color = { 255 215 5 }
+					color = { 200 120 15 }
 					color2 = { 255 255 255 }
 				}
 				b_osma = {
 					province = 1900
 
-					color = { 255 215 5 }
+					color = { 200 120 15 }
 					color2 = { 255 255 255 }
 				}
 				b_agreda = {
 					province = 9829
 
-					color = { 255 215 5 }
-					color2 = { 255 255 255 }
-				}
-				b_gormaz = {
-					province = 9831
-
-					color = { 255 215 5 }
+					color = { 200 120 15 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -52562,25 +52562,25 @@ e_spain = {
 				}
 			}
 			c_teruel = {
-				color = { 110 160 115 }
+				color = { 140 75 15 }
 				color2 = { 255 255 255 }
 				
+				b_maestrazgo = { #Alfambra
+					province = 1942
+					
+					color = { 140 75 15 }
+					color2 = { 255 255 255 }
+				}
 				b_teruel = {
 					province = 1937
 					
-					color = { 110 160 115 }
+					color = { 140 75 15 }
 					color2 = { 255 255 255 }
 				}
 				b_aliaga = {
 					province = 9815
 					
-					color = { 110 160 115 }
-					color2 = { 255 255 255 }
-				}
-				b_maestrazgo = { #Alfambra
-					province = 1942
-					
-					color = { 110 160 115 }
+					color = { 140 75 15 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -52711,16 +52711,16 @@ e_spain = {
 				color = { 155 90 55 }
 				color2 = { 255 255 255 }
 				
-				b_tarragona = {
-					province = 1860
-
-					color = { 155 90 55 }
-					color2 = { 255 255 255 }
-				}
 				b_prades = {
 					province = 1879
 
 					color = { 160 80 65 }
+					color2 = { 255 255 255 }
+				}
+				b_tarragona = {
+					province = 1860
+
+					color = { 155 90 55 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -52804,16 +52804,16 @@ e_spain = {
 				color = { 160 80 65 }
 				color2 = { 255 255 255 }
 				
-				b_lleida = {
-					province = 1881
-
-					color = { 160 80 65 }
-					color2 = { 255 255 255 }
-				}
 				b_maials = { #Aitona
 					province = 1880
 
 					color = { 155 90 55 }
+					color2 = { 255 255 255 }
+				}
+				b_lleida = {
+					province = 1881
+
+					color = { 160 80 65 }
 					color2 = { 255 255 255 }
 				}
 				b_cervera = {
@@ -52896,7 +52896,7 @@ e_spain = {
 				color2 = { 255 255 255 }
 
 				b_tudela = {
-					province = 1902
+					province = 1890
 
 					color = { 155 145 15 }
 					color2 = { 255 255 255 }	
@@ -52920,14 +52920,14 @@ e_spain = {
 				color = { 115 90 0 }
 				color2 = { 255 255 255 }
 				
-				b_bilibio = { #Vizcaya
-					province = 1803
+				b_durango = {
+					province = 9834
 
 					color = { 115 90 0 }
 					color2 = { 255 255 255 }
 				}
-				b_durango = {
-					province = 9834
+				b_bilibio = { #Vizcaya
+					province = 1803
 
 					color = { 115 90 0 }
 					color2 = { 255 255 255 }
@@ -53094,7 +53094,7 @@ e_spain = {
 					color = { 205 120 10 }
 					color2 = { 255 255 255 }
 				}
-				b_valenciadecampos = {
+				b_valenciadecampos = { #Sahagún
 					province = 1911
 
 					color = { 205 120 10 }
@@ -53122,19 +53122,19 @@ e_spain = {
 				color = { 245 125 25 }
 				color2 = { 255 255 255 }
 				
-				b_zamora = {
-					province = 1894
-
-					color = { 245 125 25 }
-					color2 = { 255 255 255 }
-				}
 				b_toro = {
 					province = 1895
 
 					color = { 245 125 25 }
 					color2 = { 255 255 255 }
 				}
-				b_villafafila = {
+				b_zamora = {
+					province = 1894
+
+					color = { 245 125 25 }
+					color2 = { 255 255 255 }
+				}
+				b_villafafila = { #Mayorga
 					province = 1910
 
 					color = { 245 125 25 }
@@ -53199,6 +53199,12 @@ e_spain = {
 				color = { 207 104 0 }
 				color2 = { 255 255 255 }
 				
+				b_gijon = {
+					province = 1796
+
+					color = { 207 104 0 }
+					color2 = { 255 255 255 }	
+				}
 				b_oviedo = {
 					province = 1797
 
@@ -53210,12 +53216,6 @@ e_spain = {
 
 					color = { 207 104 0 }
 					color2 = { 255 255 255 }
-				}
-				b_gijon = {
-					province = 1796
-
-					color = { 207 104 0 }
-					color2 = { 255 255 255 }	
 				}
 			}
 			c_pravia = {
@@ -53277,14 +53277,14 @@ e_spain = {
 				color = { 230 190 80 }
 				color2 = { 255 255 255 }
 				
-				b_corunna = {
-					province = 1787
+				b_betanzos = {
+					province = 1786
 
 					color = { 230 190 80 }
 					color2 = { 255 255 255 }
 				}
-				b_betanzos = {
-					province = 1786
+				b_corunna = {
+					province = 1787
 
 					color = { 230 190 80 }
 					color2 = { 255 255 255 }
@@ -53317,14 +53317,14 @@ e_spain = {
 				color = { 240 180 75 }
 				color2 = { 255 255 255 }
 				
-				b_santiago = {
-					province = 1785
+				b_melide = { #Monterroso
+					province = 1791
 
 					color = { 240 180 75 }
 					color2 = { 255 255 255 }
 				}
-				b_melide = {
-					province = 1791
+				b_santiago = {
+					province = 1785
 
 					color = { 240 180 75 }
 					color2 = { 255 255 255 }
@@ -53363,14 +53363,14 @@ e_spain = {
 				color = { 250 215 80 }
 				color2 = { 255 255 255 }
 				
-				b_lugo = {
-					province = 1792
+				b_monfortedelemos = {
+					province = 1819
 
 					color = { 250 215 80 }
 					color2 = { 255 255 255 }
 				}
-				b_monfortedelemos = {
-					province = 1819
+				b_lugo = {
+					province = 1792
 
 					color = { 250 215 80 }
 					color2 = { 255 255 255 }
@@ -53399,7 +53399,7 @@ e_spain = {
 					color = { 255 225 70 }
 					color2 = { 255 255 255 }
 				}
-				b_monterrei = {
+				b_monterrei = { #Sanabria
 					province = 1818
 
 					color = { 255 225 70 }
