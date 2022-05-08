@@ -4,7 +4,7 @@ k_bohemia = {
 		#de_jure_liege = e_germany
 	}
 	867.1.1 = {
-		de_jure_liege = e_wendish_empire
+		de_jure_liege = e_west_slavia
 	}
 	898.1.1 = {
 	#	liege = "e_hre"

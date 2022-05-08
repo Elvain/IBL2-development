@@ -22,12 +22,11 @@
 		birth = yes
 	}
 	1060.1.1 = {
-		add_pressed_claim = d_tangiers
-		add_pressed_claim = d_fes
-		add_pressed_claim = d_tlemcen
-		add_pressed_claim = d_sevilla
-		add_pressed_claim = d_granada
-		add_pressed_claim = d_murcia
+		add_pressed_claim = title:d_fes
+		add_pressed_claim = title:d_tlemcen
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+		add_pressed_claim = title:d_murcia
 	}
 	1068.1.1 = {
 		add_spouse = 3856
@@ -149,28 +148,27 @@
 		birth = yes
 	}
 	1060.1.1 = {
-		add_pressed_claim = k_maghreb
-		add_pressed_claim = d_tangiers
-		add_pressed_claim = d_fes
-		add_pressed_claim = d_tlemcen
+		add_pressed_claim = title:k_maghreb
+		add_pressed_claim = title:d_fes
+		add_pressed_claim = title:d_tlemcen
 	}
 	1071.1.1 = {
 		add_spouse = 3856
-		add_pressed_claim = d_sevilla
-		add_pressed_claim = d_granada
-		add_pressed_claim = d_murcia
-		remove_claim = k_maghreb
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
+		add_pressed_claim = title:d_murcia
+		remove_claim = title:k_maghreb
 	}
 	1078.10.8 = {
-		add_pressed_claim = d_zaragoza
-		add_pressed_claim = d_valencia
-		add_pressed_claim = d_mallorca
-		add_pressed_claim = d_murcia
-		add_pressed_claim = d_toledo
-		add_pressed_claim = d_cordoba
-		add_pressed_claim = d_badajoz
-		add_pressed_claim = d_sevilla
-		add_pressed_claim = d_granada
+		add_pressed_claim = title:d_zaragoza
+		add_pressed_claim = title:d_valencia
+		add_pressed_claim = title:d_mallorca
+		add_pressed_claim = title:d_murcia
+		add_pressed_claim = title:d_toledo
+		add_pressed_claim = title:d_cordoba
+		add_pressed_claim = title:d_badajoz
+		add_pressed_claim = title:d_sevilla
+		add_pressed_claim = title:d_granada
 	}
 	1106.1.1 = {
 		death = yes
@@ -2644,7 +2642,7 @@ butr0015 = {
 	dynasty = 1027001
 	religion = "ashari"
 	culture = butr #zanata
-	father = 155008
+	father = zanata0013
 	988.1.1 = {
 		birth = yes
 	}
@@ -2698,8 +2696,8 @@ butr0015 = {
 	dynasty = 1027001
 	religion = "ashari"
 	culture = butr #zanata
-	father = 155008
-	990.1.1 = {
+	father = zanata0013
+	980.1.1 = {
 		birth = yes
 	}
 	1030.1.1 = {
@@ -2712,7 +2710,7 @@ butr0015 = {
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155013
-	1010.1.1 = {
+	1006.1.1 = {
 		birth = yes
 	}
 	1043.1.1 = {
@@ -2750,6 +2748,7 @@ butr0015 = {
 	dynasty = 1027001
 	religion = "ashari"
 	culture = butr #zanata
+	father = 1236382
 	1020.1.1 = {
 		birth = yes
 	}
@@ -2801,28 +2800,29 @@ butr0015 = {
 
 
 1236438 = {
-	name = "Hafs" #name fictional
+	name = "Sulat" #name corrected from fictional Hafs
 	dynasty = 1027001
 	religion = "ashari"
 	culture = butr #zanata
-	833.1.1 = {
+	father = zanata0021
+	808.1.1 = {
 		birth = yes
 	}
-	888.1.1 = {
+	863.1.1 = {
 		death=yes
 	}
 }
 1236307 = {
-	name = "Khazar"
+	name = "Khazar" # ibn Sulat
 	dynasty = 1027001
 	religion = ashari
 	culture = butr #zanata
 	father = 1236438
-	856.1.1 = {
+	845.1.1 = {
 		birth = yes
 	}
 	
-	910.1.1 = {
+	905.1.1 = {
 		death = yes
 	}
 }
@@ -2831,7 +2831,7 @@ butr0015 = {
 	dynasty = 1027001
 	religion = ashari
 	culture = butr #zanata
-	father = 1236307
+	father = 155117
 	904.1.1 = {
 		birth = yes
 	}
@@ -2845,8 +2845,8 @@ butr0015 = {
 	dynasty = 1027001
 	religion = ashari
 	culture = butr #zanata
-	father = 1236308
-	940.1.1 = {
+	father = 155118
+	930.1.1 = {
 		birth = yes
 	}
 	
@@ -2855,12 +2855,12 @@ butr0015 = {
 	}
 }
 1236310 = {
-	name = "Yasal"
-	dynasty = 1027001
+	name = "Yasal" #Elvain: should not be Maghrawid but Miknasid
+	dynasty = 1027003
 	religion = ashari
 	culture = butr #zanata
-	father = 1236307
-	906.1.1 = {
+	father = miknasa011 #Habus b. Manazil Miknasid
+	901.1.1 = {
 		birth = yes
 	}
 	
@@ -2870,7 +2870,7 @@ butr0015 = {
 }
 1236311 = {
 	name = "Hamid"
-	dynasty = 1027001
+	dynasty = 1027003 #Elvain: should not be Maghrawid but Miknasid
 	religion = ashari
 	culture = butr #zanata
 	father = 1236310
@@ -2948,7 +2948,7 @@ butr0015 = {
 	culture = butr #zanata
 	father = 1236307
 	trait = "strong" #lived a long life + active military career
-	881.1.1 = {
+	873.1.1 = {
 		birth = yes
 	}
 	955.1.1 = {
@@ -2993,12 +2993,362 @@ butr0015 = {
 	dynasty = 1027001
 	religion = ashari
 	culture = butr #zanata
-	father = 1236381
-	971.1.1 = {
+	father = zanata0046
+	992.1.1 = {
 		birth = yes
 	}
 	1037.1.1 = {
 		death = yes
+	}
+}
+
+#vanilla characters moved from Baranis culture
+155000 = {
+	name = "Ibrahim" #AKA Abu Munqidh
+	dynasty = 1027003
+	religion = "ashari"
+	culture = butr
+	father = miknasa001
+	910.1.1 = {
+		birth = yes
+	}
+	961.1.1 = {
+		death = yes
+	}
+}
+
+155001 = {
+	name = "Abd-_Allah" #ibn Ibrahim
+	dynasty = 1027003
+	religion = "ashari"
+	culture = butr
+	father = 155000
+	933.1.1 = {
+		birth = yes
+	}
+	971.1.1 = {
+		death = yes
+	}
+}
+
+155002 = {
+	name = "Muhammad" #ibn Abd-_Allah
+	dynasty = 1027003
+	religion = "ashari"
+	culture = butr
+	father = 155001
+	954.1.1 = {
+		birth = yes
+	}
+	974.2.2 = {
+		death = yes
+	}
+}
+
+155003 = {
+	name = "Qasim" #ibn Muhammad
+	dynasty = 1027003
+	religion = "ashari"
+	culture = butr
+	father = 155002
+	974.1.1 = {
+		birth = yes
+	}
+	1067.1.1 = {
+		death = yes #historically he would die in 1055, but we need the Miknasa alive
+	}
+}
+
+155021 = {
+	name = "Abu-_Amr"
+	#placeholder
+	dynasty = 1027000
+	religion = "ashari"
+	culture = butr
+	1045.1.1 = {
+		birth = "1045.1.1"
+	}
+	1109.1.1 = {
+		death = "1109.1.1"
+	}
+}
+
+155022 = {
+	name = "Wadih"
+	#placeholder
+	dynasty = 1027000
+	religion = "ashari"
+	culture = butr
+	1087.1.1 = {
+		birth = "1087.1.1"
+	}
+	1152.1.1 = {
+		death = "1152.1.1"
+	}
+}
+
+#155116 = {
+#	name = "Khazer"
+#	dynasty = 1027001
+#	religion = "ashari"
+#	culture = butr #zanata
+#	845.1.1 = {
+#		birth = "845.1.1"
+#	}
+#	900.1.1 = {
+#		death = "900.1.1"
+#	}
+#}
+
+155117 = {
+	name = "Felful" #ibn Khazer
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 1236307
+	876.1.1 = {
+		birth = yes
+	}
+	925.1.1 = {
+		death = yes
+	}
+}
+
+155118 = {
+	name = "Khazrun" #ibn Felful
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155117
+	895.1.1 = {
+		birth = "895.1.1"
+	}
+	950.1.1 = {
+		death = "950.1.1"
+	}
+}
+
+155119 = {
+	name = "Abd-_Allah" #ibn Khazar
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 1236307
+	878.1.1 = {
+		birth = yes
+	}
+	945.1.1 = {
+		death = yes
+	}
+}
+
+155120 = {
+	name = "Attia" #ibn Abdallah
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155119
+	913.1.1 = {
+		birth = yes
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+155121 = {
+	name = "Ziri" #ibn Attia
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155120
+	944.1.1 = {
+		birth = "952.1.1"
+	}
+	1002.1.1 = {
+		death = "1002.1.1"
+	}
+}
+155122 = {
+	name = "Said" #ibn Khazrun
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155118
+	925.1.1 = {
+		birth = yes
+	}
+	985.1.1 = {
+		death = yes
+	}
+}
+155123 = {
+	name = "Felful" #ibn Said
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155122
+	960.1.1 = {
+		birth = yes
+	}
+	1010.1.1 = {
+		death = yes
+	}
+}
+155124 = {
+	name = "Warru" #ibn Said
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155122
+	965.1.1 = {
+		birth = yes
+	}
+	1015.1.1 = {
+		death = yes
+	}
+}
+155125 = {
+	name = "Khazrun" #ibn Said
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155122
+	970.1.1 = {
+		birth = yes
+	}
+	1022.1.1 = {
+		death = yes
+	}
+}
+155126 = {
+	name = "Khalifa" #ibn Warru
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155124
+	989.1.1 = {
+		birth = yes
+	}
+	1028.1.1 = {
+		death = yes
+	}
+}
+155127 = {
+	name = "Said" #ibn Khazrun-ibn-Said
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155125
+	990.1.1 = {
+		birth = yes
+	}
+	1038.1.1 = {
+		death = yes
+	}
+}
+155128 = {
+	name = "Khazrun" #ibn Khalifa-ibn-Warru
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155126
+	1006.1.1 = {
+		birth = yes
+	}
+	1053.1.1 = {
+		death = "1053.1.1"
+	}
+}
+155129 = {
+	name = "Abd-_Allah" #ibn Khazrun
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155128
+	1025.1.1 = {
+		birth = yes
+	}
+	1058.1.1 = {
+		death = "1058.1.1"
+	}
+}
+155130 = {
+	name = "al-Muntasir" #ibn Khazrun
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155125
+	1020.1.1 = {
+		birth = "1020.1.1"
+	}
+	1068.1.1 = {
+		death = "1068.1.1"
+	}
+}
+155131 = {
+	name = "Khalifa" #ibn Khazrun
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155128
+	1025.1.1 = {
+		birth = "1025.1.1"
+	}
+	1078.1.1 = {
+		death = "1078.1.1"
+	}
+}
+155132 = {
+	name = "Yahya"
+	#placeholder
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155129
+	1042.1.1 = {
+		birth = yes
+	}
+	1090.1.1 = {
+		death = "1090.1.1"
+	}
+}
+155133 = {
+	name = "Khazrun"
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155132
+	1070.1.1 = {
+		birth = "1070.1.1"
+	}
+	1115.1.1 = {
+		death = "1115.1.1"
+	}
+}
+155134 = {
+	name = "Muhammad" #ibn Khazrun
+	dynasty = 1027001
+	religion = "ashari"
+	culture = butr #zanata
+	father = 155133
+	1095.1.1 = {
+		birth = "1095.1.1"
+	}
+	1146.1.1 = {
+		death = "1146.1.1"
+	}
+}
+
+210032 = {
+	name = "Abu_Qurra" #first Ifrinid leader
+	dynasty = 1048004
+	religion = ibadi
+	culture = butr #zanata
+	720.1.1 = {
+		birth = "720.1.1"
+	}
+	790.1.1 = {
+		death = "790.1.1"
 	}
 }
 
@@ -3263,517 +3613,6 @@ zanata0007 = {
 		birth = yes
 	}
 	1163.1.1 = {
-		death = yes
-	}
-}
-
-#IBL characters
-# placeholder leaders of Banu Yantasir
-butr0016 = {
-	name = "Wanshik" # fictional
-	dynasty = butrdyn002
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0027
-	907.1.1 = {
-		birth = yes
-	}
-	978.1.1 = {
-		death = yes
-	}
-}
-butr0017 = {
-	name = "T_ar_iq" # fictional
-	dynasty = butrdyn002
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0016
-	955.1.1 = {
-		birth = yes
-	}
-	1020.1.1 = {
-		death = yes
-	}
-}
-butr0018 = {
-	name = "Yabdas" # fictional
-	dynasty = butrdyn002
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0017
-	999.1.1 = {
-		birth = yes
-	}
-	1063.1.1 = {
-		death = yes
-	}
-}
-butr0019 = {
-	name = "Wanshik" # fictional
-	dynasty = butrdyn002
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0018
-	1043.1.1 = {
-		birth = yes
-	}
-	1098.1.1 = {
-		death = yes
-	}
-}
-butr0020 = {
-	name = "Tifawt" # fictional
-	dynasty = butrdyn002
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0019
-	1061.1.1 = {
-		birth = yes
-	}
-	1120.1.1 = {
-		death = yes
-	}
-}
-butr0021 = {
-	name = "Yabdas" # fictional
-	dynasty = butrdyn002
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0020
-	1096.1.1 = {
-		birth = yes
-	}
-	1160.1.1 = {
-		death = yes
-	}
-}
-butr0022 = {
-	name = "Talalit" # fictional
-	dynasty = butrdyn002
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0021
-	1134.1.1 = {
-		birth = yes
-	}
-	1200.1.1 = {
-		death = yes
-	}
-}
-butr0023 = {
-	name = "Yabdas" # fictional
-	dynasty = butrdyn002
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0022
-	1173.1.1 = {
-		birth = yes
-	}
-	1224.1.1 = {
-		death = yes
-	}
-}
-butr0024 = {
-	name = "T_ar_iq" # fictional
-	dynasty = butrdyn002
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0023
-	1203.1.1 = {
-		birth = yes
-	}
-	1262.1.1 = {
-		death = yes
-	}
-}
-butr0025 = {
-	name = "Yantasir" # fictional
-	dynasty = butrdyn002
-	religion = ashari
-	culture = butr #tagelmust
-	815.1.1 = {
-		birth = yes
-	}
-	863.1.1 = {
-		death = yes
-	}
-}
-butr0026 = {
-	name = "Tifawt" # fictional
-	dynasty = butrdyn002
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0025
-	846.1.1 = {
-		birth = yes
-	}
-	903.1.1 = {
-		death = yes
-	}
-}
-butr0027 = {
-	name = "Talalit" # fictional
-	dynasty = butrdyn002
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0026
-	864.1.1 = {
-		birth = yes
-	}
-	933.1.1 = {
-		death = yes
-	}
-}
-
-# placeholder leaders of Itesan clan
-butr0028 = {
-	name = "Yalalbakht" # fictional
-	dynasty = butrdyn003 #Itesan Touaregs
-	religion = ashari
-	culture = butr #tagelmust
-	842.1.1 = {
-		birth = yes
-	}
-	895.1.1 = {
-		death = yes
-	}
-}
-butr0029 = {
-	name = "Tifawt" # fictional
-	dynasty = butrdyn003 #Itesan Touaregs
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0028
-	865.1.1 = {
-		birth = yes
-	}
-	933.1.1 = {
-		death = yes
-	}
-}
-butr0030 = {
-	name = "Talalit" # fictional
-	dynasty = butrdyn003 #Itesan Touaregs
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0029
-	899.1.1 = {
-		birth = yes
-	}
-	960.1.1 = {
-		death = yes
-	}
-}
-butr0031 = {
-	name = "Turjut" # fictional
-	dynasty = butrdyn003 #Itesan Touaregs
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0030
-	940.1.1 = {
-		birth = yes
-	}
-	999.1.1 = {
-		death = yes
-	}
-}
-butr0032 = {
-	name = "Talalit" # fictional
-	dynasty = butrdyn003 #Itesan Touaregs
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0031
-	973.1.1 = {
-		birth = yes
-	}
-	1029.1.1 = {
-		death = yes
-	}
-}
-butr0033 = {
-	name = "Talalit" # fictional
-	dynasty = butrdyn003 #Itesan Touaregs
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0032
-	1010.1.1 = {
-		birth = yes
-	}
-	1065.1.1 = {
-		death = yes
-	}
-}
-butr0034 = {
-	name = "Yalalbakht" # fictional
-	dynasty = butrdyn003 #Itesan Touaregs
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0033
-	1040.1.1 = {
-		birth = yes
-	}
-	1097.1.1 = {
-		death = yes
-	}
-}
-butr0035 = {
-	name = "Turjut" # fictional
-	dynasty = butrdyn003 #Itesan Touaregs
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0034
-	1063.1.1 = {
-		birth = yes
-	}
-	1134.1.1 = {
-		death = yes
-	}
-}
-butr0036 = {
-	name = "Tifawt" # fictional
-	dynasty = butrdyn003 #Itesan Touaregs
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0035
-	1097.1.1 = {
-		birth = yes
-	}
-	1156.1.1 = {
-		death = yes
-	}
-}
-butr0037 = {
-	name = "Turjut" # fictional
-	dynasty = butrdyn003 #Itesan Touaregs
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0036
-	1123.1.1 = {
-		birth = yes
-	}
-	1181.1.1 = {
-		death = yes
-	}
-}
-butr0038 = {
-	name = "Yalalbakht" # fictional
-	dynasty = butrdyn003 #Itesan Touaregs
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0037
-	1161.1.1 = {
-		birth = yes
-	}
-	1213.1.1 = {
-		death = yes
-	}
-}
-butr0039 = {
-	name = "Tifawt" # fictional
-	dynasty = butrdyn003 #Itesan Touaregs
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0038
-	1185.1.1 = {
-		birth = yes
-	}
-	1232.1.1 = {
-		death = yes
-	}
-}
-butr0040 = {
-	name = "Turjut" # fictional
-	dynasty = butrdyn003 #Itesan Touaregs
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0039
-	1208.1.1 = {
-		birth = yes
-	}
-	1260.1.1 = {
-		death = yes
-	}
-}
-
-# placeholder leaders of Asabat trube
-butr0041 = {
-	name = "Lakut" # fictional
-	dynasty = butrdyn004 #Asabat Touaregs
-	religion = ashari
-	culture = butr #tagelmust
-	846.1.1 = {
-		birth = yes
-	}
-	899.1.1 = {
-		death = yes
-	}
-}
-butr0042 = {
-	name = "Tilankan" # fictional
-	dynasty = butrdyn004
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0041
-	886.1.1 = {
-		birth = yes
-	}
-	934.1.1 = {
-		death = yes
-	}
-}
-butr0043 = {
-	name = "Talalit" # fictional
-	dynasty = butrdyn004
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0042
-	910.1.1 = {
-		birth = yes
-	}
-	965.1.1 = {
-		death = yes
-	}
-}
-butr0044 = {
-	name = "Yalalbakht" # fictional
-	dynasty = butrdyn004
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0043
-	940.1.1 = {
-		birth = yes
-	}
-	997.1.1 = {
-		death = yes
-	}
-}
-butr0045 = {
-	name = "Turjut" # fictional
-	dynasty = butrdyn004
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0044
-	963.1.1 = {
-		birth = yes
-	}
-	1034.1.1 = {
-		death = yes
-	}
-}
-butr0046 = {
-	name = "Tifawt" # fictional
-	dynasty = butrdyn004
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0045
-	997.1.1 = {
-		birth = yes
-	}
-	1056.1.1 = {
-		death = yes
-	}
-}
-butr0047 = {
-	name = "Turjut" # fictional
-	dynasty = butrdyn004
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0046
-	1023.1.1 = {
-		birth = yes
-	}
-	1081.1.1 = {
-		death = yes
-	}
-}
-butr0048 = {
-	name = "Talalit" # fictional
-	dynasty = butrdyn004
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0047
-	1061.1.1 = {
-		birth = yes
-	}
-	1113.1.1 = {
-		death = yes
-	}
-}
-butr0049 = {
-	name = "Tilankan" # fictional
-	dynasty = butrdyn004
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0048
-	1085.1.1 = {
-		birth = yes
-	}
-	1132.1.1 = {
-		death = yes
-	}
-}
-butr0050 = {
-	name = "Tilankan" # fictional
-	dynasty = butrdyn004
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0049
-	1108.1.1 = {
-		birth = yes
-	}
-	1160.1.1 = {
-		death = yes
-	}
-}
-butr0051 = {
-	name = "Tifawt" # fictional
-	dynasty = butrdyn004
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0050
-	1142.1.1 = {
-		birth = yes
-	}
-	1206.1.1 = {
-		death = yes
-	}
-}
-butr0052 = {
-	name = "Turjut" # fictional
-	dynasty = butrdyn004
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0051
-	1175.1.1 = {
-		birth = yes
-	}
-	1230.1.1 = {
-		death = yes
-	}
-}
-butr0053 = {
-	name = "Tilankan" # fictional
-	dynasty = butrdyn004
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0052
-	1205.1.1 = {
-		birth = yes
-	}
-	1259.1.1 = {
-		death = yes
-	}
-}
-butr0054 = {
-	name = "Turjut" # fictional
-	dynasty = butrdyn004
-	religion = ashari
-	culture = butr #tagelmust
-	father = butr0053
-	1226.1.1 = {
-		birth = yes
-	}
-	1279.1.1 = {
 		death = yes
 	}
 }

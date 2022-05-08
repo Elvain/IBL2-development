@@ -22,6 +22,17 @@ k_egypt = {
 	}
 	1036.6.13 = {
 		holder = 3096
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					has_dlc_feature = royal_court
+				}
+				holder = {
+					set_court_type = court_scholarly
+				}
+			}
+		}
 	}
 	1094.1.10 = {
 		holder = 3100
@@ -1390,6 +1401,7 @@ c_fayyum = {
 
 }
 
+
 c_quzlum = {
 
 	762.1.1 = {
@@ -1808,6 +1820,7 @@ c_kharga = {
 		holder = 485000
 	}
 }
+
 
 c_selima = {
 	762.1.1 = {

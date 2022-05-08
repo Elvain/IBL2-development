@@ -70,14 +70,33 @@
 		culture = maghrebi
 	}
 }
-4607 = {	#MADILA
-	#holding = none
-}
 4625 = {	#MAYDARA
 	#holding = none
 }
 4626 = {	#MASKIYANA
 	#holding = none
+}
+4627 = {	#BAGHAYA
+	holding = none
+}
+
+###c_madila
+4607 = {	#MADILA
+	culture = butr
+	religion = ibadi
+	holding = castle_holding
+	
+	# History
+	1054.1.1 = { #Area conquered by tribals and turned into nomadic pastures
+		holding = tribal_holding
+	}
+	1055.1.1 = {
+		religion = ashari
+		culture = maghrebi
+	}
+}
+4606 = {	#MADAS
+	holding = none
 }
 
 ##d_tunis ###################################
@@ -163,24 +182,22 @@
 	holding = city_holding
 }
 
-##d_kroumerie ###################################
-###c_constantine
-4631 = {	#CONSTANTINE
+##d_bejaia###################################
+###c_bejaia
+4637 = {	#BEJAIA
 	culture = baranis
-	religion = ibadi
+	religion = ashari
 	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			watchtowers_01
+			pastures_01
+		}
+	}
 }
-4620 = {	#QASR-AL-IFRIQI
-	#holding = none
-}
-4632 = {	#TIJIS
-	#holding = none
-}
-4628 = {	#TIFASH
-	#holding = none
-}
-4629 = {	#TABURSHIQ
-	#holding = none
+4636 = {	#JIJEL
+	holding = city_holding
 }
 
 ###c_annaba
@@ -189,10 +206,76 @@
 	religion = ibadi
 	holding = castle_holding
 }
+4752 = {	#IZAN
+	holding = church_holding
+}
+9933 = {	#Bab Zana
+	holding = none
+}
+
+##d_kroumerie ###################################
+###c_constantine
+4631 = {	#CONSTANTINE
+	culture = baranis
+	religion = ibadi
+	holding = castle_holding
+}
+4632 = {	#TIJIS
+	#holding = none
+}
+4635 = {	#MILA_SATIF
+	holding = none
+}
 4630 = {	#QALAMA
 	#holding = none
 }
-4752 = {	#IZAN
+
+###c_satif
+4639 = {	#SATIF
+	culture = baranis
+	religion = ashari
+	holding = castle_holding
+}
+4638 = {	#IKJAN
+	holding = city_holding
+}
+9931 = {	#KABUNA
+	holding = none
+}
+
+###c_bilizma
+4634 = {	#BILIZMA
+	culture = butr
+	religion = ibadi
+	holding = castle_holding
+	
+	# History
+	1066.1.1 = { #Area conquered by tribals and turned into nomadic pastures
+		holding = tribal_holding
+	}
+}
+4643 = {	#NGAOUS
+	holding = church_holding
+	
+	# History
+	1057.1.1 = { #Area conquered by tribals and turned into nomadic pastures
+		holding = none
+	}
+}
+9932 = {	#BATNA
+	holding = none
+}
+
+###c_kroumerie
+4620 = {	#QASR-AL-IFRIQI
+	culture = baranis
+	religion = ibadi
+	holding = castle_holding
+}
+4628 = {	#TIFASH
+	#holding = none
+}
+4629 = {	#TABURSHIQ
 	#holding = none
 }
 
@@ -205,6 +288,9 @@
 }
 4574 = {	#AL HAMMA
 	holding = city_holding
+}
+9939 = {	#Sumata
+	holding = none
 }
 
 ###c_sfax
@@ -251,9 +337,6 @@
 		holding = none
 	}
 }
-4606 = {	#MADAS
-	holding = none
-}
 
 ###c_souf
 4604 = {	#SOUF
@@ -267,6 +350,9 @@
 	}
 }
 4605 = {	#DOUZ
+	holding = none
+}
+9938 = {	#Bishri
 	holding = none
 }
 
@@ -285,16 +371,6 @@
 	holding = none
 }
 
-###c_ghadames
-4570 = {	#GHADAMES
-	culture = butr
-	religion = ibadi
-	holding = tribal_holding
-}
-4571 = {	#DARADJ
-	holding = none
-}
-
 ##d_tripolitania ###################################
 ###c_tripolitana
 4557 = {	#LIBTRIPOLI
@@ -305,8 +381,26 @@
 4568 = {	#SABRATHA
 	holding = city_holding
 }
-4569 = {	#TAMAZDA
+9945 = {	#MANU
 	holding = none
+}
+
+###c_yefren
+4569 = {	#TAMAZDA
+	culture = butr
+	religion = ibadi
+	holding = castle_holding
+}
+4558 = {	#TIRI
+	holding = none
+}
+4559 = {	#DJADO_JAFARA
+	holding = church_holding
+	
+	# History
+	1066.1.1 = { #Area conquered by tribals and turned into nomadic pastures
+		holding = none
+	}
 }
 
 ###c_djerba
@@ -336,6 +430,9 @@
 		holding = none
 	}
 }
+9941 = {	#Medenin
+	holding = none
+}
 
 ###c_jafara
 4561 = {	#ZUWARA
@@ -348,16 +445,17 @@
 		holding = tribal_holding
 	}
 }
-4558 = {	#TIRI
+9943 = {	#Tittawin
 	holding = none
 }
-4559 = {	#DJADO_JAFARA
-	holding = church_holding
+
+###c_demmer
+9942 = {	#Tamulast
+	culture = butr
+	religion = ibadi
+	holding = castle_holding
 	
 	# History
-	1066.1.1 = { #Area conquered by tribals and turned into nomadic pastures
-		holding = none
-	}
 }
 4560 = {	#NALUT
 	holding = none
@@ -386,7 +484,7 @@
 4550 = {	#AL_ALGHAILA
 	holding = none
 }
-4551 = {	#AJADABIYA
+9947 = {	#Maghmadas
 	holding = city_holding
 	
 	# History
@@ -440,6 +538,9 @@
 8984 = {	#TEMEDD
 	holding = none
 }
+9946 = {	#Sukna
+	holding = none
+}
 
 ###c_tajrift
 4553 = {	#TAJRIFT
@@ -453,5 +554,8 @@
 	}
 }
 8983 = {	#JUFRA
+	holding = none
+}
+9949 = {	#Wadi_farigh
 	holding = none
 }

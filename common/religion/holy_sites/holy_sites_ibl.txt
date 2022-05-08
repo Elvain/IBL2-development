@@ -1,4 +1,15 @@
-﻿wandala = { # An important centre of the Sao people.
+﻿gerizim = {
+	county = c_nablus #changed from c_jerusalem
+	barony = b_nablus
+
+	character_modifier = {
+		name = holy_site_gerizim_effect_name
+		learning_per_piety_level = 1
+		monthly_prestige_gain_mult = 0.2
+	}
+}
+
+wandala = { # An important centre of the Sao people.
 	county = c_wandala
 
 	character_modifier = {

@@ -1,0 +1,666 @@
+####d_cordoba
+###c_cordoba
+9790 = {	# ALCOCER
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	867.1.1 = {
+		special_building_slot = holy_site_great_mosque_of_cordoba_01
+		special_building = holy_site_great_mosque_of_cordoba_01
+	}
+	867.1.1 = {
+		buildings = {
+			farm_estates_01
+			cereal_fields_01
+		}
+	}
+	934.1.1 = { culture = andalusian }
+	1066.1.1 = {
+		buildings = {
+			castle_02
+			curtain_walls_01
+			farm_estates_02
+			cereal_fields_01
+			regimental_grounds_01
+		}
+	}
+	1245.3.19 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+
+1995 = {	# CORDOBA
+	holding = city_holding
+}
+1999 = {	# GUADIATO
+	holding = castle_holding
+}
+9789 = {	# VALPARAISO
+	holding = church_holding
+}
+9793 = {	# AGUILAR
+	holding = none
+}
+
+###c_pedroche
+1988 = {	# PEDROCHE
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	934.1.1 = { culture = andalusian }
+	1245.3.19 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1998 = {	# DON LLORENTE/La Serena
+	holding = none
+}
+
+###c_andujar
+9805 = {	# BAEZA
+	#Misc
+	culture = visigothic
+	religion = muwalladi
+	
+	holding = castle_holding
+	
+	# History
+	929.1.1 = {
+		culture = andalusian
+	}
+	1263.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1977 = {	# JAEN
+	holding = city_holding
+}
+1986 = {	# ANDUJAR
+	holding = castle_holding
+}
+1985 = {	# UBEDA
+	holding = none
+}
+
+###c_cabra
+1979 = {	# CABRA
+	#Misc
+	culture = visigothic
+	religion = muwalladi
+	
+	holding = castle_holding
+	
+	# History
+	929.1.1 = {
+		culture = andalusian
+	}
+	1263.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+9791 = {	# PRIEGO
+	holding = none
+}
+9792 = {	# LUCENA
+	holding = city_holding
+}
+
+#### d_granada
+###c_granada
+1978 = {	# GRANADA
+	#Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	811.1.1 = {
+		religion = muwalladi
+		special_building = alhambra_01
+	}
+	867.1.1 = {
+		buildings = {
+			hill_forts_01
+		}
+	}
+	934.1.1 = {
+		culture = andalusian
+	}
+	1066.1.1 = {
+		buildings = {
+			hill_forts_01
+			outposts_01
+			quarries_01
+		}
+	}
+}
+1973 = {	# HUESCAR
+	holding = none
+}
+1975 = {	# GUADIZ/Guadix
+	holding = church_holding
+}
+9800 = {	# ELVIRA
+	holding = city_holding
+}
+1974 = {	# BAZA
+	holding = none
+	
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_almeria
+9803 = {	# VELEZ
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	939.1.1 = { culture = andalusian }
+	1280.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			hill_forts_02
+		}
+	}
+}
+1849 = {	# ALMERIA
+	holding = church_holding
+}
+9802 = {	# VERA
+	holding = none
+}
+
+###c_comares
+9801 = {	# COMARES
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	939.1.1 = { culture = andalusian }
+	1280.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1847 = {	# NERJA
+	holding = none
+	
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+1848 = {	# MOTRIL
+	holding = church_holding
+}
+
+###c_malaga
+1984 = {	# ANTEQUERA
+	#Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	811.1.1 = { religion = muwalladi }
+	934.1.1 = { culture = andalusian }
+	1066.1.1 = {
+		buildings = {
+			hill_forts_01
+			hill_farms_01
+			common_tradeport_01
+		}
+	}
+}
+1846 = {	# MALAGA
+	holding = city_holding
+}
+
+
+#### d_sevilla
+###c_sevilla
+1981 = {	# SEVILLA
+	#Misc
+	culture = visigothic
+	religion = muwalladi
+	
+	holding = castle_holding
+	
+	# History
+	867.1.1 = {
+		buildings = {
+			farm_estates_01
+			military_camps_01
+		}
+	}
+	929.1.1 = {
+		culture = andalusian
+	}
+	1066.1.1 = {
+		buildings = {
+			farm_estates_01
+			military_camps_01
+			curtain_walls_01
+			cereal_fields_01
+		}
+	}
+	1263.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+9796 = {	# UTRERA
+	holding = none
+	
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+1841 = {	# ALMONTE -> Sanlúcar
+	holding = city_holding
+}
+1993 = {	# TRIANA/Aznalcóllar
+	holding = none
+}
+9787 = {	# SAN_YSIDORO
+	holding = church_holding
+}
+9788 = {	# CORTEGANA
+	holding = castle_holding
+}
+
+###c_carmona
+1980 = {	# CARMONA
+	#Misc
+	culture = visigothic
+	religion = muwalladi
+	
+	holding = castle_holding
+	
+	# History
+	929.1.1 = {
+		culture = andalusian
+	}
+	1263.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+9795 = {	# OSUNA
+	holding = none
+}
+9794 = {	# ECIJA
+	holding = church_holding
+}
+
+###c_cantillana
+1994 = {	# CANTILLANA
+	#Misc
+	culture = visigothic
+	religion = muwalladi
+	
+	holding = castle_holding
+	
+	# History
+	929.1.1 = {
+		culture = andalusian
+	}
+	1263.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1990 = {	# ILERENA/Llerena
+	holding = none
+}
+
+###c_cadiz / Arcos
+1982 = {	# ARCOS
+	#Misc
+	culture = visigothic
+	religion = muwalladi
+	
+	holding = castle_holding
+	
+	# History
+	929.1.1 = {
+		culture = andalusian
+	}
+	1263.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1843 = {	# CADIZ
+	holding = city_holding
+}
+1842 = {	# JEREZ
+	holding = castle_holding
+}
+9797 = {	# MEDINA_SIDONIA
+	holding = none
+}
+
+###c_ronda
+9799 = {	# RONDA
+	#Misc
+	culture = visigothic
+	religion = muwalladi
+	
+	holding = castle_holding
+	
+	# History
+	929.1.1 = {
+		culture = andalusian
+	}
+	1263.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1983 = {	# MORON
+	holding = none
+	
+	1066.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_algeciras
+1844 = {	# TARIFA
+	#Misc
+	culture = visigothic
+	religion = muwalladi
+	
+	holding = castle_holding
+	
+	# History
+	929.1.1 = {
+		culture = andalusian
+	}
+	1263.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1845 = {	# ALGECIRAS
+	holding = city_holding
+}
+9798 = {	# CASTELLAR
+	holding = none
+}
+
+###c_niebla
+1991 = {	# NIEBLA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	934.1.1 = { culture = andalusian }
+	1245.3.19 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1840 = {	# HUELVA
+	holding = city_holding
+}
+1839 = {	# AYAMONTE
+	holding = castle_holding
+}
+9786 = {	# MOGUER
+	holding = none
+}
+
+###c_moura
+1837 = {	# MOURA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	934.1.1 = { culture = andalusian }
+	1245.3.19 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1838 = {	# SERPA
+	holding = city_holding
+}
+
+#### d_toledo
+###c_toledo
+1919 = {	# TOLEDO
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	867.1.1 = {
+		buildings = {
+			regimental_grounds_01
+		}
+	}
+	934.1.1 = { culture = andalusian }
+	1066.1.1 = {
+		buildings = {
+			regimental_grounds_01
+			curtain_walls_01
+			farm_estates_01
+		}
+	}
+	1090.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1920 = {	# 1920 - MAQUEDA
+	holding = none
+}
+1953 = {	# MORA
+	holding = church_holding
+}
+1958 = {	# OCANA
+	holding = city_holding
+}
+
+###c_madrid
+1927 = {	# GUDALAJARA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	934.1.1 = { culture = andalusian }
+	1090.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1923 = {	# MADRID
+	holding = castle_holding
+}
+1928 = {	# ARGANDA -> Alcalá
+	holding = none
+}
+1929 = {	# VILLAREJO DE SALVANES
+	holding = none
+}
+
+###c_cuenca
+1944 = {	# ZURITA/Zorita -> Santaver
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	939.1.1 = { culture = andalusian }
+	1235.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1947 = {	# 1947 - CUENCA
+	holding = city_holding
+}
+1945 = {	# ALTO TAJO/Huélamo
+	holding = none
+}
+
+###c_malagon
+1957 = {	# LA JARA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	939.1.1 = { culture = andalusian }
+	1235.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1918 = {	# 1918 - TALAVERA
+	holding = city_holding
+}
+
+###c_mora/Ucles/Uclés
+1952 = {	# UCLES
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	939.1.1 = { culture = andalusian }
+	1235.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1959 = {	# QUINTANAR
+	holding = none
+}
+1951 = {	# HUETE
+	holding = none
+}
+
+###c_alarcon
+1949 = {	# ALARCON
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	939.1.1 = { culture = andalusian }
+	1235.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1948 = {	# VALERIA -> Jorquera
+	holding = none
+}
+
+###c_calatrava
+1963 = {	# CALATRAVA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	934.1.1 = { culture = andalusian }
+	1245.3.19 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1965 = {	# TOMELLOSO/Valdepenas
+	holding = city_holding
+}
+1966 = {	# MENTESA
+	holding = church_holding
+}
+
+###c_almader / Alarcos
+1962 = {	# LA PUEBLA DE MONTALBAN
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	934.1.1 = { culture = andalusian }
+	1245.3.19 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1987 = {	# ALARCOS
+	holding = castle_holding
+}
+1989 = {	# ALMADER/Almadén
+	holding = none
+}
+1960 = {	# MALAGON
+	holding = city_holding
+}

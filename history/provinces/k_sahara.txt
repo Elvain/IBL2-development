@@ -88,6 +88,18 @@
 	holding = none
 }
 
+###c_ghadames
+4570 = {	#GHADAMES
+	culture = butr
+	religion = ibadi
+	holding = tribal_holding
+}
+4571 = {	#DARADJ
+	holding = none
+}
+
+
+
 ##d_air ###################################
 ###c_takkeda
 6562 = {	#TAKKEDA
