@@ -1,0 +1,424 @@
+
+d_kwararafa = {
+	867.1.1 = {	change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+}
+
+
+c_kwararafa = {
+	867.1.1 = {	change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+
+	865.1.1 = {
+		holder = nupe0045
+		government = tribal_government
+	}
+	915.1.1 = {
+		holder = nupe0046
+	}
+	968.1.1 = {
+		holder = nupe0047
+	}
+	1038.1.1 = {
+		holder = nupe0048
+	}
+	1078.1.1 = {
+		holder = nupe0049
+	}
+	1102.1.1 = {
+		holder = nupe0050
+	}
+	1149.1.1 = {
+		holder = nupe0051
+	}
+	1180.1.1 = {
+		holder = nupe0052
+	}
+	1212.1.1 = {
+		holder = nupe0053
+	}
+	1230.1.1 = {
+		holder = nupe0054
+	}
+}
+
+c_keffi = {
+	860.1.1 = {
+		holder = akpoto0038
+		government = tribal_government
+	}
+	903.1.1 = {
+		holder = akpoto0039
+	}
+	937.1.1 = {
+		holder = akpoto0040
+	}
+	960.1.1 = {
+		holder = akpoto0041
+	}
+	997.1.1 = {
+		holder = akpoto0042
+	}
+	1019.1.1 = {
+		holder = akpoto0043
+	}
+	1054.1.1 = {
+		holder = akpoto0044
+	}
+	1086.1.1 = {
+		holder = akpoto0045
+	}
+	1103.1.1 = {
+		holder = akpoto0046
+	}
+	1119.1.1 = {
+		holder = akpoto0047
+	}
+	1149.1.1 = {
+		holder = akpoto0048
+	}
+	1179.1.1 = {
+		holder = akpoto0049
+	}
+	1203.1.1 = {
+		holder = akpoto0050
+	}
+}
+#c_keffi = {
+#	860.1.1 = {
+#		holder = jukun0044
+#		government = tribal_government
+#	}
+#	905.1.1 = {
+#		holder = jukun0045
+#	}
+#	944.1.1 = {
+#		holder = jukun0046
+#	}
+#	975.1.1 = {
+#		holder = jukun0047
+#	}
+#	1012.1.1 = {
+#		holder = jukun0048
+#	}
+#	1047.1.1 = {
+#		holder = jukun0049
+#	}
+#	1073.1.1 = {
+#		holder = jukun0050
+#	}
+#	1118.1.1 = {
+#		holder = jukun0051
+#	}
+#	1135.1.1 = {
+#		holder = jukun0052
+#	}
+#	1163.1.1 = {
+#		holder = jukun0053
+#	}
+#	1185.1.1 = {
+#		holder = jukun0054
+#	}
+#	1216.1.1 = {
+#		holder = jukun0055
+#	}
+#	1235.1.1 = {
+#		holder = jukun0056
+#	}
+#}
+
+c_apa = {
+	860.1.1 = {
+		holder = igbo0019
+		government = tribal_government
+	}
+	893.1.1 = {
+		holder = igbo0020
+	}
+	919.1.1 = {
+		holder = akpoto0001
+	}
+	948.1.1 = {
+		holder = akpoto0002
+	}
+	992.1.1 = {
+		holder = akpoto0003
+	}
+	1017.1.1 = {
+		holder = akpoto0004
+	}
+	1043.1.1 = {
+		holder = igbo0021
+	}
+	1079.1.1 = {
+		holder = igbo0022
+	}
+	1109.1.1 = {
+		holder = igbo0023
+	}
+	1131.1.1 = {
+		holder = igbo0024
+	}
+	1166.1.1 = {
+		holder = igbo0025
+	}
+	1209.1.1 = {
+		holder = akpoto0005
+	}
+	1235.1.1 = {
+		holder = akpoto0006
+	}
+}
+
+
+d_upper_kwararafa = {
+	867.1.1 = {	change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+
+	1043.1.1 = {
+		government = tribal_government
+		holder = nupe0003
+	}
+	1080.1.1 = {
+		holder = nupe0004
+	}
+	1104.1.1 = {
+		holder = nupe0005
+	}
+	1139.1.1 = {
+		holder = nupe0006
+	}
+	1172.1.1 = {
+		holder = nupe0007
+	}
+	1196.1.1 = {
+		holder = nupe0008
+	}
+}
+
+c_kilba = {
+	867.1.1 = {	change_development_level = 3 }
+	1066.1.1 = { change_development_level = 5 }
+
+	860.1.1 = {
+		holder = nupe0001
+		government = tribal_government
+	}
+	901.1.1 = {
+		holder = nupe0002
+	}
+	
+	1043.1.1 = {
+		liege = d_upper_kwararafa
+		holder = nupe0003
+	}
+	1080.1.1 = {
+		holder = nupe0004
+	}
+	1104.1.1 = {
+		holder = nupe0005
+	}
+	1139.1.1 = {
+		holder = nupe0006
+	}
+	1172.1.1 = {
+		holder = nupe0007
+	}
+	1196.1.1 = {
+		holder = nupe0008
+	}
+}
+
+
+c_pindiga = {
+
+	865.1.1 = {
+		holder = jukun0001
+		government = tribal_government
+	}
+	890.1.1 = {
+		holder = jukun0002
+	}
+	932.1.1 = {
+		holder = jukun0003
+	}
+	980.1.1 = {
+		holder = jukun0004
+	}
+	1027.1.1 = {
+		holder = jukun0005
+	}
+	1043.1.1 = {
+		liege = d_upper_kwararafa
+	}
+	1064.1.1 = {
+		holder = jukun0006
+	}
+	1093.1.1 = {
+		holder = jukun0007
+	}
+	1121.1.1 = {
+		holder = jukun0008
+	}
+	1147.1.1 = {
+		holder = jukun0009
+	}
+	1183.1.1 = {
+		holder = jukun0010
+	}
+	1202.1.1 = {
+		holder = jukun0011
+	}
+}
+
+c_fika = { #Biyri
+	865.1.1 = {
+		holder = jukun0033
+		government = tribal_government
+		liege = d_upper_kwararafa
+	}
+	925.1.1 = {
+		holder = jukun0034
+	}
+	972.1.1 = {
+		holder = jukun0035
+	}
+	1009.1.1 = {
+		holder = jukun0036
+	}
+	1038.1.1 = {
+		holder = jukun0037
+	}
+	1086.1.1 = {
+		holder = jukun0038
+	}
+	1102.1.1 = {
+		holder = jukun0039
+	}
+	1138.1.1 = {
+		holder = jukun0040
+	}
+	1177.1.1 = {
+		holder = jukun0041
+	}
+	1205.1.1 = {
+		holder = jukun0042
+	}
+	1235.1.1 = {
+		holder = jukun0043
+	}
+}
+
+d_bauchi = {
+	867.1.1 = {	change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+}
+
+c_bauchi = {
+	865.1.1 = {
+		holder = jukun0022
+		government = tribal_government
+	}
+	907.1.1 = {
+		holder = jukun0023
+	}
+	955.1.1 = {
+		holder = jukun0024
+	}
+	1002.1.1 = {
+		holder = jukun0025
+	}
+	1039.1.1 = {
+		holder = jukun0026
+	}
+	1068.1.1 = {
+		holder = jukun0027
+	}
+	1096.1.1 = {
+		holder = jukun0028
+	}
+	1122.1.1 = {
+		holder = jukun0029
+	}
+	1158.1.1 = {
+		holder = jukun0030
+	}
+	1197.1.1 = {
+		holder = jukun0031
+	}
+	1225.1.1 = {
+		holder = jukun0032
+	}
+}
+
+c_ningi = {
+	865.1.1 = {
+		holder = jukun0022
+		government = tribal_government
+	}
+	907.1.1 = {
+		holder = jukun0023
+	}
+	955.1.1 = {
+		holder = jukun0024
+	}
+	1002.1.1 = {
+		holder = jukun0025
+	}
+	1039.1.1 = {
+		holder = jukun0026
+	}
+	1068.1.1 = {
+		holder = jukun0027
+	}
+	1096.1.1 = {
+		holder = jukun0028
+	}
+	1122.1.1 = {
+		holder = jukun0029
+	}
+	1158.1.1 = {
+		holder = jukun0030
+	}
+	1197.1.1 = {
+		holder = jukun0031
+	}
+	1225.1.1 = {
+		holder = jukun0032
+	}
+}
+
+c_katagum = {
+	867.1.1 = {	change_development_level = 5 }
+	1066.1.1 = { change_development_level = 8 }
+
+	860.1.1 = {
+		holder = hausa0026
+		government = tribal_government
+	}
+	903.1.1 = {
+		holder = hausa0027
+	}
+	955.1.1 = {
+		holder = hausa0028
+	}
+	994.1.1 = {
+		holder = hausa0029
+	}
+	1035.1.1 = {
+		holder = hausa0030
+	}
+	1080.1.1 = {
+		holder = hausa0031
+	}
+	1120.1.1 = {
+		holder = hausa0032
+	}
+	1167.1.1 = {
+		holder = hausa0033
+	}
+	1198.1.1 = {
+		holder = hausa0034
+	}
+}
+

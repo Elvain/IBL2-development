@@ -1,0 +1,327 @@
+#### d_valencia
+###c_valencia
+1856 = {	# MURVIEDRO
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	944.1.1 = { culture = andalusian }
+	1259.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+1855 = {	# VALENCIA
+	holding = city_holding
+}
+1939 = {	# REQUENA
+	holding = none
+}
+9811 = {	# ENESA
+	holding = church_holding
+}
+
+###c_castellon
+9814 = {	# PENISCOLA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	944.1.1 = { culture = andalusian }
+	1259.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+1857 = {	# CASTELLON DE LA PLANA
+	holding = none
+}
+9813 = {	# BORRIANA
+	holding = city_holding
+}
+
+###c_sogorbe
+1941 = {	# SEGORBE
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	944.1.1 = { culture = andalusian }
+	1259.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+1938 = {	# MONTANEJOS
+	holding = city_holding
+}
+
+###c_moya
+1946 = {	# ADEMUZ/Alpuente -> Moya
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	944.1.1 = { culture = andalusian }
+	1259.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+1964 = {	# ALCAZAR -> Utiel
+	holding = none
+}
+
+###c_denia
+9809 = {	# GUADALEST
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	944.1.1 = { culture = andalusian }
+	1259.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+1854 = {	# DENIA
+	holding = city_holding
+}
+9808 = {	# MONTESA
+	holding = none
+}
+
+###c_gandia
+9810 = {	# GANDIA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	944.1.1 = { culture = andalusian }
+	1259.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+1940 = {	# ALBACETE -> Cofrentes
+	holding = none
+	
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+1969 = {	# ALMANSA/Alcoy -> Xátiva
+	holding = city_holding
+}
+
+###c_alicante
+1853 = {	# ALICANTE
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	944.1.1 = { culture = andalusian }
+	1259.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+9807 = {	# ORIHUELA
+	holding = church_holding
+}
+
+#### d_murcia
+###c_iviza/Ibiza
+2000 = {	# IVIZA/Ibiza
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	928.1.1 = { religion = muwalladi }
+	954.1.1 = { culture = andalusian }
+	1245.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+
+###c_mallorca
+8735 = {	# Palma
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	928.1.1 = { religion = muwalladi }
+	954.1.1 = { culture = andalusian }
+	1245.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+2001 = {	# Alcudia
+	holding = city_holding
+}
+
+###c_menorca
+2002 = {	# MINORCA/Menorca
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	928.1.1 = { religion = muwalladi }
+	954.1.1 = { culture = andalusian }
+	1245.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+
+#### d_murcia
+###c_murcia
+1852 = {	# MURCIA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	939.1.1 = { culture = andalusian }
+	1280.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1851 = {	# CARTAGENA
+	holding = city_holding
+}
+1850 = {	# AGUILAS
+	holding = none
+}
+
+###c_caravaca
+1971 = {	# CARAVACA DE LA CRUZ
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	944.1.1 = { culture = andalusian }
+	1259.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+1972 = {	# LORCA
+	holding = none
+}
+9804 = {	# ALEDO
+	holding = none
+}
+
+###c_alcaraz
+1967 = {	# ALCARAZ
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	934.1.1 = { culture = andalusian }
+	1245.3.19 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1976 = {	# QUESADA/Cazorla
+	holding = church_holding
+}
+2004 = {	# REOLID/Montiel
+	holding = none
+	
+	1066.1.1 = {
+		holding = city_holding
+	}
+}
+
+###c_almansa
+1968 = {	# SEGURA/Albacete -> Almansa
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	939.1.1 = { culture = andalusian }
+	1235.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1950 = {	# VENTA DEL MORO/Iniesta
+	holding = none
+}
+9812 = {	# CHINCHILLA
+	holding = city_holding
+}
+
+###c_villena
+9806 = {	# VILLENA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	934.1.1 = { culture = andalusian }
+	1245.3.19 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1970 = {	# CIEZA -> Hellín
+	holding = city_holding
+}

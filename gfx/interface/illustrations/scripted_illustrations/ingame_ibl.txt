@@ -1,0 +1,99 @@
+﻿### Character interior background
+character_location_exterior = {
+	texture = {
+		reference = "terrain_types/savanna.dds"
+
+		trigger = {
+			NOT = {
+				exists = liege
+			}
+			exists = location
+			location = {
+				terrain = savanna
+			}
+		}
+	}
+
+	texture = {
+		reference = "terrain_types/high_boreal.dds"
+
+		trigger = {
+			NOT = {
+				exists = liege
+			}
+			exists = location
+			location = {
+				terrain = high_boreal
+			}
+		}
+	}
+	texture = {
+		reference = "terrain_types/dry_hills.dds"
+
+		trigger = {
+			NOT = {
+				exists = liege
+			}
+			exists = location
+			location = {
+				terrain = dry_hills
+			}
+		}
+	}
+}
+
+### Holding image based on title
+title_holding = {
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = tribal_holding
+				OR = {
+					terrain = desert
+					terrain = desert_mountains
+					terrain = oasis
+					terrain = steppe
+					terrain = drylands
+					terrain = savanna
+					terrain = dry_hills
+					geographical_region = world_steppe
+					geographical_region = world_middle_east_persia
+					geographical_region = world_middle_east_jerusalem
+					geographical_region = world_steppe
+					geographical_region = world_middle_east_persia
+					geographical_region = world_middle_east_jerusalem
+					geographical_region = world_africa
+					geographical_region = world_middle_east_arabia
+				}
+			}
+		}
+		reference = "holding_types/tribe_arid.dds"
+	}
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = church_holding
+				OR = {
+					terrain = desert
+					terrain = desert_mountains
+					terrain = oasis
+					terrain = steppe
+					terrain = drylands
+					terrain = savanna
+					terrain = dry_hills
+					geographical_region = world_steppe
+					geographical_region = world_middle_east_persia
+					geographical_region = world_middle_east_jerusalem
+					geographical_region = world_steppe
+					geographical_region = world_middle_east_persia
+					geographical_region = world_middle_east_jerusalem
+					geographical_region = world_africa
+					geographical_region = world_middle_east_arabia
+				}
+			}
+		}
+		reference = "holding_types/temple_generic_arid.dds"
+	}
+}

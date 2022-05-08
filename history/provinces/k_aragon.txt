@@ -1,0 +1,444 @@
+#### d_aragon
+###c_alto_aragon
+3221 = {	# ALTO ARAGON -> AYERBE
+	#Misc
+	culture = basque
+	religion = catholic
+	
+	holding = castle_holding
+	
+	#History
+	940.1.1 = { culture = aragonese }
+	1066.1.1 = {
+		buildings = {
+			hill_forts_02
+			military_camps_01
+		}
+	}
+}
+1872 = {	# AINSA/Sobrarbe
+	holding = none
+}
+1807 = {	# JACA
+	holding = church_holding
+}
+
+###c_ribagorza
+1871 = {	# RIBAGORZA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	940.1.1 = { culture = aragonese }
+}
+9826 = {	# SOBRARBE
+	holding = castle_holding
+}
+9823 = {	# RODA_DISAVENA
+	holding = church_holding
+}
+
+###c_fraga
+9825 = {	# MONTSO
+	#Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	#History
+	940.1.1 = { culture = aragonese }
+}
+1882 = {	# FRAGA
+	holding = city_holding
+}
+1874 = {	# BARBASTRO
+	holding = church_holding
+}
+
+###c_luna
+1888 = {	# EJEA -> LUNA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	940.1.1 = { culture = aragonese }
+}
+1873 = {	# HUESCA
+	holding = city_holding
+}
+1886 = {	# ZUERA -> GURREA
+	holding = none
+}
+
+###c_zaragoza
+1887 = {	# ZARAGOZA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	955.1.1 = {
+		culture = andalusian
+	}
+	1066.1.1 = {
+		buildings = {
+			ramparts_01
+			logging_camps_02
+			military_camps_01
+		}
+	}
+}
+1885 = {	# SARINENA
+	holding = city_holding
+}
+1891 = {	# BELCHITE
+	holding = none
+	
+	1066.1.1 = {
+		holding = castle_holding
+	}
+}
+1902 = {	# TARAZONA
+	holding = church_holding
+	
+}
+
+###c_albarracin
+1936 = {	# ALBARRACIN
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	939.1.1 = { culture = andalusian }
+	1235.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
+}
+1943 = {	# SIERRA DE SAN JUST/Utrillas
+	holding = city_holding
+}
+
+###c_calatayud
+1934 = {	# DAROCA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	955.1.1 = {
+		culture = andalusian
+	}
+}
+1932 = {	# CALATYUD
+	holding = city_holding
+}
+
+###c_alcaniz AKA HIXAR
+1893 = {	# CALACEITE -> Hixar
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	944.1.1 = { culture = andalusian }
+	1259.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+1892 = {	# ALCANIZ
+	holding = none
+}
+1883 = {	# CASPE
+	holding = city_holding
+}
+
+###c_soria
+9831 = {	# GORMAZ
+	#Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	950.1.1 = { culture = castilian }
+}
+1901 = {	# SORIA
+	holding = church_holding
+}
+1900 = {	# OSMA
+	holding = none
+}
+9829 = {	# AGREDA
+	holding = church_holding
+}
+
+###c_molina
+1935 = {	# MOLINA
+	#Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	955.1.1 = {
+		culture = andalusian
+	}
+}
+1933 = {	# ABLANQUE/Atienza
+	holding = none
+}
+1931 = {	# MEDINACELI
+	holding = castle_holding
+}
+1930 = {	# SIGUENZA
+	holding = city_holding
+}
+
+###c_teruel
+1942 = {	# MAESTRAZGO -> Alfambra
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	944.1.1 = { culture = andalusian }
+	1259.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+1937 = {	# TERUEL
+	holding = city_holding
+}
+9815 = {	# ALIAGA
+	holding = none
+}
+
+###c_barcelona
+1862 = {	# BARCELONA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	952.1.1 = {
+		culture = catalan
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_01
+			military_camps_01
+			barracks_01
+		}
+	}
+}
+1861 = {	# SITGES
+	holding = church_holding
+}
+1877 = {	# MANRESA/Cardona
+	holding = none
+}
+9817 = {	# MONTCADA
+	holding = castle_holding
+}
+1875 = {	# VIC
+	holding = church_holding
+}
+
+
+###c_puigcerda
+1868 = {	# PUIGCERDA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	952.1.1 = {
+		culture = catalan
+	}
+}
+1876 = {	# BERGA
+	holding = city_holding
+}
+
+###c_rosello
+9820 = {	# CASTELLROSSELLO
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	952.1.1 = {
+		culture = catalan
+	}
+}
+1866 = {	# PERPIGNAN/Perpinyà
+	holding = city_holding
+}
+
+###c_girona
+1867 = {	# OLOT -> Besalú
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	952.1.1 = {
+		culture = catalan
+	}
+}
+1864 = {	# GIRONA
+	holding = church_holding
+}
+1863 = {	# LOREDO
+	holding = none
+}
+
+###c_empuries
+9818 = {	# EMPURIES
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	952.1.1 = {
+		culture = catalan
+	}
+}
+1865 = {	# ROSES
+	holding = church_holding
+}
+
+###c_tarragona
+1879 = {	# PRADES -> Entença
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	952.1.1 = {
+		culture = catalan
+	}
+}
+1860 = {	# TARRAGONA
+	holding = church_holding
+}
+
+###c_tortosa
+1859 = {	# TORTOSA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	944.1.1 = { culture = andalusian }
+	1259.1.1 = {
+		culture = catalan
+		religion = catholic
+	}
+}
+1858 = {	# AMPOSTA
+	holding = city_holding
+}
+
+#### d_urgell
+###c_urgell
+1878 = {	# 1878 - URGELL
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	952.1.1 = {
+		culture = catalan
+	}
+}
+1869 = {	# ANDORRA/Seu d'Urgell -> Castelbo
+	holding = castle_holding
+}
+9821 = {	# LASEU
+	holding = church_holding
+}
+1884 = {	# BALAGUER
+	holding = city_holding
+}
+
+###c_pallars
+1870 = {	# VIELHA
+	#Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	#History
+	940.1.1 = { culture = aragonese }
+}
+9822 = {	# ERILL
+	holding = none
+}
+9824 = {	# AGER
+	holding = castle_holding
+}
+
+###c_lleida
+1880 = {	# MAIALS -> AITONA
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	952.1.1 = {
+		culture = catalan
+	}
+}
+1881 = {	# LLEIDA
+	holding = city_holding
+}
+9816 = {	# CERVERA
+	holding = none
+}
