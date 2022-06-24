@@ -2,11 +2,15 @@
 ###c_coruna
 1786 = {	# BETANZOS
 	# Misc
-	culture = galician
+	culture = visigothic
 	religion = catholic
 	
 	holding = castle_holding
 	
+	# History
+	926.1.1 = {
+		culture = galician
+	}
 }
 1787 = {	# LA CORUNA
 	holding = city_holding
@@ -15,11 +19,15 @@
 ###c_mondonedo
 1788 = {	# FERROL
 	# Misc
-	culture = galician
+	culture = visigothic
 	religion = catholic
 	
 	holding = castle_holding
 	
+	# History
+	926.1.1 = {
+		culture = galician
+	}
 }
 1789 = {	# MONDONEDO
 	holding = none
@@ -35,12 +43,15 @@
 ###c_santiago
 1791 = {	# MELIDE -> Monterroso
 	# Misc
-	culture = galician
+	culture = visigothic
 	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
+	926.1.1 = {
+		culture = galician
+	}
 	1066.1.1 = {
 		buildings = {
 			hill_forts_01
@@ -59,12 +70,15 @@
 ###c_tui
 1784 = {	# MONTE FARO -> Deza
 	# Misc
-	culture = galician
+	culture = visigothic
 	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
+	926.1.1 = {
+		culture = galician
+	}
 }
 1781 = {	# TUI
 	holding = church_holding
@@ -80,12 +94,15 @@
 ###c_lemos
 1819 = {	# MONFORTE DE LEMOS
 	# Misc
-	culture = galician
+	culture = visigothic
 	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
+	926.1.1 = {
+		culture = galician
+	}
 }
 1792 = {	# LUGO
 	holding = church_holding
@@ -100,12 +117,15 @@
 ###c_astorga
 1821 = {	# ASTORGA
 	# Misc
-	culture = galician
+	culture = visigothic
 	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
+	926.1.1 = {
+		culture = galician
+	}
 }
 1818 = {	# MONTERREI -> Sanabria
 	holding = none
@@ -114,12 +134,15 @@
 ###c_monterrei -> LIMIA
 1800 = {	# LIMIA
 	# Misc
-	culture = galician
+	culture = visigothic
 	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
+	926.1.1 = {
+		culture = galician
+	}
 }
 1799 = {	# OURENSE
 	holding = church_holding
@@ -128,14 +151,14 @@
 ###c_porto
 1760 = {	# PORTO
 	# Misc
-	culture = galician
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
 	926.1.1 = {
-		religion = catholic
+		culture = galician
 	}
 }
 1761 = {	# BRAGA
@@ -151,14 +174,14 @@
 ###c_braganza
 1763 = {	# BRAGANCA
 	# Misc
-	culture = galician
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
 	926.1.1 = {
-		religion = catholic
+		culture = galician
 	}
 }
 1764 = {	# MIRANDA DO DUORO
@@ -178,14 +201,14 @@
 ###c_coimbra
 1758 = {	# COIMBRA
 	# Misc
-	culture = galician
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
-	1126.1.1 = {
-		religion = catholic
+	931.1.1 = {
+		culture = galician
 	}
 }
 1757 = {	# LEIRIA
@@ -198,15 +221,13 @@
 ###c_viseu
 1769 = {	# VISEU
 	# Misc
-	culture = galician
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
-	1125.1.1 = {
-		religion = catholic
-	}
+	926.1.1 = { culture = galician }
 }
 1770 = {	# TRANCOSO
 	holding = city_holding
@@ -215,15 +236,13 @@
 ###c_aveiro
 1759 = {	# 1759 - AVEIRO
 	# Misc
-	culture = galician
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
-	926.1.1 = {
-		religion = catholic
-	}
+	931.1.1 = { culture = galician }
 }
 2003 = {	# GRALHEIRA/Cinfaes
 	holding = none
@@ -235,13 +254,14 @@
 ###c_castelo_branco
 1773 = {	# CASTELO BRANCO
 	# Misc
-	culture = andalusian
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
-	#950.1.1 = { religion = muwalladi }
+	812.1.1 = { religion = muwalladi }
+	934.1.1 = { culture = andalusian }
 	1090.1.1 = {
 		culture = asturleonese
 		religion = catholic
