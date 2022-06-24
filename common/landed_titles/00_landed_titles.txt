@@ -195,6 +195,13 @@ k_daneland = {
 	}
 }
 
+k_mediterranean_sea = { # FP2
+	color = { 180 0 0 }
+	color2 = { 220 220 0 }
+
+	capital = c_cagliari
+}
+
 d_sunni = {
 	color = { 40 160 40 }
 	color2 = { 220 220 0 }
@@ -230,6 +237,17 @@ d_imami = {
 
 d_masmudi = {
 	color = { 80 160 120 }
+	color2 = { 220 220 0 }
+	definite_form = yes
+	ruler_uses_title_name = no
+	no_automatic_claims = yes
+	always_follows_primary_heir = yes
+	destroy_if_invalid_heir = yes
+	can_be_named_after_dynasty = no
+}
+
+d_muwalladi = {
+	color = { 11 113 11 }
 	color2 = { 220 220 0 }
 	definite_form = yes
 	ruler_uses_title_name = no
@@ -583,6 +601,19 @@ e_outremer = {
 	}
 
 }
+
+# FP2
+k_toledo = {
+	color = { 99 163 182 }
+	color2 = { 255 255 255 }
+
+	capital = c_toledo
+
+	ai_primary_priority = {
+		add = @always_primary_score
+	}
+}
+
 
 # HOLY ORDERS
 
@@ -52625,7 +52656,7 @@ e_spain = {
 					color2 = { 255 255 255 }
 				}
 				b_roda_disavena = {
-					province = 9823
+					province = 8794
 
 					color = { 130 75 10 }
 					color2 = { 255 255 255 }
@@ -52636,7 +52667,7 @@ e_spain = {
 				color2 = { 255 255 255 }
 
 				b_montso = {
-					province = 9825
+					province = 8795
 
 					color = { 175 75 15 }
 					color2 = { 255 255 255 }
@@ -52915,7 +52946,7 @@ e_spain = {
 				color2 = { 255 255 255 }
 				
 				b_castellrossello = {
-					province = 9820
+					province = 8798
 
 					color = { 180 105 100 }
 					color2 = { 255 255 255 }
@@ -52961,7 +52992,7 @@ e_spain = {
 				color2 = { 255 255 255 }
 				
 				b_empuries = {
-					province = 9818
+					province = 8797
 
 					color = { 160 110 120 }
 					color2 = { 255 255 255 }
@@ -53031,7 +53062,7 @@ e_spain = {
 					color2 = { 255 255 255 }
 				}
 				b_laseu = {
-					province = 9821
+					province = 8801
 
 					color = { 170 97 92 }
 					color2 = { 255 255 255 }
@@ -53054,13 +53085,13 @@ e_spain = {
 					color2 = { 255 255 255 }
 				}
 				b_erill = {
-					province = 9822
+					province = 8800
 
 					color = { 160 90 85 }
 					color2 = { 255 255 255 }
 				}
 				b_ager = {
-					province = 9824
+					province = 8799
 
 					color = { 160 90 85 }
 					color2 = { 255 255 255 }
@@ -53083,7 +53114,7 @@ e_spain = {
 					color2 = { 255 255 255 }
 				}
 				b_cervera = {
-					province = 9816
+					province = 8796
 
 					color = { 160 80 65 }
 					color2 = { 255 255 255 }
@@ -53150,7 +53181,7 @@ e_spain = {
 					color2 = { 255 255 255 }
 				}
 				b_sanguesa = {
-					province = 9828
+					province = 8793
 
 					color = { 140 130 0 }
 					color2 = { 255 255 255 }
