@@ -1,7 +1,7 @@
 ###c_burgos
 1906 = {	# BURGOS
 	# Misc
-	culture = visigothic
+	culture = castilian
 	religion = catholic
 	
 	holding = castle_holding
@@ -36,7 +36,7 @@
 ###c_monzon
 9839 = {	# MONZON
 	# Misc
-	culture = visigothic
+	culture = castilian
 	religion = catholic
 	
 	holding = castle_holding
@@ -54,13 +54,13 @@
 ###c_valladolid
 1897 = {	# VALLADOLID
 	# Misc
-	culture = visigothic
+	culture = castilian
 	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
-	945.1.1 = { culture = castilian }
+	#945.1.1 = { religion = catholic }
 }
 1896 = {	# SIMANCAS
 	holding = none
@@ -79,13 +79,13 @@
 ###c_lara
 1903 = {	# ARNEDO -> Lara
 	#Misc
-	culture = visigothic
-	religion = catholic
+	culture = castilian
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
 	# History
-	950.1.1 = { culture = castilian }
+	950.1.1 = { religion = catholic }
 }
 1909 = {	# SAN LEONARDO DE YAGUE -> Auca
 	holding = church_holding
@@ -98,13 +98,13 @@
 ###c_avila
 1915 = {	# OLMEDO
 	# Misc
-	culture = visigothic
-	religion = catholic
+	culture = castilian
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
 	# History
-	955.1.1 = { culture = castilian }
+	1080.1.1 = { religion = catholic }
 }
 1912 = {	# AVILA
 	holding = church_holding
@@ -119,13 +119,13 @@
 ###c_cuellar
 1925 = {	# CUELLAR
 	# Misc
-	culture = visigothic
-	religion = catholic
+	culture = castilian
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
 	# History
-	955.1.1 = { culture = castilian }
+	1080.1.1 = { religion = catholic }
 }
 1924 = {	# SEGOVIA
 	holding = city_holding
@@ -145,7 +145,7 @@
 ###c_asturias_de_santillana
 1801 = {	# SANTIALLANA
 	# Misc
-	culture = visigothic
+	culture = castilian
 	religion = catholic
 	
 	# History
@@ -163,7 +163,7 @@
 ###c_frias
 9835 = {	# FRIAS
 	# Misc
-	culture = visigothic
+	culture = castilian
 	religion = catholic
 	
 	holding = castle_holding
@@ -178,7 +178,7 @@
 ###c_amaya
 1815 = {	# REINOSA
 	# Misc
-	culture = visigothic
+	culture = castilian
 	religion = catholic
 	
 	holding = castle_holding
