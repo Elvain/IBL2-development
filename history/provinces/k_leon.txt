@@ -1,7 +1,7 @@
 ###c_leon
 9836 = {	# GORDON
 	# Misc
-	culture = visigothic
+	culture = asturleonese
 	religion = catholic
 	
 	holding = castle_holding
@@ -32,7 +32,7 @@
 ###c_cea
 1825 = {	# GUARDO/Cea
 	# Misc
-	culture = visigothic
+	culture = asturleonese
 	religion = catholic
 	
 	holding = castle_holding
@@ -54,13 +54,13 @@
 ###c_benavente
 1826 = {	# BENAVENTE
 	# Misc
-	culture = visigothic
-	religion = catholic
+	culture = asturleonese
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
 	#History
-	945.1.1 = { culture = asturleonese }
+	945.1.1 = { religion = catholic }
 }
 9841 = {	# ALISTE_LEON
 	holding = none
@@ -69,13 +69,13 @@
 ###c_zamora
 1895 = {	# TORO
 	# Misc
-	culture = visigothic
-	religion = catholic
+	culture = asturleonese
+	religion = 	catholic
 	
 	holding = castle_holding
 	
 	#History
-	945.1.1 = { culture = asturleonese }
+	#945.1.1 = { culture = asturleonese }
 }
 1894 = {	# ZAMORA
 	holding = city_holding
@@ -87,13 +87,13 @@
 ###c_salamanca
 1913 = {	# BEJAR
 	# Misc
-	culture = visigothic
-	religion = catholic
+	culture = asturleonese
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
 	# History
-	955.1.1 = { culture = asturleonese }
+	#955.1.1 = { culture = asturleonese }
 }
 1828 = {	# SALAMANCA
 	holding = city_holding
@@ -105,8 +105,8 @@
 ###c_olmedo -> Alba
 1827 = {	# ALBA
 	# Misc
-	culture = visigothic
-	religion = catholic
+	culture = asturleonese
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
@@ -128,7 +128,7 @@
 ###c_asturias_de_oviedo
 1796 = {	# GIJON
 	# Misc
-	culture = visigothic
+	culture = asturleonese
 	religion = catholic
 	
 	holding = castle_holding
@@ -148,7 +148,7 @@
 ###c_pravia
 1795 = {	# PRAVIA
 	# Misc
-	culture = visigothic
+	culture = asturleonese
 	religion = catholic
 	
 	holding = castle_holding

@@ -23,34 +23,30 @@
 	holding = church_holding
 }
 
-###c_ribagorza
+###c_sobrarbe
 1871 = {	# RIBAGORZA
 	# Misc
-	culture = visigothic
+	culture = aragonese
 	religion = catholic
 	
 	holding = castle_holding
 	
-	# History
-	940.1.1 = { culture = aragonese }
 }
 9826 = {	# SOBRARBE
 	holding = castle_holding
 }
-9823 = {	# RODA_DISAVENA
+8794 = {	# RODA_DISAVENA
 	holding = church_holding
 }
 
 ###c_fraga
-9825 = {	# MONTSO
+8795 = {	# MONTSO
 	#Misc
-	culture = visigothic
-	religion = catholic
+	culture = aragonese
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
-	#History
-	940.1.1 = { culture = aragonese }
 }
 1882 = {	# FRAGA
 	holding = city_holding
@@ -62,13 +58,13 @@
 ###c_luna
 1888 = {	# EJEA -> LUNA
 	# Misc
-	culture = visigothic
-	religion = catholic
+	culture = aragonese
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
-	# History
-	940.1.1 = { culture = aragonese }
+	#History
+	940.1.1 = { religion = catholic }
 }
 1873 = {	# HUESCA
 	holding = city_holding
@@ -80,15 +76,12 @@
 ###c_zaragoza
 1887 = {	# ZARAGOZA
 	# Misc
-	culture = visigothic
-	religion = catholic
+	culture = andalusian
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
 	# History
-	955.1.1 = {
-		culture = andalusian
-	}
 	1066.1.1 = {
 		buildings = {
 			ramparts_01
@@ -103,6 +96,7 @@
 1891 = {	# BELCHITE
 	holding = none
 	
+	#History
 	1066.1.1 = {
 		holding = castle_holding
 	}
@@ -115,14 +109,13 @@
 ###c_albarracin
 1936 = {	# ALBARRACIN
 	# Misc
-	culture = visigothic
+	culture = andalusian
 	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = muwalladi }
-	939.1.1 = { culture = andalusian }
+	944.1.1 = { religion = muwalladi }
 	1235.1.1 = {
 		culture = castilian
 		religion = catholic
@@ -135,15 +128,11 @@
 ###c_calatayud
 1934 = {	# DAROCA
 	# Misc
-	culture = visigothic
-	religion = catholic
+	culture = andalusian
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
-	# History
-	955.1.1 = {
-		culture = andalusian
-	}
 }
 1932 = {	# CALATYUD
 	holding = city_holding
@@ -152,14 +141,13 @@
 ###c_alcaniz AKA HIXAR
 1893 = {	# CALACEITE -> Hixar
 	# Misc
-	culture = visigothic
-	religion = catholic
+	culture = andalusian
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = muwalladi }
-	944.1.1 = { culture = andalusian }
+	944.1.1 = { religion = muwalladi }
 	1259.1.1 = {
 		culture = catalan
 		religion = catholic
@@ -175,13 +163,16 @@
 ###c_soria
 9831 = {	# GORMAZ
 	#Misc
-	culture = visigothic
-	religion = catholic
+	culture = andalusian
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
 	# History
-	950.1.1 = { culture = castilian }
+	945.1.1 = {
+		religion = catholic
+		culture = castilian
+	}
 }
 1901 = {	# SORIA
 	holding = church_holding
@@ -196,8 +187,8 @@
 ###c_molina
 1935 = {	# MOLINA
 	#Misc
-	culture = visigothic
-	religion = catholic
+	culture = andalusian
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
@@ -219,14 +210,13 @@
 ###c_teruel
 1942 = {	# MAESTRAZGO -> Alfambra
 	# Misc
-	culture = visigothic
-	religion = catholic
+	culture = andalusian
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = muwalladi }
-	944.1.1 = { culture = andalusian }
+	944.1.1 = { religion = muwalladi }
 	1259.1.1 = {
 		culture = catalan
 		religion = catholic
@@ -242,15 +232,12 @@
 ###c_barcelona
 1862 = {	# BARCELONA
 	# Misc
-	culture = visigothic
+	culture = catalan
 	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
-	952.1.1 = {
-		culture = catalan
-	}
 	1066.1.1 = {
 		buildings = {
 			common_tradeport_01
@@ -276,32 +263,24 @@
 ###c_puigcerda
 1868 = {	# PUIGCERDA
 	# Misc
-	culture = visigothic
+	culture = catalan
 	religion = catholic
 	
 	holding = castle_holding
 	
-	# History
-	952.1.1 = {
-		culture = catalan
-	}
 }
 1876 = {	# BERGA
 	holding = city_holding
 }
 
 ###c_rosello
-9820 = {	# CASTELLROSSELLO
+8798 = {	# CASTELLROSSELLO
 	# Misc
-	culture = visigothic
+	culture = catalan
 	religion = catholic
 	
 	holding = castle_holding
 	
-	# History
-	952.1.1 = {
-		culture = catalan
-	}
 }
 1866 = {	# PERPIGNAN/Perpinyà
 	holding = city_holding
@@ -310,15 +289,11 @@
 ###c_girona
 1867 = {	# OLOT -> Besalú
 	# Misc
-	culture = visigothic
+	culture = catalan
 	religion = catholic
 	
 	holding = castle_holding
 	
-	# History
-	952.1.1 = {
-		culture = catalan
-	}
 }
 1864 = {	# GIRONA
 	holding = church_holding
@@ -328,17 +303,13 @@
 }
 
 ###c_empuries
-9818 = {	# EMPURIES
+8797 = {	# EMPURIES
 	# Misc
-	culture = visigothic
+	culture = catalan
 	religion = catholic
 	
 	holding = castle_holding
 	
-	# History
-	952.1.1 = {
-		culture = catalan
-	}
 }
 1865 = {	# ROSES
 	holding = church_holding
@@ -347,15 +318,11 @@
 ###c_tarragona
 1879 = {	# PRADES -> Entença
 	# Misc
-	culture = visigothic
-	religion = catholic
+	culture = catalan
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
-	# History
-	952.1.1 = {
-		culture = catalan
-	}
 }
 1860 = {	# TARRAGONA
 	holding = church_holding
@@ -364,13 +331,13 @@
 ###c_tortosa
 1859 = {	# TORTOSA
 	# Misc
-	culture = visigothic
+	culture = catalan
 	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { religion = muwalladi }
+	812.1.1 = { religion = mozarabic_church }
 	944.1.1 = { culture = andalusian }
 	1259.1.1 = {
 		culture = catalan
@@ -385,20 +352,16 @@
 ###c_urgell
 1878 = {	# 1878 - URGELL
 	# Misc
-	culture = visigothic
+	culture = catalan
 	religion = catholic
 	
 	holding = castle_holding
 	
-	# History
-	952.1.1 = {
-		culture = catalan
-	}
 }
 1869 = {	# ANDORRA/Seu d'Urgell -> Castelbo
 	holding = castle_holding
 }
-9821 = {	# LASEU
+8801 = {	# LASEU
 	holding = church_holding
 }
 1884 = {	# BALAGUER
@@ -406,39 +369,33 @@
 }
 
 ###c_pallars
-1870 = {	# VIELHA
+8799 = {	# AGER
 	#Misc
-	culture = visigothic
+	culture = catalan
 	religion = catholic
 	
 	holding = castle_holding
 	
-	#History
-	940.1.1 = { culture = aragonese }
 }
-9822 = {	# ERILL
+8800 = {	# ERILL
 	holding = none
 }
-9824 = {	# AGER
+1870 = {	# VIELHA
 	holding = castle_holding
 }
 
 ###c_lleida
 1880 = {	# MAIALS -> AITONA
 	# Misc
-	culture = visigothic
-	religion = catholic
+	culture = catalan
+	religion = mozarabic_church
 	
 	holding = castle_holding
 	
-	# History
-	952.1.1 = {
-		culture = catalan
-	}
 }
 1881 = {	# LLEIDA
 	holding = city_holding
 }
-9816 = {	# CERVERA
+8796 = {	# CERVERA
 	holding = none
 }

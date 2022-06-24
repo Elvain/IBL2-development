@@ -2068,8 +2068,16 @@ d_fes = {
 	877.1.1 = {
 		liege = 0
 	}
-	1001.1.1 = {
+	998.10.13 = {
+		holder = yemeni0039 # al-Muzaffar
+		liege = k_andalusia
+	}
+	999.1.1 = {
+		holder = andalusian0097 # Walih Wadih of Toledo
+	}
+	1000.1.1 = {
 		holder = 155008
+		liege = "k_maghreb"		
 	}
 	1026.1.1 = {
 		holder = 155009
@@ -2200,7 +2208,13 @@ c_fes = {
 		liege = "d_fes"
 		holder = 159506 # Yahya II
 	}
-	1001.1.1 = {
+	998.10.13 = {
+		holder = yemeni0039 # Walih al-Muzaffar of Fes
+	}
+	999.1.1 = {
+		holder = andalusian0097 # Walih Wadih of Toledo
+	}
+	1000.1.1 = {
 		holder = 155008
 	}
 	1026.1.1 = {
@@ -2945,20 +2959,72 @@ c_gharb = {
 }
 
 
+d_rif = {
+	1011.1.1 = {
+		holder = 73687 # Caliph Ali ibn Hammud of Andalusia
+		liege = k_andalusia
+	}
+	1016.7.1 = {
+		holder = 73690 # Caliph Yahya al-Muhtal of Andalusia
+	}
+	1035.12.1 = {
+		holder = 159498 # Idris I ibn Ali
+		liege = 0
+	}
+	1039.10.8 = {
+		holder = 159495 # Hassan ibn Yahya
+	}
+	1042.1.1 = {
+		holder = andalusian0105 # Naya
+	}
+	1043.1.21 = {
+		holder = 159498 # Idris II ibn Yahya
+	}
+	1055.5.12 = {
+		holder = 0
+	}
+}
+
 c_tangiers = {
 	867.1.1 = {	change_development_level = 10 }
 	1066.1.1 = { change_development_level = 16 }
 
-	766.1.1 = {
-		holder = 73981
+	
+	866.1.1 = {
 		government = clan_government
+		holder = baranis0020
 	}
-	788.1.1 = {
-		holder = 73982
-		liege = k_maghreb
+	998.10.13 = {
+		holder = yemeni0039 # Emir al-Muzaffar of Fes
+		liege = d_fes
 	}
-	833.1.1 = {
-		holder = 73984
+	999.1.1 = {
+		holder = andalusian0097 # Walih Wadih of Toledo
+	}
+	1000.1.1 = {
+		liege = 0
+	}
+	1011.1.1 = {
+		holder = 73687 # Caliph Ali ibn Hammud of Andalusia
+		liege = d_rif
+	}
+	1016.7.1 = {
+		holder = 73690 # Caliph Yahya al-Muhtal of Andalusia
+	}
+	1035.12.1 = {
+		holder = 159498 # Emir Idris I of Rif
+	}
+	1039.10.8 = {
+		holder = 159495 # Emir Hassan ibn Yahya of Rif
+	}
+	1042.1.1 = {
+		holder = andalusian0105 # Emir Naya of Rif
+	}
+	1043.1.21 = {
+		holder = 159498 # Emir Idris II of Rif
+	}
+	1055.5.12 = {
+		liege = 0
 	}
 	1061.1.1 = {
 		holder = 155005
@@ -3038,8 +3104,37 @@ c_ceuta = {
 	993.1.1 = {
 		holder = baranis0016
 	}
-	1030.1.1 = {
-		holder = baranis0015
+	998.10.13 = {
+		holder = yemeni0039 # Emir al-Muzaffar of Fes
+		liege = d_fes
+	}
+	999.1.1 = {
+		holder = andalusian0097 # Walih Wadih of Toledo
+	}
+	1000.1.1 = {
+		liege = 0
+	}
+	1011.1.1 = {
+		holder = 73687 # Caliph Ali ibn Hammud of Andalusia
+		liege = d_rif
+	}
+	1016.7.1 = {
+		holder = 73690 # Caliph Yahya al-Muhtal of Andalusia
+	}
+	1035.12.1 = {
+		holder = 159498 # Emir Idris I of Rif
+	}
+	1039.10.8 = {
+		holder = 159495 # Emir Hassan ibn Yahya of Rif
+	}
+	1042.1.1 = {
+		holder = andalusian0105 # Emir Naya of Rif
+	}
+	1043.1.21 = {
+		holder = 159498 # Emir Idris II of Rif
+	}
+	1055.5.12 = {
+		liege = 0
 	}
 	1058.1.1 = {
 		holder = baranis0014
@@ -3141,11 +3236,12 @@ c_melilla = {
 		holder = 168264
 	}
 	
-	1058.1.1 = {
-		holder = baranis0014
-	}
-	1070.3.18 = {
+	1030.1.1 = {
+		holder = andalusian0066 # Abd al-Aziz ibn Ahmad
 		liege = 0
+	}
+	1063.1.1 = {
+		holder = 200234 # Sheik Muhammad ibn Idris of Malaga
 	}
 	1075.1.1 = {
 		liege = "d_fes" #under Almoravid
