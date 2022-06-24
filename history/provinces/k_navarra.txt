@@ -19,15 +19,15 @@
 1809 = {	# LIZARRA -> Estella
 	holding = city_holding
 }
-8793 = {	# SANGUESA
+9828 = {	# SANGUESA
 	holding = none
 }
 
 ###c_tudela
 1890 = {	# TUDELA
 	#Misc
-	culture = andalusian
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	
@@ -82,12 +82,9 @@
 1811 = {	# NAJERA
 	# Misc
 	culture = basque
-	religion = mozarabic_church
+	religion = catholic
 	
 	holding = castle_holding
-
-	# History
-	950.1.1 = { religion = catholic }
 }
 1810 = {	# LOGRONO
 	holding = none

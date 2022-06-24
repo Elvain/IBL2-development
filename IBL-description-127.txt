@@ -2,11 +2,6 @@
 
 [img] https://i.imgur.com/p7Fv1Z6.gif [/img]
 
-<<<<<<< HEAD
-Big thanks to TheNunnceler for maintaining the mod, while I currently can't do the job
-
-=======
->>>>>>> 48d92d58faded5c2ddbec34ae6a48b191e95048a
 [h1] MOD CONCEPT [/h1]
 - The mod is meant to improve the map's de jure structure and add baronies, provinces and cultures. Where possible in the Middle East, Europe and Africa.
 - Unlike many modders I don't inherently imply that the vanilla map is wrong, inaccurate etc. at least not in the areas I am most interested about, which is roughly the areas travelled by Ibn Battuta. I do respect the great effort the developers have done. Partly because I know that they invested a lot of effort and resources into this and I made my best to help them with it. Yet some of the choices could be made differently and this mod is a platform for my alternative designs to the vanilla map.

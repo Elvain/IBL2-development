@@ -1,8 +1,8 @@
 ###c_silves
 1747 = {	# SILVES
 	# Misc
-	culture = andalusian
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	
@@ -24,7 +24,7 @@
 ###c_faro
 1748 = {	# Faro
 	#Misc	
-	culture = andalusian
+	culture = visigothic
 	religion = muwalladi
 	
 	holding = castle_holding
@@ -45,8 +45,8 @@
 ###c_alcacer_do_sal
 1752 = {	# ALCACER DO SAL
 	# Misc
-	culture = andalusian
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	# History
 	939.1.1 = {
@@ -71,8 +71,8 @@
 ###c_lisboa
 1754 = {	# Lisboa
 	# Misc
-	culture = andalusian
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	
@@ -96,8 +96,8 @@
 ###c_elvas
 1776 = {	# ELVAS
 	# Misc
-	culture = andalusian
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	
@@ -125,8 +125,8 @@
 ###c_beja/evora/Évora
 1777 = {	# EVORA
 	# Misc
-	culture = andalusian
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	
@@ -146,8 +146,8 @@
 ###c_badajoz
 1992 = {	# ZAFRA
 	# Misc
-	culture = andalusian
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	
@@ -169,13 +169,15 @@
 ###c_plasencia
 1832 = {	# ALCANTARA
 	# Misc
-	culture = andalusian
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
-	934.1.1 = { religion = muwalladi }
+	# History
+	812.1.1 = { religion = muwalladi }
+	934.1.1 = { culture = andalusian }
 	1130.1.1 = {
 		culture = castilian
 		religion = catholic
@@ -194,13 +196,14 @@
 ###c_caceres
 1961 = {	# CABANEROS / ALBUQUERQUE
 	# Misc
-	culture = andalusian
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	
 	# History
-	934.1.1 = { religion = muwalladi }
+	812.1.1 = { religion = muwalladi }
+	939.1.1 = { culture = andalusian }
 	1235.1.1 = {
 		culture = castilian
 		religion = catholic
@@ -217,11 +220,12 @@
 ###c_medellin / Trujillo
 1955 = {	# TRUJILLO
 	# Misc
-	culture = andalusian
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	# History
-	934.1.1 = { religion = muwalladi }
+	812.1.1 = { religion = muwalladi }
+	934.1.1 = { culture = andalusian }
 	1245.3.19 = {
 		culture = castilian
 		religion = catholic
@@ -234,8 +238,8 @@
 ###c_merida
 1996 = {	# MEDELLIN
 	# Misc
-	culture = andalusian
-	religion = mozarabic_church
+	culture = visigothic
+	religion = catholic
 	
 	holding = castle_holding
 	

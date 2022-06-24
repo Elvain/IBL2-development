@@ -2,15 +2,16 @@
 k_castille = {
 	867.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 8 }
- 
-	1065.12.26 = {
+	
+	1037.9.4 = {
+		holder = 107510 # Fernando I Jimena
 		insert_title_history = k_leon
 	}
 	1065.12.27 = {
-		holder = 107500 # Sancho II Fernández
+		holder = 107500 # Sancho II Jimena
 	}
 	1072.10.7 = {
-		holder = 108500 # King Alfonso VI of León
+		holder = 108500 # Alfonso VI Jimena
 	}
 	1109.6.30 = {
 		holder = 207660 # Urraca Alfónsez Jimena
@@ -38,7 +39,7 @@ k_castille = {
 	}
 	1284.4.4 = {
 		holder = 457530 # Sancho IV de Borgoña
-	}
+	}	
 	1295.4.25 = {
 		holder = 457520 # Fernando IV de Borgoña
 	}
@@ -103,101 +104,87 @@ d_cantabria = {
 
 
 c_asturias_de_santillana = {
-	702.1.1 = {
-		holder = 70010 # Duke Pedro of Cantabria
-		liege = d_cantabria
+	718.1.1 = {
+		holder = 70010 # Pedro de Cantabria
+		liege = k_asturias
 	}
-	730.1.1 = {
-		holder = 70003 # King Alfonso I of Asturias
+	720.1.1 = {
+		holder = 70003 # Alfonso I de Cantabria
 	}
 	739.6.15 = {
-		holder = 70011 # Duke Fruela Pérez of Cantabria
-	}
-	741.1.1 = {
-		holder = 70012 # King Aurelio I of Asturias
+		holder = 70011 # Fruela Pérez de Cantabria
 	}
 	768.1.1 = {
-		holder = 70013 # King Bermudo I of Asturias
+		holder = 70013 # Bermudo I de Cantabria
 	}
 	791.1.1 = {
-		holder = 70006 # King Alfonso II of Asturias
+		holder = 70015 # Ramiro I de Cantabria
 	}
-	842.3.20 = {
-		holder = basque0007 # King Nepociano of Asturias
+	850.2.1 = {
+		holder = 70017 # Ordoño I de Cantabria
 	}
-	843.1.1 = {
-		holder = 70015 # King Ramiro I of Asturias
-	}
-	851.1.15 = {
-		holder = 70017 # King Ordoño I of Asturias
-	}
-	854.1.1 = {
-		holder = 73763 # Duke Rodrigo of Castilla
+	860.1.1 = {
+		holder = 73763 # Rodrigo Ramírez de Castilla
 		liege = d_castilla
 	}
 	873.10.3 = {
-		holder = 73765 # Duke Diego Rodríguez 'Porcelos' of Castilla
+		holder = 73765 # Diego Rodríguez Porcelos
 	}
-	885.1.1 = {
-		holder = 200066 # Count Munio Nuñez of Burgos
+	885.1.31 = {
+		holder = 200066 # Munio Nuñez de Lara
 		liege = k_asturias
 	}
 	901.1.1 = {
-		holder = 200071 # Count Gonzalo Téllez of Viscaya
+		holder = 200071 # Gonzalo Téllez
 	}
 	904.1.1 = {
-		holder = 200066 # Count Munio Nuñez of Burgos (restored)
+		holder = 200066 # Munio Nuñez de Lara
 	}
 	910.12.20 = {
 		liege = k_leon
 	}
 	912.1.1 = {
-		holder = 73769 # Count Gonzalo Fernández of Burgos
+		holder = 73769 # Gonzalo FernAndez de Lara
 	}
-	915.1.1 = {
-		holder = 200074 # Count Fernando Díaz of Amaya
+	916.1.1 = {
+		holder = 72549 # Fernando Ansúrez
 	}
 	920.1.1 = {
-		holder = 200160 # Count Munio Velaz of Burgos
+		holder = 200069 # Nuño FernAndez de Lara
 	}
-	922.1.1 = {
-		holder = 200069 # Count Nuño Fernández of Amaya
+	927.1.1 = {
+		holder = 72549 # Fernando Ansúrez
 	}
-	924.1.1 = {
-		holder = galician0174 # Alfonso Godestéiz
+	930.1.1 = {
+		holder = 107680 # FernAn GonzAlez de Lara
 	}
 	931.1.1 = {
 		liege = d_castilla
 	}
-	952.1.1 = {
-		holder = 107680 # Duke Fernán González of Castille
+	944.1.1 = {
+		holder = 72550 # Ansur FernAndez Ansúrez
 	}
-	966.1.1 = {
-		holder = castilian0010 # Gómez Díaz
+	945.1.1 = {
+		holder = 107680 # FernAn GonzAlez de Lara
 	}
-	987.1.1 = {
-		holder = castilian0021 # García Gómez
+	970.6.1 = {
+		holder = 107670 # García FernAndez de Lara
 	}
-	1003.3.3 = {
-		holder = castilian0020 # Munio Gómez
+	995.1.1 = {
+		holder = 107660 # Sancho García de Lara
 	}
-	1024.1.1 = {
-		holder = 200079 # Diego Fernández
+	1017.2.5 = {
+		holder = 70286 # García SAnchez de Lara
 	}
-	1025.1.1 = {
-		holder = castilian0204 # Munio Rodríguez
-	}
-	1029.9.28 = {
-		holder = 70129 # Fortún Ochoa
+	1029.5.13 = {
+		holder = 107510 # Fernando SAnchez Jimena
 	}
 	1037.9.4 = {
-		holder = 70265 # Munio González
-	}
-	1065.12.27 = {
+		holder = 70265 # Munio GonzAlez de Lara
 		liege = k_castille
 	}
 	1082.1.1 = {
-		holder = 108500 # King Alfonso VI of León
+		holder = 70268 # Jimena Muñoz de Lara
 	}
 	1085.1.1 = {
 		holder = 72894 # Fruela Díaz
@@ -236,98 +223,89 @@ c_asturias_de_santillana = {
 
 
 c_amaya = {
-	702.1.1 = {
-		holder = 70010 # Duke Pedro of Cantabria
-		liege = d_cantabria
+	718.1.1 = {
+		holder = 70010 # Pedro de Cantabria
+		liege = k_asturias
 	}
-	730.1.1 = {
-		holder = 70003 # King Alfonso I of Asturias
+	720.1.1 = {
+		holder = 70003 # Alfonso I de Cantabria
 	}
 	739.6.15 = {
-		holder = 70011 # Duke Fruela Pérez of Cantabria
-	}
-	741.1.1 = {
-		holder = 70012 # King Aurelio I of Asturias
+		holder = 70011 # Fruela Pérez de Cantabria
 	}
 	768.1.1 = {
-		holder = 70013 # King Bermudo I of Asturias
+		holder = 70013 # Bermudo I de Cantabria
 	}
 	791.1.1 = {
-		holder = 70006 # King Alfonso II of Asturias
+		holder = 70015 # Ramiro I de Cantabria
 	}
-	842.3.20 = {
-		holder = basque0007 # King Nepociano of Asturias
+	850.2.1 = {
+		holder = 70017 # Ordoño I de Cantabria
 	}
-	843.1.1 = {
-		holder = 70015 # King Ramiro I of Asturias
-	}
-	851.1.15 = {
-		holder = 70017 # King Ordoño I of Asturias
-	}
-	854.1.1 = {
-		holder = 73763 # Duke Rodrigo of Castilla
+	860.1.1 = {
+		holder = 73763 # Rodrigo Ramírez de Castilla
 		liege = d_castilla
 	}
 	873.10.3 = {
-		holder = 73765 # Duke Diego Rodríguez 'Porcelos' of Castilla
+		holder = 73765 # Diego Rodríguez Porcelos
 	}
-	885.1.1 = {
-		holder = 200066 # Count Munio Nuñez of Burgos
+	885.1.31 = {
+		holder = 200066 # Munio Nuñez de Lara
 		liege = k_asturias
 	}
 	901.1.1 = {
-		holder = 200071 # Count Gonzalo Téllez of Viscaya
+		holder = 200071 # Gonzalo Téllez
 	}
 	904.1.1 = {
-		holder = 200066 # Count Munio Nuñez of Burgos (restored)
+		holder = 200066 # Munio Nuñez de Lara
 	}
 	910.12.20 = {
 		liege = k_leon
 	}
 	912.1.1 = {
-		holder = 73769 # Count Gonzalo Fernández of Burgos
+		holder = 73769 # Gonzalo Fernández de Lara
 	}
-	915.1.1 = {
-		holder = 200074 # Fernando Díaz
+	916.1.1 = {
+		holder = 72549 # Fernando Ansúrez
 	}
 	920.1.1 = {
-		holder = 200069 # Nuño Fernández
+		holder = 200069 # Nuño Fernández de Lara
 	}
 	927.1.1 = {
 		holder = 72549 # Fernando Ansúrez
 	}
-	929.11.1 = {
-		holder = 107680 # Duke Fernán González of Castille
+	930.1.1 = {
+		holder = 107680 # Fernán González de Lara
 	}
 	931.1.1 = {
 		liege = d_castilla
 	}
 	944.1.1 = {
-		holder = 72550 # Duke Ansur Fernández of Castille
+		holder = 72550 # Ansur Fernández Ansúrez
 	}
 	945.1.1 = {
-		holder = 107680 # Duke Fernán González of Castille (restored)
+		holder = 107680 # Fernán González de Lara
 	}
 	970.6.1 = {
-		holder = 107670 # Duke García I of Castille
+		holder = 107670 # García Fernández de Lara
 	}
-	995.6.29 = {
-		holder = 107660 # Duke Sancho García of Castille
+	995.1.1 = {
+		holder = 107660 # Sancho García de Lara
 	}
 	1017.2.5 = {
-		holder = 70286 # Duke García II of Castille
+		holder = 70286 # García Sánchez de Lara
 	}
 	1029.5.13 = {
-		holder = 107510 # King Fernando I of León
+		holder = 107510 # Fernando Sánchez Jimena
 	}
-	1065.12.27 = {
-		holder = 107500 # King Sancho II of Castille
+	1037.9.4 = {
+		holder = 70265 # Munio González de Lara
 		liege = k_castille
 	}
-	1072.10.7 = {
-		holder = 108500 # King Alfonso VI of León
+	1082.1.1 = {
+		holder = 70268 # Jimena Muñoz de Lara
 	}
-	1109.7.1 = {
+	1085.1.1 = {
 		holder = 72894 # Fruela Díaz
 	}
 	1121.12.2 = {
@@ -364,44 +342,52 @@ c_amaya = {
 
 
 d_castilla = {
-	854.1.1 = {
-		holder = 73763 # Rodrigo de Castilla
+	711.1.1 = {
+		de_jure_liege = k_asturias
+	}
+	860.1.1 = {
+		holder = 73763 # Rodrigo Ramírez de Castilla
 		liege = k_asturias
 	}
 	873.10.3 = {
-		holder = 73765 # Diego Rodríguez 'Porcelos'
+		holder = 73765 # Diego Rodríguez Porcelos
 	}
-	885.1.1 = {
+	885.1.31 = {
 		holder = 0
 	}
+	924.1.1 = {
+		de_jure_liege = k_leon
+	}
 	931.1.1 = {
-		holder = 107680 # Fernán González
+		holder = 107680 # Fernán González de Lara
 		liege = k_leon
 	}
 	944.1.1 = {
-		holder = 72550 # Ansur Fernández
+		holder = 72550 # Ansur Fernández Ansúrez
 	}
 	945.1.1 = {
-		holder = 107680 # Fernán González (restored)
+		holder = 107680 # Fernán González de Lara
+		liege = 0
 	}
 	970.6.1 = {
-		holder = 107670 # García I Fernández
+		holder = 107670 # García Fernández de Lara
 	}
-	995.6.29 = {
-		holder = 107660 # Sancho García
+	995.1.1 = {
+		holder = 107660 # Sancho García de Lara
 	}
 	1017.2.5 = {
-		holder = 70286 # García II Sánchez
-		liege = k_navarra
+		holder = 70286 # García Sánchez de Lara
 	}
 	1029.5.13 = {
-		holder = 107510 # King Fernando I of León
+		holder = 107510 # Fernando Sánchez Jimena
+		liege = k_navarra
 	}
-	1035.10.18 = {
-		liege = k_leon
+	1030.1.1 = {
+		liege = 0
 	}
-	1065.12.27 = {
+	1037.9.4 = {
 		holder = 0
+		de_jure_liege = k_castille
 	}
 }
 
@@ -409,71 +395,83 @@ d_castilla = {
 c_burgos = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
- 
-	858.1.1 = {
-		holder = 200215 # Lubb, placeholder
-		# Nominally under al-Andalus, but in practice very much a frontier.
-		liege = 0
-	}
-	882.1.1 = {
-		holder = 200066 # Muño Núñez de Brañosera
-		liege = d_castilla
-	}
-	884.1.1 = {
-		holder = 73765 # Duke Diego Rodríguez 'Porcelos' of Castille
-	}
-	885.1.1 = {
-		holder = 200066 # Munio Núñez de Brañosera (restored)
+	
+	754.1.1 = {
+		holder = 70003 # Alfonso I de Cantabria
 		liege = k_asturias
 	}
-	899.1.1 = {
-		holder = 73769 # Gonzalo Fernández
+	757.1.1 = {
+		holder = 70004 # Fruela I de Asturias
 	}
-	910.12.20 = {
+	768.1.1 = {
+		holder = 70012 # Aurelio Froilaz de Cantabria
+	}
+	773.1.1 = {
+		holder = 70118 # Silo, King of Asturias
+	}
+	783.1.1 = {
+		holder = 73867 # Hermenegildo Mauregatez de Cantabria
+	}
+	812.1.1 = {
+		holder = 73868 # Mauregato Hermenegíldez de Cantabria
+	}
+	860.1.1 = {
+		holder = 73763 # Rodrigo Ramírez de Castilla
+		liege = d_castilla
+	}
+	873.10.3 = {
+		holder = 73765 # Diego Rodríguez Porcelos
+	}
+	885.1.31 = {
+		holder = 73769 # Gonzalo Fernández de Lara
 		liege = k_leon
 	}
 	912.1.1 = {
-		holder = 200071 # Count Gonzalo Téllez of Viscaya
+		holder = 200071 # Gonzalo Téllez
 	}
 	915.1.1 = {
 		holder = 200160 # Munio Velaz
 	}
 	922.1.1 = {
-		holder = 200069 # Count Nuño Fernández of Amaya
+		holder = 200069 # Nuño Fernández de Lara
 	}
 	927.1.1 = {
-		holder = 200070 # Gutierre Núñez
+		holder = 200070 # Gutierre Núñez de Lara
+	}
+	930.1.1 = {
+		holder = 107680 # Fernán González de Lara
 	}
 	931.1.1 = {
-		holder = 107680 # Duke Fernán González of Castille
 		liege = d_castilla
 	}
 	944.1.1 = {
-		holder = 72550 # Duke Ansur Fernández of Castille
+		holder = 72550 # Ansur Fernández Ansúrez
 	}
 	945.1.1 = {
-		holder = 107680 # Duke Fernán González of Castille (restored)
+		holder = 107680 # Fernán González de Lara
 	}
 	970.6.1 = {
-		holder = 107670 # Duke García I of Castille
+		holder = 107670 # García Fernández de Lara
 	}
-	995.6.29 = {
-		holder = 107660 # Duke Sancho García of Castille
+	995.1.1 = {
+		holder = 107660 # Sancho García de Lara
 	}
 	1017.2.5 = {
-		holder = 70286 # Duke García II of Castille
+		holder = 70286 # García Sánchez de Lara
 	}
 	1029.5.13 = {
-		holder = 107510 # King Fernando I of León
+		holder = 107510 # Fernando I Jimena
 	}
-	1065.12.27 = {
-		holder = 107500 # King Sancho II of Castille
+	1037.9.4 = {
 		liege = k_castille
 	}
-	1072.10.7 = {
-		holder = 108500 # King Alfonso VI of León
+	1065.12.27 = {
+		holder = 107500 # Sancho II Jimena
 	}
-	1085.5.25 = {
+	1072.10.7 = {
+		holder = 108500 # Alfonso VI Jimena
+	}
+	1073.1.1 = {
 		holder = 107570 # Gonzalo Núñez de Lara
 	}
 	1105.12.12 = {
@@ -505,44 +503,6 @@ c_burgos = {
 	}
 }
 
-b_palencia = {
-	881.1.1 = {
-		holder = 72548 # Ansur
-	}
-	908.1.1 = {
-		holder = 72550 # Ansur Fernández
-	}
-	945.4.3 = {
-		holder = castilian0049 # Fernando Ansúrez
-	}
-	946.1.1 = {
-		holder = castilian0005 # Diego Muñoz
-	}
-	951.1.1 = {
-		holder = castilian0049 # Fernando Ansúrez (restored)
-	}
-	978.11.24 = {
-		holder = castilian0010 # Count Gómez Díaz of Asturias de Santillana
-	}
-	987.1.1 = {
-		holder = castilian0021 # Count García Gómez of Asturias de Santillana
-	}
-	1003.3.3 = {
-		holder = castilian0020 # Count Munio Gómez of Asturias de Santillana
-	}
-	1024.1.1 = {
-		holder = 200079 # Count Diego Fernández of Asturias de Santillana
-	}
-	1028.1.1 = {
-		holder = castilian0109 # Fernando Díaz
-	}
-	1038.1.1 = {
-		holder = 200076 # Gómez Díaz
-	}
-	1057.8.11 = {
-		holder = castilian0122 # Fernando Gómez
-	}
-}
 
 c_monzon = {
 	754.1.1 = {
@@ -663,64 +623,83 @@ c_monzon = {
 }
 
 c_valladolid = {
-	865.1.1 = {
-		holder = 200225 # Ya'qub, placeholder
-		# Nominally under al-Andalus, but in practice very much a frontier.
-		liege = 0
-	}
-	890.1.1 = {
-		holder = 200066 # Count Munio Núñez of Burgos
+	754.1.1 = {
+		holder = 70003 # Alfonso I de Cantabria
 		liege = k_asturias
 	}
-	899.1.1 = {
-		holder = 73769 # Count Gonzalo Fernández of Burgos
+	757.1.1 = {
+		holder = 70004 # Fruela I de Asturias
 	}
-	910.12.20 = {
+	768.1.1 = {
+		holder = 70012 # Aurelio Froilaz de Cantabria
+	}
+	773.1.1 = {
+		holder = 70118 # Silo, King of Asturias
+	}
+	783.1.1 = {
+		holder = 73867 # Hermenegildo Mauregatez de Cantabria
+	}
+	812.1.1 = {
+		holder = 73868 # Mauregato Hermenegíldez de Cantabria
+	}
+	860.1.1 = {
+		holder = 73763 # Rodrigo Ramírez de Castilla
+		liege = d_castilla
+	}
+	873.10.3 = {
+		holder = 73765 # Diego Rodríguez Porcelos
+	}
+	885.1.31 = {
+		holder = 73769 # Gonzalo Fernández de Lara
 		liege = k_leon
 	}
 	912.1.1 = {
-		holder = 200071 # Count Gonzalo Téllez of Viscaya
+		holder = 200071 # Gonzalo Téllez
 	}
 	915.1.1 = {
-		holder = 200160 # Count Munio Velaz of Burgos
+		holder = 200160 # Munio Velaz
 	}
 	922.1.1 = {
-		holder = 200069 # Count Nuño Fernández of Amaya
+		holder = 200069 # Nuño Fernández de Lara
 	}
 	927.1.1 = {
-		holder = 200070 # Count Gutierre Núñez of Burgos
+		holder = 200070 # Gutierre Núñez de Lara
 	}
 	931.1.1 = {
-		holder = 107680 # Duke Fernán González of Castille
+		holder = 107680 # Fernán González de Lara
 		liege = d_castilla
 	}
 	944.1.1 = {
-		holder = 72550 # Duke Ansur Fernández of Castille
+		holder = 72550 # Ansur Fernández Ansúrez
 	}
 	945.1.1 = {
-		holder = 107680 # Duke Fernán González of Castille (restored)
+		holder = 107680 # Fernán González de Lara
 	}
 	970.6.1 = {
-		holder = 107670 # Duke García I of Castille
+		holder = 107670 # García Fernández de Lara
 	}
-	995.6.29 = {
-		holder = 107660 # Duke Sancho García of Castille
+	995.1.1 = {
+		holder = 107660 # Sancho García de Lara
 	}
 	1017.2.5 = {
-		holder = 70286 # Duke García II of Castille
+		holder = 70286 # García Sánchez de Lara
 	}
 	1029.5.13 = {
-		holder = 107510 # King Fernando I of León
+		holder = 107510 # Fernando Sánchez Jimena
 	}
-	1065.12.27 = {
-		holder = 107500 # King Sancho II of Castille
+	1037.9.4 = {
 		liege = k_castille
+	}
+	1060.1.1 = {
 		government = feudal_government	#Ahistorical, just for ease of bookmarks.
 	}
-	1072.10.7 = {
+	1065.12.27 = {
 		holder = 107640 # Pedro Ansúrez
 	}
-	1119.9.9 = {
+	1072.10.7 = {
+		liege = k_castille
+	}
+	1093.12.8 = {
 		holder = 107644 # Mayor Pérez
 	}
 	1148.4.23 = {
@@ -760,7 +739,6 @@ c_valladolid = {
 		holder = 457532 # Blanca Pérez de Borgoña
 	}
 }
-
 
 c_lara = {
 	754.1.1 = {
