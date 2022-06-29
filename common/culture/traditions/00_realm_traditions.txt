@@ -1844,6 +1844,7 @@ tradition_parochialism = {
 	}
 
 	is_shown = { #Replaced by tradition_republican_legacy
+		NOT = { has_cultural_tradition = tradition_republican_legacy }
 		NOR ={
 			this = culture:roman
 			any_parent_culture_or_above = {
@@ -1858,6 +1859,7 @@ tradition_parochialism = {
 				this = culture:roman
 			}
 		}
+		NOT = { has_cultural_tradition = tradition_republican_legacy }
 	}
 	
 	parameters = {
@@ -2135,11 +2137,8 @@ tradition_hill_dwellers = {
 			any_culture_county = {
 				any_county_province = {
 					terrain = hills
-<<<<<<< HEAD
-=======
 					terrain = dry_hills
 					terrain = high_boreal
->>>>>>> 48d92d58faded5c2ddbec34ae6a48b191e95048a
 				}
 			}
 		}
@@ -2152,22 +2151,16 @@ tradition_hill_dwellers = {
 	}
 	county_modifier = {
 		hills_development_growth_factor = 0.2
-<<<<<<< HEAD
-=======
 		dry_hills_development_growth_factor = 0.2
-		high_boreal_development_growth_factor = 0.2
->>>>>>> 48d92d58faded5c2ddbec34ae6a48b191e95048a
+		high_boreal_development_growth_factor = 0.2	
 	}
 	province_modifier = {
 		hills_construction_gold_cost = -0.15
 		hills_holding_construction_gold_cost = -0.15
-<<<<<<< HEAD
-=======
 		dry_hills_construction_gold_cost = -0.15
 		dry_hills_holding_construction_gold_cost = -0.15
 		high_boreal_construction_gold_cost = -0.15
 		high_boreal_holding_construction_gold_cost = -0.15
->>>>>>> 48d92d58faded5c2ddbec34ae6a48b191e95048a
 	}
 	
 	cost = {
@@ -2193,11 +2186,8 @@ tradition_hill_dwellers = {
 							percent >= 0.3
 							any_county_province = {
 								terrain = hills
-<<<<<<< HEAD
-=======
 								terrain = dry_hills
 								terrain = high_boreal
->>>>>>> 48d92d58faded5c2ddbec34ae6a48b191e95048a
 							}
 						}
 					}
@@ -2223,11 +2213,8 @@ tradition_hill_dwellers = {
 							culture = scope:character.culture
 							any_county_province = {
 								terrain = hills
-<<<<<<< HEAD
-=======
 								terrain = dry_hills
 								terrain = high_boreal
->>>>>>> 48d92d58faded5c2ddbec34ae6a48b191e95048a
 							}
 						}
 					}
@@ -2360,12 +2347,14 @@ tradition_mountain_homes = {
 	}
 	
 	is_shown = {
-		NOR = { #This is replaced by Himalayan Settlers, and Mountain Herding. 
+		NOR = { #This is replaced by Himalayan Settlers, Mountaineer Ruralism and Mountain Herding. 
 			has_cultural_tradition = tradition_himalayan_settlers
+			has_cultural_tradition = tradition_mountaineer_ruralism
 			has_cultural_pillar = heritage_arabic
 			has_cultural_pillar = heritage_berber
 			has_cultural_pillar = heritage_tibetan
 			has_cultural_pillar = heritage_qiangic
+			has_cultural_pillar = heritage_west_slavic
 			any_culture_county = {
 				title_province = {
 					geographical_region = world_himalaya
@@ -2485,10 +2474,7 @@ tradition_dryland_dwellers = {
 					OR = {
 						terrain = drylands
 						terrain = desert
-<<<<<<< HEAD
-=======
 						terrain = savanna
->>>>>>> 48d92d58faded5c2ddbec34ae6a48b191e95048a
 					}
 				}
 			}
@@ -2503,23 +2489,17 @@ tradition_dryland_dwellers = {
 	county_modifier = {
 		desert_development_growth_factor = 0.35
 		drylands_development_growth_factor = 0.15
-<<<<<<< HEAD
-=======
 		savanna_development_growth_factor = 0.10
->>>>>>> 48d92d58faded5c2ddbec34ae6a48b191e95048a
 	}
 	province_modifier = {
 		desert_construction_gold_cost = -0.15
 		drylands_construction_gold_cost = -0.15
-<<<<<<< HEAD
 		desert_holding_construction_gold_cost = -0.15
 		drylands_holding_construction_gold_cost = -0.15
-=======
 		savanna_construction_gold_cost = -0.15
 		desert_holding_construction_gold_cost = -0.15
 		drylands_holding_construction_gold_cost = -0.15
 		savanna_holding_construction_gold_cost = -0.15
->>>>>>> 48d92d58faded5c2ddbec34ae6a48b191e95048a
 	}
 	
 	cost = {
@@ -2547,10 +2527,7 @@ tradition_dryland_dwellers = {
 								OR = {
 									terrain = drylands
 									terrain = desert
-<<<<<<< HEAD
-=======
 									terrain = savanna
->>>>>>> 48d92d58faded5c2ddbec34ae6a48b191e95048a
 								}
 							}
 						}
@@ -2579,10 +2556,7 @@ tradition_dryland_dwellers = {
 								OR = {
 									terrain = drylands
 									terrain = desert
-<<<<<<< HEAD
-=======
 									terrain = savanna
->>>>>>> 48d92d58faded5c2ddbec34ae6a48b191e95048a
 								}
 							}
 						}
@@ -2936,10 +2910,7 @@ tradition_ancient_miners = {
 							culture = scope:character.culture
 							any_county_province = {
 								terrain = hills
-<<<<<<< HEAD
-=======
 								terrain = dry_hills
->>>>>>> 48d92d58faded5c2ddbec34ae6a48b191e95048a
 							}
 						}
 					}
