@@ -6,4 +6,4 @@ tags={
 	"Fixes"
 }
 name="IBL1.3.1"
-supported_version="1.6.1.1"
+supported_version="1.6.1.2"

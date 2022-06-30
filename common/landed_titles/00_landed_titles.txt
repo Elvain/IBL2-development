@@ -56124,14 +56124,14 @@ e_maghreb = {
 				color = { 22 107 181 }
 				color2 = { 255 255 255 }
 				
-				b_grancanaria = {
-					province = 849
+				b_tenerife = {
+					province = 8713
 					
 					color = { 22 107 181 }
 					color2 = { 255 255 255 }
 				}
-				b_tenerife = {
-					province = 8713
+				b_grancanaria = {
+					province = 849
 					
 					color = { 22 107 181 }
 					color2 = { 255 255 255 }
