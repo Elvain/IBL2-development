@@ -273,7 +273,7 @@
 	holding = city_holding
 }
 
-###c_rosello
+###c_rossello
 8798 = {	# CASTELLROSSELLO
 	# Misc
 	culture = catalan

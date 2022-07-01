@@ -24111,8 +24111,8 @@
 1876 ={
 	winter_severity_bias = 0.60
 }
-## c_rosello 
-# b_castellrosello 
+## c_rossello 
+# b_castellrossello 
 9820 ={
 	winter_severity_bias = 0.40
 }
