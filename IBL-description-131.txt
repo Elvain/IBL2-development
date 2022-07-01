@@ -1,6 +1,10 @@
-[h1]updated for Royal Court / 1.5.0[/h1]
+[h1]updated for 1.6.1.2[/h1]
 
 [img] https://i.imgur.com/p7Fv1Z6.gif [/img]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2775683808][img]https://i.imgur.com/vRqzGXG.png[/img][/url]
+
+Big thanks to TheNunnceler for maintaining the mod, while I currently can't do the job
 
 [h1] MOD CONCEPT [/h1]
 - The mod is meant to improve the map's de jure structure and add baronies, provinces and cultures. Where possible in the Middle East, Europe and Africa.
@@ -95,6 +99,9 @@ With more feedback, please check the [url=https://forum.paradoxplaza.com/forum/t
 --------------------------------
 CHANGELOG
 --------------------------------
+Version 1.3.1 update (01/07/2022)
+Adapted for Fate of Iberia and its patches
+--------------------------------
 Version 1.2.7 update (08/02/2022)
 Overhaul of Maghreb
 - 79 new baronies
@@ -112,7 +119,4 @@ Overhaul of Iberia (Spain)
 - 3 new major rivers
 - 2 new dynasties and several new characters, while another number of already existing characters now gains land and became playable.
 
-a minor overhaul of central Sahara:
-- Touat duchy is now adjoined to the kingdom of Sahara (although it historically leaned to Anbiya, it looks way better if it's part of Sahara)
-- Ghadames is moved from Jerid duchy to Ghat
-- minor adjustment of wastelands on the border of Jerid, Tripolitania and Fezzan to avoid weird looking map, caused solely by one wasteland province
+a minor overhaul of central Sahara

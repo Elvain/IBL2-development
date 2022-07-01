@@ -816,7 +816,7 @@ c_puigcerda = {
 }
 
 
-c_rossello = {
+c_rosello = {
 	769.1.1 = {
 		holder = 200049 # Walih Suleyman al-Arabi of Barcelona
 		liege = d_barcelona
@@ -1650,127 +1650,124 @@ c_tarragona = {
 
 
 c_tortosa = {
-	758.1.1 = {
-		holder = 200226 # Hisham Petrid
-		liege = k_andalusia
-		government = clan_government
-	}
-	780.1.1 = {
-		holder = 200228 # Ibrahim Petrid
-	}
-	813.1.1 = {
-		holder = 73681 # al-Hakam I Umayyad
-	}
-	822.5.21 = {
-		holder = 73682 # Abd al-Rahman II Umayyad
-	}
-	852.9.22 = {
-		holder = 73683 # Muhammad I Umayyad
-	}
-	867.1.1 = {
-		holder = 73912 # Zakkariyya Hayyunid
-		liege = d_valencia
-	}
-	890.1.1 = {
-		holder = 73913 # Abd al-Aziz Hayyunid
-	}
-	932.1.1 = {
-		holder = 3200 # Abd al-Rahman III Umayyad
-		liege = k_andalusia
-	}
-	961.10.15 = {
-		holder = 3202 # al-Hakam II Umayyad
-	}
-	976.10.16 = {
-		holder = 3204 # Hisham II Umayyad
-	}
-	1009.2.15 = {
-		holder = 73671 # Muhammad II Umayyad
-	}
-	1009.11.1 = {
-		holder = 73675 # Suleyman Umayyad
-	}
-	1010.5.10 = {
-		holder = 73671 # Muhammad II Umayyad
-	}
-	1010.7.23 = {
-		holder = 3204 # Hisham II Umayyad
-	}
-	1013.4.19 = {
-		holder = 73675 # Suleyman Umayyad
-	}
-	1016.7.1 = {
-		holder = 73687 # Ali Hammudid
-	}
-	1018.3.22 = {
-		holder = 73678 # Abd al-Rahman IV Umayyad
-	}
-	1018.6.1 = {
-		holder = 73689 # al-Qasim Hammudid
-	}	
-	1021.1.1 = {
-		holder = 45025 # Abd al-Aziz Amirid
-		liege = d_valencia
-	}
-	1039.1.1 = {
-		liege = d_zaragoza
-		holder = 3933 # Suleyman Hudid
-	}
-	1046.1.1 = {
-		holder = 3934 # Ahmad I Hudid
-	}
-	1082.1.1 = {
-		holder = 3935 # Yusuf II Hudid
-	}
-	1085.1.1 = {
-		holder = 45005 # Ahmad II Hudid
-	}
-	1086.1.1 = {
-		holder = 3926 # Yahya Dhunnunid
-		liege = d_valencia
-	}
-	1092.10.28 = {
-		holder = 73199 # Ya'far Yahaffid
-	}
-	1099.1.1 = {
-		holder = 73182 # Muhammad Hayyid
-		liege = k_maghreb
-	}
-	1110.5.31 = {
-		holder = 224007 # Abdallah Fatimid
-	}
-	1130.1.1 = {
-		holder = 224013 # Yahya Almoravid
-	}
-	1135.1.1 = {
-		holder = 32973 # Muhammad Massufid
-	}
-	1145.1.1 = {
-		holder = 73210 # Abd al-Malik II Amirid
-		liege = d_valencia
-	}
-	1145.7.1 = {
-		holder = 73201 # Muhammad Jyadid
-	}
-	1146.1.1 = {
-		holder = 73181 # Ahmad Hudid
-	}
-	1146.7.1 = {
-		holder = 73201 # Muhammad Jyadid
-	}
-	1147.1.1 = {
-		holder = 73243 # Abd al-Hajjaj Mardanishid
-		liege = d_murcia
-	}
-	1148.1.1 = {
-		holder = 210506 # Ramon Berenguer IV de Barcelona
+	769.1.1 = {
+		holder = 200049 # Walih Suleyman al-Arabi of Barcelona
 		liege = d_barcelona
 	}
-	1162.8.6 = {
-		holder = 210500 # Alfons II de barcelona
+	780.1.1 = {
+		holder = 200051 # Walih Matruh ibn Suleyman of Barcelona
 	}
-	1164.1.1 = {
+	792.1.1 = {
+		holder = 200052 # Walih Sadun ibn Ruayn of Barcelona
+	}
+	800.1.1 = {
+		holder = 200053 # Walih Harun of Barcelona
+	}
+	801.4.3 = {
+		holder = basque0127 # Walih Bahlul ibn Marzuq of Zaragoza
+		liege = d_zaragoza
+	}
+	802.12.1 = {
+		holder = 73799 # Walih Amrus ibn Yusuf of Toledo
+	}
+	#814-848 Unknown rulers
+	848.1.1 = {
+		holder = 73683 # Sultan Muhammad I of Andalusia
+	}
+	852.10.14 = {
+		holder = 73812 # Sultan Musa ibn Musa of Valencia
+	}
+	860.1.1 = {
+		holder = 73851 # A'id ibn Kaysan
+	}
+	892.1.1 = {
+		holder = 73852 # Yahya ibn A'id
+	}
+	898.1.1 = {
+		holder = 73853 # Malik ibn Yahya
+	}
+	930.1.1 = {
+		holder = levantine0127 # Ali ibn Malik
+	}
+	950.1.1 = {
+		holder = 200041 # Abd al-Rahman ibn Ali
+	}
+	978.1.1 = {
+		holder = 73846 # Walih Abd al-Rahman ibn Muhammad of Zaragoza
+		liege = d_zaragoza
+	}
+	989.1.1 = {
+		holder = 73847 # Walih Abd al-Rahman iban Yahya of Zaragoza
+	}
+	1009.3.3 = {
+		holder = andalusian0101 # Emir Labib of Valencia
+		liege = 0
+	}
+	1009.7.1 = {
+		holder = 73184 # Emir Mundir I of Zaragoza
+		liege = d_zaragoza
+	}
+	1010.1.1 = {
+		holder = andalusian0101 # Emir Labib of Valencia (2nd time)
+		liege = 0
+	}
+	1016.1.1 = {
+		liege = d_valencia
+	}
+	1038.1.1 = {
+		holder = andalusian0102 # Muqatil
+	}
+	1053.1.1 = {
+		holder = andalusian0103 # Ya'la
+	}
+	1057.1.1 = {
+		holder = andalusian0104 # Nabil
+	}
+	1060.1.1 = {
+		holder = 3938 # Sheik al-Muzaffar II of Lleida
+		liege = 0
+	}
+	1079.1.1 = {
+		holder = 3934 # Emir al-Muqtadir of Zaragoza
+		liege = d_zaragoza
+	}
+	1081.1.1 = {
+		holder = 73191 # Sheik Imad al-Dawla of Lleida
+		liege = 0
+	}
+	1090.1.1 = {
+		holder = 73191 # Sheik Sayyid al-Dawla
+	}
+	1102.1.1 = {
+		holder = 73180 # Abd al-Malik Hudid
+		liege = d_zaragoza
+	}
+	1110.5.31 = {
+		holder = 73182 # Muhammad Hayyid
+	}
+	1115.1.1 = {
+		holder = 73183 # Walih Abu Bakr ibn Ibrahim of Zaragoza
+	}
+	1118.12.18 = {
+		holder = 70232 # Alfonso I Jimena
 		liege = k_aragon
+	}
+	1134.9.27 = {
+		holder = 70233 # Ramiro II Jimena
+	}
+	1135.1.1 = {
+		holder = 206510 # Gartzia VI Jimena
+		liege = d_navarra #Ceded by Alfonso VII of Castille who had conquered it
+	}
+	1136.1.1 = {
+		holder = 70233 # Ramiro II Jimena
+		liege = k_aragon
+	}
+	1157.8.16 = {
+		holder = 210507 # Petronila RamĂrez Jimena
+	}
+	1174.10.16 = {
+		holder = 210500 # Alfons II de Barcelona
 	}
 	1195.4.25 = {
 		holder = 210501 # Pere II de Barcelona
@@ -1872,7 +1869,6 @@ d_zaragoza = {
 		holder = 73185 # al-Muzaffar
 	}
 	1035.10.18 = {
-		de_jure_liege = k_aragon
 		liege = 0
 		effect = { reset_title_name = yes }
 	}
@@ -1902,7 +1898,8 @@ d_zaragoza = {
 		liege = k_maghreb
 	}
 	1115.1.1 = {
-		holder = 73183 # Abu Bakr ibn Ibrahim
+		de_jure_liege = k_aragon
+		holder = 0
 	}
 }
 
@@ -2464,11 +2461,12 @@ c_alcaniz = { #AKA Hixar
 		holder = 3933 # Emir al-Musta'in I of Zaragoza
 	}
 	1047.1.1 = {
-		holder = 3934 # Emir al-Muqtadir of Zaragoza
+		holder = 73192 # Muhammad ibn Suleyman
+		liege = 0
 	}
-	1065.1.1 = { #fix for re-balance after FP2 history pass
-		holder = andalusian0059 #Wali Raws of Burjanna (not historical holder)
-		liege = d_toledo 
+	1055.1.1 = {
+		holder = 3934 # Emir al-Muqtadir of Zaragoza
+		liege = d_zaragoza
 	}
 	1082.1.1 = {
 		holder = 3935 # Emir al-Mu'taman of Zaragoza
@@ -2479,71 +2477,45 @@ c_alcaniz = { #AKA Hixar
 	1110.1.24 = {
 		holder = 73180 # Emir Imad al-Dawla of Zaragoza
 	}
-	1110.5.31 = {
-		holder = 224007 # Abdallah Fatimid
+	1110.1.1 = {
+		holder = 73180 # Abd al-Malik Hudid
 	}
-	1130.1.1 = {
-		holder = 224013 # Yahya Almoravid
-	}
-	1135.1.1 = {
-		holder = 32973 # Muhammad Massufid
-	}
-	1145.1.1 = {
-		holder = 73210 # Abd al-Malik II Amirid
-		liege = d_valencia
-	}
-	1145.7.1 = {
-		holder = 73201 # Muhammad Jyadid
-	}
-	1146.1.1 = {
-		holder = 73181 # Ahmad Hudid
-	}
-	1146.7.1 = {
-		holder = 73201 # Muhammad Jyadid
-	}
-	1147.1.1 = {
-		holder = 73243 # Abd al-Hajjaj Mardanishid
-		liege = d_murcia
-	}
-	1172.1.1 = {
+	1115.1.1 = {
 		liege = k_maghreb
 	}
-	1186.1.1 = {
-		holder = 224002 # Khaleel Balansiyyid
+	1130.1.1 = {
+		holder = 73181 # Ahmad b. Abd al-Malik Hudid
 	}
-	1212.1.1 = {
-		holder = 73619 # Abd al-Rahman Hafsid
-	}
-	1214.1.1 = {
-		holder = 73620 # Muhammad Hafsid
-	}
-	1224.1.1 = {
-		holder = 73622 # Zayyan Mardanishid
-	}
-	1228.1.1 = {
-		liege = d_murcia
-	}
-	1234.1.1 = {
-		holder = 210516 # Nuno Sanç de Barcelona
+	1139.1.1 = {
+		holder = 70233 # Ramiro II Jimena
 		liege = k_aragon
 	}
-	1242.1.1 = {
-		holder = 209508 # Pedro Sanches de Bourgogne
+	1157.8.16 = {
+		holder = 210507 # Petronila Ramírez Jimena
 	}
-	1258.6.2 = {
-		holder = 460600 # Jaume I de Barcelona
+	1174.10.16 = {
+		holder = 210500 # Alfons II de Barcelona
+	}
+	1195.4.25 = {
+		holder = 210501 # Pere II de Barcelona
+	}
+	1213.9.14 = {
+		holder = 71651 # On behalf of Jaume I de Barcelona
 	}
 	1276.7.27 = {
-		holder = 460010 # Jaume de Xerica I
+		holder = 460590 # Pere III de Barcelona
 	}
-	1285.1.1 = {
-		holder = 70234 # Jaume de Xerica II
+	1284.1.1 = {
+		holder = 71744 # Ferran Pere de Barcelona
 	}
-	1321.1.1 = {
-		holder = 461512 # Jaume de Xerica III
+	1327.1.1 = {
+		holder = 460560 # Jaume II de Barcelona
 	}
-	1335.4.28 = {
-		holder = 460011 # Pere de Xerica
+	1327.11.5 = {
+		holder = 460510 # Alfons IV de Barcelona
+	}
+	1336.1.24 = {
+		holder = 460500 # Pere IV de Barcelona
 	}
 }
 

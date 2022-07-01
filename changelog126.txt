@@ -250,4 +250,3 @@ gfx
 	special_building_locators:
 	3001, 4139, 4141-4142, 6591, 8975-8992
 
-

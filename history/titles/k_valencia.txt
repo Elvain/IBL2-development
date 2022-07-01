@@ -338,92 +338,63 @@ c_sogorbe = {
 }
 
 c_moya = {
-	758.1.1 = {
-		holder = 200226 # Hisham Petrid
-		liege = k_andalusia
+	798.1.1 = {
+		holder = levantine0023 # Walih Suleyman ibn Hisham of Valencia
 		government = clan_government
-	}
-	780.1.1 = {
-		holder = 200228 # Ibrahim Petrid
-	}
-	813.1.1 = {
-		holder = 73681 # al-Hakam Umayyad
-		liege = k_andalusia
-	}
-	822.5.21 = {
-		holder = 73682 # Abd al-Rahman II Umayyad
-	}
-	852.9.22 = {
-		holder = 73683 # Muhammad I Umayyad
-	}
-	867.1.1 = {
-		holder = 73910 # Mohammed Qaysid
 		liege = d_valencia
+	}
+	#801-803: Unknown Walih of Valencia
+	803.1.1 = {
+		holder = 200021 # Walih Abdallah ibn Abd al-Rahman of Valencia
+	}
+	#823-1008: Unknown Walihs of Valencia
+	867.1.1 = {
+		holder = 73910 # Muhammad Qaysid, placeholder
 	}
 	909.1.1 = {
-		holder = 73911 # Abdallah Qaysid
+		holder = 73911 # Abdallah Qaysid, placeholder
 	}
-	920.1.1 = {
-		holder = 3200 # Abd al-Rahman III Umayyad
-		liege = k_andalusia
+	1008.1.1 = {
+		holder = levantine0101 # Walih Musa ibn Ahmad of Murcia
+		liege = d_murcia
 	}
-	961.10.15 = {
-		holder = 3202 # al-Hakam II Umayyad
+	1011.1.1 = {
+		holder = andalusian0093 # Emir Mbarek of Valencia
+		liege = d_valencia
 	}
-	976.10.16 = {
-		holder = 3204 # Hisham II Umayyad
-	}
-	1009.2.15 = {
-		holder = 73671 # Muhammad II Umayyad
-	}
-	1009.11.1 = {
-		holder = 73675 # Suleyman Umayyad
-	}
-	1010.5.10 = {
-		holder = 73671 # Muhammad II Umayyad
-	}
-	1010.7.23 = {
-		holder = 3204 # Hisham II Umayyad
-	}
-	1013.4.19 = {
-		holder = 73675 # Suleyman Umayyad
-	}
-	1016.7.1 = {
-		holder = 73687 # Ali Hammudid
-	}
-	1018.3.22 = {
-		holder = 73678 # Abd al-Rahman IV Umayyad
-	}
-	1018.6.1 = {
-		holder = 73689 # al-Qasim Hammudid
+	1016.1.1 = {
+		holder = andalusian0101 # Emir Labib of Valencia
 	}
 	1021.1.1 = {
-		holder = 45025 # Abd al-Aziz Amirid
-		liege = d_valencia
+		holder = 45025 # Emir Abd al-Aziz ibn Abd al-Rahman of Valencia
 	}
 	1061.1.1 = {
-		holder = 45026 # Abd al-Malik I Amirid
+		holder = 45026 # Emir Abd al-Malik ibn Abd al-Aziz of Valencia
 	}
-	1065.1.1 = {
+	1065.9.1 = {
+		holder = andalusian0059 # Rawas ibn Abd al-Aziz
 		liege = d_toledo
 	}
-	1069.1.1 = {
-		holder = 3928 # Abu Bakr Amirid
-	}
-	1076.1.1 = {
+	1075.1.1 = {
+		holder = 3928 # Emir Abu Bakr ibn Abd al-Aziz of Valencia
 		liege = d_valencia
 	}
-	1085.1.1 = {
-		holder = 73227 # Utman Amirid
+	1076.1.1 = {
+		liege = d_aragon
 	}
-	1086.1.1 = {
-		holder = 3926 # Yahya Dhunnunid
+	1085.6.6 = {
+		holder = 73227 # Emir Umar ibn Abu Bakr of Valencia
+		liege = d_valencia
+	}
+	1086.2.1 = {
+		holder = 3926 # Emir al-Qadir of Toledo
 	}
 	1092.10.28 = {
-		holder = 73199 # Ya'far Yahaffid
+		holder = 73199 # Walih Ya'far ibn Abdallah of Valencia
+		liege = k_maghreb
 	}
-	1094.1.1 = {
-		holder = 107590 # Rodrigo Díaz de Vivar
+	1094.6.15 = {
+		holder = 107590 # Rodrigo Díaz de Vivar 'el Cid'
 		liege = 0
 	}
 	1096.1.1 = {
@@ -563,13 +534,12 @@ c_gandia = {
 	1061.1.1 = {
 		holder = 45026 # Abd al-Malik I Amirid
 	}
-	1065.1.1 = {
+	1065.9.1 = {
+		holder = andalusian0059 # Rawas ibn Abd al-Aziz
 		liege = d_toledo
 	}
-	1069.1.1 = {
-		holder = 3928 # Abu Bakr Amirid
-	}
-	1076.1.1 = {
+	1075.1.1 = {
+		holder = 3928 # Emir Abu Bakr ibn Abd al-Aziz of Valencia
 		liege = d_valencia
 	}
 	1085.1.1 = {
@@ -720,13 +690,12 @@ c_castellon = {
 	1061.1.1 = {
 		holder = 45026 # Abd al-Malik I Amirid
 	}
-	1065.1.1 = {
+	1065.9.1 = {
+		holder = andalusian0059 # Rawas ibn Abd al-Aziz
 		liege = d_toledo
 	}
-	1069.1.1 = {
-		holder = 3928 # Abu Bakr Amirid
-	}
-	1076.1.1 = {
+	1075.1.1 = {
+		holder = 3928 # Emir Abu Bakr ibn Abd al-Aziz of Valencia
 		liege = d_valencia
 	}
 	1077.1.1 = {
@@ -1026,13 +995,12 @@ c_denia = {
 	1061.1.1 = {
 		holder = 45026 # Abd al-Malik I Amirid
 	}
-	1065.1.1 = {
+	1065.9.1 = {
+		holder = andalusian0059 # Rawas ibn Abd al-Aziz
 		liege = d_toledo
 	}
-	1069.1.1 = {
-		holder = 3928 # Abu Bakr Amirid
-	}
-	1076.1.1 = {
+	1075.1.1 = {
+		holder = 3928 # Emir Abu Bakr ibn Abd al-Aziz of Valencia
 		liege = d_valencia
 	}
 	1085.1.1 = {

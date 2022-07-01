@@ -239,7 +239,7 @@ c_leon = {
 	}
 }
 
-b_cea = { # Counts of Cea
+c_cea = { # Counts of Cea
 	950.1.1 = {
 		holder = asturleonese0037 # Count Bermudo Núñez of Salamanca
 	}
@@ -635,7 +635,6 @@ c_salamanca = {
 	1327.4.30 = {
 		holder = 72637 # Lope de Pacheco
 	}
-}
 }
 
 

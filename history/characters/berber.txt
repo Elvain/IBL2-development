@@ -36,18 +36,7 @@
 		death = yes
 	}
 }
-6885 = {
-	name = Agdun # Fantasy
-	dynasty = 844
-	religion = ashari
-	culture = baranis
-	830.1.1 = {
-		birth = yes
-	}
-	890.1.1 = {
-		death = yes
-	}
-}
+
 6886 = {
 	name = Tegama # Fantasy
 	dynasty = 845
@@ -373,11 +362,14 @@
 	trait = greedy
 	trait = education_martial_3
 	father = 20935
-	1040.1.1 = {
-		birth = "1040.1.1"
+	# 1062.1.1 = { # These are the years of his reign, not his birth year
+	# 	birth = yes
+	# }
+	1046.1.1 = {
+		birth = yes
 	}
 	1108.1.1 = {
-		death = "1108.1.1"
+		death = yes
 	}
 }
 
@@ -405,7 +397,7 @@
 20834 = {
 	name = "an-Nasir" #Alger 1062-1088
 	# AKA: al
-	dynasty = 575
+	dynasty_house = house_hammadid
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -430,11 +422,37 @@
 20842 = {
 	name = "Guanarigato"
 	dynasty = 100848
-	religion = "west_african_pagan"
-	culture = baranis
+	religion = "north_african_acham_pagan"
+	culture = guanches
 	father = 166432
 	1039.1.1 = {
 		birth = "1039.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20843 = {
+	name = "Ana" #Fictitious
+	religion = "north_african_acham_pagan"
+	culture = guanches
+	dynasty = 1048013
+	1032.1.1 = {
+		birth = "1032.1.1"
+	}
+	1089.1.1 = {
+		death = "1089.1.1"
+	}
+}
+
+20844 = {
+	name = "Masnsen" #Fictitious
+	religion = "north_african_acham_pagan"
+	culture = guanches
+	dynasty = 1048014
+	1032.1.1 = {
+		birth = "1032.1.1"
 	}
 	1089.1.1 = {
 		death = "1089.1.1"
@@ -468,12 +486,11 @@
 	stewardship = 6
 	religion = "ismaili"
 	culture = baranis
-	father = sanhaja001
 	870.1.1 = {
-		birth = yes
+		birth = "870.1.1"
 	}
 	920.1.1 = {
-		death = yes
+		death = "920.1.1"
 	}
 }
 
@@ -575,7 +592,7 @@
 
 20936 = {
 	name = "Hammad" #Alger 1014-1028
-	dynasty = 575
+	dynasty_house = house_hammadid
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
@@ -596,7 +613,7 @@
 20937 = {
 	name = "Alennas"
 	# AKA: Alennas
-	dynasty = 575 #nam Hammad
+	dynasty_house = house_hammadid #nam Hammad
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
@@ -1343,10 +1360,10 @@
 	trait = education_martial_3
 	father = 20825
 	1062.1.1 = {
-		birth = "1062.1.1"
+		birth = yes
 	}
 	1116.1.1 = {
-		death = "1116.1.1"
+		death = yes
 	}
 }
 
@@ -1368,88 +1385,9 @@
 	}
 }
 
-45014 = {
-	name = "Zawi"
-	dynasty = 595
-	martial = 4
-	diplomacy = 4
-	intrigue = 4
-	stewardship = 6
-	religion = "ashari"
-	culture = baranis
-	trait = education_martial_3
-	trait = just
-	trait = wrathful
-	father = 20931
-	950.1.1 = {
-		birth = "950.1.1"
-	}
-	1020.1.1 = {
-		death = "1020.1.1"
-	}
-}
-
-45015 = {
-	name = "Habus"
-	dynasty = 595
-	martial = 4
-	diplomacy = 4
-	intrigue = 4
-	stewardship = 6
-	religion = "ashari"
-	culture = baranis
-	trait = education_diplomacy_3
-	father = 45017
-	978.1.1 = {
-		birth = "978.1.1"
-	}
-	1038.1.1 = {
-		death = "1038.1.1"
-	}
-}
-
-45016 = {
-	name = "Badis"
-	dynasty = 595
-	martial = 4
-	diplomacy = 5
-	intrigue = 9
-	stewardship = 6
-	religion = "ashari"
-	culture = baranis
-	trait = education_diplomacy_3
-	trait = greedy
-	trait = arbitrary
-	father = 45015
-	1006.1.1 = {
-		birth = "1006.1.1"
-	}
-	1073.1.1 = {
-		death = "1073.1.1"
-	}
-}
-
-45017 = {
-	name = "Maksan"
-	dynasty = 595
-	martial = 4
-	diplomacy = 4
-	intrigue = 4
-	stewardship = 6
-	religion = "ashari"
-	culture = baranis
-	father = 20931
-	952.1.1 = {
-		birth = "952.1.1"
-	}
-	1018.1.1 = {
-		death = "1018.1.1"
-	}
-}
-
 45018 = {
 	name = "al-Qaid" #Alger 1028 - 1054
-	dynasty = 575
+	dynasty_house = house_hammadid
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
@@ -1468,7 +1406,7 @@
 
 45019 = {
 	name = "Yusuf"
-	dynasty = 575
+	dynasty_house = house_hammadid
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
@@ -1487,7 +1425,7 @@
 
 45020 = {
 	name = "Ouighlan" #Mahdia
-	dynasty = 575
+	dynasty_house = house_hammadid
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
@@ -1506,7 +1444,7 @@
 
 45021 = {
 	name = "Muhsin" #Alger 1054-1055
-	dynasty = 575
+	dynasty_house = house_hammadid
 	martial = 4
 	diplomacy = 4
 	intrigue = 2
@@ -1525,7 +1463,7 @@
 
 45022 = {
 	name = "Muhammad"
-	dynasty = 575
+	dynasty_house = house_hammadid
 	martial = 4
 	diplomacy = 4
 	intrigue = 4
@@ -1543,7 +1481,7 @@
 
 45023 = {
 	name = "Buluggin" #Alger 1055-1062
-	dynasty = 575
+	dynasty_house = house_hammadid
 	martial = 4
 	diplomacy = 4
 	intrigue = 6
@@ -1564,7 +1502,7 @@
 
 45024 = {
 	name = "al-Mansur" #Alger 1088-1105
-	dynasty = 575
+	dynasty_house = house_hammadid
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -2240,68 +2178,9 @@
 	}
 }
 
-32991 = {
-	name = "Buluggin"
-	dynasty = 595
-
-	father = 45016
-
-	religion = ashari
-	culture = baranis
-
-	1038.1.1 = {
-		birth = yes
-	}
-	1054.1.1 = {
-		add_spouse = 200235
-	}
-	1065.1.1 = {
-		death = yes
-	}
-}
-
-32951 = {
-	name = "Tamim"
-	dynasty = 595
-
-	father = 32991
-	mother = 200235
-
-	religion = ashari
-	culture = baranis
-
-	1055.1.1 = {
-		birth = yes
-	}
-	1090.1.1 = {
-		death = yes
-	}
-}
-
-32952 = {
-	name = "Abdallah"
-	dynasty = 595
-
-	father = 32991
-	mother = 200235
-
-	religion = ashari
-	culture = baranis
-
-	1057.1.1 = {
-		birth = yes
-	}
-	1090.1.1 = {
-		add_pressed_claim = title:d_granada
-	}
-	1100.1.1 = {
-		death = yes
-	}
-}
-
 32953 = {
 	name = "Abu-Yakni" #Constantine
-	dynasty = 575
+	dynasty_house = house_hammadid
 	religion = "ashari"
 	culture = baranis
 	father = 45021
@@ -2315,7 +2194,7 @@
 
 32954 = {
 	name = "Badis" #Alger 1105-1106
-	dynasty = 575
+	dynasty_house = house_hammadid
 	religion = "ashari"
 	culture = baranis
 	father = 45024
@@ -2329,7 +2208,7 @@
 
 32955 = {
 	name = "Abd-al-Aziz" #Alger 1106-1121
-	dynasty = 575
+	dynasty_house = house_hammadid
 	religion = "ashari"
 	culture = baranis
 	father = 45024
@@ -2343,7 +2222,7 @@
 
 32956 = {
 	name = "Yahya" #Alger 1121-1152
-	dynasty = 575
+	dynasty_house = house_hammadid
 	religion = "ashari"
 	culture = baranis
 	father = 45024
@@ -3648,47 +3527,6 @@
 	}
 }
 
-73219 = {
-	name = "Muhammad"
-	dynasty = 101700
-	religion = "ashari"
-	culture = baranis
-	973.1.1 = {
-		birth = "973.1.1"
-	}
-	1030.1.1 = {
-		death = "1030.1.1"
-	}
-}
-
-73220 = {
-	name = "Abdun"
-	dynasty = 101700
-	religion = "ashari"
-	culture = baranis
-	father = 73219
-	999.1.1 = {
-		birth = "999.1.1"
-	}
-	1053.1.1 = {
-		death = "1053.1.1"
-	}
-}
-
-73221 = {
-	name = "Muhammad"
-	dynasty = 101700
-	religion = "ashari"
-	culture = baranis
-	father = 73219
-	1003.1.1 = {
-		birth = "1003.1.1"
-	}
-	1069.1.1 = {
-		death = "1069.1.1"
-	}
-}
-
 73222 = {
 	name = "SI_r"
 	dynasty = 12200
@@ -4039,19 +3877,6 @@
 	}
 }
 
-73310 = {
-	name = "Abdallah"
-	dynasty = 12236
-	religion = "ashari"
-	culture = baranis
-	1012.1.1 = {
-		birth = "1012.1.1"
-	}
-	1055.1.1 = {
-		death = "1055.1.1"
-	}
-}
-
 73311 = {
 	name = "Hasan"
 	dynasty = 12238
@@ -4065,22 +3890,9 @@
 	}
 }
 
-73312 = {
-	name = "Ali"
-	dynasty = 12239
-	religion = "ashari"
-	culture = baranis
-	1013.1.1 = {
-		birth = "1013.1.1"
-	}
-	1067.1.1 = {
-		death = "1067.1.1"
-	}
-}
-
 73313 = {
 	name = "Abdul-Qadir"
-	dynasty = 575
+	dynasty_house = house_hammadid
 	religion = "ashari"
 	culture = baranis
 	father = 45018
@@ -5041,14 +4853,14 @@
 73664 = {
 	name = "Betancaice"
 	dynasty = 100848
-	religion = "west_african_pagan"
-	culture = baranis
+	religion = "north_african_acham_pagan"
+	culture = guanches
 	father = 20842
 	1064.1.1 = {
-		birth = "1064.1.1"
+		birth = yes
 	}
 	1106.1.1 = {
-		death = "1106.1.1"
+		death = yes
 	}
 }
 
@@ -5109,16 +4921,19 @@
 }
 
 155089 = {
-	name = "Umar" #ibn Al-Muizz
+	name = "Abdallah" #ibn Al-Muizz
 	dynasty = 595
 	religion = "ashari"
 	culture = baranis
 	father = 20935
-	1045.1.1 = {
-		birth = "1045.1.1"
+	1038.1.1 = {
+		birth = yes
+	}
+	1040.1.1 = {
+		add_pressed_claim = title:d_sicily
 	}
 	1098.1.1 = {
-		death = "1098.1.1"
+		death = yes
 	}
 }
 
@@ -7062,79 +6877,6 @@
 	}
 }
 
-200233 = {
-	name = "Idris"
-	dynasty = 7501
-
-	father = 159496
-
-	religion = ismaili
-	culture = baranis
-
-	1020.1.1 = {
-		birth = yes
-	}
-	1053.6.1 = {
-		employer = 159498 # Idris b. Yahya Hammudid I
-		move_to_pool = yes
-	}
-	1067.1.1 = {
-		death = yes
-	}
-}
-
-200234 = {
-	name = "Muhammad"
-	dynasty = 7501
-
-	father = 159498
-
-	religion = ismaili
-	culture = baranis
-
-	1030.1.1 = {
-		birth = yes
-	}
-	1055.1.1 = {
-		death = yes
-	}
-}
-
-200235 = {
-	name = "Rahima"
-	female = yes
-	dynasty = 7501
-
-	father = 159498
-
-	religion = ismaili
-	culture = baranis
-
-	1037.1.1 = {
-		birth = yes
-	}
-	1095.1.1 = {
-		death = yes
-	}
-}
-200214 = {
-	name = "Abd-al-Karim"
-	dynasty = 1046020
-
-	religion = ashari
-	culture = baranis
-
-	730.1.1 = {
-		birth = yes
-	}
-	763.1.1 = {
-		add_spouse = 200215
-	}
-	784.1.1 = {
-		death = yes
-	}
-}
-
 200216 = {
 	name = "Yahya"
 	dynasty = 1046021
@@ -7266,12 +7008,36 @@
 210040 = {
 	name = "Mahtar" # fictitious
 	dynasty = 1048012
-	religion = "west_african_pagan"
-	culture = baranis
+	religion = "north_african_acham_pagan"
+	culture = guanches
 	740.1.1 = {
 		birth = "740.1.1"
 	}
 	802.1.1 = {
+		death = "802.1.1"
+	}
+}
+210041 = {
+	name = "Kadidu" # fictitious
+	religion = "north_african_acham_pagan"
+	dynasty = 1048013
+	culture = guanches
+	840.1.1 = {
+		birth = "740.1.1"
+	}
+	902.1.1 = {
+		death = "802.1.1"
+	}
+}
+210042 = {
+	name = "Massnsen" # fictitious
+	religion = "north_african_acham_pagan"
+	dynasty = 1048014
+	culture = guanches
+	840.1.1 = {
+		birth = "740.1.1"
+	}
+	902.1.1 = {
 		death = "802.1.1"
 	}
 }
