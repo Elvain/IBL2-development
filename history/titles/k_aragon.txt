@@ -1,4 +1,4 @@
-
+﻿
 k_aragon = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 9 }
@@ -515,6 +515,7 @@ d_barcelona = {
 		liege = k_aquitaine
 		de_jure_liege = k_aquitaine
 	}
+	}
 	820.2.1 = {
 		holder = 200141 # Rampon, Count of Barcelona
 	}
@@ -816,116 +817,116 @@ c_puigcerda = {
 }
 
 
-c_rossello = {
-	769.1.1 = {
-		holder = 200049 # Walih Suleyman al-Arabi of Barcelona
-		liege = d_barcelona
-	}
-	780.1.1 = {
-		holder = 200051 # Walih Matruh ibn Suleyman of Barcelona
-	}
-	792.1.1 = {
-		holder = 200052 # Walih Sadun ibn Ruayn of Barcelona
-	}
-	800.1.1 = {
-		holder = 200053 # Walih Harun of Barcelona
-	}
-	801.4.3 = {
-		holder = 70140 # Duke Bera of Barcelona
-	}
-	820.2.1 = {
-		holder = 200141 # Duke Rampon of Barcelona
-	}
-	825.1.1 = {
-		holder = 163063 # Duke Bernard de Septimanie of Barcelona
-	}
-	832.3.1 = {
-		holder = 167791 # Duke Berengar of Toulouse
-	}
-	835.6.1 = {
-		holder = 163063 # Duke Bernard de Septimanie of Barcelona (2nd time)
-	}
-	844.5.1 = {
-		holder = 73785 # Duke Sunifred of Barcelona
-	}
-	848.1.1 = {
-		holder = occitan0140 # Guifred, Count of Girona
-	}
-	852.1.1 = {
-		holder = 200145 # Duke Odalric of Barcelona
-	}
-	858.1.1 = {
-		holder = 200148 # Duke Hunifred of Barcelona
-	}
-	865.1.1 = {
-		holder = barcelona_00003
-		#holder = occitan0139 # Otger, Count of Girona
-		# We give the Barcelonas a little boost by promoting them from just lords of Empuries to lords of Cirona as a whole - Otger was actually in charge but doesn't seem to have really *done* anything.
-	}
-	870.1.1 = {
-		holder = 168137 # Duke Bernard de Gothia of Barcelona
-	}
-	878.9.11 = {
-		holder = 70150 # Duke Guifré I of Barcelona
-	}
-	897.8.11 = {
-		holder = 70152 # Duke Guifré II Borrell of Barcelona
-	}
-	911.1.1 = {
-		holder = 110536 # Duke Sunyer of Barcelona
-	}
-	947.1.1 = {
-		holder = occitan0113 # Duke Miró of Barcelona
-	}
-	966.10.31 = {
-		holder = 110538 # Duke Borrell II of Barcelona
-	}
-	992.9.30 = {
-		holder = 110540 # Duke Ramon Borrell of Barcelona
-	}
-	1017.9.8 = {
-		holder = 110530 # Duke Berenguer Ramon I of Barcelona
-	}
-	1035.5.26 = {
-		holder = 110520 # Duke Ramon Berenguer I of Barcelona
-	}
-	1076.5.26 = {
-		holder = 110525 # Berenguer Ramon II de Barcelona
-	}
-	1097.1.1 = {
-		holder = 210508 # Ramon Berenguer III de Barcelona
-	}
-	1131.7.19 = {
-		holder = 210506 # Ramon Berenguer IV de Barcelona
-	}
-	1162.8.6 = {
-		holder = 210500 # Alfons II de barcelona
-	}
-	1164.1.1 = {
-		liege = k_aragon
-	}
-	1195.4.25 = {
-		holder = 210501 # Pere II de Barcelona
-	}
-	1213.9.14 = {
-		holder = 460600 # Jaume I de Barcelona
-	}
-	1276.7.27 = {
-		holder = 460590 # Pere III de Barcelona
-	}
-	1285.11.11 = {
-		holder = 71739 # Alfons III de Barcelona
-	}
-	1291.6.18 = {
-		holder = 460560 # Jaume II de Barcelona
-	}
-	1327.11.5 = {
-		holder = 460510 # Alfons IV de Barcelona
-	}
-	1336.1.24 = {
-		holder = 460500 # Pere IV de Barcelona
-	}
-}
+# c_rossello = {
+	# 769.1.1 = {
+		# holder = 200049 # Walih Suleyman al-Arabi of Barcelona
+		# liege = d_barcelona
+	# }
+	# 780.1.1 = {
+		# holder = 200051 # Walih Matruh ibn Suleyman of Barcelona
+	# }
+	# 792.1.1 = {
+		# holder = 200052 # Walih Sadun ibn Ruayn of Barcelona
+	# }
+	# 800.1.1 = {
+		# holder = 200053 # Walih Harun of Barcelona
+	# }
+	# 801.4.3 = {
+		# holder = 70140 # Duke Bera of Barcelona
+	# }
+	# 820.2.1 = {
+		# holder = 200141 # Duke Rampon of Barcelona
+	# }
+	# 825.1.1 = {
+		# holder = 163063 # Duke Bernard de Septimanie of Barcelona
+	# }
+	# 832.3.1 = {
+		# holder = 167791 # Duke Berengar of Toulouse
+	# }
+	# 835.6.1 = {
+		# holder = 163063 # Duke Bernard de Septimanie of Barcelona (2nd time)
+	# }
+	# 844.5.1 = {
+		# holder = 73785 # Duke Sunifred of Barcelona
+	# }
+	# 848.1.1 = {
+		# holder = occitan0140 # Guifred, Count of Girona
+	# }
+	# 852.1.1 = {
+		# holder = 200145 # Duke Odalric of Barcelona
+	# }
+	# 858.1.1 = {
+		# holder = 200148 # Duke Hunifred of Barcelona
+	# }
+	# 865.1.1 = {
+		# holder = barcelona_00003
+		holder = occitan0139 # Otger, Count of Girona
+		We give the Barcelonas a little boost by promoting them from just lords of Empuries to lords of Cirona as a whole - Otger was actually in charge but doesn't seem to have really *done* anything.
+	# }
+	# 870.1.1 = {
+		# holder = 168137 # Duke Bernard de Gothia of Barcelona
+	# }
+	# 878.9.11 = {
+		# holder = 70150 # Duke Guifré I of Barcelona
+	# }
+	# 897.8.11 = {
+		# holder = 70152 # Duke Guifré II Borrell of Barcelona
+	# }
+	# 911.1.1 = {
+		# holder = 110536 # Duke Sunyer of Barcelona
+	# }
+	# 947.1.1 = {
+		# holder = occitan0113 # Duke Miró of Barcelona
+	# }
+	# 966.10.31 = {
+		# holder = 110538 # Duke Borrell II of Barcelona
+	# }
+	# 992.9.30 = {
+		# holder = 110540 # Duke Ramon Borrell of Barcelona
+	# }
+	# 1017.9.8 = {
+		# holder = 110530 # Duke Berenguer Ramon I of Barcelona
+	# }
+	# 1035.5.26 = {
+		# holder = 110520 # Duke Ramon Berenguer I of Barcelona
+	# }
+	# 1076.5.26 = {
+		# holder = 110525 # Berenguer Ramon II de Barcelona
+	# }
+	# 1097.1.1 = {
+		# holder = 210508 # Ramon Berenguer III de Barcelona
+	# }
+	# 1131.7.19 = {
+		# holder = 210506 # Ramon Berenguer IV de Barcelona
+	# }
+	# 1162.8.6 = {
+		# holder = 210500 # Alfons II de barcelona
+	# }
+	# 1164.1.1 = {
+		# liege = k_aragon
+	# }
+	# 1195.4.25 = {
+		# holder = 210501 # Pere II de Barcelona
+	# }
+	# 1213.9.14 = {
+		# holder = 460600 # Jaume I de Barcelona
+	# }
+	# 1276.7.27 = {
+		# holder = 460590 # Pere III de Barcelona
+	# }
+	# 1285.11.11 = {
+		# holder = 71739 # Alfons III de Barcelona
+	# }
+	# 1291.6.18 = {
+		# holder = 460560 # Jaume II de Barcelona
+	# }
+	# 1327.11.5 = {
+		# holder = 460510 # Alfons IV de Barcelona
+	# }
+	# 1336.1.24 = {
+		# holder = 460500 # Pere IV de Barcelona
+	# }
+# }
 
 
 c_girona = {
