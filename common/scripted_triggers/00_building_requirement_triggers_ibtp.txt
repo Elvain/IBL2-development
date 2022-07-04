@@ -131,11 +131,10 @@ building_quarries_requirement_terrain = {
 		terrain = desert_mountains
 		terrain = high_boreal
 		AND = {
-			terrain = hills
-<<<<<<< HEAD
-=======
-			terrain = dry_hills
->>>>>>> 48d92d58faded5c2ddbec34ae6a48b191e95048a
+			OR = { 
+				terrain = hills
+				terrain = dry_hills
+			}
 			culture = {
 				has_cultural_parameter = can_build_quarries_in_hills
 			}
