@@ -33,7 +33,7 @@
 }
 
 ###c_santiago
-1791 = {	# MELIDE -> Monterroso
+1785 = {	# SANTIAGO DE COMPOSTELA
 	# Misc
 	culture = galician
 	religion = catholic
@@ -49,7 +49,7 @@
 		}
 	}
 }
-1785 = {	# SANTIAGO DE COMPOSTELA
+1791 = {	# MELIDE -> Monterroso
 	holding = church_holding
 }
 1783 = {	# PADRON
