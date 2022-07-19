@@ -53922,7 +53922,7 @@ e_spain = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_rosello = {
+			c_rossello = {
 				color = { 180 105 100 }
 				color2 = { 255 255 255 }
 				can_be_named_after_dynasty = no
