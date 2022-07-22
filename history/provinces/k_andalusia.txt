@@ -414,6 +414,10 @@
 }
 1845 = {	# ALGECIRAS
 	holding = city_holding
+
+	1.1.1 = { #Actually 20 million years ago... ... 
+		special_building = rock_of_gibraltar_01
+	}
 }
 9798 = {	# CASTELLAR
 	holding = none
@@ -469,18 +473,24 @@
 ###c_toledo
 1919 = {	# TOLEDO
 	# Misc
-	culture = andalusian
+	culture = visigothic
 	religion = mozarabic_church
 	
 	holding = castle_holding
-	
+
 	# History
+	650.1.1 = { #Most of the construction was done under the visigothic king Wamba 
+		special_building = city_wall_of_toledo_01
+	}
+	
+	800.1.1 = { culture = andalusian }
 	867.1.1 = {
 		buildings = {
 			regimental_grounds_01
 		}
+		duchy_capital_building = blacksmiths_01
 	}
-	934.1.1 = { religion = muwalladi }
+	955.1.1 = { religion = muwalladi }
 	1066.1.1 = {
 		buildings = {
 			regimental_grounds_01

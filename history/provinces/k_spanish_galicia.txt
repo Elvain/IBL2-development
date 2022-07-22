@@ -10,6 +10,10 @@
 }
 1787 = {	# LA CORUNA
 	holding = city_holding
+
+	98.1.1 = { 
+		special_building = tower_of_hercules_01
+	}
 }
 
 ###c_mondonedo
@@ -41,6 +45,9 @@
 	holding = castle_holding
 	
 	# History
+	867.1.1 = {
+		special_building_slot = holy_site_basilica_santiago_01
+	}
 	1066.1.1 = {
 		buildings = {
 			hill_forts_01
@@ -89,6 +96,10 @@
 }
 1792 = {	# LUGO
 	holding = church_holding
+
+	276.1.1 = { 
+		special_building = roman_wall_of_lugo_01
+	}
 }
 1822 = {	# SARRIA
 	holding = city_holding

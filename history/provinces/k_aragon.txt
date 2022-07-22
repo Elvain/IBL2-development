@@ -80,6 +80,7 @@
 	religion = mozarabic_church
 	
 	holding = castle_holding
+	special_building_slot = aljaferia_palace_01
 	
 	# History
 	1066.1.1 = {
@@ -88,6 +89,7 @@
 			logging_camps_02
 			military_camps_01
 		}
+		special_building = aljaferia_palace_01
 	}
 }
 1885 = {	# SARINENA
