@@ -1,0 +1,13 @@
+on_game_start = {
+    on_actions = {
+        on_<ibn_battutas_legacy>_start
+    }
+}
+on_ibn_battutas_legacy_start = {
+    effect = {
+        set_global_variable = {
+	    name = <IBL2>_is_loaded
+	    value = yes
+	}
+    }
+}
