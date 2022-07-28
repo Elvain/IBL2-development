@@ -1,0 +1,5 @@
+﻿l_english:
+ religious_decision.0201.savanna:0 "The grassy plains of [savanna_location.GetNameNoTier]."
+
+ religious_decision.0211.desc.beginning.savanna:0 "The dry air of the [ROOT.Char.GetCurrentActivity.GetLocation.GetName] scrublands filled my lungs and scoured my skin."
+

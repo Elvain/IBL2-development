@@ -1,0 +1,19 @@
+﻿#Talkata/Sanhaja
+house_zirid = {
+	name = "dynn_Zirid"
+	dynasty = sanhaja_talkata #(Talkata)
+}
+house_hammadid = {
+	name = "dynn_Hammadid"
+	dynasty = sanhaja_talkata #(Talkata)
+}
+
+# Hawwara
+house_razinid = {
+	name = "dynn_Razinid"
+	dynasty = 1069092 #(Hawwara)
+}
+house_dhunnunid = {
+	name = "dynn_Dhunnunid" #Banu Dhu-l-Nun Dynasty
+	dynasty = 1069092 #(Hawwara)
+}

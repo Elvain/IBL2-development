@@ -28782,27 +28782,19 @@ e_russia = {	#Kievan Rus
 			color2 = { 255 255 255 }
 			
 			capital = c_nizhny_novgorod # Nizhny Novgorod
-			
+						
 			cultural_names = {
-				name_list_merya = cn_obra_osh
-				name_list_meshchera = cn_obra_osh
-				name_list_muroma = cn_obra_osh
-				name_list_mordvin = cn_obra_osh
-				name_list_mari = cn_obra_osh
+				name_list_russian = cn_nizhny_novgorod
 			}
-			
+
 			c_nizhny_novgorod = {
 				color = { 6 145 75 }
 				color2 = { 255 255 255 }
-				
+								
 				cultural_names = {
-					name_list_merya = cn_obra_osh
-					name_list_meshchera = cn_obra_osh
-					name_list_muroma = cn_obra_osh
-					name_list_mordvin = cn_obra_osh
-					name_list_mari = cn_obra_osh
+					name_list_russian = cn_nizhny_novgorod
 				}
-				
+
 				b_nizhny_novgorod = {
 					province = 584
 		
@@ -28810,11 +28802,7 @@ e_russia = {	#Kievan Rus
 					color2 = { 255 255 255 }
 					
 					cultural_names = {
-						name_list_merya = cn_obra_osh
-						name_list_meshchera = cn_obra_osh
-						name_list_muroma = cn_obra_osh
-						name_list_mordvin = cn_obra_osh
-						name_list_mari = cn_obra_osh
+						name_list_russian = cn_nizhny_novgorod
 					}
 				}
 				b_gorodets = {

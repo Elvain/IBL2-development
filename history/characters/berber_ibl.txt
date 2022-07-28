@@ -1,6 +1,6 @@
 ﻿iblbaranis0001 = {
 	name = "Maksan" #Zirid ruler of Jaén
-	dynasty = 595
+	dynasty_house = house_zirid
 	father = 45016
 	religion = ashari
 	culture = baranis
