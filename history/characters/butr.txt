@@ -2617,7 +2617,7 @@ butr0015 = {
 
 155008 = {
 	name = "al-Mu_izz" #ibn Ziri
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155121
@@ -2631,7 +2631,7 @@ butr0015 = {
 
 155009 = {
 	name = "Hammama" #ibn al-Mu'izz
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = zanata0013
@@ -2646,7 +2646,7 @@ butr0015 = {
 155010 = {
 	name = "Dunas" #ibn Hammama
 	#Abu-Attaf Dunas
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155009
@@ -2659,7 +2659,7 @@ butr0015 = {
 }
 155011 = {
 	name = "al-Futuh" #ibn Dunas
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155010
@@ -2672,7 +2672,7 @@ butr0015 = {
 }
 155012 = {
 	name = "Ajissa" #ibn Dunas
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155010
@@ -2685,7 +2685,7 @@ butr0015 = {
 }
 155013 = {
 	name = "Mu_ansir" #ibn al-Mu'izz	
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = zanata0013
@@ -2698,7 +2698,7 @@ butr0015 = {
 }
 155014 = {
 	name = "Hammad" #ibn Mu'ansir
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155013
@@ -2711,7 +2711,7 @@ butr0015 = {
 }
 155015 = {
 	name = "Mu_ansir" #ibn Hammad
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155014
@@ -2724,7 +2724,7 @@ butr0015 = {
 }
 155016 = {
 	name = "Tamim" #ibn Mu'ansir
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155015
@@ -2737,7 +2737,7 @@ butr0015 = {
 }
 155017 = {
 	name = "Bakhti"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 1236382
@@ -2750,7 +2750,7 @@ butr0015 = {
 }
 155018 = {
 	name = "al-_Abbas" #ibn Bakhti
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155017
@@ -2764,7 +2764,7 @@ butr0015 = {
 
 155019 = {
 	name = "Mali" #ibn al-'Abbas
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155018
@@ -2778,7 +2778,7 @@ butr0015 = {
 155020 = {
 	name = "Shumayl"
 	#placeholder
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155009
@@ -2793,7 +2793,7 @@ butr0015 = {
 
 1236438 = {
 	name = "Sulat" #name corrected from fictional Hafs
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = zanata0021
@@ -2806,7 +2806,7 @@ butr0015 = {
 }
 1236307 = {
 	name = "Khazar" # ibn Sulat
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = 1236438
@@ -2820,7 +2820,7 @@ butr0015 = {
 }
 1236308 = {
 	name = "Khazrun"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = 155117
@@ -2834,7 +2834,7 @@ butr0015 = {
 }
 1236309 = {
 	name = "Wanudin"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = 155118
@@ -2876,7 +2876,7 @@ butr0015 = {
 }
 1236312 = {
 	name = "Masud"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = 1236309
@@ -2893,7 +2893,7 @@ butr0015 = {
 }
 1236313 = {
 	name = "Ali"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = 155120
@@ -2907,7 +2907,7 @@ butr0015 = {
 }
 1236314 = {
 	name = "Yusuf"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = 1236313
@@ -2921,7 +2921,7 @@ butr0015 = {
 }
 1236315 = {
 	name = "Lakut"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = 1236314
@@ -2935,7 +2935,7 @@ butr0015 = {
 }
 1236379 = {
 	name = "Muhammad" #b. Khazar, Maghrawa emir by 922-ca. 955
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = 1236307
@@ -2952,7 +2952,7 @@ butr0015 = {
 }
 1236380 = {
 	name = "al-Khayr"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = 1236379
@@ -2966,7 +2966,7 @@ butr0015 = {
 }
 1236381 = {
 	name = "Muhammad"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = 1236380
@@ -2982,7 +2982,7 @@ butr0015 = {
 }
 1236382 = {
 	name = "Ya_la"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = zanata0046
@@ -3081,7 +3081,7 @@ butr0015 = {
 
 #155116 = {
 #	name = "Khazer"
-#	dynasty = 1027001
+#	dynasty_house = house_maghrawavid
 #	religion = "ashari"
 #	culture = butr #zanata
 #	845.1.1 = {
@@ -3094,7 +3094,7 @@ butr0015 = {
 
 155117 = {
 	name = "Felful" #ibn Khazer
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 1236307
@@ -3108,7 +3108,7 @@ butr0015 = {
 
 155118 = {
 	name = "Khazrun" #ibn Felful
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155117
@@ -3122,7 +3122,7 @@ butr0015 = {
 
 155119 = {
 	name = "Abd-_Allah" #ibn Khazar
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 1236307
@@ -3136,7 +3136,7 @@ butr0015 = {
 
 155120 = {
 	name = "Attia" #ibn Abdallah
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155119
@@ -3149,7 +3149,7 @@ butr0015 = {
 }
 155121 = {
 	name = "Ziri" #ibn Attia
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155120
@@ -3162,7 +3162,7 @@ butr0015 = {
 }
 155122 = {
 	name = "Said" #ibn Khazrun
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155118
@@ -3175,7 +3175,7 @@ butr0015 = {
 }
 155123 = {
 	name = "Felful" #ibn Said
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155122
@@ -3188,7 +3188,7 @@ butr0015 = {
 }
 155124 = {
 	name = "Warru" #ibn Said
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155122
@@ -3201,7 +3201,7 @@ butr0015 = {
 }
 155125 = {
 	name = "Khazrun" #ibn Said
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155122
@@ -3214,7 +3214,7 @@ butr0015 = {
 }
 155126 = {
 	name = "Khalifa" #ibn Warru
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155124
@@ -3227,7 +3227,7 @@ butr0015 = {
 }
 155127 = {
 	name = "Said" #ibn Khazrun-ibn-Said
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155125
@@ -3240,7 +3240,7 @@ butr0015 = {
 }
 155128 = {
 	name = "Khazrun" #ibn Khalifa-ibn-Warru
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155126
@@ -3253,7 +3253,7 @@ butr0015 = {
 }
 155129 = {
 	name = "Abd-_Allah" #ibn Khazrun
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155128
@@ -3266,7 +3266,7 @@ butr0015 = {
 }
 155130 = {
 	name = "al-Muntasir" #ibn Khazrun
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155125
@@ -3279,7 +3279,7 @@ butr0015 = {
 }
 155131 = {
 	name = "Khalifa" #ibn Khazrun
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155128
@@ -3293,7 +3293,7 @@ butr0015 = {
 155132 = {
 	name = "Yahya"
 	#placeholder
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155129
@@ -3306,7 +3306,7 @@ butr0015 = {
 }
 155133 = {
 	name = "Khazrun"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155132
@@ -3319,7 +3319,7 @@ butr0015 = {
 }
 155134 = {
 	name = "Muhammad" #ibn Khazrun
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155133
@@ -3333,14 +3333,15 @@ butr0015 = {
 
 210032 = {
 	name = "Abu_Qurra" #first Ifrinid leader
-	dynasty = 1048004
+	dynasty_house = house_ifrinid
 	religion = ibadi
 	culture = butr #zanata
-	720.1.1 = {
-		birth = "720.1.1"
+	father = zanata0062
+	711.1.1 = {
+		birth = yes
 	}
 	790.1.1 = {
-		death = "790.1.1"
+		death = yes
 	}
 }
 

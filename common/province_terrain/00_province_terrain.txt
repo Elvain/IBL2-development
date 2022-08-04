@@ -4327,7 +4327,7 @@
 4644=drylands
 4645=desert
 4646=dry_hills
-4647=drylands
+4647=dry_hills
 4648=desert_mountains
 4649=dry_hills
 4650=drylands
@@ -9162,7 +9162,7 @@
 9924=desert_mountains
 9925=drylands
 9926=dry_hills
-9927=drylands
+9927=desert
 9928=drylands
 9929=drylands
 9930=desert_mountains

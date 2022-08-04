@@ -54370,7 +54370,7 @@ e_spain = {
 	}
 
 	k_asturias = {
-		color = { 80 0 140 }
+		color = { 207 104 0 }
 		color2 = { 255 255 255 }
 		
 		capital = c_asturias_de_oviedo
@@ -56453,10 +56453,16 @@ e_maghreb = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_sersou = {
+			c_ashir = {
 				color = { 136 191 54 }
 				color2 = { 255 255 255 }
 				
+				b_ashir_yashir = { #Ashîr-Yashîr
+					province = 4647
+					
+					color = { 136 191 54 }
+					color2 = { 255 255 255 }
+				}
 				b_sersou = {
 					province = 4762
 					
@@ -56465,6 +56471,12 @@ e_maghreb = {
 				}
 				b_izmama = {
 					province = 9925
+					
+					color = { 136 191 54 }
+					color2 = { 255 255 255 }
+				}
+				b_ashir_banya = { #Ashîr-Banya
+					province = 4646
 					
 					color = { 136 191 54 }
 					color2 = { 255 255 255 }
@@ -56655,24 +56667,12 @@ e_maghreb = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_ashir = {
+			c_sersou = { #Bou Sa'âda
 				color = { 83 140 23}
 				color2 = { 255 255 255 }
 				
-				b_ashir_yashir = { #Ashîr-Yashîr
-					province = 4647
-					
-					color = { 83 140 23 }
-					color2 = { 255 255 255 }
-				}
 				b_bousaada = { #Bou Sa'âda
 					province = 4645
-					
-					color = { 83 140 23 }
-					color2 = { 255 255 255 }
-				}
-				b_ashir_banya = { #Ashîr-Banya
-					province = 4646
 					
 					color = { 83 140 23 }
 					color2 = { 255 255 255 }
@@ -66641,6 +66641,12 @@ e_mali = {
 					color = { 200 54 103 }
 					color2 = { 255 255 255 }
 				}
+				b_tessit = {
+					province = 9992
+
+					color = { 200 54 103 }
+					color2 = { 255 255 255 }
+				}
 			}
 		}
 		
@@ -66810,16 +66816,33 @@ e_mali = {
 					color = { 175 103 65 }
 					color2 = { 255 255 255 }
 				}
-				b_gurma-west = {
-					province = 6690
-
-					color = { 175 103 65 }
-					color2 = { 255 255 255 }
-				}
 				b_nungu = {
 					province = 6691
 
 					color = { 175 103 65 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_bulsa = {
+				color = { 185 111 71 }
+				color2 = { 255 255 255 }
+			
+				b_bulsa = {
+					province = 9981
+
+					color = { 185 111 71 }
+					color2 = { 255 255 255 }
+				}
+				b_gurma-west = {
+					province = 6690
+
+					color = { 185 111 71 }
+					color2 = { 255 255 255 }
+				}
+				b_kaya = {
+					province = 9982
+
+					color = { 185 111 71 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -66869,26 +66892,143 @@ e_mali = {
 			color = { 180 120 70 }
 			color2 = { 255 255 255 }
 			
-			capital = c_oudalan
+			capital = c_hombori
 			
+			c_upper_gurma = {
+				color = { 187 122 70 }
+				color2 = { 255 255 255 }
+			
+				b_gurma-rharous = {
+					province = 6582
+
+					color = { 187 122 70 }
+					color2 = { 255 255 255 }
+				}
+				b_tiabou = {
+					province = 9991
+
+					color = { 187 122 70 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_hombori = {
+				color = { 192 118 78 }
+				color2 = { 255 255 255 }
+			
+				b_hombori = {
+					province = 6677
+
+					color = { 192 118 78 }
+					color2 = { 255 255 255 }
+				}
+				b_zampia = {
+					province = 6674
+
+					color = { 192 118 78 }
+					color2 = { 255 255 255 }
+				}
+				b_boubanki = {
+					province = 9990
+
+					color = { 192 118 78 }
+					color2 = { 255 255 255 }
+				}
+				b_gossi = {
+					province = 9989
+
+					color = { 192 118 78 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
+		d_lurum = {
+			color = { 190 120 80 }
+			color2 = { 255 255 255 }
+			
+			capital = c_kurumba #Lurum
+			
+			c_kurumba = { #Lurum
+				color = { 182 123 73 }
+				color2 = { 255 255 255 }
+			
+				b_namisi = {
+					province = 9983
+
+					color = { 182 123 73 }
+					color2 = { 255 255 255 }
+				}
+				b_burzanga = {
+					province = 6693
+
+					color = { 182 123 73 }
+					color2 = { 255 255 255 }
+				}
+				b_mergao = {
+					province = 6695
+
+					color = { 182 123 73 }
+					color2 = { 255 255 255 }
+				}
+				b_belehede = {
+					province = 9985
+
+					color = { 182 123 73 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_zaran = {
+				color = { 188 118 79 }
+				color2 = { 255 255 255 }
+			
+				b_zaran = {
+					province = 9986
+
+					color = { 188 118 79 }
+					color2 = { 255 255 255 }
+				}
+				b_aribinda = {
+					province = 6685
+
+					color = { 188 118 79 }
+					color2 = { 255 255 255 }
+				}
+				b_soum-zaran = {
+					province = 9987
+
+					color = { 188 118 79 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_yatenga = {
+				color = { 162 112 78 }
+				color2 = { 255 255 255 }
+			
+				b_giti = {
+					province = 6694
+
+					color = { 162 112 78 }
+					color2 = { 255 255 255 }
+				}
+				b_zondoma = {
+					province = 6697
+
+					color = { 162 112 78 }
+					color2 = { 255 255 255 }
+				}
+				b_la-kibsi = {
+					province = 9978
+
+					color = { 162 112 78 }
+					color2 = { 255 255 255 }
+				}
+			}
 			c_oudalan = {
 				color = { 185 125 75 }
 				color2 = { 255 255 255 }
 			
 				b_kissi = {
 					province = 6680
-
-					color = { 185 125 75 }
-					color2 = { 255 255 255 }
-				}
-				b_dinde = { #anachronistic
-					province = 6678
-
-					color = { 185 125 75 }
-					color2 = { 255 255 255 }
-				}
-				b_oursi = {
-					province = 6679
 
 					color = { 185 125 75 }
 					color2 = { 255 255 255 }
@@ -66906,49 +67046,26 @@ e_mali = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_kurumba = {
-				color = { 182 123 73 }
+			c_oursi = {
+				color = { 180 115 70 }
 				color2 = { 255 255 255 }
 			
-				b_aribinda = {
-					province = 6685
+				b_oursi = {
+					province = 6679
 
-					color = { 182 123 73 }
+					color = { 180 115 70 }
 					color2 = { 255 255 255 }
 				}
-				b_burzanga = {
-					province = 6693
+				b_dinde = { #anachronistic
+					province = 6678
 
-					color = { 182 123 73 }
+					color = { 180 115 70 }
 					color2 = { 255 255 255 }
 				}
-				b_mergao = {
-					province = 6695
+				b_deou = {
+					province = 9988
 
-					color = { 182 123 73 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_upper_gurma = {
-				color = { 187 122 70 }
-				color2 = { 255 255 255 }
-			
-				b_gurma-rharous = {
-					province = 6582
-
-					color = { 187 122 70 }
-					color2 = { 255 255 255 }
-				}
-				b_zampia = {
-					province = 6674
-
-					color = { 187 122 70 }
-					color2 = { 255 255 255 }
-				}
-				b_hombori = {
-					province = 6677
-
-					color = { 187 122 70 }
+					color = { 180 115 70 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -66958,46 +67075,34 @@ e_mali = {
 			color = { 160 110 75 }
 			color2 = { 255 255 255 }
 			
-			capital = c_yatenga
+			capital = c_gursi
 			
-			c_yatenga = {
-				color = { 162 112 78 }
+			c_gursi = {
+				color = { 159 118 74 }
 				color2 = { 255 255 255 }
 			
-				b_giti = {
-					province = 6694
+				b_gursi = {
+					province = 6698
 
-					color = { 162 112 78 }
+					color = { 159 118 74 }
 					color2 = { 255 255 255 }
 				}
 				b_walguyo = {
 					province = 6696
 
-					color = { 162 112 78 }
-					color2 = { 255 255 255 }
-				}
-				b_zondoma = {
-					province = 6697
-
-					color = { 162 112 78 }
-					color2 = { 255 255 255 }
-				}
-				b_gursi = {
-					province = 6698
-
-					color = { 162 112 78 }
+					color = { 159 118 74 }
 					color2 = { 255 255 255 }
 				}
 				b_rim = {
 					province = 6702
 
-					color = { 162 112 78 }
+					color = { 159 118 74 }
 					color2 = { 255 255 255 }
 				}
 				b_sanga = {
 					province = 6703
 
-					color = { 162 112 78 }
+					color = { 159 118 74 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -67013,6 +67118,12 @@ e_mali = {
 				}
 				b_samyere = {
 					province = 6676
+
+					color = { 165 115 80 }
+					color2 = { 255 255 255 }
+				}
+				b_yoro = {
+					province = 9984
 
 					color = { 165 115 80 }
 					color2 = { 255 255 255 }
@@ -67095,14 +67206,14 @@ e_mali = {
 					color = { 171 117 2 }
 					color2 = { 255 255 255 }
 				}
-				b_banakolo = {
-					province = 9736
+				b_bou_khzama = {
+					province = 6624
 
 					color = { 171 117 2 }
 					color2 = { 255 255 255 }
 				}
-				b_bou_khzama = {
-					province = 6624
+				b_wossebugu = {
+					province = 9965
 
 					color = { 171 117 2 }
 					color2 = { 255 255 255 }
@@ -67126,6 +67237,18 @@ e_mali = {
 				}
 				b_bakunu = {
 					province = 6757
+
+					color = { 176 123 8 }
+					color2 = { 255 255 255 }
+				}
+				b_west_mema = { #Sokolo
+					province = 6622
+
+					color = { 176 123 8 }
+					color2 = { 255 255 255 }
+				}
+				b_fadugu = {
+					province = 9966
 
 					color = { 176 123 8 }
 					color2 = { 255 255 255 }
@@ -67242,12 +67365,6 @@ e_mali = {
 					color = { 204 151 41 }
 					color2 = { 255 255 255 }
 				}
-				b_west_mema = { #Sokolo
-					province = 6622
-
-					color = { 204 151 41 }
-					color2 = { 255 255 255 }
-				}
 			}
 			c_kouga = {
 				color = { 186 141 47 }
@@ -67294,14 +67411,14 @@ e_mali = {
 					color = { 191 148 57 }
 					color2 = { 255 255 255 }
 				}
-				b_shoma = {
-					province = 6621
+				b_massina = {
+					province = 9751
 
 					color = { 191 148 57 }
 					color2 = { 255 255 255 }
 				}
-				b_massina = {
-					province = 9751
+				b_bara = {
+					province = 9967
 
 					color = { 191 148 57 }
 					color2 = { 255 255 255 }
@@ -67556,6 +67673,12 @@ e_mali = {
 				}
 				b_lanba = {
 					province = 6642
+
+					color = { 191 90 4 }
+					color2 = { 255 255 255 }
+				}
+				b_banakolo = {
+					province = 9736
 
 					color = { 191 90 4 }
 					color2 = { 255 255 255 }
@@ -68434,73 +68557,32 @@ e_mali = {
 					color2 = { 255 255 255 }
 				}
 			}
-			c_dodugu = {
-				color = { 48 143 228 }
-				color2 = { 255 255 255 }
-			
-				b_niamina = {
-					province = 6634
-
-					color = { 48 143 228 }
-					color2 = { 255 255 255 }
-				}
-				b_segou = {
-					province = 6645
-
-					color = { 48 143 228 }
-					color2 = { 255 255 255 }
-				}
-				b_kri = {
-					province = 6632
-
-					color = { 48 143 228 }
-					color2 = { 255 255 255 }
-				}
-				b_tamani = {
-					province = 6643
-
-					color = { 48 143 228 }
-					color2 = { 255 255 255 }
-				}
-				b_sanado = {
-					province = 6644
-
-					color = { 48 143 228 }
-					color2 = { 255 255 255 }
-				}
-				b_upper_do = {
-					province = 9753
-
-					color = { 48 143 228 }
-					color2 = { 255 255 255 }
-				}
-			}
-			c_bindugu = {
-				color = { 50 146 228 }
+			c_kala = {
+				color = { 53 149 225 }
 				color2 = { 255 255 255 }
 			
 				b_soum = {
 					province = 6646
 
-					color = { 50 146 228 }
+					color = { 53 149 225 }
 					color2 = { 255 255 255 }
 				}
 				b_tiebala = {
 					province = 9758
 
-					color = { 50 146 228 }
+					color = { 53 149 225 }
 					color2 = { 255 255 255 }
 				}
-				b_taba = {
-					province = 6648
+				b_segou = {
+					province = 6645
 
-					color = { 50 146 228 }
+					color = { 53 149 225 }
 					color2 = { 255 255 255 }
 				}
-				b_san = {
-					province = 6649
+				b_shoma = {
+					province = 6621
 
-					color = { 50 146 228 }
+					color = { 53 149 225 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -68530,6 +68612,95 @@ e_mali = {
 					province = 6672
 
 					color = { 45 149 230 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
+		d_bindugu
+			color = { 70 150 220 }
+			color2 = { 255 255 255 }
+			
+			capital = c_bindugu
+			
+			c_bindugu = {
+				color = { 65 146 218 }
+				color2 = { 255 255 255 }
+			
+				b_taba = {
+					province = 6648
+
+					color = { 65 146 218 }
+					color2 = { 255 255 255 }
+				}
+				b_san = {
+					province = 6649
+
+					color = { 65 146 218 }
+					color2 = { 255 255 255 }
+				}
+				b_sama = {
+					province = 9970
+
+					color = { 65 146 218 }
+					color2 = { 255 255 255 }
+				}
+				b_kighni = {
+					province = 9971
+
+					color = { 65 146 218 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_dodugu = {
+				color = { 60 153 232 }
+				color2 = { 255 255 255 }
+			
+				b_niamina = {
+					province = 6634
+
+					color = { 60 153 232 }
+					color2 = { 255 255 255 }
+				}
+				b_kri = {
+					province = 6632
+
+					color = { 60 153 232 }
+					color2 = { 255 255 255 }
+				}
+				b_tamani = {
+					province = 6643
+
+					color = { 60 153 232 }
+					color2 = { 255 255 255 }
+				}
+				b_upper_do = {
+					province = 9753
+
+					color = { 60 153 232 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_minyanka = {
+				color = { 68 150 230 }
+				color2 = { 255 255 255 }
+
+				b_minyanka = {
+					province = 9969
+
+					color = { 68 150 230 }
+					color2 = { 255 255 255 }
+				}
+				b_falo = {
+					province = 9968
+
+					color = { 68 150 230 }
+					color2 = { 255 255 255 }
+				}
+				b_sanado = {
+					province = 6644
+
+					color = { 68 150 230 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -68603,14 +68774,8 @@ e_mali = {
 					color = { 68 148 223 }
 					color2 = { 255 255 255 }
 				}
-				b_dokwi = {
-					province = 9756
-
-					color = { 68 148 223 }
-					color2 = { 255 255 255 }
-				}
-				b_lafira = {
-					province = 8934
+				b_dande = {
+					province = 9972
 
 					color = { 68 148 223 }
 					color2 = { 255 255 255 }
@@ -69693,12 +69858,6 @@ e_guinea = {
 					color = { 206 76 56 }
 					color2 = { 255 255 255 }
 				}
-				b_kirikongo = {
-					province = 6953
-
-					color = { 206 76 56 }
-					color2 = { 255 255 255 }
-				}
 			}
 			c_loropeni = {
 				color = { 198 38 0 }
@@ -69739,6 +69898,12 @@ e_guinea = {
 					color = { 204 74 54 }
 					color2 = { 255 255 255 }
 				}
+				b_bama-lobi = {
+					province = 9973
+
+					color = { 204 74 54 }
+					color2 = { 255 255 255 }
+				}
 			}
 			c_wa = {
 				color = { 198 58 10 }
@@ -69766,6 +69931,66 @@ e_guinea = {
 					province = 8126
 
 					color = { 208 78 58 }
+					color2 = { 255 255 255 }
+				}
+			}
+		}
+		
+		d_kirikongo = {
+			color = { 190 70 10 }
+			color2 = { 255 255 255 }
+			
+			capital = c_kirikongo
+			
+			c_kirikongo = {
+				color = { 193 73 7 }
+				color2 = { 255 255 255 }
+			
+				b_kirikongo = {
+					province = 6953
+
+					color = { 193 73 7 }
+					color2 = { 255 255 255 }
+				}
+				b_lafira = {
+					province = 8934
+
+					color = { 193 73 7 }
+					color2 = { 255 255 255 }
+				}
+				b_tenado = {
+					province = 9976
+
+					color = { 193 73 7 }
+					color2 = { 255 255 255 }
+				}
+				b_toma-kibsi = {
+					province = 9977
+
+					color = { 193 73 7 }
+					color2 = { 255 255 255 }
+				}
+			}
+			c_dokwi = {
+				color = { 198 70 14 }
+				color2 = { 255 255 255 }
+			
+				b_dokwi = {
+					province = 9756
+
+					color = { 198 70 14 }
+					color2 = { 255 255 255 }
+				}
+				b_wakara = {
+					province = 9974
+
+					color = { 198 70 14 }
+					color2 = { 255 255 255 }
+				}
+				b_barani = {
+					province = 9975
+
+					color = { 198 70 14 }
 					color2 = { 255 255 255 }
 				}
 			}
@@ -70353,6 +70578,18 @@ e_guinea = {
 				}
 				b_kayao = {
 					province = 6997
+
+					color = { 160 125 72 }
+					color2 = { 255 255 255 }
+				}
+				b_dulugu = {
+					province = 9979
+
+					color = { 160 125 72 }
+					color2 = { 255 255 255 }
+				}
+				b_zorgo = {
+					province = 9980
 
 					color = { 160 125 72 }
 					color2 = { 255 255 255 }

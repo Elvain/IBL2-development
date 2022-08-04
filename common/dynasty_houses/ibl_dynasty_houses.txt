@@ -8,6 +8,16 @@ house_hammadid = {
 	dynasty = sanhaja_talkata #(Talkata)
 }
 
+# Zanata
+house_ifrinid = {
+	name = "dynn_Ifrinid"
+	dynasty = butr_zanata #(Zanata)
+}
+house_maghrawavid = {
+	name = "dynn_Maghrawavid"
+	dynasty = butr_zanata #(Zanata)
+}
+
 # Hawwara
 house_razinid = {
 	name = "dynn_Razinid"
