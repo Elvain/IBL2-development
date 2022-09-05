@@ -6880,6 +6880,7 @@ baranis0026 = {
 	dynasty = 1027008
 	religion = "ashari"
 	culture = baranis
+	father = kutama023
 	843.1.1 = {
 		birth = yes
 	}

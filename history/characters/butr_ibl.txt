@@ -959,42 +959,39 @@ zanata0021 = {
 	768.1.1 = {
 		birth = yes
 	}
-	
 	830.1.1 = {
 		death = yes
 	}
 }
 zanata0022 = {
 	name = "Khazar"
-	dynasty_house = house_maghrawavid
+	dynasty_house = house_wanzamar
 	religion = ashari
 	culture = butr #zanata
 	father = zanata0023
 	750.1.1 = {
 		birth = yes
 	}
-	
 	786.1.1 = {
 		death = yes
 	}
 }
 zanata0023 = {
 	name = "Hafs"
-	dynasty_house = house_maghrawavid
+	dynasty_house = house_wanzamar
 	religion = ashari
 	culture = butr #zanata
 	father = zanata0024
 	730.1.1 = {
 		birth = yes
 	}
-	
 	777.1.1 = {
 		death = yes
 	}
 }
 zanata0024 = {
 	name = "Sulat"
-	dynasty_house = house_maghrawavid
+	dynasty_house = house_wanzamar
 	religion = ashari
 	culture = butr #zanata
 	father = zanata0025
@@ -1008,7 +1005,7 @@ zanata0024 = {
 }
 zanata0025 = {
 	name = "Wanzamar"
-	dynasty_house = house_maghrawavid
+	dynasty_house = house_wanzamar
 	religion = ashari
 	culture = butr #zanata
 	father = zanata0026
@@ -3078,6 +3075,112 @@ zanata0062 = {
 		birth = yes
 	}
 	820.1.1 = {
+		death = yes
+	}
+}
+
+#semi-fictional Banu Wanzmar
+zanata0065 = {
+	name = "Ha_mid"
+	dynasty_house = house_wanzamar
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0025
+	710.1.1 = {
+		birth = yes
+	}
+	769.1.1 = {
+		death = yes
+	}
+}
+zanata0066 = {
+	name = "Warru"
+	dynasty_house = house_wanzamar
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0065
+	742.1.1 = {
+		birth = yes
+	}
+	810.1.1 = {
+		death = yes
+	}
+}
+zanata0067 = {
+	name = "Fulful"
+	dynasty_house = house_wanzamar
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0066
+	778.1.1 = {
+		birth = yes
+	}
+	829.1.1 = {
+		death = yes
+	}
+}
+zanata0068 = {
+	name = "Ha_mid"
+	dynasty_house = house_wanzamar
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0067
+	810.1.1 = {
+		birth = yes
+	}
+	863.1.1 = {
+		death = yes
+	}
+}
+zanata0069 = {
+	name = "Dunas"
+	dynasty_house = house_wanzamar
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0068
+	841.1.1 = {
+		birth = yes
+	}
+	897.1.1 = {
+		death = yes
+	}
+}
+zanata0070 = {
+	name = "Fulful"
+	dynasty_house = house_wanzamar
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0069
+	864.1.1 = {
+		birth = yes
+	}
+	915.1.1 = {
+		death = yes
+	}
+}
+zanata0071 = {
+	name = "Ha_mid"
+	dynasty_house = house_wanzamar
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0070
+	900.1.1 = {
+		birth = yes
+	}
+	954.1.1 = {
+		death = yes
+	}
+}
+zanata0072 = {
+	name = "Hafs"
+	dynasty_house = house_wanzamar
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0071
+	927.1.1 = {
+		birth = yes
+	}
+	981.1.1 = {
 		death = yes
 	}
 }

@@ -1,3 +1,64 @@
+##d_upper_gurma AKA Hombori ###################################
+###c_upper_gurma
+6582 = {	# GURMA-RHAROUS
+	culture = sorko
+	religion = west_african_bidu_pagan
+	holding = tribal_holding
+	
+	# History
+	1150.1.1 = {
+		culture = songhai
+		religion = ashari
+	}
+
+}
+
+9991 = {	#TIABOU
+	holding = none
+}
+
+###c_hombori
+6677 = {	# HOMBORI
+	culture = marka
+	religion = west_african_pagan
+	holding = tribal_holding
+
+}
+
+6674 = {	#ZAMPIA -> KAYKAY
+	holding = none
+}
+
+9990 = {	#BOUBANKI
+	holding = none
+}
+
+9989 = {	#GOSSI
+	holding = none
+}
+
+### c_kurmina
+6673 = {	#KORIENZA
+	culture = bozo
+	religion = west_african_bidu_pagan
+	holding = tribal_holding
+	1226.1.1 = { religion = ashari }
+}
+
+6670 = {	#BANGU
+	holding = none
+}
+
+6671 = {	#SAFARE
+	holding = none
+}
+
+6672 = {	#NGUMA
+	holding = none
+}
+
+##############################
+
 # 6568 - DOSSO
 6568 = {	# 6568 - DOSSO
 	
@@ -332,3 +393,24 @@
 8991 = {	#ERANGA
 	holding = none
 }
+
+###c_bura
+6684 = {	# BURA
+	culture = sorko
+	religion = west_african_bidu_pagan
+	#religion = west_african_bida_pagan
+	holding = tribal_holding
+	
+	# History
+	1150.1.1 = { culture = songhai }
+
+}
+
+6683 = {	# GABOU_BURA
+	holding = none
+}
+
+6683 = {	# GABOU_BURA
+	holding = none
+}
+

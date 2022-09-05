@@ -1,0 +1,308 @@
+#k_gurma
+##d_lower_gurma ###################################
+###c_gurma
+6689 = {	#BILANGA
+	culture = gur
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	1340.1.1 = { culture = mossi }
+
+}
+6686 = {	#SIRBA
+	holding = none
+}
+6687 = {	#TONDIKWAREY
+	holding = none
+}
+6691 = {	#NUNGU
+	holding = none
+}
+
+
+###c_bulsa
+9981 = {	# BULSA
+	culture = gur
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	1340.1.1 = { culture = mossi }
+	
+}
+
+6690 = {	# GURMA-WEST -> BOGANDE
+	holding = none
+}
+
+9982 = {	# KAYA
+	holding = none
+}
+
+###c_say
+6688 = {	# SAY
+	culture = sorko
+	religion = west_african_bidu_pagan
+	holding = tribal_holding
+	
+	# History
+	1250.1.1 = { culture = mossi }
+	
+}
+6713 = {	# BURUNFONGO
+	holding = none
+}
+9993 = {	# YAGHA
+	holding = none
+}
+
+###c_biun
+6721 = {	# BIUN
+	culture = gur
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	1280.1.1 = { culture = mossi }
+
+}
+
+6719 = {	# GOBNANGOU
+	holding = none
+}
+
+6720 = {	# PENTENGA
+	holding = none
+}
+
+##d_lurum ###################################
+###c_kurumba
+9983 = {	#NAMISI
+	culture = gur
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	1340.1.1 = { culture = mossi }
+
+}
+
+6693 = {	# BURZANGA
+	holding = none
+}
+
+6695 = {	# MERGAO
+	holding = none
+}
+
+9985 = {	# BELEHEDE
+	holding = none
+}
+
+###c_zaran
+9986 = {	#ZARAN
+	culture = gur
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	1340.1.1 = { culture = mossi }
+
+}
+
+6685 = {	# ARIBINDA
+	holding = none
+}
+
+9987 = {	# SOUM-ZARAN
+	holding = none
+}
+
+###c_yatenga
+6694 = {	# GITI
+	culture = gur
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	1340.1.1 = { culture = mossi }
+
+}
+
+6697 = {	# ZONDOMA
+	holding = none
+}
+
+9978 = {	# LA-KIBSI
+	holding = none
+}
+
+###c_oudalan
+6680 = {	# KISSI
+	culture = sorko
+	religion = west_african_bidu_pagan
+	holding = tribal_holding
+	
+	# History
+	1150.1.1 = { culture = songhai }
+
+}
+
+6681 = {	# SAOUGA
+	holding = none
+}
+
+6682 = {	# DORI
+	holding = none
+}
+
+###c_oursi
+6679 = {	# OURSI
+	culture = gur
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	
+}
+
+6678 = {	# DINDE
+	holding = none
+}
+
+9988 = {	# DEOU
+	holding = none
+}
+
+##d_wagadugu ###################################
+###c_wagadugu
+6700 = {	#WAGADUGU
+	culture = gur
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	1340.1.1 = { culture = mossi }
+}
+
+6699 = {	# GUILONGU
+	holding = none
+}
+
+9979 = {	# DULUGU
+	holding = none
+}
+
+9980 = {	# ZORGO
+	holding = none
+}
+
+###c_kayao
+6997 = {	#KAYAO
+	culture = gur
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	1340.1.1 = { culture = mossi }
+}
+
+6949 = {	# GURUNSI
+	holding = none
+}
+
+###c_po
+6948 = {	#PO
+	culture = gur
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	1340.1.1 = { culture = mossi }
+}
+
+6947 = {	# NAKANBE
+	holding = none
+}
+
+9994 = {	# NAZINON
+	holding = none
+}
+
+###c_tenkudugo
+6692 = {	#TENKUDUGO
+	culture = gur
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	1340.1.1 = { culture = mossi }
+}
+
+6935 = {	# BAWKU
+	holding = none
+}
+
+8935 = {	# BISA
+	holding = none
+}
+
+##d_mamprusi ###################################
+###c_mamprusi
+6934 = {	#PUSUGA
+	culture = gur
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	1340.1.1 = { culture = mossi }
+}
+
+6933 = {	# SANSANE_MANGO
+	holding = none
+}
+
+6940 = {	# JIMBALE
+	holding = none
+}
+
+6941 = {	# SAKOGU
+	holding = none
+}
+
+###c_kuisugu
+6937 = {	#KUISUGU
+	culture = gur
+	religion = west_african_orisha_pagan
+	holding = tribal_holding
+	
+}
+
+6936 = {	# DIKUTATENI
+	holding = none
+}
+
+6938 = {	# PERMA
+	holding = none
+}
+
+###c_pendjari
+6930 = {	#MEKROU
+	culture = gur
+	religion = west_african_orisha_pagan
+	holding = tribal_holding
+	
+}
+
+6929 = {	# ALIBORI
+	holding = none
+}
+
+6931 = {	# KOUANDE
+	holding = none
+}
+
+6932 = {	# YOHONGOU
+	holding = none
+}

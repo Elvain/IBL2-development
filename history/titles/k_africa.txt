@@ -682,6 +682,128 @@ c_tunis = {
 }
 
 
+
+c_fahs = {
+	768.1.1 = {	
+		holder = 210014
+		liege = "k_africa"
+	}
+	864.1.1 = {
+		government = clan_government
+		holder = 163096
+	}
+	920.1.1 = {
+		holder = 20931
+	}
+	973.1.1 = {
+		holder = 20932
+	}
+	984.1.1 = {
+		holder = 20933
+	}
+	995.1.1 = {
+		holder = 20934
+	}
+	1015.1.1 = {
+		holder = 20935
+	}
+	1062.1.1 = {
+		holder = 155048
+	}
+	1095.1.1 = {
+		holder = 155049
+	}
+	1105.9.17 = {
+		holder = 155050
+	}
+	1107.3.8 = {
+		liege = 0
+	}
+	1107.3.8 = {
+		holder = 155051
+	}
+	1117.1.1 = {
+		liege = "k_africa"
+	}
+	1128.1.1 = {
+		liege = "d_alger"
+	}
+	1128.1.1 = {
+		holder = 32956
+	}
+	1148.1.1 = {
+		liege = 0
+	}
+	1148.1.1 = {
+		holder = 155052
+	}
+	1148.8.1 = {
+		holder = 155054
+	}
+	1159.2.1 = {
+		holder = 155055
+	}
+	1159.7.1 = {
+		liege = "d_tunis"
+	}
+	1159.7.1 = {
+		holder = 33012
+	}
+	1176.1.1 = {
+		holder = 33013
+	}
+	1198.1.1 = {
+		liege = "k_maghreb"
+	}
+	1203.12.15 = {
+		liege = "d_tunis"
+	}
+	1203.12.15 = {
+		holder = 32977
+	}
+	1207.1.1 = {
+		holder = 33014
+	}
+	1224.1.1 = {
+		holder = 33020
+	}
+	1229.1.1 = {
+		holder = 33021
+	}
+	1251.1.1 = {
+		holder = 33024
+	}
+	1276.1.1 = {
+		holder = 33026
+	}
+	1279.1.1 = {
+		holder = 33025
+	}
+	1284.1.1 = {
+		holder = 33017
+	}
+	1295.1.1 = {
+		holder = 33027
+	}
+	1309.1.1 = {
+		holder = 33028
+	}
+	1310.1.1 = {
+		holder = 33031
+	}
+	1311.1.1 = {
+		holder = 33042
+	}
+	1317.1.1 = {
+		holder = 33043
+	}
+	1318.1.1 = {
+		holder = 33032
+	}
+	
+
+}
+
 c_satfura = {
 	768.1.1 = {	
 		liege = "k_africa"
@@ -770,28 +892,43 @@ c_satfura = {
 	1318.1.1 = {
 		holder = 33032
 	}
-	
-	
 
 }
 
 
 c_medjerda = {
-	768.1.1 = {	
+	854.1.1 = {	
 		government = clan_government
 		liege = k_africa
-		holder = 210014
+		holder = hawwara006
 	}
-	864.1.1 = {	
-		liege = d_tunis
-		holder = 6887
+	888.1.1 = {	
+		holder = hawwara007
+	}
+	916.1.1 = {	
+		holder = hawwara008
+	}
+	933.1.1 = {	
+		holder = hawwara009
+	}
+	975.1.1 = {	
+		holder = hawwara010
+	}
+	1000.1.1 = {	
+		holder = hawwara011
+	}
+	1019.1.1 = {	
+		holder = hawwara012
+	}
+	1056.1.1 = {	
+		liege = "d_tunis"
+		holder = hawwara013
+	}
+	1063.1.1 = {	
+		holder = hawwara014
 	}
 
-	1062.1.1 = {
-		liege = "d_tunis"
-		holder = 155142
-	}
-	1090.1.1 = {
+	1108.1.1 = {
 		holder = 155030
 	}
 	1120.1.1 = {
@@ -860,6 +997,107 @@ c_medjerda = {
 
 }
 
+
+c_tabarqa = {
+	854.1.1 = {	
+		government = clan_government
+		liege = k_africa
+		holder = hawwara006
+	}
+	888.1.1 = {	
+		holder = hawwara007
+	}
+	916.1.1 = {	
+		holder = hawwara008
+	}
+	933.1.1 = {	
+		holder = hawwara009
+	}
+	975.1.1 = {	
+		holder = hawwara010
+	}
+	1000.1.1 = {	
+		holder = hawwara011
+	}
+	1019.1.1 = {	
+		holder = hawwara012
+	}
+	1056.1.1 = {	
+		liege = "d_tunis"
+		holder = hawwara013
+	}
+	1063.1.1 = {	
+		holder = hawwara014
+	}
+
+	1108.1.1 = {
+		holder = 155030
+	}
+	1120.1.1 = {
+		holder = 155031
+	}
+	1159.7.1 = {
+		holder = 33012
+	}
+	1176.1.1 = {
+		holder = 33013
+	}
+	1186.1.1 = {
+		liege = "d_tripolitania"
+	}
+	1186.1.1 = {
+		holder = 32977
+	}
+	1187.10.15 = {
+		liege = "d_tunis"
+	}
+	1187.10.15 = {
+		holder = 33013
+	}
+	1198.1.1 = {
+		holder = 32977
+	}
+	1207.1.1 = {
+		holder = 33014
+	}
+	1224.1.1 = {
+		holder = 33020
+	}
+	1229.1.1 = {
+		holder = 33021
+	}
+	1251.1.1 = {
+		holder = 33024
+	}
+	1276.1.1 = {
+		holder = 33026
+	}
+	1279.1.1 = {
+		holder = 33025
+	}
+	1284.1.1 = {
+		holder = 33017
+	}
+	1295.1.1 = {
+		holder = 33027
+	}
+	1309.1.1 = {
+		holder = 33028
+	}
+	1310.1.1 = {
+		holder = 33031
+	}
+	1311.1.1 = {
+		holder = 33042
+	}
+	1317.1.1 = {
+		holder = 33043
+	}
+	1318.1.1 = {
+		holder = 33032
+	}
+
+}
 
 c_mahdiya = {
 	867.1.1 = {	change_development_level = 10 }
@@ -1179,12 +1417,18 @@ d_kroumerie = {
 }
 
 c_constantine = {
-	767.1.1 = {	
+	803.1.1 = {	
 		liege = k_africa
-		holder = 210035
-	}
-	864.1.1 = {	
 		government = clan_government
+		holder = kutama006
+	}
+	815.1.1 = {	
+		holder = kutama008
+	}
+	846.1.1 = {	
+		holder = kutama023
+	}
+	869.1.1 = {	
 		holder = baranis0026
 	}
 	897.1.1 = {	
@@ -1266,22 +1510,26 @@ c_constantine = {
 
 
 c_satif = {
-	767.1.1 = {
+	830.1.1 = {	
 		government = clan_government
-		liege = "d_alger"
-		holder = 210035
+		liege = k_africa
+		holder = kutama033
 	}
-	823.1.1 = {
-		liege = "d_alger"
+	879.1.1 = {	
+		holder = kutama034
 	}
-	823.1.1 = {
-		holder = 163097
+	912.1.1 = {	
+		holder = kutama035
 	}
-	866.1.1 = {
-		holder = 163149
+	938.1.1 = {
+		holder = kutama036
 	}
+	962.1.1 = {
+		holder = kutama037
+	}
+
 	1062.1.1 = {
-		liege = "d_bejaia"
+		liege = d_bejaia
 		holder = 20834
 	}
 	1088.1.1 = {
@@ -1370,14 +1618,149 @@ c_satif = {
 	}
 }
 
-c_bilizma = {
-	767.1.1 = {	
-		government = clan_government
-		liege = "d_alger"
-		holder = 210035
+c_ikjan = {
+	840.1.1 = {	
+		liege = k_africa
+		holder = kutama010
 	}
-	823.1.1 = {
+	864.1.1 = {	
+		government = clan_government
+		holder = kutama024
+	}
+	893.1.1 = {	
+		holder = kutama025
+	}
+	919.1.1 = {	
+		holder = kutama026
+	}
+	946.1.1 = {	
+		holder = kutama027
+	}
+	968.1.1 = {	
+		holder = kutama028
+	}
+	996.1.1 = {	
+		holder = kutama029
+	}
+	1018.1.1 = {	
+		holder = kutama030
+	}
+	1045.1.1 = {	
+		holder = kutama031
+	}
+	1071.1.1 = {	
+		holder = kutama032
+	}
+}
+
+c_bilizma = {
+	850.1.1 = {	
+		government = clan_government
+		liege = k_africa
+		holder = kutama038
+	}
+	881.1.1 = {
+		holder = kutama039
+	}
+	912.1.1 = {
+		holder = kutama040
+	}
+	933.1.1 = {
+		holder = kutama041
+	}
+	1066.1.1 = {
+		government = tribal_government
+		liege = d_zab
+		holder = 155173	#Hassan b. Serhan Athbejid
+	}
+	1080.1.1 = {
+		holder = 155175	#Masud Athbejid
+	}
+	1110.1.1 = {
+		holder = 155176
+	}
+	1125.1.1 = {
+		holder = 155177
+	}
+
+#Old history
+	1152.1.1 = {
 		liege = "d_alger"
+		holder = 155087
+	}
+	1185.1.1 = {
+		liege = "d_mallorca"
+	}
+	1185.1.1 = {
+		holder = 32977
+	}
+	1185.7.1 = {
+		liege = "d_alger"
+	}
+	1185.7.1 = {
+		holder = 155087
+	}
+	1190.1.1 = {
+		holder = 32985
+	}
+	1200.1.1 = {
+		liege = "d_tunis"
+	}
+	1200.1.1 = {
+		holder = 32977
+	}
+	1207.1.1 = {
+		liege = "d_alger"
+	}
+	1207.1.1 = {
+		holder = 32985
+	}
+	1223.1.1 = {
+		holder = 32977
+	}
+	1227.1.1 = {
+		holder = 32985
+	}
+	1229.1.1 = {
+		holder = 33021
+	}
+	1251.1.1 = {
+		holder = 33024
+	}
+	1276.1.1 = {
+		holder = 33026
+	}
+	1279.1.1 = {
+		holder = 33025
+	}
+	1284.1.1 = {
+		holder = 33017
+	}
+	1295.1.1 = {
+		holder = 33027
+	}
+	1309.1.1 = {
+		holder = 33028
+	}
+	1310.1.1 = {
+		holder = 33031
+	}
+	1311.1.1 = {
+		holder = 33042
+	}
+	1317.1.1 = {
+		holder = 33043
+	}
+	1318.1.1 = {
+		holder = 33032
+	}
+	
+}
+
+c_baghaya = {
+	823.1.1 = {
+		government = clan_government
+		liege = k_africa
 		holder = mazata001
 	}
 	861.1.1 = {
@@ -1472,14 +1855,19 @@ c_bilizma = {
 	
 }
 
-
 c_kroumerie = {
 	767.1.1 = {	
 		liege = k_africa
 		holder = 210035
 	}
-	864.1.1 = {	
+	815.1.1 = {	
 		government = clan_government
+		holder = kutama008
+	}
+	846.1.1 = {	
+		holder = kutama023
+	}
+	869.1.1 = {	
 		holder = baranis0026
 	}
 	897.1.1 = {	

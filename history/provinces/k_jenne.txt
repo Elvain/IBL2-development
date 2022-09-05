@@ -29,6 +29,46 @@
 	holding = church_holding
 	}
 
+### c_kala
+6646 = {	#SOUM
+	culture = bozo
+	religion = west_african_bidu_pagan
+	holding = tribal_holding
+	1256.1.1 = { religion = ashari }
+}
+
+9758 = {	#TIEBALA
+	holding = none
+}
+6645 = {	#SEGOU
+	holding = city_holding
+}
+6621 = {	#SHOMA
+	holding = church_holding #to have some holdings
+
+}
+
+##d_bindugu ###################################
+### c_bindugu
+6648 = {	#TABA
+	culture = bozo
+	religion = west_african_bidu_pagan
+	holding = tribal_holding
+	1256.1.1 = { religion = ashari }
+}
+
+6649 = {	#SAN
+	holding = none
+}
+
+9970 = {	#SAMA
+	holding = none
+}
+
+9971 = {	#KIGHNI
+	holding = none
+}
+
 ### c_dodugu
 6634 = {	#NIAMINA
 	culture = bozo
@@ -40,9 +80,6 @@
 	1256.1.1 = { religion = ashari }
 
 }
-6645 = {	#SEGOU
-	holding = city_holding
-}
 
 6632 = {	#KRI
 	holding = none
@@ -50,45 +87,24 @@
 
 6643 = {	#TAMANI
 	holding = none
-	}
+}
+
+9753 = {	#UPPER_DO
+	holding = none
+}
+
+### c_minyanka
+9969 = {	#MINIYANKA
+	culture = bobo
+	religion = west_african_pagan
+	holding = tribal_holding
+}
+
+9968 = {	#FALO
+	holding = none
+}
 
 6644 = {	#SANADO
-	holding = none
-}
-
-### c_bindugu
-6646 = {	#SOUM
-	culture = bozo
-	religion = west_african_bidu_pagan
-	holding = tribal_holding
-	1256.1.1 = { religion = ashari }
-}
-
-6648 = {	#TABA
-	holding = none
-}
-
-6649 = {	#SAN
-	holding = church_holding
-}
-
-### c_kurmina
-6673 = {	#KORIENZA
-	culture = bozo
-	religion = west_african_bidu_pagan
-	holding = tribal_holding
-	1226.1.1 = { religion = ashari }
-}
-
-6670 = {	#BANGU
-	holding = none
-}
-
-6671 = {	#SAFARE
-	holding = none
-}
-
-6672 = {	#NGUMA
 	holding = none
 }
 
@@ -137,5 +153,107 @@
 }
 
 8934 = {	#LAFIRA
+	holding = none
+}
+
+##d_yatenga ###################################
+###c_gursi
+6698 = {	# GURSI
+	culture = marka
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	#1276.1.1 = { religion = ashari }
+
+}
+
+6696 = {	# WALGUYO
+	holding = none
+}
+
+6702 = {	# RIM
+	holding = none
+}
+
+6703 = {	# SANGA
+	holding = none
+}
+
+###c_seno
+6706 = {	# BANKASS
+	culture = marka
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	#1276.1.1 = { religion = ashari }
+
+}
+
+6701 = {	# DOUNA
+	holding = none
+}
+
+6707 = {	# SENO-SOUTH -> KOMBORI
+	holding = none
+}
+
+###c_bandiagara
+6705 = {	# BANDIAGARA
+	culture = marka
+	religion = west_african_pagan
+	holding = tribal_holding
+}
+
+6704 = {	# OUNJOUGOU
+	holding = none
+}
+
+###c_gondo
+6675 = {	# DOUENTZA
+	culture = marka
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	#1276.1.1 = { religion = ashari }
+
+}
+
+6676 = {	# SAMYERE
+	holding = none
+}
+
+9984 = {	# YERE
+	holding = none
+}
+
+##d_kirikongo ###################################
+###c_kirikongo
+6953 = {	#KIRIKONGO
+	culture = bobo #kibsi
+	religion = west_african_pagan
+	holding = tribal_holding
+
+}
+8934 = {	#LAFIRA
+	holding = none
+}
+9977 = {	#TOMA-KIBSI
+	holding = none
+}
+
+###c_dokwi
+9756 = {	#DOKWI
+	culture = bobo #kibsi
+	religion = west_african_pagan
+	holding = tribal_holding
+
+}
+9974 = {	#WAKARA
+	holding = none
+}
+9975 = {	#BARANI
 	holding = none
 }

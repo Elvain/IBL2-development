@@ -174,8 +174,12 @@
 	holding = none
 
 }
-6621 = {	#SHOMA
+9751 = {	#MASSINA
 	holding = church_holding #to have some holdings
+
+}
+9967 = {	#BARA
+	holding = city_holding
 
 }
 

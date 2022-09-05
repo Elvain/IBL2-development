@@ -1448,13 +1448,34 @@ c_tanas = {
 }
 
 c_wansharis = { #largely copied c_algier
-	823.1.1 = {
+	740.1.1 = {
 		government = clan_government
 		liege = "d_alger"
-		holder = 163097
+		holder = zanata0065
 	}
-	866.1.1 = {
-		holder = 163149
+	769.1.1 = {
+		holder = zanata0066
+	}
+	810.1.1 = {
+		holder = zanata0067
+	}
+	829.1.1 = {
+		holder = zanata0068
+	}
+	863.1.1 = {
+		holder = zanata0069
+	}
+	897.1.1 = {
+		holder = zanata0070
+	}
+	915.1.1 = {
+		holder = zanata0071
+	}
+	954.1.1 = {
+		holder = zanata0072
+	}
+	981.1.1 = {
+		holder = zanata0073
 	}
 
 	1008.1.1 = {
@@ -1811,19 +1832,25 @@ c_biskra = {
 }
 
 c_qalaat = {
-	767.1.1 = {
+	800.1.1 = {
 		government = clan_government
-		liege = "d_alger"
-		holder = 210035
+		liege = d_alger
+		holder = sanhaja050
 	}
-	823.1.1 = {
-		liege = "d_alger"
+	831.1.1 = {
+		holder = sanhaja051
 	}
-	823.1.1 = {
-		holder = 163097
+	864.1.1 = {
+		holder = sanhaja052
 	}
-	866.1.1 = {
-		holder = 163149
+	890.1.1 = {
+		holder = sanhaja053
+	}
+	915.1.1 = {
+		holder = sanhaja054
+	}
+	951.1.1 = {
+		holder = sanhaja055
 	}
 	1062.1.1 = {
 		liege = "d_bejaia"

@@ -1,0 +1,200 @@
+#k_gur
+##d_dagomba ###################################
+###c_dagomba
+10007 = {	#TAMALE
+	culture = guan
+	religion = west_african_pagan
+	holding = tribal_holding
+
+	# History
+	1050.1.1 = {
+		culture = gur #dagaaba 
+	}
+}
+10006 = {	#KUMBUNGU
+	holding = none
+}
+10008 = {	#SAKULO
+	holding = none
+}
+
+###c_yendi
+6942 = {	#YENDI
+	culture = guan
+	religion = west_african_pagan
+	holding = tribal_holding
+
+	# History
+	1050.1.1 = {
+		culture = gur #konkomba 
+	}
+}
+10009 = {	#NAKURUGU
+	holding = none
+}
+10010 = {	#KPANDAI
+	holding = none
+}
+
+###c_salaga
+6943 = {	#SALAGA
+	culture = guan
+	religion = west_african_pagan
+	holding = tribal_holding
+
+}
+6945 = {	#MAWLI
+	holding = none
+}
+
+##d_gonja ###################################
+###c_gonja
+6966 = {	#BUIPE
+	culture = guan
+	religion = west_african_pagan
+	holding = tribal_holding
+
+	1050.1.1 = {
+		culture = gur
+	}
+}
+6944 = {	#MOLE_SOUTH
+	holding = none
+}
+6958 = {	#BOLE2
+	holding = none
+}
+
+###c_daboya
+6946 = {	#DABOYA
+	culture = guan
+	religion = west_african_pagan
+	holding = tribal_holding
+
+}
+6957 = {	#UPPER_MOLE
+	holding = none
+}
+9995 = {	#SISSILI
+	holding = none
+}
+
+##d_lobi ###################################
+###c_lobi
+6951 = {	#LOBI -> LAWA
+	culture = gur #dagaaba
+	religion = west_african_pagan
+	holding = tribal_holding
+
+}
+6950 = {	#LEO
+	holding = none
+}
+9996 = {	#NIEGO
+	holding = none
+}
+
+###c_gueguere
+9998 = {	#GUEGUERE
+	culture = gur #dagaaba
+	religion = west_african_pagan
+	holding = tribal_holding
+
+}
+6954 = {	#BOROMO -> ORONKU
+	holding = none
+}
+9997 = {	#WAHABU
+	holding = none
+}
+
+###c_jebugu
+9999 = {	#JEBUGU
+	culture = gur #dagaaba
+	religion = west_african_pagan
+	holding = tribal_holding
+
+}
+10000 = {	#KORO-LOBI
+	holding = none
+}
+10001 = {	#GAOUA
+	holding = none
+}
+
+###c_pura
+6952 = {	#PURA
+	culture = gur #dagaaba
+	religion = west_african_pagan
+	holding = tribal_holding
+
+}
+9976 = {	#TENADO
+	holding = none
+}
+10005 = {	#POA
+	holding = none
+}
+
+##d_wa ###################################
+###c_wa
+6956 = {	#WA
+	culture = gur #dagaaba
+	religion = west_african_pagan
+	holding = tribal_holding
+
+}
+6955 = {	#MOHOUN
+	holding = none
+}
+10004 = {	#DORIMON
+	holding = none
+}
+
+###c_bouna
+6959 = {	#BOUNA
+	culture = gur #dagaaba
+	religion = west_african_pagan
+	holding = tribal_holding
+
+}
+8126 = {	#KULANGO
+	holding = none
+}
+
+#############################
+
+# 6949 - GURUNSI
+6949 = {	# 6949 - GURUNSI
+	
+	# Misc
+	culture = gur
+	religion = west_african_pagan
+	
+	# History
+
+}
+
+# 6937 - KUISUGU
+6937 = {	# 6937 - KUISUGU
+	
+	# Misc
+	culture = gur
+	religion = west_african_orisha_pagan
+	
+	# History
+
+}
+
+# 6692 - TENKUDUGO
+6692 = {	# 6692 - TENKUDUGO
+	
+	# Misc
+	culture = gur
+	religion = west_african_pagan
+	
+	# History
+	#1340.1.1 = { culture = mossi }
+
+}
+
