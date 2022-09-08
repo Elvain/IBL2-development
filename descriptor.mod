@@ -1,11 +1,10 @@
-version="1.4.1"
+version="1.32"
 tags={
 	"Historical"
 	"Map"
 	"Fixes"
 	"Culture"
-	"Graphics"
 }
-name="Ibn Battuta's Legacy Dev version"
-supported_version="1.8.1"
-remote_file_id="2921578123"
+name="Ibn Battuta's Legacy 2"
+supported_version="1.7.0"
+remote_file_id="2416949291"
