@@ -845,7 +845,7 @@ banufatin010 = {
 #new Maghrawavid characters
 zanata0013 = {
 	name = "al-Mu_izz" #ibn Attia
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155120
@@ -858,7 +858,7 @@ zanata0013 = {
 }
 zanata0014 = {
 	name = "Muqatil" #ibn Attia
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155120
@@ -871,7 +871,7 @@ zanata0014 = {
 }
 zanata0015 = {
 	name = "Hammad" #ibn Warru
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155124
@@ -884,7 +884,7 @@ zanata0015 = {
 }
 zanata0016 = {
 	name = "Hammad" #ibn al-Mu_izz b. Ziri
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155008
@@ -897,7 +897,7 @@ zanata0016 = {
 }
 zanata0017 = {
 	name = "Mu_ansir" #ibn Hammad b. al-Mu_izz b. Ziri
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 155008
@@ -910,7 +910,7 @@ zanata0017 = {
 }
 zanata0018 = {
 	name = "Hamza"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = 1236379
@@ -924,7 +924,7 @@ zanata0018 = {
 }
 zanata0019 = {
 	name = "Bakr"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = 1236379
@@ -938,7 +938,7 @@ zanata0019 = {
 }
 zanata0020 = {
 	name = "Ahmad"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = zanata0019
@@ -952,7 +952,7 @@ zanata0020 = {
 }
 zanata0021 = {
 	name = "Muhammad" #First historical prince of the Maghrawa
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = zanata0022
@@ -966,7 +966,7 @@ zanata0021 = {
 }
 zanata0022 = {
 	name = "Khazar"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = zanata0023
@@ -980,7 +980,7 @@ zanata0022 = {
 }
 zanata0023 = {
 	name = "Hafs"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = zanata0024
@@ -994,42 +994,43 @@ zanata0023 = {
 }
 zanata0024 = {
 	name = "Sulat"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = zanata0025
-	702.1.1 = {
+	712.1.1 = {
 		birth = yes
 	}
 	
-	751.1.1 = {
+	759.1.1 = {
 		death = yes
 	}
 }
 zanata0025 = {
 	name = "Wanzamar"
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = ashari
 	culture = butr #zanata
 	father = zanata0026
-	675.1.1 = {
+	690.1.1 = {
 		birth = yes
 	}
 	
-	732.1.1 = {
+	742.1.1 = {
 		death = yes
 	}
 }
 zanata0026 = {
 	name = "Maghraw"
-	dynasty = 1027001
+	dynasty = butr_zanata
 	religion = ashari
 	culture = butr #zanata
-	640.1.1 = {
+	father = zanata0051
+	670.1.1 = {
 		birth = yes
 	}
 	
-	694.1.1 = {
+	714.1.1 = {
 		death = yes
 	}
 }
@@ -1037,20 +1038,20 @@ zanata0026 = {
 #Ifranids
 zanata0027 = {
 	name = "Kayda_d" #fictional
-	dynasty = 1048004
+	dynasty_house = house_ifrinid
 	religion = ibadi
 	culture = butr #zanata
 	father = 210032
-	765.1.1 = {
+	755.1.1 = {
 		birth = yes
 	}
-	830.1.1 = {
+	820.1.1 = {
 		death = yes
 	}
 }
 zanata0028 = {
 	name = "Makhlad" #fictional
-	dynasty = 1048004
+	dynasty_house = house_ifrinid
 	religion = ibadi
 	culture = butr #zanata
 	father = zanata0027
@@ -1063,7 +1064,7 @@ zanata0028 = {
 }
 zanata0029 = {
 	name = "Adidat" #fictional
-	dynasty = 1048004
+	dynasty_house = house_ifrinid
 	religion = ibadi
 	culture = butr #zanata
 	father = zanata0028
@@ -1076,7 +1077,7 @@ zanata0029 = {
 }
 zanata0030 = {
 	name = "Salih" #historical father of Muhammad b. Salih al-Ifrani
-	dynasty = 1048004
+	dynasty_house = house_ifrinid
 	religion = ibadi
 	culture = butr #zanata
 	father = zanata0029
@@ -1089,7 +1090,7 @@ zanata0030 = {
 }
 zanata0031 = {
 	name = "Muhammad" #Muhammad b. Salih al-Ifrani
-	dynasty = 1048004
+	dynasty_house = house_ifrinid
 	religion = ibadi
 	culture = butr #zanata
 	father = zanata0030
@@ -1102,7 +1103,7 @@ zanata0031 = {
 }
 zanata0032 = {
 	name = "Ya_la" #Ya'la b. Muhammad al-Ifrani
-	dynasty = 1048004
+	dynasty_house = house_ifrinid
 	religion = ibadi
 	culture = butr #zanata
 	father = zanata0031
@@ -2575,7 +2576,7 @@ banufatin096 = {
 #some more Maghrawa
 zanata0045 = {
 	name = "al-Khayr" #ibn Muhammad ibn al-Khayr
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = 1236381
@@ -2588,7 +2589,7 @@ zanata0045 = {
 }
 zanata0046 = {
 	name = "Muhammad" #ibn al-Khayr ibn Muhammad ibn al-Khayr
-	dynasty = 1027001
+	dynasty_house = house_maghrawavid
 	religion = "ashari"
 	culture = butr #zanata
 	father = zanata0045
@@ -2603,7 +2604,7 @@ zanata0046 = {
 #additional Ifranid
 zanata0047 = {
 	name = "Salih" #fictional
-	dynasty = 1048004
+	dynasty_house = house_ifrinid
 	religion = ibadi
 	culture = butr #zanata
 	father = zanata0032
@@ -2616,7 +2617,7 @@ zanata0047 = {
 }
 zanata0048 = {
 	name = "Muhammad" #fictional
-	dynasty = 1048004
+	dynasty_house = house_ifrinid
 	religion = ibadi
 	culture = butr #zanata
 	father = zanata0047
@@ -2629,7 +2630,7 @@ zanata0048 = {
 }
 zanata0049 = {
 	name = "Abu_Su_da" #Ifranid general of Bakhti Ya'laid
-	dynasty = 1048004
+	dynasty_house = house_ifrinid
 	religion = ibadi
 	culture = butr #zanata
 	father = zanata0048
@@ -2642,7 +2643,7 @@ zanata0049 = {
 }
 zanata0050 = {
 	name = "Su_da" #fictional
-	dynasty = 1048004
+	dynasty_house = house_ifrinid
 	religion = ibadi
 	culture = butr #zanata
 	father = zanata0049
@@ -2917,6 +2918,166 @@ hawwara005 = {
 		birth = yes
 	}
 	861.1.1 = {
+		death = yes
+	}
+}
+
+#The old Zanata common ancestors
+zanata0051 = {
+	name = "I_slitan"
+	dynasty = butr_zanata
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0052
+	650.1.1 = {
+		birth = yes
+	}
+	704.1.1 = {
+		death = yes
+	}
+}
+zanata0052 = {
+	name = "Misra"
+	dynasty = butr_zanata
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0053
+	632.1.1 = {
+		birth = yes
+	}
+	683.1.1 = {
+		death = yes
+	}
+}
+zanata0053 = {
+	name = "Zakiya"
+	dynasty = butr_zanata
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0054
+	608.1.1 = {
+		birth = yes
+	}
+	666.1.1 = {
+		death = yes
+	}
+}
+zanata0054 = {
+	name = "Warsik" #AKA Wardiran/Warshik
+	dynasty = butr_zanata
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0055
+	590.1.1 = {
+		birth = yes
+	}
+	648.1.1 = {
+		death = yes
+	}
+}
+zanata0055 = {
+	name = "Adidat"
+	dynasty = butr_zanata
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0056
+	570.1.1 = {
+		birth = yes
+	}
+	621.1.1 = {
+		death = yes
+	}
+}
+zanata0056 = {
+	name = "Adidat"
+	dynasty = butr_zanata
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0057
+	550.1.1 = {
+		birth = yes
+	}
+	604.1.1 = {
+		death = yes
+	}
+}
+zanata0057 = {
+	name = "Djana" #the progenitor of the Zanata
+	dynasty = butr_zanata
+	religion = ashari
+	culture = butr #zanata
+	530.1.1 = {
+		birth = yes
+	}
+	593.1.1 = {
+		death = yes
+	}
+}
+zanata0058 = {
+	name = "Dammar"
+	dynasty = butr_zanata
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0057
+	610.1.1 = {
+		birth = yes
+	}
+	659.1.1 = {
+		death = yes
+	}
+}
+zanata0059 = {
+	name = "Ifri"
+	dynasty = butr_zanata
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0051
+	669.1.1 = {
+		birth = yes
+	}
+	
+	716.1.1 = {
+		death = yes
+	}
+}
+zanata0060 = {
+	name = "Irniyan"
+	dynasty = butr_zanata
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0051
+	674.1.1 = {
+		birth = yes
+	}
+	
+	727.1.1 = {
+		death = yes
+	}
+}
+zanata0061 = {
+	name = "Wasin"
+	dynasty = butr_zanata
+	religion = ashari
+	culture = butr #zanata
+	father = zanata0051
+	677.1.1 = {
+		birth = yes
+	}
+	
+	713.1.1 = {
+		death = yes
+	}
+}
+zanata0062 = {
+	name = "Warku" #fictional connection between Ifri and Abu_Qurra
+	dynasty_house = house_ifrinid
+	religion = ibadi
+	culture = butr #zanata
+	father = zanata0059
+	690.1.1 = {
+		birth = yes
+	}
+	820.1.1 = {
 		death = yes
 	}
 }

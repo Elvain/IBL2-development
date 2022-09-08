@@ -1,9 +1,10 @@
-version="1.3.1"
+version="1.32"
 tags={
 	"Historical"
 	"Map"
-	"Culture"
 	"Fixes"
+	"Culture"
 }
-name="IBL1.3.1"
-supported_version="1.6.1.2"
+name="Ibn Battuta's Legacy 2"
+supported_version="1.7.0"
+remote_file_id="2416949291"

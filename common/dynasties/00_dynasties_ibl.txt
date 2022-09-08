@@ -171,3 +171,7 @@ sanhaja_serta = {
 	name = "dynn_Serta"
 	culture = baranis
 }
+butr_zanata = {
+	name = "dynn_Zanata"
+	culture = baranis
+}
