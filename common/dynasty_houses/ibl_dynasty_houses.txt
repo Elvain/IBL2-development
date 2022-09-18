@@ -21,6 +21,10 @@ house_wanzamar = {
 	name = "dynn_Wanzamar"
 	dynasty = butr_zanata #(Zanata)
 }
+house_maranjisa = {
+	name = "dynn_Maranjisa"
+	dynasty = butr_zanata #(Zanata)
+}
 
 # Hawwara
 house_razinid = {
@@ -35,6 +39,11 @@ house_hawsulaym = {
 	name = "dynn_HawSulaym" #Banu Sulaym of Hawwara
 	dynasty = 1069092 #(Hawwara)
 }
+house_kamlan = {
+	name = "dynn_Kamlan" #Banu Sulaym of Hawwara
+	dynasty = 1069092 #(Hawwara)
+}
+
 #Kutama / Kutamid
 house_suktan = {
 	name = "dynn_Suktan"

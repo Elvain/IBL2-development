@@ -1,6 +1,10 @@
 ﻿kanuri = {
 	color = hsv{ 0.95 0.8 0.7 }
 	
+	parents = { sao zaghawa }
+
+	created = 860.1.1
+
 	ethos = ethos_bellicose
 	heritage = heritage_central_african
 	language = language_tubu

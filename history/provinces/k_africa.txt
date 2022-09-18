@@ -430,7 +430,6 @@
 	culture = maghrebi
 	religion = ashari
 	holding = castle_holding
-	}
 }
 4579 = {	#MONASTIR
 	holding = city_holding

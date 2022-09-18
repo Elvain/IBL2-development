@@ -2014,6 +2014,7 @@ sanhaja055 = {
 }
 
 #The Baranis Hawwara
+#Banu Sulaym of c_medjerda
 hawwara006 = {
 	name = "Sulaym" #fictional founder of the tribe
 	dynasty_house = house_hawsulaym
@@ -2132,10 +2133,10 @@ hawwara014 = {
 	}
 }
 
-#Banu Kamlan of c_medjerda
+#Banu Kamlan of c_tala
 hawwara015 = {
 	name = "Kamlan" #placeholder
-	dynasty_house = house_hawsulaym
+	dynasty_house = house_kamlan
 	religion = ibadi
 	culture = baranis
 	father = hawwara004
@@ -2148,8 +2149,8 @@ hawwara015 = {
 }
 
 hawwara016 = {
-	name = "Kaydad" #placeholder
-	dynasty_house = house_hawsulaym
+	name = "Kayda_d" #placeholder
+	dynasty_house = house_kamlan
 	religion = ibadi
 	culture = baranis
 	father = hawwara015
@@ -2160,16 +2161,95 @@ hawwara016 = {
 		death = yes
 	}
 }
-hawwara016 = {
+hawwara017 = {
 	name = "Saghmar" #placeholder
-	dynasty_house = house_hawsulaym
+	dynasty_house = house_kamlan
 	religion = ibadi
 	culture = baranis
-	father = hawwara015
+	father = hawwara016
 	860.1.1 = {
 		birth = yes
 	}
 	917.1.1 = {
+		death = yes
+	}
+}
+hawwara018 = {
+	name = "Razin" #placeholder
+	dynasty_house = house_kamlan
+	religion = ibadi
+	culture = baranis
+	father = hawwara017
+	891.1.1 = {
+		birth = yes
+	}
+	948.1.1 = {
+		death = yes
+	}
+}
+hawwara019 = {
+	name = "Maghar" #placeholder
+	dynasty_house = house_kamlan
+	religion = ibadi
+	culture = baranis
+	father = hawwara018
+	925.1.1 = {
+		birth = yes
+	}
+	983.1.1 = {
+		death = yes
+	}
+}
+hawwara020 = {
+	name = "Saghmar" #placeholder
+	dynasty_house = house_kamlan
+	religion = ibadi
+	culture = baranis
+	father = hawwara019
+	960.1.1 = {
+		birth = yes
+	}
+	1016.1.1 = {
+		death = yes
+	}
+}
+
+hawwara021= {
+	name = "Yaghmorasen" #placeholder
+	dynasty_house = house_kamlan
+	religion = ibadi
+	culture = baranis
+	father = hawwara015
+	836.1.1 = {
+		birth = yes
+	}
+	897.1.1 = {
+		death = yes
+	}
+}
+hawwara022 = {
+	name = "Minda_s" #placeholder
+	dynasty_house = house_kamlan
+	religion = ibadi
+	culture = baranis
+	father = hawwara021
+	862.1.1 = {
+		birth = yes
+	}
+	912.1.1 = {
+		death = yes
+	}
+}
+hawwara023 = {
+	name = "Zakiya" #placeholder
+	dynasty_house = house_kamlan
+	religion = ibadi
+	culture = baranis
+	father = hawwara022
+	895.1.1 = {
+		birth = yes
+	}
+	944.1.1 = {
 		death = yes
 	}
 }
