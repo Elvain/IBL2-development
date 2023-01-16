@@ -1,0 +1,405 @@
+﻿#fictional rulers for c_bornu and c_zamtam
+bade0001a = {
+	name = "Ago" #fictional
+	dynasty = badedyn001
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0021
+	mother = bade0022
+	810.1.1 = {
+		birth = yes
+	}
+	860.1.1 = {
+		death = yes
+	}
+}
+bade0001f = {
+	name = "Nafissa" #fictional
+	female = yes
+	dynasty = badedyn001
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0001a
+	840.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+bade0001 = {
+	name = "Kpangbah" #fictional
+	dynasty = badedyn001
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0001a
+	835.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+bade0002 = {
+	name = "Fabule" #fictional
+	dynasty = badedyn001
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0001
+	870.1.1 = {
+		birth = yes
+	}
+	933.1.1 = {
+		death = yes
+	}
+}
+bade0003 = {
+	name = "Kpangbah" #fictional
+	dynasty = badedyn001
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0002
+	915.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+bade0004 = {
+	name = "Jahn" #fictional
+	dynasty = badedyn001
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0003
+	973.1.1 = {
+		birth = yes
+	}
+	1050.1.1 = {
+		death = yes
+	}
+}
+bade0005 = {
+	name = "Saa" #fictional
+	dynasty = badedyn001
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0004
+	1022.1.1 = {
+		birth = yes
+	}
+	1081.1.1 = {
+		death = yes
+	}
+}
+bade0006 = {
+	name = "Kpangbah" #fictional
+	dynasty = badedyn001
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0005
+	1062.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+bade0007 = {
+	name = "Kpangbah" #fictional
+	dynasty = badedyn001
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0006
+	1100.1.1 = {
+		birth = yes
+	}
+	1159.1.1 = {
+		death = yes
+	}
+}
+bade0008 = {
+	name = "Saa" #fictional
+	dynasty = badedyn001
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0007
+	1142.1.1 = {
+		birth = yes
+	}
+	1199.1.1 = {
+		death = yes
+	}
+}
+bade0009 = {
+	name = "Jahn" #fictional
+	dynasty = badedyn001
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0008
+	1180.1.1 = {
+		birth = yes
+	}
+	1235.1.1 = {
+		death = yes
+	}
+}
+bade0010 = {
+	name = "Saa" #fictional
+	dynasty = badedyn001
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0009
+	1215.1.1 = {
+		birth = yes
+	}
+	1270.1.1 = {
+		death = yes
+	}
+}
+
+#fictional rulers of c_biram
+bade0011a = {
+	name = "Amsajiya" #legendary progenitor of the Ngizim
+	dynasty = badedyn002
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0021
+	mother = bade0022
+	814.1.1 = {
+		birth = yes
+	}
+	865.1.1 = {
+		death = yes
+	}
+}
+bade0011f = {
+	name = "Djeliba" #fictional
+	female = yes
+	dynasty = badedyn002
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0011a
+	845.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+bade0011 = {
+	name = "Tondikiwindi" #fictional
+	dynasty = badedyn002
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0011a
+	842.1.1 = {
+		birth = yes
+	}
+	898.1.1 = {
+		death = yes
+	}
+}
+bade0012 = {
+	name = "Djeliba" #fictional
+	dynasty = badedyn002
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0011
+	880.1.1 = {
+		birth = yes
+	}
+	950.1.1 = {
+		death = yes
+	}
+}
+bade0013 = {
+	name = "Djiba" #fictional
+	dynasty = badedyn002
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0012
+	925.1.1 = {
+		birth = yes
+	}
+	1000.1.1 = {
+		death = yes
+	}
+}
+bade0014 = {
+	name = "Wallam" #fictional
+	dynasty = badedyn002
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0013
+	980.1.1 = {
+		birth = yes
+	}
+	1035.1.1 = {
+		death = yes
+	}
+}
+bade0015 = {
+	name = "Zokaya" #fictional
+	dynasty = badedyn002
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0014
+	1015.1.1 = {
+		birth = yes
+	}
+	1070.1.1 = {
+		death = yes
+	}
+}
+bade0016 = {
+	name = "Yeanue" #fictional
+	dynasty = badedyn002
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0015
+	1045.1.1 = {
+		birth = yes
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+bade0016f = {
+	name = "Djenly" #fictional
+	dynasty = badedyn002
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0015
+	1047.1.1 = {
+		birth = yes
+	}
+	1104.1.1 = {
+		death = yes
+	}
+}
+bade0017 = {
+	name = "Zokaya" #fictional
+	dynasty = badedyn002
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0016
+	1072.1.1 = {
+		birth = yes
+	}
+	1133.1.1 = {
+		death = yes
+	}
+}
+bade0018 = {
+	name = "KiaBolonbooti" #fictional
+	dynasty = badedyn002
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0017
+	1099.1.1 = {
+		birth = yes
+	}
+	1163.1.1 = {
+		death = yes
+	}
+}
+bade0019 = {
+	name = "Zokaya" #fictional
+	dynasty = badedyn002
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0018
+	1132.1.1 = {
+		birth = yes
+	}
+	1195.1.1 = {
+		death = yes
+	}
+}
+bade0020 = {
+	name = "KiaBolonbooti" #fictional
+	dynasty = badedyn002
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0019
+	1168.1.1 = {
+		birth = yes
+	}
+	1221.1.1 = {
+		death = yes
+	}
+}
+#semi-legendary Bade/Bedde ancestors c_biram
+bade0021 = {
+	name = "Bade" #unknown Bade first ancestor
+	dynasty = badedyn000
+	religion = west_african_bori_pagan
+	culture = bade
+	788.1.1 = {
+		birth = yes
+	}
+	804.1.1 = {
+		add_spouse = bade0022
+	}
+	840.1.1 = {
+		death = yes
+	}
+}
+bade0022 = {
+	name = "Walu" #legendary mother of 4 Bade ancestors
+	female = yes
+	dynasty = badedyn000
+	religion = west_african_bori_pagan
+	culture = bade
+	787.1.1 = {
+		birth = yes
+	}
+	804.1.1 = {
+		add_spouse = bade0021
+	}
+	840.1.1 = {
+		death = yes
+	}
+}
+bade0023 = {
+	name = "Dodo" #the eldest son of Walu - remained in Dadigar
+	dynasty = badedyn000
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0021
+	mother = bade0022
+	806.1.1 = {
+		birth = yes
+	}
+	840.1.1 = {
+		death = yes
+	}
+}
+bade0024 = {
+	name = "Muza" #the second eldest son of Walu - ancestor of Touaregs according to the Bade legend
+	dynasty = badedyn000
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0021
+	mother = bade0022
+	808.1.1 = {
+		birth = yes
+	}
+	840.1.1 = {
+		death = yes
+	}
+}
+bade0025 = {
+	name = "Buyum" #fictional - uses the alternative name of Dodo
+	dynasty = badedyn000
+	religion = west_african_bori_pagan
+	culture = bade
+	father = bade0023
+	830.1.1 = {
+		birth = yes
+	}
+	882.1.1 = {
+		death = yes
+	}
+}

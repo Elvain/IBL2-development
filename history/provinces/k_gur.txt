@@ -8,7 +8,7 @@
 
 	# History
 	1050.1.1 = {
-		culture = gur #dagaaba 
+		culture = dagaaba 
 	}
 }
 10006 = {	#KUMBUNGU
@@ -54,8 +54,8 @@
 	religion = west_african_pagan
 	holding = tribal_holding
 
-	1050.1.1 = {
-		culture = gur
+	1080.1.1 = {
+		culture = dagaaba
 	}
 }
 6944 = {	#MOLE_SOUTH
@@ -67,10 +67,13 @@
 
 ###c_daboya
 6946 = {	#DABOYA
-	culture = guan
+	culture = dagaaba
 	religion = west_african_pagan
 	holding = tribal_holding
 
+	1050.1.1 = {
+		culture = dagaaba
+	}
 }
 6957 = {	#UPPER_MOLE
 	holding = none
@@ -82,7 +85,7 @@
 ##d_lobi ###################################
 ###c_lobi
 6951 = {	#LOBI -> LAWA
-	culture = gur #dagaaba
+	culture = lobi
 	religion = west_african_pagan
 	holding = tribal_holding
 
@@ -96,7 +99,7 @@
 
 ###c_gueguere
 9998 = {	#GUEGUERE
-	culture = gur #dagaaba
+	culture = kibsi
 	religion = west_african_pagan
 	holding = tribal_holding
 
@@ -110,7 +113,7 @@
 
 ###c_jebugu
 9999 = {	#JEBUGU
-	culture = gur #dagaaba
+	culture = lobi
 	religion = west_african_pagan
 	holding = tribal_holding
 
@@ -124,7 +127,7 @@
 
 ###c_pura
 6952 = {	#PURA
-	culture = gur #dagaaba
+	culture = kibsi
 	religion = west_african_pagan
 	holding = tribal_holding
 
@@ -139,7 +142,7 @@
 ##d_wa ###################################
 ###c_wa
 6956 = {	#WA
-	culture = gur #dagaaba
+	culture = lobi
 	religion = west_african_pagan
 	holding = tribal_holding
 
@@ -153,7 +156,7 @@
 
 ###c_bouna
 6959 = {	#BOUNA
-	culture = gur #dagaaba
+	culture = lobi
 	religion = west_african_pagan
 	holding = tribal_holding
 
@@ -190,7 +193,7 @@
 6692 = {	# 6692 - TENKUDUGO
 	
 	# Misc
-	culture = gur
+	culture = gur #konkomba
 	religion = west_african_pagan
 	
 	# History

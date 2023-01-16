@@ -2,7 +2,7 @@
 ##d_loropeni ###################################
 ###c_loropeni
 6960 = {	#LOROPENI
-	culture = bobo #kibsi
+	culture = lobi
 	religion = west_african_pagan
 	holding = tribal_holding
 
@@ -16,7 +16,7 @@
 
 ###c_komoe
 6975 = {	#KOMOE
-	culture = bobo #kibsi
+	culture = lobi
 	religion = west_african_pagan
 	holding = tribal_holding
 
@@ -28,6 +28,13 @@
 	holding = none
 }
 
+###c_tyendugu
+6984 = {	#BANIFING
+	culture = bobo
+	religion = west_african_pagan
+	holding = tribal_holding
+
+}
 
 #----- ORIGINAL --------------
 # 8147 - WORODUGU

@@ -229,6 +229,42 @@ c_kilba = {
 	}
 }
 
+c_kalam = {
+	865.1.1 = {
+		holder = jukun0022
+		government = tribal_government
+	}
+	907.1.1 = {
+		holder = jukun0023
+	}
+	955.1.1 = {
+		holder = jukun0024
+	}
+	1002.1.1 = {
+		holder = jukun0025
+	}
+	1039.1.1 = {
+		holder = jukun0026
+	}
+	1068.1.1 = {
+		holder = jukun0027
+	}
+	1096.1.1 = {
+		holder = jukun0028
+	}
+	1122.1.1 = {
+		holder = jukun0029
+	}
+	1158.1.1 = {
+		holder = jukun0030
+	}
+	1197.1.1 = {
+		holder = jukun0031
+	}
+	1225.1.1 = {
+		holder = jukun0032
+	}
+}
 
 c_pindiga = {
 
@@ -316,75 +352,13 @@ d_bauchi = {
 
 c_bauchi = {
 	865.1.1 = {
-		holder = jukun0022
 		government = tribal_government
-	}
-	907.1.1 = {
-		holder = jukun0023
-	}
-	955.1.1 = {
-		holder = jukun0024
-	}
-	1002.1.1 = {
-		holder = jukun0025
-	}
-	1039.1.1 = {
-		holder = jukun0026
-	}
-	1068.1.1 = {
-		holder = jukun0027
-	}
-	1096.1.1 = {
-		holder = jukun0028
-	}
-	1122.1.1 = {
-		holder = jukun0029
-	}
-	1158.1.1 = {
-		holder = jukun0030
-	}
-	1197.1.1 = {
-		holder = jukun0031
-	}
-	1225.1.1 = {
-		holder = jukun0032
 	}
 }
 
 c_ningi = {
 	865.1.1 = {
-		holder = jukun0022
 		government = tribal_government
-	}
-	907.1.1 = {
-		holder = jukun0023
-	}
-	955.1.1 = {
-		holder = jukun0024
-	}
-	1002.1.1 = {
-		holder = jukun0025
-	}
-	1039.1.1 = {
-		holder = jukun0026
-	}
-	1068.1.1 = {
-		holder = jukun0027
-	}
-	1096.1.1 = {
-		holder = jukun0028
-	}
-	1122.1.1 = {
-		holder = jukun0029
-	}
-	1158.1.1 = {
-		holder = jukun0030
-	}
-	1197.1.1 = {
-		holder = jukun0031
-	}
-	1225.1.1 = {
-		holder = jukun0032
 	}
 }
 

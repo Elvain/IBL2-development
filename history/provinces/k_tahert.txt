@@ -384,24 +384,18 @@
 	culture = baranis
 	#culture = sanhaja
 	religion = najdat
-	holding = none
+	holding = castle_holding
 
 	# History
 	955.1.1 = {
 		religion = ashari
 	}
-	1007.1.1 = {
-		holding = castle_holding
-	}
+	#1007.1.1 = { #the true founding of this place
+	#	holding = castle_holding
+	#}
 }
 9930 = {	#Haz
-	culture = baranis
-	#culture = sanhaja
-	religion = ashari
-	holding = castle_holding
-	1007.1.1 = {
-		holding = none
-	}
+	holding = none
 }
 
 ##d_mzab###################################

@@ -418,80 +418,80 @@ c_fraga = {
 }
 
 
-b_barbastro = {
-	797.1.1 = {
-		holder = andalusian0079 # Jalaf ibn Rashid
-	}
-	862.1.1 = {
-		holder = andalusian0080 # Abdallah ibn Jalaf
-	}
-	873.1.1 = {
-		holder = 73818 # Walih Isma'il ibn Musa of Zaragoza
-	}
-	889.5.6 = {
-		holder = andalusian0082 # Sheik Muhammad al-Tawil of Huesca
-	}
-	913.10.23 = {
-		holder = andalusian0007 # Sheik Amrus ibn Muhammad al-Tawil of Fraga
-	}
-	935.6.6 = {
-		holder = andalusian0011 # Furtun ibn Muhammad al-Tawil
-	}
-	940.1.1 = {
-		holder = andalusian0012 # Yahya ibn Muhammad al-Tawil
-	}
-	951.12.20 = {
-		holder = andalusian0014 # Lubb ibn Muhammad al-Tawil
-	}
-	955.12.1 = {
-		holder = andalusian0016 # Yahya ibn Lubb
-	}
-	962.1.1 = {
-		holder = andalusian0018 # Sheik Abd al-Malik ibn Musa Aznar of Huesca
-	}
-	993.1.1 = {
-		holder = andalusian0019 # Sheik Walid ibn Abd al-Malik of Huesca
-	}
-	1035.10.18 = {
-		holder = 110510 # King Ramiro I of Aragon
-	}
-	1063.5.8 = {
-		holder = 110500 # King Sancho I of Aragon
-	}
-	1094.6.4 = {
-		holder = 70231 # Pedro Sánchez Jimena
-	}
-	1104.9.27 = {
-		holder = 70232 # Alfonso Sánchez Jimena
-	}
-	1134.9.27 = {
-		holder = 70233 # Ramiro II Jimena
-	}
-	1157.8.16 = {
-		holder = 210507 # Petronila Ramírez Jimena
-	}
-	1174.10.16 = {
-		holder = 210500 # Alfonso II de Barcelona
-	}
-	1195.4.25 = {
-		holder = 210501 # Pere II de Barcelona
-	}
-	1213.9.14 = {
-		holder = 460600 # Jaume I de Barcelona
-	}
-	1276.7.27 = {
-		holder = 460590 # Pere III de Barcelona
-	}
-	1285.11.11 = {
-		holder = 71739 # Alfons III de Barcelona
-	}
-	1291.6.18 = {
-		holder = 460560 # Jaume II de Barcelona
-	}
-	1327.11.5 = {
-		holder = 460580 # Ramon Berenguer de Barcelona
-	}
-}
+#b_barbastro = {
+#	797.1.1 = {
+#		holder = andalusian0079 # Jalaf ibn Rashid
+#	}
+#	862.1.1 = {
+#		holder = andalusian0080 # Abdallah ibn Jalaf
+#	}
+#	873.1.1 = {
+#		holder = 73818 # Walih Isma'il ibn Musa of Zaragoza
+#	}
+#	889.5.6 = {
+#		holder = andalusian0082 # Sheik Muhammad al-Tawil of Huesca
+#	}
+#	913.10.23 = {
+#		holder = andalusian0007 # Sheik Amrus ibn Muhammad al-Tawil of Fraga
+#	}
+#	935.6.6 = {
+#		holder = andalusian0011 # Furtun ibn Muhammad al-Tawil
+#	}
+#	940.1.1 = {
+#		holder = andalusian0012 # Yahya ibn Muhammad al-Tawil
+#	}
+#	951.12.20 = {
+#		holder = andalusian0014 # Lubb ibn Muhammad al-Tawil
+#	}
+#	955.12.1 = {
+#		holder = andalusian0016 # Yahya ibn Lubb
+#	}
+#	962.1.1 = {
+#		holder = andalusian0018 # Sheik Abd al-Malik ibn Musa Aznar of Huesca
+#	}
+#	993.1.1 = {
+#		holder = andalusian0019 # Sheik Walid ibn Abd al-Malik of Huesca
+#	}
+#	1035.10.18 = {
+#		holder = 110510 # King Ramiro I of Aragon
+#	}
+#	1063.5.8 = {
+#		holder = 110500 # King Sancho I of Aragon
+#	}
+#	1094.6.4 = {
+#		holder = 70231 # Pedro Sánchez Jimena
+#	}
+#	1104.9.27 = {
+#		holder = 70232 # Alfonso Sánchez Jimena
+#	}
+#	1134.9.27 = {
+#		holder = 70233 # Ramiro II Jimena
+#	}
+#	1157.8.16 = {
+#		holder = 210507 # Petronila Ramírez Jimena
+#	}
+#	1174.10.16 = {
+#		holder = 210500 # Alfonso II de Barcelona
+#	}
+#	1195.4.25 = {
+#		holder = 210501 # Pere II de Barcelona
+#	}
+#	1213.9.14 = {
+#		holder = 460600 # Jaume I de Barcelona
+#	}
+#	1276.7.27 = {
+#		holder = 460590 # Pere III de Barcelona
+#	}
+#	1285.11.11 = {
+#		holder = 71739 # Alfons III de Barcelona
+#	}
+#	1291.6.18 = {
+#		holder = 460560 # Jaume II de Barcelona
+#	}
+#	1327.11.5 = {
+#		holder = 460580 # Ramon Berenguer de Barcelona
+#	}
+#}
 
 
 d_barcelona = {

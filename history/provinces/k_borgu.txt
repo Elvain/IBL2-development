@@ -44,9 +44,13 @@
 
 ###c_kebbi
 6555 = {	#KEBBI
-	culture = hausa
+	culture = sorko #mainly to lower the Hausa influence
 	religion = west_african_bori_pagan
 	holding = tribal_holding
+	# History
+	1150.1.1 = {
+		culture = hausa
+	}
 }
 6556 = {	#SOKOTO-NORTH -> SURAME
 	culture = mossi
@@ -67,9 +71,13 @@
 
 ###c_yauri
 6553 = {	#YAURI
-	culture = hausa
+	culture = sorko #mainly to lower the Hausa influence
 	religion = west_african_bori_pagan
 	holding = tribal_holding
+	# History
+	1150.1.1 = {
+		culture = hausa
+	}
 }
 6552 = {	#KONTOKORO
 	holding = none
@@ -114,6 +122,10 @@
 	culture = nupe
 	religion = west_african_bori_pagan
 	holding = tribal_holding
+	# History
+	1050.1.1 = {
+		culture = gbagyi
+	}
 }
 6547 = {	#TARUGA
 	holding = none

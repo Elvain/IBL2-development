@@ -2944,7 +2944,12 @@ tradition_castle_keepers = {
 		}
 		custom_tooltip = {
 			text = cannot_have_tradition_city_keepers
-			NOT = { any_in_list = { list = traits this = flag:tradition_city_keepers } }
+			NOT = {
+				any_in_list = {
+					list = traits
+					this = flag:tradition_castle_keepers
+				}
+			}
 		}
 	}
 	

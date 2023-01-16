@@ -298,9 +298,9 @@ world_africa_north = {
 world_africa_west = {
 	duchies = {
 		#Songhay
-		d_kawkaw d_timbuktu d_dendi
+		d_kawkaw d_timbuktu d_dendi d_upper_gurma
 		#Gurma
-		d_lower_gurma d_upper_gurma d_yatenga
+		d_lower_gurma d_mamprusi d_lurum d_wagadugu
 		#Ghana
 		d_wagadu d_mema d_tagant d_diafunu d_kaniaga
 		#Mali
@@ -308,7 +308,7 @@ world_africa_west = {
 		#Takrur
 		d_takrur d_silla d_djolof
 		#Jenne
-		d_jenne d_bobo
+		d_jenne d_yatenga d_kirikongo d_bobo
 		#Kaabu
 		d_kaabu d_wuli d_kasa
 		
@@ -317,13 +317,13 @@ world_africa_west = {
 		#Toro
 		d_toro d_loma
 		#Kong
-		d_worodugu d_kong d_lobi
+		d_worodugu d_kong d_loropeni
 		#Adiukru
 		d_wenyon d_kru d_adiukru
 		#Akan
 		d_gyaman d_brong d_ashanti d_eweland
 		#Gur
-		d_dagomba d_wagadugu d_mamprusi
+		d_dagomba d_lobi d_wa d_gonja
 		#Borgu
 		d_borgu d_savalu
 		#Yorubaland
@@ -1447,7 +1447,7 @@ custom_sahel_proper = {
 		#k_ghana
 		d_wagadu d_mema d_tagant d_diafunu d_kaniaga
 		#k_songhay
-		d_kawkaw d_timbuktu d_dendi
+		d_kawkaw d_timbuktu d_dendi d_upper_gurma
 		#k_hausaland
 		d_kano d_katsina d_kebbi d_gobir d_zamfara
 		#k_kanem
@@ -1474,15 +1474,15 @@ custom_sub_saharan_africa_immediate = {
 		#k_guinea
 		d_sapi d_kono d_bassa
 		#k_jenne
-		d_jenne d_bobo
+		d_jenne d_yatenga d_kirikongo d_bobo
 		#k_kong
-		d_worodugu d_kong d_lobi
+		d_worodugu d_kong d_loropeni
 		#k_adiukru
 		d_wenyon d_kru d_adiukru
 		#k_gurma
-		d_lower_gurma d_upper_gurma d_yatenga
+		d_lower_gurma d_wagadugu d_mamprusi d_lurum
 		#k_gur
-		d_dagomba d_wagadugu d_mamprusi
+		d_dagomba d_lobi d_wa d_gonja
 		#k_akan
 		d_gyaman d_brong d_ashanti d_eweland
 		#k_borgu
@@ -2142,6 +2142,12 @@ ghw_region_holy_land = {
 		d_lebanon d_damascus
 	}
 }
+ghw_region_jerusalem = {
+	duchies = {
+		#Jerusalem
+		d_oultrejourdain d_palestine d_urdunn
+	}
+}
 ghw_region_iberia = {
 	duchies = {
 		#Galicia
@@ -2334,9 +2340,9 @@ ghw_region_horn_of_africa = {
 ghw_region_the_sahel = {
 	duchies = {
 		#Songhay
-		d_kawkaw d_timbuktu d_dendi
+		d_kawkaw d_timbuktu d_dendi d_upper_gurma
 		#Gurma
-		d_lower_gurma d_upper_gurma d_yatenga
+		d_lower_gurma d_mamprusi d_lurum d_wagadugu
 		#Ghana
 		d_wagadu d_mema d_tagant d_diafunu d_kaniaga
 		#Mali
@@ -2344,7 +2350,7 @@ ghw_region_the_sahel = {
 		#Takrur
 		d_takrur d_silla d_djolof
 		#Jenne
-		d_jenne d_bobo
+		d_jenne d_yatenga d_kirikongo d_bobo
 		#Kaabu
 		d_kaabu d_wuli d_kasa
 	}
@@ -2370,13 +2376,13 @@ ghw_region_subsahelian_africa = {
 		#Toro
 		d_toro d_loma
 		#Kong
-		d_worodugu d_kong d_lobi
+		d_worodugu d_kong d_loropeni
 		#Adiukru
 		d_wenyon d_kru d_adiukru
 		#Akan
 		d_gyaman d_brong d_ashanti d_eweland
 		#Gur
-		d_dagomba d_wagadugu d_mamprusi
+		d_dagomba d_lobi d_wa d_gonja
 		#Borgu
 		d_borgu d_savalu
 		#Yorubaland

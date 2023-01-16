@@ -1,7 +1,7 @@
 ##d_upper_gurma AKA Hombori ###################################
 ###c_upper_gurma
 6582 = {	# GURMA-RHAROUS
-	culture = sorko
+	culture = zarma
 	religion = west_african_bidu_pagan
 	holding = tribal_holding
 	
@@ -19,7 +19,7 @@
 
 ###c_hombori
 6677 = {	# HOMBORI
-	culture = marka
+	culture = zarma
 	religion = west_african_pagan
 	holding = tribal_holding
 
@@ -39,7 +39,7 @@
 
 ### c_kurmina
 6673 = {	#KORIENZA
-	culture = bozo
+	culture = zarma
 	religion = west_african_bidu_pagan
 	holding = tribal_holding
 	1226.1.1 = { religion = ashari }
@@ -54,6 +54,50 @@
 }
 
 6672 = {	#NGUMA
+	holding = none
+}
+
+##d_kawkaw (part) ###################################
+###c_gao
+6577 = {	# GAO
+	culture = gaw
+	religion = west_african_bidu_pagan
+	holding = tribal_holding
+	
+	# History
+	867.1.1 = {
+		buildings = {
+			market_villages_01
+		}
+	}
+	920.1.1 = { religion = ashari }
+	935.1.1 = {
+		holding = castle_holding
+	}
+	1066.1.1 = {
+		buildings = {
+			cereal_fields_01
+			hunting_grounds_01
+		}
+	}
+	1150.1.1 = { culture = songhai }
+}
+
+6576 = {	#GADEI
+	holding = none
+}
+
+6578 = {	#SARNAH
+	holding = none
+	# History
+	935.1.1 = { holding = city_holding }
+}
+	
+6580 = {	#BOUREM
+	holding = none
+}
+
+8988 = {	#TILEMSI
 	holding = none
 }
 
@@ -158,57 +202,6 @@
 
 }
 
-# 6576 - GADEI
-6576 = {	# 6676 - GADEI
-	
-	# Misc
-	culture = gaw
-	religion = west_african_bidu_pagan
-	
-	# History
-	1150.1.1 = { culture = songhai }
-
-}
-
-# 6577 - GAO
-6577 = {	# 6677 - GAO
-	
-	# Misc
-	culture = gaw
-	religion = west_african_bidu_pagan
-	holding = tribal_holding
-	# History
-	867.1.1 = {
-		buildings = {
-			market_villages_01
-		}
-	}
-	920.1.1 = { religion = ashari }
-	935.1.1 = {
-		holding = castle_holding
-	}
-	1066.1.1 = {
-		buildings = {
-			cereal_fields_01
-			hunting_grounds_01
-		}
-	}
-	1150.1.1 = { culture = songhai }
-
-}
-
-# 6578 - SARNAH
-6578 = {	# 6678 - SARNAH
-	
-	# Misc
-	culture = gaw
-	religion = west_african_bidu_pagan
-	
-	# History
-	1150.1.1 = { culture = songhai }
-
-}
-
 # 6579 - KOIMA
 6579 = {	# 6579 - KOIMA
 	
@@ -222,23 +215,11 @@
 
 }
 
-# 6580 - BOUREM
-6580 = {	# 6680 - BOUREM
-	
-	# Misc
-	culture = gaw
-	religion = west_african_bidu_pagan
-	
-	# History
-	1150.1.1 = { culture = songhai }
-
-}
-
 # 6581 - TIRAKKA
 6581 = {	# 6681 - TIRAKKA
 	
 	# Misc
-	culture = gaw
+	culture = zarma
 	religion = west_african_bidu_pagan
 	
 	# History
@@ -345,55 +326,7 @@
 
 }
 
-# County of Zarma
-8994 = {	# 8994 - Zarmaganda
-	
-	# Misc
-	culture = sorko
-	religion = west_african_bidu_pagan
-	
-	# History
-	1250.1.1 = { culture = songhai }
-	1250.1.1 = { religion = ashari }
-
-}
-8993 = {	# 8993 - Zarmatarey
-	
-	# Misc
-	culture = sorko
-	religion = west_african_bidu_pagan
-	
-	# History
-	1250.1.1 = { culture = songhai }
-	1250.1.1 = { religion = ashari }
-
-}
-8995 = {	# 8995 - Sargan
-	
-	# Misc
-	culture = sorko
-	religion = west_african_bidu_pagan
-	
-	# History
-	1250.1.1 = { culture = songhai }
-	1250.1.1 = { religion = ashari }
-
-}
-
-###c_meneka
-8992 = {	#MENEKA
-	culture = gaw
-	religion = west_african_bidu_pagan
-	holding = tribal_holding
-	1050.1.1 = {
-		religion = ashari
-		culture = butr
-	}
-}
-8991 = {	#ERANGA
-	holding = none
-}
-
+################################
 ###c_bura
 6684 = {	# BURA
 	culture = sorko
@@ -414,3 +347,56 @@
 	holding = none
 }
 
+###c_meneka
+8992 = {	#MENEKA
+	culture = gaw
+	religion = west_african_bidu_pagan
+	holding = tribal_holding
+	1050.1.1 = {
+		religion = ashari
+		culture = butr
+	}
+}
+8991 = {	#ERANGA
+	holding = none
+}
+
+###c_ouallam
+10053 = {	#OUALLAM
+	culture = gaw
+	religion = west_african_bidu_pagan
+	holding = tribal_holding
+}
+10054 = {	#SIMIRI
+	holding = none
+}
+
+8995 = {	#SARGAN
+	holding = none
+}
+
+###c_fakara
+8994 = {	#Zarmaganda AKA Hamdallaye
+	culture = gaw
+	religion = west_african_bidu_pagan
+	holding = tribal_holding
+}
+10055 = {	#LIBORE
+	holding = none
+}
+10056 = {	#KIRTACHI
+	holding = none
+}
+
+###c_zarma #Zigui
+8993 = {	#ZARMATAREY
+	culture = gaw
+	religion = west_african_bidu_pagan
+	holding = tribal_holding
+
+	# History
+	1050.1.1 = { culture = mossi }
+}
+10057 = {	#KIOTA
+	holding = none
+}

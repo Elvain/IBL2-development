@@ -13,6 +13,10 @@ house_ifrinid = {
 	name = "dynn_Ifrinid"
 	dynasty = butr_zanata #(Zanata)
 }
+house_warku = {
+	name = "dynn_Warku" #branch of Banu Ifran
+	dynasty = butr_zanata #(Zanata)
+}
 house_maghrawavid = {
 	name = "dynn_Maghrawavid"
 	dynasty = butr_zanata #(Zanata)
@@ -23,6 +27,14 @@ house_wanzamar = {
 }
 house_maranjisa = {
 	name = "dynn_Maranjisa"
+	dynasty = butr_zanata #(Zanata)
+}
+house_miknasid = {
+	name = "dynn_Miknasid"
+	dynasty = butr_zanata #(Zanata)
+}
+house_rashid = {
+	name = "dynn_Banu_Rashid"
 	dynasty = butr_zanata #(Zanata)
 }
 
@@ -40,7 +52,11 @@ house_hawsulaym = {
 	dynasty = 1069092 #(Hawwara)
 }
 house_kamlan = {
-	name = "dynn_Kamlan" #Banu Sulaym of Hawwara
+	name = "dynn_Kamlan" #Banu Kamlan of Hawwara
+	dynasty = 1069092 #(Hawwara)
+}
+house_wannifan = {
+	name = "dynn_Wannifan" #Banu Wannifan of Hawwara
 	dynasty = 1069092 #(Hawwara)
 }
 
@@ -55,5 +71,9 @@ house_masalita = {
 }
 house_ghashman = {
 	name = "dynn_Ghashman"
+	dynasty = 1027008 #(Kutama / Kutamid)
+}
+house_awfas = {
+	name = "dynn_Awfas"
 	dynasty = 1027008 #(Kutama / Kutamid)
 }

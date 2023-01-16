@@ -255,7 +255,6 @@ c_awkar = { #Wagadu
 	}
 }
 
-
 c_baghena = {
 	867.1.1 = {	change_development_level = 10 }
 	1066.1.1 = { change_development_level = 14 }
@@ -693,19 +692,20 @@ c_mema = {
 
 
 c_kouga = {
-	866.1.1 = {
-		holder = butr0026
-		#liege = d_wagadu - should be tributary, but not vassal
+	860.1.1 = {
+		liege = d_timbuktu
 		government = tribal_government
+		#holder = zarma0031 #for some reason does not work with d_timbuktu
+		holder = butr0026
 	}
-	903.1.1 = {
-		holder = butr0027
+	899.1.1 = {
+		holder = zarma0032
 	}
-	933.1.1 = {
-		holder = butr0016
+	950.1.1 = {
+		holder = zarma0033
 	}
-
-	978.1.1 = {
+	#Berber expansion
+	990.1.1 = {
 		holder = butr0017
 	}
 	1020.1.1 = {

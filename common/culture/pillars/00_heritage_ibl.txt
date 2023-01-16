@@ -1,0 +1,6 @@
+﻿heritage_gur = {
+	type = heritage
+}
+heritage_saharan = {
+	type = heritage
+}

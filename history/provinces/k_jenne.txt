@@ -95,7 +95,7 @@
 
 ### c_minyanka
 9969 = {	#MINIYANKA
-	culture = bobo
+	culture = bozo
 	religion = west_african_pagan
 	holding = tribal_holding
 }
@@ -159,7 +159,7 @@
 ##d_yatenga ###################################
 ###c_gursi
 6698 = {	# GURSI
-	culture = marka
+	culture = kibsi
 	religion = west_african_pagan
 	holding = tribal_holding
 	
@@ -182,7 +182,7 @@
 
 ###c_seno
 6706 = {	# BANKASS
-	culture = marka
+	culture = zarma
 	religion = west_african_pagan
 	holding = tribal_holding
 	
@@ -201,7 +201,7 @@
 
 ###c_bandiagara
 6705 = {	# BANDIAGARA
-	culture = marka
+	culture = zarma
 	religion = west_african_pagan
 	holding = tribal_holding
 }
@@ -212,7 +212,7 @@
 
 ###c_gondo
 6675 = {	# DOUENTZA
-	culture = marka
+	culture = zarma
 	religion = west_african_pagan
 	holding = tribal_holding
 	
@@ -232,7 +232,7 @@
 ##d_kirikongo ###################################
 ###c_kirikongo
 6953 = {	#KIRIKONGO
-	culture = bobo #kibsi
+	culture = kibsi
 	religion = west_african_pagan
 	holding = tribal_holding
 
@@ -246,7 +246,7 @@
 
 ###c_dokwi
 9756 = {	#DOKWI
-	culture = bobo #kibsi
+	culture = kibsi
 	religion = west_african_pagan
 	holding = tribal_holding
 

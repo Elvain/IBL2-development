@@ -9534,6 +9534,7 @@ khali0009 = {
 	religion = ismaili
 	culture = baranis
 	trait = lunatic_1
+	trait = sayyid
 	trait = education_stewardship_1
 
 	father = 159499 # Sheik Muhammad ibn Idris of Malaga
@@ -9554,6 +9555,7 @@ khali0009 = {
 	dynasty_house = house_hammudid # House Hammudid
 	religion = ismaili
 	culture = baranis
+	trait = sayyid
 	trait = education_diplomacy_1
 
 	father = 159498 # Emir Idris II of Rif

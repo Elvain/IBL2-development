@@ -5,6 +5,6 @@ tags={
 	"Culture"
 	"Fixes"
 }
-name="IBL 1.4"
-supported_version="1.7.*"
+name="Ibn Battuta's Legacy dev version"
+supported_version="1.8.*"
 remote_file_id="2860455258"

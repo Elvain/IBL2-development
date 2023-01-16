@@ -2,119 +2,11 @@
 6483 = {	# 6483 - GARUMELE
 	
 	# Misc
-	culture = kanuri
+	culture = bade
 	religion = west_african_bori_pagan
 	
 	# History
-	1097.1.1 = { religion = ashari }
-
-}
-
-# 6484 - NGUIGMI
-6484 = {	# 6484 - NGUIGMI
-	
-	# Misc
-	culture = kanuri
-	religion = west_african_bori_pagan
-	
-	# History
-	1097.1.1 = { religion = ashari }
-
-}
-
-# 6485 - MANAN
-6485 = {	# 6485 - MANAN
-	
-	# Misc
-	culture = kanuri
-	religion = west_african_bori_pagan
-	
-	# History
-	1097.1.1 = { religion = ashari }
-
-}
-
-# 6486 - KANEM
-6486 = {	# 6486 - KANEM
-	
-	# Misc
-	culture = zaghawa
-	religion = west_african_bori_pagan
-	
-	# History
-	1097.1.1 = { religion = ashari }
-	1120.1.1 = { culture = kanuri }
-
-}
-
-# 6487 - JIMI
-6487 = {	# 6487 - JIMI
-	
-	# Misc
-	culture = kanuri
-	religion = west_african_bori_pagan
-	
-	# History
-	1097.1.1 = { religion = ashari }
-
-}
-
-# 6488 - TIE
-6488 = {	# 6488 - TIE
-	
-	# Misc
-	culture = kanuri
-	religion = west_african_bori_pagan
-	
-	# History
-	1097.1.1 = { religion = ashari }
-
-}
-
-# 6489 - TARAZKI
-6489 = {	# 6489 - TARAZKI
-	
-	# Misc
-	culture = kanuri
-	religion = west_african_bori_pagan
-	
-	# History
-	1097.1.1 = { religion = ashari }
-
-}
-
-# 6490 - KAGUSTI
-6490 = {	# 6490 - KAGUSTI
-	
-	# Misc
-	culture = kanuri
-	religion = west_african_bori_pagan
-	
-	# History
-	1097.1.1 = { religion = ashari }
-
-}
-
-# 6491 - MADAN
-6491 = {	# 6491 - MADAN
-	
-	# Misc
-	culture = kanuri
-	religion = west_african_bori_pagan
-	
-	# History
-	1097.1.1 = { religion = ashari }
-
-}
-
-# 6492 - AUNO
-6492 = {	# 6492 - AUNO
-	
-	# Misc
-	culture = kanuri
-	religion = west_african_bori_pagan
-	
-	# History
+	1060.1.1 = { culture = kanuri }
 	1097.1.1 = { religion = ashari }
 
 }
@@ -171,13 +63,13 @@
 6504 = {	# 6504 - YAU
 	
 	# Misc
-	culture = sao
+	culture = bade
 	religion = west_african_bori_pagan
 	
 	# History
-	1080.1.1 = { culture = kanuri }
+	1060.1.1 = { culture = kanuri }
 	1080.1.1 = { religion = ashari }
-	
+
 }
 
 # 6505 - KUKAWA
@@ -236,10 +128,11 @@
 6509 = {	# 6509 - YERWA
 	
 	# Misc
-	culture = sao
+	culture = jukun
 	religion = west_african_bori_pagan
 	
 	# History
+	1060.1.1 = { culture = kanuri }
 	#1136.1.1 = { religion = ashari }
 
 }
@@ -260,12 +153,12 @@
 6511 = {	# 6511 - GAZARGAMO
 	
 	# Misc
-	culture = sao
+	culture = bade
 	religion = west_african_bori_pagan
 	
 	# History
-	1250.1.1 = { culture = kanuri }
 	1136.1.1 = { religion = ashari }
+	1250.1.1 = { culture = kanuri }
 
 }
 
@@ -297,7 +190,7 @@
 6514 = {	# 6514 - ZAMTAM
 	
 	# Misc
-	culture = zaghawa
+	culture = bade
 	religion = west_african_bori_pagan
 	
 	# History
@@ -352,3 +245,148 @@
 
 }
 
+###c_kanem
+6485 = {	#MANAN
+	culture = zaghawa
+	religion = west_african_bori_pagan
+	holding = tribal_holding
+	1060.1.1 = {
+		holding = castle_holding
+		culture = kanuri
+	}
+	1097.1.1 = {
+		religion = ashari
+	}
+}
+	
+6484 = {	# NGUIGMI
+	holding = none
+}
+6486 = {	# KANEM -> SIKI
+	holding = city_holding
+
+	#culture = zaghawa
+	#religion = west_african_bori_pagan
+	
+	# History
+	#1097.1.1 = { religion = ashari }
+	#1120.1.1 = { culture = kanuri }
+}
+###c_ago
+10036 = {	#AGO
+	culture = kanuri
+	religion = west_african_bori_pagan
+	holding = tribal_holding
+	1060.1.1 = {
+		holding = castle_holding
+	}
+	1097.1.1 = {
+		religion = ashari
+	}
+}
+	
+6490 = {	# KAGUSTI
+	holding = none
+}
+10037 = {	# NOKOU
+	holding = none
+}
+###c_jimi
+6487 = {	# JIMI
+	culture = kanuri
+	religion = west_african_bori_pagan
+	holding = tribal_holding
+	1060.1.1 = {
+		holding = castle_holding
+	}
+	1097.1.1 = {
+		religion = ashari
+	}
+}
+	
+6489 = {	# TARAZKI
+	holding = none
+	1060.1.1 = {
+		holding = church_holding
+	}
+}
+10040 = {	# BURNI
+	holding = none
+}
+10041 = {	# AGHAFI
+	holding = none
+	1060.1.1 = {
+		holding = city_holding
+	}
+}
+10042 = {	# IKIMA
+	holding = none
+}
+
+###c_lehane
+10043 = {	# LEHANE
+	culture = kanuri
+	religion = west_african_bori_pagan
+	holding = tribal_holding
+	1060.1.1 = {
+		holding = castle_holding
+	}
+	1097.1.1 = {
+		religion = ashari
+	}
+}	
+6492 = {	# AUNO
+	holding = none
+}
+10044 = {	# KRENEG
+	holding = none
+	1060.1.1 = {
+		holding = city_holding
+	}
+}
+10045 = {	# ANCHALAY
+	holding = none
+}
+
+###c_kogori
+10046 = {	#KOGORI
+	culture = zaghawa
+	religion = west_african_bori_pagan
+	holding = tribal_holding
+	1060.1.1 = {
+		holding = castle_holding
+	}
+	1097.1.1 = {
+		culture = kanuri
+		religion = ashari
+	}
+}
+	
+6488 = {	# TIE -> NAREANGA
+	holding = none
+}
+10047 = {	# HEREKA
+	holding = none
+	1060.1.1 = {
+		holding = church_holding
+	}
+}
+
+###c_madan
+6491 = {	# LEHANE
+	culture = kanuri
+	religion = west_african_bori_pagan
+	holding = tribal_holding
+	1060.1.1 = {
+		holding = castle_holding
+	}
+	1097.1.1 = {
+		religion = ashari
+	}
+}	
+10038 = {	# RIRIKMI
+	holding = none
+}
+10039 = {	# BARI-KANEM
+	holding = none
+}

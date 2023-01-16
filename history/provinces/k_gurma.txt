@@ -10,20 +10,34 @@
 	1340.1.1 = { culture = mossi }
 
 }
-6686 = {	#SIRBA
-	holding = none
-}
-6687 = {	#TONDIKWAREY
+10050 = {	#BONSOAGA
 	holding = none
 }
 6691 = {	#NUNGU
 	holding = none
 }
 
+###c_sirba
+6686 = {	#SIRBA
+	culture = gur
+	religion = west_african_pagan
+	holding = tribal_holding
+	
+	# History
+	1250.1.1 = { culture = mossi }
+
+}
+6687 = {	#TONDIKWAREY
+	holding = none
+}
+10049 = {	#FAGA
+	holding = none
+}
+
 
 ###c_bulsa
 9981 = {	# BULSA
-	culture = gur
+	culture = kurumba
 	religion = west_african_pagan
 	holding = tribal_holding
 	
@@ -56,6 +70,9 @@
 9993 = {	# YAGHA
 	holding = none
 }
+10051 = {	# SAGA
+	holding = none
+}
 
 ###c_biun
 6721 = {	# BIUN
@@ -77,9 +94,9 @@
 }
 
 ##d_lurum ###################################
-###c_kurumba
+###c_kurumba -> Lurum
 9983 = {	#NAMISI
-	culture = gur
+	culture = kurumba
 	religion = west_african_pagan
 	holding = tribal_holding
 	
@@ -102,7 +119,7 @@
 
 ###c_zaran
 9986 = {	#ZARAN
-	culture = gur
+	culture = kurumba
 	religion = west_african_pagan
 	holding = tribal_holding
 	
@@ -119,9 +136,9 @@
 	holding = none
 }
 
-###c_yatenga
+###c_yatenga #Pela
 6694 = {	# GITI
-	culture = gur
+	culture = kibsi
 	religion = west_african_pagan
 	holding = tribal_holding
 	
@@ -140,8 +157,8 @@
 
 ###c_oudalan
 6680 = {	# KISSI
-	culture = sorko
-	religion = west_african_bidu_pagan
+	culture = kurumba
+	religion = west_african_pagan
 	holding = tribal_holding
 	
 	# History
@@ -159,7 +176,7 @@
 
 ###c_oursi
 6679 = {	# OURSI
-	culture = gur
+	culture = kurumba
 	religion = west_african_pagan
 	holding = tribal_holding
 	
@@ -178,7 +195,7 @@
 ##d_wagadugu ###################################
 ###c_wagadugu
 6700 = {	#WAGADUGU
-	culture = gur
+	culture = kibsi
 	religion = west_african_pagan
 	holding = tribal_holding
 	
@@ -200,7 +217,7 @@
 
 ###c_kayao
 6997 = {	#KAYAO
-	culture = gur
+	culture = kibsi
 	religion = west_african_pagan
 	holding = tribal_holding
 	
@@ -214,7 +231,7 @@
 
 ###c_po
 6948 = {	#PO
-	culture = gur
+	culture = dagaaba
 	religion = west_african_pagan
 	holding = tribal_holding
 	
@@ -232,7 +249,7 @@
 
 ###c_tenkudugo
 6692 = {	#TENKUDUGO
-	culture = gur
+	culture = dagaaba
 	religion = west_african_pagan
 	holding = tribal_holding
 	
@@ -251,7 +268,7 @@
 ##d_mamprusi ###################################
 ###c_mamprusi
 6934 = {	#PUSUGA
-	culture = gur
+	culture = dagaaba
 	religion = west_african_pagan
 	holding = tribal_holding
 	
