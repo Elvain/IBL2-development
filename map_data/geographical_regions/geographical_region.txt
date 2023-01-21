@@ -298,7 +298,7 @@ world_africa_north = {
 world_africa_west = {
 	duchies = {
 		#Songhay
-		d_kawkaw d_timbuktu d_dendi d_upper_gurma
+		d_kawkaw d_timbuktu d_dendi d_upper_gurma d_zarma
 		#Gurma
 		d_lower_gurma d_mamprusi d_lurum d_wagadugu
 		#Ghana
@@ -1447,7 +1447,7 @@ custom_sahel_proper = {
 		#k_ghana
 		d_wagadu d_mema d_tagant d_diafunu d_kaniaga
 		#k_songhay
-		d_kawkaw d_timbuktu d_dendi d_upper_gurma
+		d_kawkaw d_timbuktu d_dendi d_upper_gurma d_zarma
 		#k_hausaland
 		d_kano d_katsina d_kebbi d_gobir d_zamfara
 		#k_kanem
@@ -2340,7 +2340,7 @@ ghw_region_horn_of_africa = {
 ghw_region_the_sahel = {
 	duchies = {
 		#Songhay
-		d_kawkaw d_timbuktu d_dendi d_upper_gurma
+		d_kawkaw d_timbuktu d_dendi d_upper_gurma d_zarma
 		#Gurma
 		d_lower_gurma d_mamprusi d_lurum d_wagadugu
 		#Ghana

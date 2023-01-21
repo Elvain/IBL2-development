@@ -121,5 +121,13 @@ IBL_culture_patch = {
     title:c_jebugu = { set_county_culture = title:c_lobi }
     title:c_gueguere = { set_county_culture = title:c_lobi }
     title:c_pura = { set_county_culture = title:c_lobi }
+    title:c_ago = { set_county_culture = title:c_jimi }
+    title:c_lehane = { set_county_culture = title:c_jimi }
+    title:c_kogori = { set_county_culture = title:c_jimi }
+    title:c_madan = { set_county_culture = title:c_jimi }
+    title:c_koima = { set_county_culture = title:c_bura }
+    title:c_sirba = { set_county_culture = title:c_gurma }
+    title:c_dadigar = { set_county_culture = title:c_katagum }
+    title:c_djama = { set_county_culture = title:c_katagum }
 	}
 }

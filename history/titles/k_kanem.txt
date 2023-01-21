@@ -81,7 +81,7 @@ d_kanem = {
 	}
 }
 
-c_kanem = {	
+c_kanem = {
 	#Kanem
 	860.1.1= {
 		liege=d_kanem
@@ -157,6 +157,83 @@ c_kanem = {
 	}
 }
 
+
+c_ago = {
+	
+	#Kanem
+	860.1.1= {
+		liege=d_kanem
+		holder=248710
+	}
+	900.1.1= {
+		holder = 248711
+	}
+	920.1.1= {
+		holder = 248712
+	}
+	952.1.1= {
+		holder = 248713
+	}
+	980.1.1= {
+		holder = 248714
+	}
+	1015.1.1= {
+		holder = 248715
+	}
+	1035.1.1= {
+		holder = 248716
+	}
+	
+	# Sayfawa dynasty
+	1068.1.1= {
+		holder = 248748
+	}
+	1080.1.1= {
+		holder = 248749
+	}
+	1133.1.1= {
+		holder = 248750
+	}
+	1140.1.1= {
+		holder = 248751
+	}
+	1160.1.1= {
+		holder = 248752
+	}
+	1176.1.1= {
+		holder = 248753
+	}
+	1203.1.1= {
+		holder = 248754
+	}
+	1242.1.1= {
+		holder = 248755
+	}
+	1270.1.1= {
+		holder = 248756
+	}
+	1290.1.1= {
+		holder = 248757
+	}
+	1310.1.1= {
+		holder = 248758
+	}
+	1328.1.1= {
+		holder = 248759
+	}
+	1332.1.1= {
+		holder = 248760
+	}
+	1333.1.1= {
+		holder = 248761
+	}
+	1334.1.1= {
+		holder = 248762
+	}
+	1335.1.1= {
+		holder = 248763
+	}
+}
 
 c_jimi = {
 	867.1.1 = {	change_development_level = 8 }
@@ -289,6 +366,60 @@ c_lehane = {
 	}
 }
 
+
+c_kogori = {
+
+	850.1.1= {
+		government = tribal_government
+		holder = zaghawa0057
+	}
+	860.1.1= {
+		liege = d_kanem
+	}
+	870.1.1= {
+		holder = zaghawa0058
+	}
+	907.1.1= {
+		holder = zaghawa0060
+	}
+	930.1.1= {
+		holder = zaghawa0061
+	}
+	968.1.1= {
+		holder = zaghawa0062
+	}
+	996.1.1= {
+		holder = zaghawa0063
+	}
+	1024.1.1= {
+		holder = zaghawa0064
+	}
+	1046.1.1= {
+		holder = zaghawa0065
+	}
+	1076.1.1= {
+		holder = zaghawa0066
+	}
+	1103.1.1= {
+		holder = zaghawa0068
+	}
+	1128.1.1= {
+		holder = zaghawa0069
+	}
+	1160.1.1= {
+		holder = zaghawa0070
+	}
+	1184.1.1= {
+		holder = zaghawa0071
+	}
+	1219.1.1= {
+		holder = zaghawa0072
+	}
+	1251.1.1= {
+		holder = zaghawa0073
+	}
+}
+
 c_madan = {
 
 	830.1.1= {
@@ -348,40 +479,46 @@ c_bornu = {
 	867.1.1 = {	change_development_level = 5 }
 	1066.1.1 = { change_development_level = 8 }
 	
-	830.1.1 = {
-		holder = bade0001a
+	850.1.1 = {
+		holder = sao0101
 		government = tribal_government
 	}
-	860.1.1 = {
-		liege=d_kanem
-		holder = bade0001
+	892.1.1 = {
+		#liege = d_kanem
+		holder = sao0102
 	}
-	890.1.1 = {
-		holder = bade0002
+	930.1.1 = {
+		holder = sao0104
 	}
-	933.1.1 = {
-		holder = bade0003
+	960.1.1 = {
+		holder = sao0105
 	}
 	990.1.1 = {
-		holder = bade0004
+		holder = sao0106
 	}
-	1050.1.1 = {
-		holder = bade0005
+	1024.1.1 = {
+		holder = sao0106a
 	}
-	1081.1.1 = {
-		holder = bade0006
+	1053.1.1 = {
+		holder = sao0107
 	}
-	1120.1.1 = {
-		holder = bade0007
+	1073.1.1 = {
+		holder = sao0109
 	}
-	1159.1.1 = {
-		holder = bade0008
+	1106.1.1 = {
+		holder = sao0110
 	}
-	1199.1.1 = {
-		holder = bade0009
+	1136.1.1 = {
+		holder = sao0111
 	}
-	1235.1.1 = {
-		holder = bade0010
+	1175.1.1 = {
+		holder = sao0112
+	}
+	1207.1.1 = {
+		holder = sao0113
+	}
+	1246.1.1 = {
+		holder = sao0114
 	}
 }
 
@@ -469,7 +606,7 @@ c_yau = {
 	1066.1.1 = { change_development_level = 10 }
 	
 	860.1.1 = {
-		liege=d_kanem
+		#liege = d_kanem
 		holder = sao0091
 		government = tribal_government
 	}
@@ -485,15 +622,15 @@ c_yau = {
 	1040.1.1 = {
 		holder = sao0095
 	}
+	1073.1.1 = {
+		holder = sao0095
+	}
+	1107.1.1 = {
+		holder = sao0095
+	}
 	
 	# Sayfawa dynasty
-	1070.1.1= {
-		holder = 248748
-	}
-	1080.1.1= {
-		holder = 248749
-	}
-	1133.1.1= {
+	1136.1.1= {
 		holder = 248750
 	}
 	1140.1.1= {
@@ -536,119 +673,6 @@ c_yau = {
 		holder = 248763
 	}
 }
-
-
-c_zamtam = {
-	860.1.1 = {
-		liege=d_kanem
-		holder = bade0001
-		government = tribal_government
-	}
-	890.1.1 = {
-		holder = bade0002
-	}
-	933.1.1 = {
-		holder = bade0003
-	}
-	990.1.1 = {
-		holder = bade0004
-	}
-	1050.1.1 = {
-		holder = bade0005
-	}
-	1081.1.1 = {
-		holder = bade0006
-	}
-	1120.1.1 = {
-		holder = bade0007
-	}
-	1159.1.1 = {
-		holder = bade0008
-	}
-	1199.1.1 = {
-		holder = bade0009
-	}
-	1235.1.1 = {
-		holder = bade0010
-	}
-}
-
-c_munio = {
-	#Kanem
-	860.1.1= {
-		liege=d_kanem
-		holder=248710
-	}
-	900.1.1= {
-		holder = 248711
-	}
-	920.1.1= {
-		holder = 248712
-	}
-	952.1.1= {
-		holder = 248713
-	}
-	980.1.1= {
-		holder = 248714
-	}
-	1015.1.1= {
-		holder = 248715
-	}
-	1035.1.1= {
-		holder = 248716
-	}
-	
-	# Sayfawa dynasty
-	1068.1.1= {
-		holder = 248748
-	}
-	1080.1.1= {
-		holder = 248749
-	}
-	1133.1.1= {
-		holder = 248750
-	}
-	1140.1.1= {
-		holder = 248751
-	}
-	1160.1.1= {
-		holder = 248752
-	}
-	1176.1.1= {
-		holder = 248753
-	}
-	1203.1.1= {
-		holder = 248754
-	}
-	1242.1.1= {
-		holder = 248755
-	}
-	1270.1.1= {
-		holder = 248756
-	}
-	1290.1.1= {
-		holder = 248757
-	}
-	1310.1.1= {
-		holder = 248758
-	}
-	1328.1.1= {
-		holder = 248759
-	}
-	1332.1.1= {
-		holder = 248760
-	}
-	1333.1.1= {
-		holder = 248761
-	}
-	1334.1.1= {
-		holder = 248762
-	}
-	1335.1.1= {
-		holder = 248763
-	}
-}
-
 
 c_kagha = {
 	867.1.1 = {	change_development_level = 3 }
@@ -688,39 +712,193 @@ c_kagha = {
 	}
 }
 
-c_biu_kagha = {
-	860.1.1 = {
-		holder = jukun0012
+d_kagha = {
+	867.1.1 = {	change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
+}
+
+c_dadigar = {
+	820.1.1 = {
+		holder = bade0021
 		government = tribal_government
 	}
-	902.1.1 = {
-		holder = jukun0013
+	840.1.1 = {
+		holder = bade0023
 	}
-	950.1.1 = {
-		holder = jukun0014
+	860.1.1 = {
+		holder = bade0025
 	}
-	997.1.1 = {
-		liege = d_upper_kwararafa
-		holder = jukun0015
+	882.1.1 = {
+		holder = bade0026
 	}
-	1034.1.1 = {
-		holder = jukun0016
+	912.1.1 = {
+		holder = bade0028
 	}
-	1063.1.1 = {
-		holder = jukun0017
+	947.1.1 = {
+		holder = bade0029
 	}
-	1091.1.1 = {
-		holder = jukun0018
+	981.1.1 = {
+		holder = bade0030
 	}
-	1117.1.1 = {
-		holder = jukun0019
+	1012.1.1 = {
+		holder = bade0031
 	}
-	1153.1.1 = {
-		liege=d_kanem
-		holder = jukun0020
+	1048.1.1 = {
+		holder = bade0032
+	}
+	1074.1.1 = {
+		holder = bade0033
+	}
+	1106.1.1 = {
+		holder = bade0035
+	}
+	1137.1.1 = {
+		holder = bade0036
+	}
+	1168.1.1 = {
+		holder = bade0037
+	}
+	1186.1.1 = {
+		holder = bade0038
+	}
+	1222.1.1 = {
+		holder = bade0039
+	}
+	1250.1.1 = {
+		holder = bade0040
+	}
+}
+
+c_zamtam = {
+	820.1.1 = {
+		holder = bade0021
+		government = tribal_government
+	}
+	840.1.1 = {
+		holder = bade0023
+	}
+	860.1.1 = {
+		holder = bade0025
+	}
+	882.1.1 = {
+		holder = bade0026
+	}
+	912.1.1 = {
+		holder = bade0028
+	}
+	947.1.1 = {
+		holder = bade0029
+	}
+	981.1.1 = {
+		holder = bade0030
+	}
+	1012.1.1 = {
+		holder = bade0031
+	}
+	1048.1.1 = {
+		holder = bade0032
+	}
+	1074.1.1 = {
+		holder = bade0033
+	}
+	1106.1.1 = {
+		holder = bade0035
+	}
+	1137.1.1 = {
+		holder = bade0036
+	}
+	1168.1.1 = {
+		holder = bade0037
+	}
+	1186.1.1 = {
+		holder = bade0038
+	}
+	1222.1.1 = {
+		holder = bade0039
+	}
+	1250.1.1 = {
+		holder = bade0040
+	}
+}
+
+c_munio = {
+	830.1.1 = {
+		government = tribal_government
+		#liege = d_kanem
+		holder = zaghawa0074
+	}
+	865.1.1 = {
+		holder = zaghawa0075
+	}
+	897.1.1 = {
+		holder = zaghawa0077
+	}
+	931.1.1 = {
+		holder = zaghawa0078
+	}
+	968.1.1 = {
+		holder = zaghawa0079
+	}
+	994.1.1 = {
+		holder = zaghawa0080
+	}
+	1027.1.1 = {
+		holder = zaghawa0081
+	}
+	1058.1.1 = {
+		holder = zaghawa0082
+	}
+	1098.1.1 = {
+		holder = zaghawa0084
+	}
+	1122.1.1 = {
+		holder = zaghawa0085
+	}
+	1166.1.1 = {
+		holder = zaghawa0086
 	}
 	1192.1.1 = {
-		holder = jukun0021
+		holder = zaghawa0087
+	}
+	1229.1.1 = {
+		holder = zaghawa0088
+	}
+	1253.1.1 = {
+		holder = zaghawa0089
+	}
+}
+
+c_djaba = {
+	860.1.1 = {
+		holder = bade0001
+		government = tribal_government
+	}
+	890.1.1 = {
+		holder = bade0002
+	}
+	933.1.1 = {
+		holder = bade0003
+	}
+	990.1.1 = {
+		holder = bade0004
+	}
+	1050.1.1 = {
+		holder = bade0005
+	}
+	1081.1.1 = {
+		holder = bade0006
+	}
+	1120.1.1 = {
+		holder = bade0007
+	}
+	1159.1.1 = {
+		holder = bade0008
+	}
+	1199.1.1 = {
+		holder = bade0009
+	}
+	1235.1.1 = {
+		holder = bade0010
 	}
 }
 
@@ -730,7 +908,6 @@ c_bilma = {
 	
 	846.1.1 = {
 		government = tribal_government
-		liege = d_kanem
 		holder = zaghawa0041
 	}
 	860.1.1 = {
@@ -917,35 +1094,44 @@ c_djado = {
 c_bodele = {
 	#Koeherda dynasty zaghawadyn002
 	860.1.1 = {
-		holder = zaghawa0011
+		holder = zaghawa0090
 		government = tribal_government
 	}
+	889.1.1 = {
+		holder = zaghawa0092
+	}
 	912.1.1 = {
-		holder = zaghawa0012
+		holder = zaghawa0093
 	}
-	970.1.1 = {
-		holder = zaghawa0013
+	952.1.1 = {
+		holder = zaghawa0094
 	}
-	1025.1.1 = {
-		holder = zaghawa0014
+	987.1.1 = {
+		holder = zaghawa0095
 	}
-	1060.1.1 = {
-		holder = zaghawa0015
+	1019.1.1 = {
+		holder = zaghawa0096
 	}
-	1095.1.1 = {
-		holder = zaghawa0016
+	1053.1.1 = {
+		holder = zaghawa0097
 	}
-	1127.1.1 = {
-		holder = zaghawa0017
+	1083.1.1 = {
+		holder = zaghawa0099
 	}
-	1158.1.1 = {
-		holder = zaghawa0018
+	1115.1.1 = {
+		holder = zaghawa0100
 	}
-	1189.1.1 = {
-		holder = zaghawa0019
+	1140.1.1 = {
+		holder = zaghawa0101
 	}
-	1228.1.1 = {
-		holder = zaghawa0020
+	1173.1.1 = {
+		holder = zaghawa0102
+	}
+	1199.1.1 = {
+		holder = zaghawa0103
+	}
+	1238.1.1 = {
+		holder = zaghawa0104
 	}
 }
 

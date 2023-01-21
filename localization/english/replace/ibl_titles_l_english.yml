@@ -708,6 +708,8 @@
  c_agadir_adj:0 "Tarūdantī"
  b_bousaada:0 "Bou Sa'ada"
 #1.4 new titles c_+
+ e_lower_niger: "Lower Niger"
+ e_lower_niger_adj: "Lower Nigeri"
  d_gonja:0 "Gonja"
  d_gonja_adj:0 "Gonjan"
  d_wa:0 "Wa"
@@ -784,6 +786,10 @@
  c_fakara_adj:0 "Fakaran"
  c_ouallam:0 "Ouallam"
  c_ouallam_adj:0 "Ouallaman"
+ c_dadigar:0 "Dadigar"
+ c_dadigar_adj:0 "Dadigari"
+ c_djaba:0 "Djaba"
+ c_djaba_adj:0 "Djaban"
 #1.4 renamed
  b_seno-south:0 "Kombori"
  b_gurma-west:0 "Bogande"
@@ -805,6 +811,8 @@
  c_zarma_adj:0 "Ziguian"
  b_zarmaganda:0 "Hamdallaye"
  b_zarmatarey:0 "Zigui"
+ b_lergam:0 "Dadigar"
+ b_diakam:0 "Diskam"
 #1.4 new
  b_wossebugu:0 "Wossebugu"
  b_fadugu:0 "Fadugu"
@@ -899,4 +907,12 @@
  b_libore:0 "Liboré"
  b_kirtachi:0 "Kirtachi"
  b_kiota:0 "Kiota"
+ b_damasak:0 "Damasak"
+ b_manga_bornu:0 "Manga"
+ b_kasimwa:0 "Kasimwa"
+ b_djaba:0 "Djaba"
+ b_dagambi:0 "Dagambi"
+ b_anumma:0 "Anumma"
+ b_gana:0 "Gana"
+ b_gamazan:0 "Gamazan"
  

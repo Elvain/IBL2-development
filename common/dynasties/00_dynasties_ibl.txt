@@ -202,10 +202,6 @@ badedyn002 = {
 	name = "dynn_Ngizim"
 	culture = bade
 }
-badedyn003 = {
-	name = "dynn_Gafata"
-	culture = bade
-}
 saghmaradyn = {
 	name = "dynn_Saghmara"
 	culture = bade
@@ -254,6 +250,50 @@ kanuridyn003 = {
 	name = "dynn_Fadawu"
 	culture = kanuri
 }
+kibsidyn001 = {
+	name = "dynn_Dulugu"
+	culture = kibsi
+}
+kibsidyn002 = {
+	name = "dynn_Pura"
+	culture = kibsi
+}
+kibsidyn003 = {
+	name = "dynn_Boromo"
+	culture = kibsi
+}
+kibsidyn004 = {
+	name = "dynn_Yoro"
+	culture = kibsi
+}
+lobidyn001 = {
+	name = "dynn_Keleworo"
+	culture = lobi
+}
+lobidyn002 = {
+	name = "dynn_Gaoua"
+	culture = lobi
+}
+lobidyn003 = {
+	name = "dynn_Niego"
+	culture = lobi
+}
+songhaidyn001 = {
+	name = "dynn_Zabarima"
+	culture = gaw
+}
+songhaidyn002 = {
+	name = "dynn_Koyra"
+	culture = gaw
+}
+sorkodyn003 = {
+	name = "dynn_Konna"
+	culture = sorko
+}
+sorkodyn004 = {
+	name = "dynn_Namague"
+	culture = sorko
+}
 
 zarmadyn001 = {
 	name = "dynn_Nguma"
@@ -291,19 +331,19 @@ zaghawadyn005 = {
 	name = "dynn_Bilma"
 	culture = zaghawa
 }
-kibsidyn004 = {
-	name = "dynn_Bilma"
-	culture = kibsi
+zaghawadyn006 = {
+	name = "dynn_Hereka"
+	culture = zaghawa
 }
-kibsidyn004 = {
-	name = "dynn_Bilma"
-	culture = kibsi
+zaghawadyn007 = {
+	name = "dynn_Goure"
+	culture = zaghawa
 }
-kibsidyn004 = {
-	name = "dynn_Bilma"
-	culture = kibsi
+saodyn010 = {
+	name = "dynn_Tatala"
+	culture = zaghawa
 }
-kibsidyn004 = {
-	name = "dynn_Korombe"
-	culture = kibsi
+saodyn011 = {
+	name = "dynn_Gafata"
+	culture = zaghawa
 }

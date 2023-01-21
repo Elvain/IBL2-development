@@ -1774,7 +1774,7 @@ kutama029 = {
 	}
 }
 kutama030 = {
-	name = "Sedwīkish" # fictional
+	name = "SedwI_kish" # fictional
 	dynasty_house = house_suktan
 	religion = ashari
 	culture = baranis #kutama
@@ -2764,7 +2764,7 @@ kutama059 = {
 	dynasty_house = house_awfas
 	religion = najdat
 	culture = baranis #kutama
-	father = kutama057
+	father = kutama058
 	910.1.1 = {
 		birth = yes
 	}

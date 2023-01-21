@@ -632,7 +632,7 @@ bobo0050 = {
 	}
 }
 
-#fictional rulers of Jebugu/d_lobi
+#fictional rulers of c_lobi
 lobi0029 = {
 	name = "Wouko"
 	dynasty = lobidyn003

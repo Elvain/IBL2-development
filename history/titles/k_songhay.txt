@@ -5,8 +5,8 @@ d_kawkaw = {
 	730.1.1 = {
 		holder = 161040
 		government = tribal_government
-		add_capital = c_gao
-		add_de_jure_capital = c_gao
+		#add_capital = c_gao
+		#add_de_jure_capital = c_gao
 	}
 	750.1.1 = {
 		holder = 161041

@@ -211,9 +211,12 @@
 
 ###c_egerland
 2997 = {	#CHEB
-	culture = bavarian
+	culture = czech
 	religion = catholic
 	holding = castle_holding
+	1061.1.1 = {
+		culture = bavarian
+	}
 }
 3001 = {	#REHAU
 	holding = none

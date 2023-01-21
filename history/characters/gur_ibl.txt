@@ -109,7 +109,7 @@ dagaaba0008 = {
 	dynasty = dagadyn001
 	religion = west_african_pagan
 	culture = dagaaba
-	father = dagaaba0018
+	father = dagaaba0017
 	1018.1.1 = {
 		birth = yes
 	}

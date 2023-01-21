@@ -8992,7 +8992,7 @@
 9718=desert
 9719=floodplains
 9720=savanna
-9721=savanna
+9721=floodplains
 9722=desert
 9723=desert
 9724=desert
@@ -9294,3 +9294,11 @@
 10055=floodplains
 10056=floodplains
 10057=savanna
+10058=floodplains
+10059=desert
+10060=savanna
+10061=floodplains
+10062=savanna
+10063=dry_hills
+10064=savanna
+10065=savanna
