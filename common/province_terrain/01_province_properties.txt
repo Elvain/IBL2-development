@@ -25309,9 +25309,54 @@
 4637 ={
 	winter_severity_bias = 0.0
 }
+# b_takulat 
+10031 ={
+	winter_severity_bias = 0.0
+}
+# b_al-mansuriya 
+10030 ={
+	winter_severity_bias = 0.0
+}
+## c_jijil 
 # b_jijel 
 4636 ={
 	winter_severity_bias = 0.0
+}
+# b_al-Kull 
+10034 ={
+	winter_severity_bias = 0.0
+}
+# b_skikda 
+10032 ={
+	winter_severity_bias = 0.0
+}
+## c_annaba 
+# b_annaba 
+4588 ={
+	winter_severity_bias = 0.0
+}
+# b_izan 
+4752 ={
+	winter_severity_bias = 0.0
+}
+# b_babzana 
+9933 ={
+	winter_severity_bias = 0.0
+}
+
+### d_kroumerie 
+## c_constantine 
+# b_constantine 
+4631 ={
+	winter_severity_bias = 0.10
+}
+# b_tijis 
+4632 ={
+	winter_severity_bias = 0.10
+}
+# b_qalama 
+4630 ={
+	winter_severity_bias = 0.10
 }
 ## c_satif 
 # b_satif 
@@ -25355,11 +25400,11 @@
 ## c_kroumerie 
 # b_tifash 
 4628 ={
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.10
 }
 # b_taburshiq 
 4629 ={
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.10
 }
 # b_siqqabanariya 
 4590 ={
@@ -25513,10 +25558,6 @@
 4594 ={
 	winter_severity_bias = 0.0
 }
-# b_jalula 
-4592 ={
-	winter_severity_bias = 0.0
-}
 # b_sabiba 
 4593 ={
 	winter_severity_bias = 0.0
@@ -25533,6 +25574,27 @@
 4597 ={
 	winter_severity_bias = 0.0
 }
+# b_sbeitla 
+10012 ={
+	winter_severity_bias = 0.0
+}
+## c_jalula 
+# b_jalula 
+4592 ={
+	winter_severity_bias = 0.0
+}
+# b_al_aribus 
+4591 ={
+	winter_severity_bias = 0.10
+}
+# b_silyana 
+4753 ={
+	winter_severity_bias = 0.0
+}
+# b_zanfour 
+10024 ={
+	winter_severity_bias = 0.0
+}
 ## c_west_qamuda 
 # b_al-qasrayn 
 4598 ={
@@ -25542,17 +25604,26 @@
 4599 ={
 	winter_severity_bias = 0.0
 }
+# b_al-huriya 
+10011 ={
+	winter_severity_bias = 0.0
+}
+## c_tala 
 # b_tala 
 4624 ={
+	winter_severity_bias = 0.0
+}
+# b_duqqa 
+10025 ={
+	winter_severity_bias = 0.0
+}
+# b_dar_madyan 
+10026 ={
 	winter_severity_bias = 0.0
 }
 ## c_tabassa 
 # b_tabassa 
 4623 ={
-	winter_severity_bias = 0.0
-}
-# b_madila 
-4607 ={
 	winter_severity_bias = 0.0
 }
 # b_maydara 
@@ -25563,14 +25634,23 @@
 4626 ={
 	winter_severity_bias = 0.0
 }
+# b_majjana 
+10027 ={
+	winter_severity_bias = 0.0
+}
+## c_madila 
+# b_madila 
+4607 ={
+	winter_severity_bias = 0.0
+}
+# b_madas 
+4606 ={
+	winter_severity_bias = 0.0
+}
 ### d_tunis 
 ## c_tunis 
 # b_tunis 
 4582 ={
-	winter_severity_bias = 0.0
-}
-# b_zaghwan 
-4581 ={
 	winter_severity_bias = 0.0
 }
 # b_qartajana 
@@ -25581,8 +25661,29 @@
 4584 ={
 	winter_severity_bias = 0.0
 }
-# b_silyana 
-4753 ={
+# b_iklibiya 
+10015 ={
+	winter_severity_bias = 0.0
+}
+# b_radis 
+10016 ={
+	winter_severity_bias = 0.0
+}
+## c_fahs 
+# b_fahs 
+10020 ={
+	winter_severity_bias = 0.0
+}
+# b_taburba 
+10019 ={
+	winter_severity_bias = 0.0
+}
+# b_zaghwan 
+4581 ={
+	winter_severity_bias = 0.0
+}
+# b_karba 
+10021 ={
 	winter_severity_bias = 0.0
 }
 ## c_satfura 
@@ -25605,7 +25706,7 @@
 }
 # b_al-bull 
 10023 ={
-	winter_severity_bias = 0.0
+	winter_severity_bias = 0.10
 }
 # b_agbia 
 10022 ={
@@ -25618,50 +25719,6 @@
 }
 # b_mansa'l-kharaz 
 4587 ={
-	winter_severity_bias = 0.0
-}
-# b_al_aribus 
-4591 ={
-	winter_severity_bias = 0.0
-}
-## c_mahdiya 
-# b_mahdiya 
-4578 ={
-	winter_severity_bias = 0.0
-}
-# b_monastir 
-4579 ={
-	winter_severity_bias = 0.0
-}
-# b_susa 
-4580 ={
-	winter_severity_bias = 0.0
-}
-### d_kroumerie 
-## c_constantine 
-# b_constantine 
-4631 ={
-	winter_severity_bias = 0.0
-}
-# b_tijis 
-4632 ={
-	winter_severity_bias = 0.0
-}
-# b_qalama 
-4630 ={
-	winter_severity_bias = 0.0
-}
-## c_annaba 
-# b_annaba 
-4588 ={
-	winter_severity_bias = 0.0
-}
-# b_izan 
-4752 ={
-	winter_severity_bias = 0.0
-}
-# b_babzana 
-9933 ={
 	winter_severity_bias = 0.0
 }
 ### d_gabes 
@@ -25687,8 +25744,30 @@
 4576 ={
 	winter_severity_bias = 0.0
 }
+## c_mahdiya 
+# b_mahdiya 
+4578 ={
+	winter_severity_bias = 0.0
+}
 # b_slakta 
 4577 ={
+	winter_severity_bias = 0.0
+}
+# b_rougga 
+10013 ={
+	winter_severity_bias = 0.0
+}
+## c_sousse 
+# b_susa 
+4580 ={
+	winter_severity_bias = 0.0
+}
+# b_monastir 
+4579 ={
+	winter_severity_bias = 0.0
+}
+# b_ahrikiliya 
+10014 ={
 	winter_severity_bias = 0.0
 }
 ### d_jerid 
@@ -25707,10 +25786,6 @@
 }
 # b_nafta 
 4603 ={
-	winter_severity_bias = 0.0
-}
-# b_madas 
-4606 ={
 	winter_severity_bias = 0.0
 }
 ## c_souf 
@@ -26114,90 +26189,6 @@
 }
 # b_fachi_route  # empty_corridor
 6660 ={
-	winter_severity_bias = 0.0
-}
-### d_kawar 
-## c_bilma 
-# b_bilma 
-6457 ={
-	winter_severity_bias = 0.0
-}
-# b_dibela 
-6458 ={
-	winter_severity_bias = 0.0
-}
-# b_kawar_road  # empty_corridor
-6657 ={
-	winter_severity_bias = 0.0
-}
-# b_fachi 
-6659 ={
-	winter_severity_bias = 0.0
-}
-## c_dirku 
-# b_dirku 
-6456 ={
-	winter_severity_bias = 0.0
-}
-# b_gissebi 
-6455 ={
-	winter_severity_bias = 0.0
-}
-## c_djado 
-# b_djado 
-6452 ={
-	winter_severity_bias = 0.0
-}
-# b_tummo 
-6453 ={
-	winter_severity_bias = 0.0
-}
-# b_sakadame 
-6454 ={
-	winter_severity_bias = 0.0
-}
-# b_djado_route 
-6668 ={
-	winter_severity_bias = 0.0
-}
-### d_tibesti 
-## c_ain_galakka 
-# b_ain_galakka 
-6496 ={
-	winter_severity_bias = 0.0
-}
-# b_faya 
-6495 ={
-	winter_severity_bias = 0.0
-}
-## c_bodele 
-# b_borkou 
-6494 ={
-	winter_severity_bias = 0.0
-}
-# b_koro_toro 
-6493 ={
-	winter_severity_bias = 0.0
-}
-# b_bahr_el-ghazzal_route  # empty_corridor
-6665 ={
-	winter_severity_bias = 0.0
-}
-## c_tibesti 
-# b_tibesti-south 
-6497 ={
-	winter_severity_bias = 0.0
-}
-# b_tibesti-central 
-6498 ={
-	winter_severity_bias = 0.0
-}
-# b_bardai 
-6499 ={
-	winter_severity_bias = 0.0
-}
-# b_tibesti_route  # empty_corridor
-6666 ={
 	winter_severity_bias = 0.0
 }
 ### d_fezzan 
@@ -29509,8 +29500,17 @@
 6486 ={
 	winter_severity_bias = 0.0
 }
+## c_ago 
+# b_ago
+10036 ={
+	winter_severity_bias = 0.0
+}
 # b_kagusti
 6490 ={
+	winter_severity_bias = 0.0
+}
+# b_nokou
+10037 ={
 	winter_severity_bias = 0.0
 }
 ## c_jimi 
@@ -29518,20 +29518,63 @@
 6487 ={
 	winter_severity_bias = 0.0
 }
-# b_tie 
-6488 ={
-	winter_severity_bias = 0.0
-}
 # b_tarazki  #unknown location city in Kanem
 6489 ={
 	winter_severity_bias = 0.0
 }
-# b_madan
-6491 ={
+# b_burni 
+10040 ={
+	winter_severity_bias = 0.0
+}
+# b_aghafi 
+10041 ={
+	winter_severity_bias = 0.0
+}
+# b_ikima 
+10042 ={
+	winter_severity_bias = 0.0
+}
+## c_lehane 
+# b_lehane
+10043 ={
 	winter_severity_bias = 0.0
 }
 # b_auno
 6492 ={
+	winter_severity_bias = 0.0
+}
+# b_kreneg
+10044 ={
+	winter_severity_bias = 0.0
+}
+# b_anchalay
+10045 ={
+	winter_severity_bias = 0.0
+}
+## c_kogori 
+# b_kogori 
+10046 ={
+	winter_severity_bias = 0.0
+}
+# b_tie 
+6488 ={
+	winter_severity_bias = 0.0
+}
+# b_hereka 
+10047 ={
+	winter_severity_bias = 0.0
+}
+## c_madan 
+# b_madan
+6491 ={
+	winter_severity_bias = 0.0
+}
+# b_ririkmi
+10038 ={
+	winter_severity_bias = 0.0
+}
+# b_bari_kanem
+10039 ={
 	winter_severity_bias = 0.0
 }
 ### d_bornu 
@@ -29544,8 +29587,16 @@
 6512 ={
 	winter_severity_bias = 0.0
 }
-# b_diakam 
-6513 ={
+# b_damasak 
+10058 ={
+	winter_severity_bias = 0.0
+}
+# b_dagambi 
+10062 ={
+	winter_severity_bias = 0.0
+}
+# b_anumma 
+10063 ={
 	winter_severity_bias = 0.0
 }
 ## c_garumele 
@@ -29565,10 +29616,6 @@
 6502 ={
 	winter_severity_bias = 0.0
 }
-# b_diffa 
-6503 ={
-	winter_severity_bias = 0.0
-}
 ## c_yau 
 # b_yau 
 6504 ={
@@ -29582,28 +29629,10 @@
 6506 ={
 	winter_severity_bias = 0.0
 }
-# b_dikwa 
-6507 ={
-	winter_severity_bias = 0.0
-}
 # b_mege 
 6508 ={
 	winter_severity_bias = 0.0
 }
-## c_munio 
-# b_munio 
-6515 ={
-	winter_severity_bias = 0.0
-}
-# b_zamtam 
-6514 ={
-	winter_severity_bias = 0.0
-}
-# b_nguru 
-6516 ={
-	winter_severity_bias = 0.0
-}
-### d_kagha 
 ## c_kagha 
 # b_yerwa 
 6509 ={
@@ -29613,42 +29642,149 @@
 6510 ={
 	winter_severity_bias = 0.0
 }
-# b_biu 
-6822 ={
+# b_dikwa 
+6507 ={
 	winter_severity_bias = 0.0
 }
-# b_margi 
-6826 ={
+### d_kagha 
+## c_dadigar 
+# b_lergam 
+9721 ={
 	winter_severity_bias = 0.0
 }
-## c_fika 
-# b_fika 
-6534 ={
+# b_nguru 
+6516 ={
 	winter_severity_bias = 0.0
 }
-# b_gombe 
-6522 ={
+# b_kasimwa 
+10060 ={
 	winter_severity_bias = 0.0
 }
-# b_gongola 
-6532 ={
+# b_diakam 
+6513 ={
 	winter_severity_bias = 0.0
 }
-## c_katagum 
-# b_katagum 
-6527 ={
+## c_zamtam 
+# b_zamtam 
+6514 ={
 	winter_severity_bias = 0.0
 }
-# b_azare 
-6526 ={
+# b_diffa 
+6503 ={
 	winter_severity_bias = 0.0
 }
-# b_kudu 
-6528 ={
+# b_manga_bornu 
+10059 ={
 	winter_severity_bias = 0.0
 }
-# b_gabas 
-6535 ={
+## c_munio 
+# b_munio 
+6515 ={
+	winter_severity_bias = 0.0
+}
+# b_mashina 
+9722 ={
+	winter_severity_bias = 0.0
+}
+# b_goure 
+9723 ={
+	winter_severity_bias = 0.0
+}
+## c_djaba 
+# b_djaba 
+10061 ={
+	winter_severity_bias = 0.0
+}
+# b_gana 
+10064 ={
+	winter_severity_bias = 0.0
+}
+# b_gamazan 
+10065 ={
+	winter_severity_bias = 0.0
+}
+### d_kawar 
+## c_bilma 
+# b_bilma 
+6457 ={
+	winter_severity_bias = 0.0
+}
+# b_dibela 
+6458 ={
+	winter_severity_bias = 0.0
+}
+# b_kawar_road  # empty_corridor
+6657 ={
+	winter_severity_bias = 0.0
+}
+# b_fachi 
+6659 ={
+	winter_severity_bias = 0.0
+}
+## c_dirku 
+# b_dirku 
+6456 ={
+	winter_severity_bias = 0.0
+}
+# b_gissebi 
+6455 ={
+	winter_severity_bias = 0.0
+}
+## c_djado 
+# b_djado 
+6452 ={
+	winter_severity_bias = 0.0
+}
+# b_tummo 
+6453 ={
+	winter_severity_bias = 0.0
+}
+# b_sakadame 
+6454 ={
+	winter_severity_bias = 0.0
+}
+# b_djado_route 
+6668 ={
+	winter_severity_bias = 0.0
+}
+### d_tibesti 
+## c_ain_galakka 
+# b_ain_galakka 
+6496 ={
+	winter_severity_bias = 0.0
+}
+# b_faya 
+6495 ={
+	winter_severity_bias = 0.0
+}
+## c_bodele 
+# b_borkou 
+6494 ={
+	winter_severity_bias = 0.0
+}
+# b_koro_toro 
+6493 ={
+	winter_severity_bias = 0.0
+}
+# b_bahr_el-ghazzal_route  # empty_corridor
+6665 ={
+	winter_severity_bias = 0.0
+}
+## c_tibesti 
+# b_tibesti-south 
+6497 ={
+	winter_severity_bias = 0.0
+}
+# b_tibesti-central 
+6498 ={
+	winter_severity_bias = 0.0
+}
+# b_bardai 
+6499 ={
+	winter_severity_bias = 0.0
+}
+# b_tibesti_route  # empty_corridor
+6666 ={
 	winter_severity_bias = 0.0
 }
 
@@ -29817,10 +29953,6 @@
 }
 # b_bibemi 
 6824 ={
-	winter_severity_bias = 0.0
-}
-# b_babur 
-6827 ={
 	winter_severity_bias = 0.0
 }
 ## c_kera 
@@ -30502,30 +30634,11 @@
 }
 
 ### d_upper_gurma 
-## c_oudalan 
-# b_kissi 
-6680 ={
-	winter_severity_bias = 0.0
-}
-# b_dinde  #anachronistic
-6678 ={
-	winter_severity_bias = 0.0
-}
-# b_oursi 
-6679 ={
-	winter_severity_bias = 0.0
-}
-# b_saouga 
-6681 ={
-	winter_severity_bias = 0.0
-}
-# b_dori 
-6682 ={
-	winter_severity_bias = 0.0
-}
+
+### d_lurum 
 ## c_kurumba 
-# b_aribinda 
-6685 ={
+# b_namisi 
+9983 ={
 	winter_severity_bias = 0.0
 }
 # b_burzanga 
@@ -30536,20 +30649,23 @@
 6695 ={
 	winter_severity_bias = 0.0
 }
-## c_upper_gurma 
-# b_gurma-rharous 
-6582 ={
+# b_belehede 
+9985 ={
 	winter_severity_bias = 0.0
 }
-# b_zampia 
-6674 ={
+## c_zaran 
+# b_zaran 
+9986 ={
 	winter_severity_bias = 0.0
 }
-# b_hombori 
-6677 ={
+# b_aribinda 
+6685 ={
 	winter_severity_bias = 0.0
 }
-### d_yatenga 
+# b_soum-zaran 
+9987 ={
+	winter_severity_bias = 0.0
+}
 ## c_yatenga 
 # b_giti 
 6694 ={
@@ -30563,6 +30679,33 @@
 9978 ={
 	winter_severity_bias = 0.0
 }
+## c_oudalan 
+# b_kissi 
+6680 ={
+	winter_severity_bias = 0.0
+}
+# b_saouga 
+6681 ={
+	winter_severity_bias = 0.0
+}
+# b_dori 
+6682 ={
+	winter_severity_bias = 0.0
+}
+## c_upper_gurma 
+# b_oursi 
+6679 ={
+	winter_severity_bias = 0.0
+}
+# b_dinde  #anachronistic
+6678 ={
+	winter_severity_bias = 0.0
+}
+# b_deou 
+9988 ={
+	winter_severity_bias = 0.0
+}
+### d_yatenga 
 # b_walguyo 
 6696 ={
 	winter_severity_bias = 0.0
@@ -31877,10 +32020,6 @@
 }
 ### d_kong 
 ## c_kong 
-# b_kong-north 
-6977 ={
-	winter_severity_bias = 0.0
-}
 # b_kong 
 8127 ={
 	winter_severity_bias = 0.0
@@ -31944,29 +32083,6 @@
 8141 ={
 	winter_severity_bias = 0.0
 }
-### d_lobi 
-## c_lobi 
-# b_boromo 
-6954 ={
-	winter_severity_bias = 0.0
-}
-# b_lobi 
-6951 ={
-	winter_severity_bias = 0.0
-}
-## c_pura 
-# b_pura 
-6952 ={
-	winter_severity_bias = 0.0
-}
-# b_tenado 
-9976 ={
-	winter_severity_bias = 0.0
-}
-# b_poa 
-10005 ={
-	winter_severity_bias = 0.0
-}
 ## c_loropeni 
 # b_loropeni 
 6960 ={
@@ -31976,8 +32092,21 @@
 6974 ={
 	winter_severity_bias = 0.0
 }
+# b_govitan 
+10002 ={
+	winter_severity_bias = 0.0
+}
+## c_komoe 
 # b_komoe 
 6975 ={
+	winter_severity_bias = 0.0
+}
+# b_keleworo 
+10003 ={
+	winter_severity_bias = 0.0
+}
+# b_kong-north 
+6977 ={
 	winter_severity_bias = 0.0
 }
 ## c_dyulaso 
@@ -31991,23 +32120,6 @@
 }
 # b_bama-lobi 
 9973 ={
-	winter_severity_bias = 0.0
-}
-## c_wa 
-# b_wa 
-6956 ={
-	winter_severity_bias = 0.0
-}
-# b_mouhoun 
-6955 ={
-	winter_severity_bias = 0.0
-}
-# b_bouna 
-6959 ={
-	winter_severity_bias = 0.0
-}
-# b_kulango 
-8126 ={
 	winter_severity_bias = 0.0
 }
 
@@ -32266,10 +32378,32 @@
 #### k_gur 
 ### d_dagomba 
 ## c_dagomba 
+# b_tamale 
+10007 ={
+	winter_severity_bias = 0.0
+}
+# b_kumbungu 
+10006 ={
+	winter_severity_bias = 0.0
+}
+# b_sakulo 
+10008 ={
+	winter_severity_bias = 0.0
+}
+## c_yendi 
 # b_yendi 
 6942 ={
 	winter_severity_bias = 0.0
 }
+# b_nakurugu 
+10009 ={
+	winter_severity_bias = 0.0
+}
+# b_kpandai 
+10010 ={
+	winter_severity_bias = 0.0
+}
+## c_salaga 
 # b_salaga 
 6943 ={
 	winter_severity_bias = 0.0
@@ -32296,14 +32430,92 @@
 6946 ={
 	winter_severity_bias = 0.0
 }
-# b_leo 
-6950 ={
-	winter_severity_bias = 0.0
-}
 # b_upper_mole 
 6957 ={
 	winter_severity_bias = 0.0
 }
+# b_sissili 
+9995 ={
+	winter_severity_bias = 0.0
+}
+
+### d_lobi 
+## c_lobi 
+# b_lobi 
+6951 ={
+	winter_severity_bias = 0.0
+}
+# b_leo 
+6950 ={
+	winter_severity_bias = 0.0
+}
+# b_niego 
+9996 ={
+	winter_severity_bias = 0.0
+}
+## c_gueguere 
+# b_gueguere 
+9998 ={
+	winter_severity_bias = 0.0
+}
+# b_boromo 
+6954 ={
+	winter_severity_bias = 0.0
+}
+# b_wahabu 
+9997 ={
+	winter_severity_bias = 0.0
+}
+## c_jebugu 
+# b_jebugu 
+9999 ={
+	winter_severity_bias = 0.0
+}
+# b_koro_lobi 
+10000 ={
+	winter_severity_bias = 0.0
+}
+# b_gaoua 
+10001 ={
+	winter_severity_bias = 0.0
+}
+## c_pura 
+# b_pura 
+6952 ={
+	winter_severity_bias = 0.0
+}
+# b_tenado 
+9976 ={
+	winter_severity_bias = 0.0
+}
+# b_poa 
+10005 ={
+	winter_severity_bias = 0.0
+}
+### d_wa 
+## c_wa 
+# b_wa 
+6956 ={
+	winter_severity_bias = 0.0
+}
+# b_mouhoun 
+6955 ={
+	winter_severity_bias = 0.0
+}
+# b_dorimon 
+10004 ={
+	winter_severity_bias = 0.0
+}
+## c_bouna 
+# b_bouna 
+6959 ={
+	winter_severity_bias = 0.0
+}
+# b_kulango 
+8126 ={
+	winter_severity_bias = 0.0
+}
+
 ### d_wagadugu 
 ## c_wagadugu 
 # b_wagadugu 
@@ -32956,6 +33168,73 @@
 6524 ={
 	winter_severity_bias = 0.0
 }
+### d_kwararafa 
+## c_fika 
+# b_fika 
+6534 ={
+	winter_severity_bias = 0.0
+}
+# b_daniski 
+8939 = {
+	winter_severity_bias = 0.0
+}
+# b_biyri 
+9707 ={
+	winter_severity_bias = 0.0
+}
+## c_kilba 
+# b_tagara 
+8941 = {
+	winter_severity_bias = 0.0
+}
+# b_kilba 
+8940 = {
+	winter_severity_bias = 0.0
+}
+# b_babur 
+6827 ={
+	winter_severity_bias = 0.0
+}
+## c_kalam 
+# b_gongola 
+6532 ={
+	winter_severity_bias = 0.0
+}
+# b_kafarati 
+8943 ={
+	winter_severity_bias = 0.0
+}
+# b_bomala 
+9708 ={
+	winter_severity_bias = 0.0
+}
+## c_pindiga 
+# b_pindiga 
+8944 ={
+	winter_severity_bias = 0.0
+}
+# b_gombe 
+6522 ={
+	winter_severity_bias = 0.0
+}
+# b_kupto 
+9706 ={
+	winter_severity_bias = 0.0
+}
+## c_biu_kagha 
+# b_biu 
+6822 ={
+	winter_severity_bias = 0.0
+}
+# b_margi 
+6826 ={
+	winter_severity_bias = 0.0
+}
+# b_gujba 
+8938 ={
+	winter_severity_bias = 0.0
+}
+### d_bauchi 
 ## c_bauchi 
 # b_bauchi 
 6521 ={
@@ -32971,6 +33250,23 @@
 }
 # b_gbagye 
 8106 ={
+	winter_severity_bias = 0.0
+}
+## c_katagum 
+# b_katagum 
+6527 ={
+	winter_severity_bias = 0.0
+}
+# b_azare 
+6526 ={
+	winter_severity_bias = 0.0
+}
+# b_kudu 
+6528 ={
+	winter_severity_bias = 0.0
+}
+# b_gabas 
+6535 ={
 	winter_severity_bias = 0.0
 }
 
@@ -42410,18 +42706,6 @@
 	winter_severity_bias = 0.0
 }
 8937 = {
-	winter_severity_bias = 0.0
-}
-8938 = {
-	winter_severity_bias = 0.0
-}
-8939 = {
-	winter_severity_bias = 0.0
-}
-8940 = {
-	winter_severity_bias = 0.0
-}
-8941 = {
 	winter_severity_bias = 0.0
 }
 8942 = {
