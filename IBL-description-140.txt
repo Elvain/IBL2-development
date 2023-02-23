@@ -1,0 +1,125 @@
+Mod up-to-date for 1.8.1, new 1.4 version out (04/02/2023)
+(minor bugfix update 10/02/2023)
+
+[img] https://i.imgur.com/p7Fv1Z6.gif [/img]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2775683808][img]https://i.imgur.com/vRqzGXG.png[/img][/url]
+
+[h1] MOD CONCEPT [/h1]
+- The mod is meant to improve the map's de jure structure and add baronies, provinces and cultures. Where possible in the Middle East, Europe and Africa.
+- While I want to add detail and accuracy where possible, I don't inherently consider vanilla map wrong
+- in order to keep the game playable, I respect vanilla basic design in terms of minimal province size.
+
+- I also want to keep this mod minimalistic and relatively close to vanilla if possible, just like I did in the previous iteration of this mod
+- For the sake of compatibility with other mods, this will be solely map mod dealing with map, de jure structure and with very tiny changes in cultures map. Like in CK2 I plan to build an upgrade of this mod "Ibn Battuta's World", which will also edit some titular history and potentially also change other gameplay features on the top of this mod.
+
+[h1] MOD OBJECTIVES [/h1] (what to expect and what [b]not to expect [/b])​
+- This mod doesn't make a complete overhaul of map and its projection
+- New cultures are added only in cases where previously some vanilla cultures stretches hundreds of kilometers into areas where it never was
+- I don't plan nor intend to use localized names for kingdoms into their local languages. This game is in English and hence the names will be in English and in the forms used by modern historiography. Even the ones which are recently contested.
+
+--------------
+[h1] CONTENT (1.4) [/h1]
+Over 500 new provinces (baronies) and few dozen new counties and duchies
+Edited de jure structure of kingdoms and empires in (newly edited areas first):
+- Kanem and Bornu
+- Middle Ni ger area (Gurma, Songhay)
+- Maghreb
+- Iberian peninsula
+- Syria and Palestine
+- Egypt
+- Nubia (new empire) and Blemmyia
+- "Central Sahel" and "Lower Ni ger (river)" areas - Hausaland, Kwararafa, Yorubaland and the area between
+- Ghana/Wagadu and Jenne
+- Central Sahara and Egyptian desert areas (both on the west and the east)
+- Bohemia
+- Slovakia and northern Hungary
+
+3 new terrains
+- Savanna, Boreal highlands and Arid hills
+
+New cultures
+- Jukun and Akpoto
+- Gbygyi and Bade/Bedde
+- Zarma, Kibsi, Lobi, Kurumba and Dagaaba
+
+New Cultural heritages
+- Saharan, Gur
+
+More or expanded major rivers
+- Benue, Sokoto, Volta, Komoe, Bandama
+- Ebro and Duero, Dordogne, Vienne, Maas, Moselle, Main, Weser, Odra
+expanded: Loire, Rhine, Danube
+
+--------------
+[h1] PLANS [/h1]
+Areas currently planned or already being overhauled:
+- Germany
+- Low countries
+- France
+
+cultures being researched for potential addition:
+- Bariba, Senufo
+
+--------------
+[h1] COMPATIBILITY: [/h1]
+- Does not work with achievements! Many changes to the checksum.
+- Should work ok with most mods, unles the other mods change the map or its structure.
+- after 1.5.0 some compatches may not work propperly yet, or at all, be careful
+
+[b]Recommended compatible mods:[/b]
+- [b] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2566883856] Sinews of War [/url] [/b] - works with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2798623390] compatch [/url]
+- [b] [url=https://steamcommunity.com/workshop/filedetails/?id=2241658518] Muslim Enhancements [/url] [/b] works with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2717728700] compatch [/url] 
+- [b] RECOMMENDED with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2552371897]Africa Plus [/url] [/b], which is built upon this map, no compatch needed
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2273832430] RICE [/url] and other Cybrxkhan's mods
+- Works with More Cultural Names mod ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=2490281800] compatch [/url])
+
+- Works as a base mod editing map - in most cases, other mods need to be made compatible with this one, not vice versa. If you want it to use it in compatibility with other mods, please ask both me and the other mod's author and I will try helping him with compatibility
+- I'm working towards compatibility with other mods of [url=https://forum.paradoxplaza.com/forum/threads/community-mods-for-historicity.1467303/] CMH (Community Mods for Historicity) [/url]
+
+------------------------------------------------------------
+[h1] CONTRIBUTORS AND HONORARY MENTIONS[/h1]
+
+- although I am working on this mod myself, I wouldn't make it possible without the help of these people:
+Nunnceler - for maintenance, guidance and help
+Keizer Harm who helped me sort out quite a few technical problems
+daniloy who has been very helpfull and providing tons of feedback and suggesting very interesting design choices
+Arko because, you know, you have great ideas, mate
+Atimo3 - provider of amazing feedback and ideas/sources for African areas I'm far from knowing enough about
+Wenceslaus II. Rhipeen panparba for providing awesome feedback about Bohemia and Moravia setup
+Black7Emperor7 - invaluable help with the Igbo and Yoruba regions
+Vertimnus of Sinews of War mod - inspiration and consultation for Boreal Highlands terrain and many other things
+César de Quart (CdQ) - for a very comprehensive suggestion of Iberian overhaul (what's good there is his work, what's bad is mine)
+Torngasuk for additional help with research of Iberia
+cybrxkhan - for allowing me to use his culture files to enable easy compatibility with RICE/VIET mods
+mirdetost - for translation into Spanish (since 1.4)
+several others whose help will be mentioned later as it
+
+
+With more feedback, please check the [url=https://forum.paradoxplaza.com/forum/threads/mapmod-ibn-battutas-legacy-ii-an-alternative-vanilla-map-wip.1421575/] mod's thread [/url] on official Paradox forum, or my [url=https://discord.gg/DkJKWYFcPD]] discord channel [/url]
+
+--------------------------------
+CHANGELOG
+--------------------------------
+Version 1.4.0 update (04/02/2023)
+- Overhaul of the Nig er bend area, Kanem, Zarma and Second overhaul of Maghreb
+- Cultural overhaul of Sahelian and Saharan cultures with 2 new Heritages and 6 new cultures
+
+--------------------------------
+Version 1.3.2 updates (autumn/2022)
+Compatibility with 1.8 game version and improved compatibility with other mods
+
+--------------------------------
+Version 1.3.1 update (01/07/2022)
+Adapted for Fate of Iberia and its patches
+--------------------------------
+
+Version 1.2.7 update (08/02/2022)
+- First Overhaul of Maghreb
+- 11 new and 3 expanded major rivers (11 in Europe, 3 in Africa)
+- dozens new characters, several new dynasties
+
+-------------------------------
+Version 1.2.6 update (10/01/2022)
+Overhaul of Iberia (Spain)
+a minor overhaul of central Sahara

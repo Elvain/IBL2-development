@@ -1,0 +1,5 @@
+l_spanish:
+ #TerrainType
+ terrain_savanna:0 "sabana"
+ terrain_high_boreal:0 "tierras altas boreales"
+ terrain_dry_hills:0 "colinas áridas"

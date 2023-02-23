@@ -2597,6 +2597,9 @@ c_gabes = {
 
 
 c_qashtiliya = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+
 	760.1.1 = {	
 		government = clan_government
 		#liege = k_africa
@@ -3141,6 +3144,9 @@ c_ghadames = {
 
 
 d_tripolitania = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 9 }
+
 	768.1.1 = {
 		holder = 210031
 	}

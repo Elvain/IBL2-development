@@ -671,6 +671,8 @@ c_askedal = {
 }
 
 c_fakkan = { #temporary placeholder copy of Tahert
+	949.1.1 = {	change_development_level = 6 } #city founded
+	1066.1.1 = { change_development_level = 9 }
 
 	768.1.1 = {
 		holder = 210032
@@ -1591,6 +1593,9 @@ d_zab = {
 
 
 c_hodna = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+
 	768.1.1 = {
 		government = clan_government
 		holder = 210029
@@ -1930,6 +1935,9 @@ c_biskra = {
 }
 
 c_qalaat = {
+	#867.1.1 = {	change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
+
 	800.1.1 = {
 		government = clan_government
 		liege = d_alger
