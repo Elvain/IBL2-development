@@ -1,5 +1,15 @@
 ﻿## These are really not in numeric order... sorry...
 
+#replaced vanilla dynasties
+
+#Marka
+1069107 = {
+	name = " dynn_Tellem" #formerly dynn_Kibse 
+	culture = zarma
+}
+
+#new IBL dynasties
+
 igbodyn005 = {
 	name = "dynn_Aguluri"
 	culture = igbo
@@ -173,5 +183,167 @@ sanhaja_serta = {
 }
 butr_zanata = {
 	name = "dynn_Zanata"
+	culture = butr
+}
+sanhaja_suswala = {
+	name = "dynn_Suswala"
 	culture = baranis
+}
+#### 1.4.0 Sahel
+badedyn000 = {
+	name = "dynn_Walu"
+	culture = bade
+}
+badedyn001 = {
+	name = "dynn_Bade"
+	culture = bade
+}
+badedyn002 = {
+	name = "dynn_Ngizim"
+	culture = bade
+}
+saghmaradyn = {
+	name = "dynn_Saghmara"
+	culture = bade
+}
+dagadyn001 = {
+	name = "dynn_Dagaaba"
+	culture = dagaaba
+}
+dagadyn002 = {
+	name = "dynn_Pusuga"
+	culture = dagaaba
+}
+dagadyn003 = {
+	name = "dynn_Nakanbe"
+	culture = dagaaba
+}
+kurumdyn001 = {
+	name = "dynn_Burzanga"
+	culture = kurumba
+}
+kurumdyn002 = {
+	name = "dynn_Dinde"
+	culture = kurumba
+}
+kurumdyn003 = {
+	name = "dynn_Oursi"
+	culture = kurumba
+}
+kurumdyn004 = {
+	name = "dynn_Bogande"
+	culture = kurumba
+}
+kurumdyn005 = {
+	name = "dynn_Zaran"
+	culture = kurumba
+}
+kanuridyn001 = {
+	name = "dynn_Kunkuna"
+	culture = kanuri
+}
+kanuridyn002 = {
+	name = "dynn_Bodowai"
+	culture = kanuri
+}
+kanuridyn003 = {
+	name = "dynn_Fadawu"
+	culture = kanuri
+}
+kibsidyn001 = {
+	name = "dynn_Dulugu"
+	culture = kibsi
+}
+kibsidyn002 = {
+	name = "dynn_Pura"
+	culture = kibsi
+}
+kibsidyn003 = {
+	name = "dynn_Boromo"
+	culture = kibsi
+}
+kibsidyn004 = {
+	name = "dynn_Yoro"
+	culture = kibsi
+}
+lobidyn001 = {
+	name = "dynn_Keleworo"
+	culture = lobi
+}
+lobidyn002 = {
+	name = "dynn_Gaoua"
+	culture = lobi
+}
+lobidyn003 = {
+	name = "dynn_Niego"
+	culture = lobi
+}
+songhaidyn001 = {
+	name = "dynn_Zabarima"
+	culture = gaw
+}
+songhaidyn002 = {
+	name = "dynn_Koyra"
+	culture = gaw
+}
+sorkodyn003 = {
+	name = "dynn_Konna"
+	culture = sorko
+}
+sorkodyn004 = {
+	name = "dynn_Namague"
+	culture = sorko
+}
+
+zarmadyn001 = {
+	name = "dynn_Nguma"
+	culture = zarma
+}
+zarmadyn002 = {
+	name = "dynn_Tiabou"
+	culture = zarma
+}
+zarmadyn003 = {
+	name = "dynn_Gabda"
+	culture = zarma
+}
+zarmadyn004 = {
+	name = "dynn_Djerma"
+	culture = zarma
+}
+zarmadyn005 = {
+	name = "dynn_Toloy"
+	culture = zarma
+}
+zarmadyn006 = {
+	name = "dynn_Saymere"
+	culture = zarma
+}
+zarma_tellem = {
+	name = "dynn_Tellem"
+	culture = zarma
+}
+zaghawadyn005 = {
+	name = "dynn_Bilma"
+	culture = zaghawa
+}
+zaghawadyn005 = {
+	name = "dynn_Bilma"
+	culture = zaghawa
+}
+zaghawadyn006 = {
+	name = "dynn_Hereka"
+	culture = zaghawa
+}
+zaghawadyn007 = {
+	name = "dynn_Goure"
+	culture = zaghawa
+}
+saodyn010 = {
+	name = "dynn_Tatala"
+	culture = zaghawa
+}
+saodyn011 = {
+	name = "dynn_Gafata"
+	culture = zaghawa
 }
