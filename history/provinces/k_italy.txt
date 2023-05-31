@@ -173,7 +173,7 @@
 	1066.1.1 = {
 		buildings = {
 			military_camps_01
-			hunting_grounds_01
+			#hunting_grounds_01
 			curtain_walls_01
 		}
 	}
@@ -230,7 +230,7 @@
 		buildings = {
 			quarries_01
 			pastures_01
-			outposts_01
+			#outposts_01
 		}
 	}
 }
@@ -313,7 +313,7 @@
 		buildings = {
 			common_tradeport_02
 			curtain_walls_01
-			military_camps_01
+			#military_camps_01
 		}
 	}
 	1099.1.1 = {
@@ -382,7 +382,7 @@
 	1066.1.1 = {
 		buildings = {
 			common_tradeport_02
-			barracks_01
+			#barracks_01
 			guild_halls_01
 		}
 	}

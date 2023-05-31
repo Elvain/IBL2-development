@@ -1,0 +1,10 @@
+﻿c_eger = {
+	2000.1.1={
+		holder = dummy0001
+	}
+}
+c_pedroche  = {
+	2000.1.1={
+		holder = dummy0001
+	}
+}

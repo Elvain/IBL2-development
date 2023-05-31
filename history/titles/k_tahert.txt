@@ -1477,12 +1477,11 @@ c_wansharis = { #largely copied c_algier
 		holder = zanata0072
 	}
 	981.1.1 = {
-		holder = zanata0073
-	}
-
-	1008.1.1 = {
 		holder = zanata0039
 	}
+	#1008.1.1 = {
+	#	holder = zanata0039
+	#}
 	1023.1.1 = {
 		holder = zanata0040
 	}

@@ -32,8 +32,8 @@ tradition_mountaineers = {
 				any_county_province = {
 					OR = {
 						terrain = mountains
-						terrain = dry_hills
 						terrain = desert_mountains
+						terrain = dry_hills
 					}
 				}
 			}
@@ -43,6 +43,10 @@ tradition_mountaineers = {
 		rough_terrain_expert_trait_more_common = yes
 		mountain_trait_bonuses = yes
 		can_recruit_mountain_specialist = yes
+	}
+	character_modifier = {
+		mountains_travel_danger = mountains_low_danger_reduction
+		desert_mountains_travel_danger = desert_mountains_low_danger_reduction
 	}
 	province_modifier = {
 		mountains_levy_size = 0.1
@@ -60,9 +64,9 @@ tradition_mountaineers = {
 			if = {
 				limit = {
 					NOR = {
-						any_in_list = { list = traits this = flag:ethos_bellicose }
-						any_in_list = { list = traits this = flag:ethos_stoic }
-						any_in_list = { list = traits this = flag:ethos_communal }
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
 					}
 				}
 				add = {

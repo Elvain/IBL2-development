@@ -484,7 +484,7 @@ name_list_zarma = {
 	}
 	
 	male_names = {
-		Sombo Alamin Bolonbooti Béro Hawayze Yefarma Attikou Kandi Gooro Wallam Simiri Tondikiwindi Djeliba Djiba Zabarkane
+		Sombo Alamin Bolonbooti Hawayze Yefarma Attikou Kandi Gooro Wallam Simiri Tondikiwindi Djeliba Djiba Zabarkane
 		Abi Abu Adamu Ahmad Al-Hajj Alayaman Ali Alkamiisa Ammar Ankabi Ar Arabi Aranda
 		Baba Babba Bada Baki Bakr Bani Bano Baru Bassarou Bay Ber Binta Birma Bisi Biya Biyay Biyo Bonkana Borgo Boumi Bukar Buyunbu
 		Daara Dala Dankataya Dao Daouda Dari Dawud Dum Dunku Duru

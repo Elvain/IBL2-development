@@ -71,7 +71,7 @@ sao0103 = {
 	dynasty = saodyn011
 	religion = west_african_bori_pagan
 	culture = sao
-	father = sao0102
+	father = sao0101
 	856.1.1 = {
 		birth = yes
 	}

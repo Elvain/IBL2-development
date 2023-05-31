@@ -41,7 +41,7 @@
 		buildings = {
 			plantations_01
 			camel_farms_01
-			pastures_01
+			#pastures_01
 		}
 	}
 	1070.1.1 = {
@@ -428,8 +428,8 @@
 		buildings = {
 			pastures_01
 			plantations_01
-			watchtowers_01
-			hunting_grounds_01
+			#watchtowers_01
+			#hunting_grounds_01
 		}
 	}
 }
@@ -494,7 +494,7 @@
 		buildings = {
 			common_tradeport_01
 			plantations_01
-			military_camps_01
+			#military_camps_01
 		}
 	}
 }
@@ -512,7 +512,7 @@
 	holding = castle_holding
 	1066.1.1 = {
 		buildings = {
-			watchtowers_01
+			#watchtowers_01
 			pastures_01
 			common_tradeport_01
 		}

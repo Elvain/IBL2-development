@@ -12,7 +12,7 @@
 		buildings = {
 			pastures_01
 			barracks_01
-			military_camps_01
+			#military_camps_01
 		}
 	}
 }
@@ -43,7 +43,7 @@
 		buildings = {
 			pastures_01
 			barracks_01
-			military_camps_01
+			#military_camps_01
 		}
 	}
 }

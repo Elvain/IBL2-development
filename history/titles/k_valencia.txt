@@ -2014,9 +2014,9 @@ c_mallorca = {
 		holder = 73987 # Joan de Mallorca
 		liege = 0
 	}
-	901.1.1 = {
-		holder = 73989 # Berenguer de Mallorca
-	}
+	#901.1.1 = {
+	#	holder = 73989 # Berenguer de Mallorca
+	#}
 	903.1.1 = {
 		holder = 73685 # Abdallah Umayyad
 		liege = k_andalusia
@@ -2168,9 +2168,9 @@ c_menorca = {
 		holder = 73990 # Pere de Menorca
 		liege = 0
 	}
-	892.1.1 = {
-		holder = 73992 # Mateu de Menorca
-	}
+	#892.1.1 = {
+	#	holder = 73992 # Mateu de Menorca
+	#}
 	903.1.1 = {
 		holder = 73685 # Abdallah Umayyad
 		liege = k_andalusia
@@ -2194,11 +2194,11 @@ c_menorca = {
 		holder = 85008 # Muyahid Amirid
 		liege = d_mallorca
 	}
-	1045.1.1 = {
-		holder = 20869 # Ali Amirid
+	1036.1.1 = {
+		holder = andalusian0070 # al-Aglab ibn Muskiyan
 	}
-	1076.1.1 = {
-		holder = 33053 # Abdallah Aglabid
+	1046.1.1 = {
+		holder = 33053 # Emir al-Murtada of Mallorca
 	}
 	1093.1.1 = {
 		holder = 33054 # Mubashir Aglabid
@@ -2313,9 +2313,9 @@ c_iviza = {
 		holder = 73987 # Joan de Mallorca
 		liege = 0
 	}
-	901.1.1 = {
-		holder = 73989 # Berenguer de Mallorca
-	}
+	#901.1.1 = {
+	#	holder = 73989 # Berenguer de Mallorca
+	#}
 	903.1.1 = {
 		holder = 73685 # Abdallah Umayyad
 		liege = k_andalusia

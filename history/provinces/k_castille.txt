@@ -11,7 +11,7 @@
 	1066.1.1 = {
 		buildings = {
 			curtain_walls_01
-			hunting_grounds_01
+			#hunting_grounds_01
 			military_camps_01
 		}
 	}

@@ -159,7 +159,7 @@
 		buildings = {
 			common_tradeport_02
 			barracks_01
-			hunting_grounds_01
+			#hunting_grounds_01
 		}
 	}
 }
@@ -237,7 +237,7 @@
 	1066.1.1 = {
 		buildings = {
 			common_tradeport_01
-			watchtowers_01
+			#watchtowers_01
 			pastures_01
 		}
 	}
@@ -414,7 +414,7 @@
 		buildings = {
 			common_tradeport_01
 			barracks_01
-			plantations_01
+			#plantations_01
 		}
 	}
 }

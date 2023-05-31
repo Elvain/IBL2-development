@@ -58,7 +58,7 @@
 		buildings = {
 			orchards_01
 			plantations_01
-			pastures_01
+			#pastures_01
 		}
 	}
 }

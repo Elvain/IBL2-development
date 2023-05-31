@@ -866,12 +866,13 @@ c_lara = {
 
 
 c_cuellar = {
-	757.1.1 = {
-		holder = 200041 # Yusuf Yusufid
-		liege = k_andalusia
-	}
+	#757.1.1 = {
+	#	holder = 200041 # Yusuf Yusufid
+	#	liege = k_andalusia
+	#}
 	777.1.1 = {
 		holder = 73679 # Abd al-Rahman I Umayyad
+		liege = k_andalusia
 	}
 	788.10.7 = {
 		holder = 73680 # Hisham I Umayyad
@@ -960,12 +961,13 @@ c_cuellar = {
 
 
 c_avila = {
-	757.1.1 = {
-		holder = 200041 # Yusuf Yusufid
-		liege = k_andalusia
-	}
+	#757.1.1 = {
+	#	holder = 200041 # Yusuf Yusufid
+	#	liege = k_andalusia
+	#}
 	777.1.1 = {
 		holder = 73679 # Abd al-Rahman I Umayyad
+		liege = k_andalusia
 	}
 	788.10.7 = {
 		holder = 73680 # Hisham I Umayyad
@@ -1053,12 +1055,12 @@ c_avila = {
 }
 
 
-d_avila = {
-	#711.1.1 = {
-	#	de_jure_liege = k_asturias
-	#}
-	#1037.9.4 = {
-	#	de_jure_liege = k_castille
-	#}
-}
+#d_avila = {
+#	#711.1.1 = {
+#	#	de_jure_liege = k_asturias
+#	#}
+#	#1037.9.4 = {
+#	#	de_jure_liege = k_castille
+#	#}
+#}
 

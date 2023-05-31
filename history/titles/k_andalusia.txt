@@ -2198,9 +2198,8 @@ c_madrid = {
 		holder = 73931 # Yusuf Qutamid
 		liege = d_toledo
 	}
-	903.1.1 = {
-		holder = 73824 # Mutarrif Qasid
-		liege = d_toledo
+	903.11.17 = {
+		holder = 200028 # Walih Mutarrif ibn Muhammad of Toledo
 	}
 	906.1.1 = {
 		holder = 73823 # Muhammad Qasid
@@ -2461,9 +2460,9 @@ c_cuenca = {
 	802.1.1 = {
 		holder = 73800 # Yusuf Amrusid
 	}
-	838.1.1 = {
-		holder = 73801 # Umar Amrusid
-	}
+	#838.1.1 = {
+	#	holder = 73801 # Umar Amrusid
+	#}
 	840.1.1 = {
 		holder = 73682 # Abd al-Rahman II Umayyad
 		liege = k_andalusia
@@ -2613,10 +2612,10 @@ c_malagon = {
 		holder = 73931 # Yusuf Qutamid
 		liege = d_toledo
 	}
-	903.1.1 = {
-		holder = 73824 # Mutarrif Qasid
-		liege = d_toledo
-	}
+	#903.1.1 = {
+	#	holder = 73824 # Mutarrif Qasid
+	#	liege = d_toledo
+	#}
 	906.1.1 = {
 		holder = 73823 # Muhammad Qasid
 	}
@@ -2744,10 +2743,10 @@ c_mora = {
 		holder = 73931 # Yusuf Qutamid
 		liege = d_toledo
 	}
-	903.1.1 = {
-		holder = 73824 # Mutarrif Qasid
-		liege = d_toledo
-	}
+	#903.1.1 = {
+	#	holder = 73824 # Mutarrif Qasid
+	#	liege = d_toledo
+	#}
 	906.1.1 = {
 		holder = 73823 # Muhammad Qasid
 	}
@@ -2878,10 +2877,10 @@ c_alarcon = {
 		holder = 73931 # Yusuf Qutamid
 		liege = d_toledo
 	}
-	903.1.1 = {
-		holder = 73824 # Mutarrif Qasid
-		liege = d_toledo
-	}
+	#903.1.1 = {
+	#	holder = 73824 # Mutarrif Qasid
+	#	liege = d_toledo
+	#}
 	906.1.1 = {
 		holder = 73823 # Muhammad Qasid
 	}

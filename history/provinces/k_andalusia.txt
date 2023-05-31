@@ -21,8 +21,8 @@
 			castle_02
 			curtain_walls_01
 			farm_estates_02
-			cereal_fields_01
-			regimental_grounds_01
+			#cereal_fields_01
+			#regimental_grounds_01
 		}
 	}
 	1245.3.19 = {
@@ -144,7 +144,7 @@
 	1066.1.1 = {
 		buildings = {
 			hill_forts_01
-			outposts_01
+			#outposts_01
 			quarries_01
 		}
 	}
@@ -236,7 +236,7 @@
 	1066.1.1 = {
 		buildings = {
 			hill_forts_01
-			hill_farms_01
+			#hill_farms_01
 			common_tradeport_01
 		}
 	}
@@ -268,9 +268,9 @@
 	1066.1.1 = {
 		buildings = {
 			farm_estates_01
-			military_camps_01
+			#military_camps_01
 			curtain_walls_01
-			cereal_fields_01
+			#cereal_fields_01
 		}
 	}
 	1263.1.1 = {
@@ -493,7 +493,7 @@
 	955.1.1 = { religion = muwalladi }
 	1066.1.1 = {
 		buildings = {
-			regimental_grounds_01
+			#regimental_grounds_01
 			curtain_walls_01
 			farm_estates_01
 		}

@@ -1,0 +1,14 @@
+﻿#on_game_start = {
+#	on_actions = {
+#		on_ibl_start
+#	}
+#}
+#
+#on_ibl_start = {
+#	effect = {
+#		set_global_variable = {
+#			name = ibl_is_loaded
+#			value = yes
+#		}
+#	}
+#}

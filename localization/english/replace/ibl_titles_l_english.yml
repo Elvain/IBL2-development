@@ -921,4 +921,16 @@
  b_anumma:0 "Anumma"
  b_gana:0 "Gana"
  b_gamazan:0 "Gamazan"
+#1.4.5 renamed
+ b_batorkeszi:0 "Tata"
+ c_knittelfeld:0 "Ennstal"
+ c_knittelfeld_adj:0 "Ennstaler"
+ c_hallstatt:0 "Traungau"
+ c_hallstatt_adj:0 "Traungauer"
+ c_kammersberg:0 "Judenburg"
+ c_kammersberg_adj:0 "Judenburger"
+ c_murzzuschlag:0 "Mürztal"
+ c_murzzuschlag_adj:0 "Mürztaler"
+ c_liebnitz:0 "Drauwald"
+ c_liebnitz_adj:0 "Drauwalder"
  

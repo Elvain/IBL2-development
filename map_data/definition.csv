@@ -8965,7 +8965,7 @@
 8955;8;27;205;Oweri;x;
 8956;50;30;78;Ikwere;x;
 8957;92;33;206;Nri;x;
-8958;134;36;79;Benue;x; #Benue river
+8958;134;36;79;river_benue;x; #Benue river
 8959;176;39;207;Aguleri;x;
 8960;8;42;80;Amafa;x;
 8961;50;45;208;Sapele;x;
@@ -9855,17 +9855,17 @@
 9845;9;141;150;Maestrazgo_mts;x; #impassable
 9846;51;144;23;Sra_Gudar;x; #impassable
 9847;93;147;151;Sra_Javalambre;x; #impassable
-9848;135;150;24;EBRO;x; 
-9849;177;153;152;EBRO;x;
-9850;9;156;25;EBRO;x;
-9851;51;159;153;DUERO;x;
-9852;93;162;26;DUERO;x;
-9853;135;165;154;DUERO;x;
+9848;135;150;24;river_ebro;x; 
+9849;177;153;152;river_ebro;x;
+9850;9;156;25;river_ebro;x;
+9851;51;159;153;river_duero;x;
+9852;93;162;26;river_duero;x;
+9853;135;165;154;river_duero;x;
 9854;177;168;27;SOKOTO_RIVER;x;
-9855;9;171;155;VOLTA;x;
-9856;51;174;28;VOLTA;x;
-9857;93;177;156;KOMOE;x;
-9858;135;180;29;KOMOE;x;
+9855;9;171;155;river_volta;x;
+9856;51;174;28;river_volta;x;
+9857;93;177;156;river_komoe;x;
+9858;135;180;29;river_komoe;x;
 9859;177;183;157;BANDAMA_RIVER;x;
 9860;9;186;30;BANDAMA_RIVER;x;
 9861;51;189;158;river_loire;x;
