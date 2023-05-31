@@ -9064,15 +9064,15 @@ santiago.0001 = {
 	864.1.1 = {
 		add_spouse = 73759
 	}
-	866.1.1 = { #Alfonso III becomes king in 866 and favours him, giving him prestige and land; later on he won the battle of Portucale in 868
-		effect = {
-			add_pressed_claim = title:c_coimbra
-			add_gold = 250 #this guy knows his administration
-			set_relation_friend = { reason = friend_generic_history target = character:70019 }
-			set_realm_capital = title:c_santiago
-			set_primary_title_to = title:c_santiago
-		}
-	}
+	#866.1.1 = { #Alfonso III becomes king in 866 and favours him, giving him prestige and land; later on he won the battle of Portucale in 868
+	#	effect = {
+	#		add_pressed_claim = title:c_coimbra
+	#		add_gold = 250 #this guy knows his administration
+	#		set_relation_friend = { reason = friend_generic_history target = character:70019 }
+	#		set_realm_capital = title:c_santiago
+	#		set_primary_title_to = title:c_santiago
+	#	}
+	#}
 	870.1.1 = {
 		dynasty_house = house_coimbra #founded it 
 	}
