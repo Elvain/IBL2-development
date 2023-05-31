@@ -96,111 +96,6 @@ tradition_winter_warriors = {
 		}
 	}
 }
-#
-#tradition_forest_fighters = {
-#	category = combat
-#
-#	layers = {
-#		0 = martial
-#		1 = western
-#		4 = forest.dds
-#	}
-#	
-#	can_pick = {
-#		culture_not_pacifistic_trigger = yes
-#		custom_description = {
-#			text = culture_in_forest_desc
-#			any_culture_county = {
-#				any_county_province = {
-#					OR = {
-#						terrain = forest
-#						terrain = taiga
-#					}
-#				}
-#			}
-#		}
-#	}
-#	parameters = {
-#		forest_fighter_trait_more_common = yes
-#		forest_trait_bonuses = yes
-#		can_recruit_forest_specialist = yes
-#	}
-#	character_modifier = {
-#		forest_travel_danger = forest_low_danger_reduction
-#		taiga_travel_danger = taiga_low_danger_reduction
-#	}
-#	province_modifier = {
-#		forest_levy_size = 0.1
-#		taiga_levy_size = 0.1
-#		forest_supply_limit_mult = 0.25
-#		taiga_supply_limit_mult = 0.25
-#	}
-#	cost = {
-#		prestige = {
-#			add = {
-#				value = tradition_base_cost
-#				desc = BASE
-#				format = "BASE_VALUE_FORMAT"
-#			}
-#			if = {
-#				limit = {
-#					NOR = {
-#						culture_pillar:ethos_bellicose = { is_in_list = traits }
-#						culture_pillar:ethos_stoic = { is_in_list = traits }
-#						culture_pillar:ethos_communal = { is_in_list = traits }
-#					}
-#				}
-#				add = {
-#					value = tradition_incompatible_ethos_penalty
-#					desc = not_bellicose_stoic_or_communal_desc
-#				}
-#			}
-#			if = {
-#				limit = {
-#					NOT = {
-#						any_culture_county = {
-#							percent >= 0.3
-#							any_county_province = {
-#								OR = {
-#									terrain = forest
-#									terrain = taiga
-#								}
-#							}
-#						}
-#					}
-#				}
-#				add = {
-#					value = tradition_unfulfilled_criteria_penalty
-#					desc = forest_percentage_desc
-#				}
-#			}
-#			
-#			multiply = tradition_replacement_cost_if_relevant
-#		}
-#	}
-#	ai_will_do = {
-#		value = 100
-#		if = {
-#			limit = {
-#				NOT = {
-#					scope:character = {
-#						any_sub_realm_county = {
-#							percent >= 0.2
-#							culture = scope:character.culture
-#							any_county_province = {
-#								OR = {
-#									terrain = forest
-#									terrain = taiga
-#								}
-#							}
-#						}
-#					}
-#				}
-#			}
-#			multiply = 0
-#		}
-#	}
-#}
 
 tradition_mountaineers = {
 	category = combat
@@ -349,6 +244,7 @@ tradition_warriors_of_the_dry = {
 						terrain = drylands
 						terrain = desert
 						terrain = savanna
+						terrain = dry_hills
 					}
 				}
 			}
@@ -365,6 +261,7 @@ tradition_warriors_of_the_dry = {
 		drylands_travel_danger = drylands_low_danger_reduction
 		desert_mountains_travel_danger = desert_mountains_low_danger_reduction
 		savanna_travel_danger = savanna_low_danger_reduction
+		dry_hills_travel_danger = dry_hills_low_danger_reduction
 	}
 	province_modifier = {
 		drylands_levy_size = 0.1
@@ -373,6 +270,7 @@ tradition_warriors_of_the_dry = {
 		drylands_supply_limit_mult = 0.25
 		desert_supply_limit_mult = 0.25
 		savanna_supply_limit_mult = 0.25
+		dry_hills_supply_limit_mult = 0.1
 	}
 	cost = {
 		prestige = {
@@ -404,6 +302,7 @@ tradition_warriors_of_the_dry = {
 									terrain = drylands
 									terrain = desert
 									terrain = savanna
+									terrain = dry_hills
 								}
 							}
 						}
@@ -432,6 +331,7 @@ tradition_warriors_of_the_dry = {
 									terrain = drylands
 									terrain = desert
 									terrain = savanna
+									terrain = dry_hills
 								}
 							}
 						}
