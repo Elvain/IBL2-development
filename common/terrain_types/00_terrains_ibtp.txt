@@ -1,8 +1,8 @@
 ﻿plains = {
-	color = rgb { 190 220 120 }
-	travel_danger_color = rgb { 190 220 120 }
+	color = { 190 220 120 }
+	travel_danger_color = hsv { 0.1 0.5 0.8 }
 	travel_danger_score = 10
-	
+
 	province_modifier = {
 		supply_limit_mult = 0
 		travel_danger = 10
@@ -14,7 +14,7 @@
 #ibl terrains
 savanna = {
 	color = { 240 80 20 }
-	travel_danger_color = { 240 80 20 }
+	travel_danger_color = hsv { 0.16 0.7 0.8 }
 	travel_danger_score = savanna_danger_value
 	
 	province_modifier = {
@@ -28,7 +28,7 @@ savanna = {
 
 high_boreal = {
 	color = { 50 80 0 }
-	travel_danger_color = { 50 80 0 }
+	travel_danger_color = hsv { 0.37 0.8 0.5 }
 	travel_danger_score = high_boreal_danger_value
 	
 	province_modifier = {
@@ -51,7 +51,7 @@ high_boreal = {
 
 dry_hills = {
 	color = { 100 70 20 }
-	travel_danger_color = { 100 70 20 }
+	travel_danger_color = hsv { 29 0.6 0.353 }
 	travel_danger_score = dry_hills_danger_value
 
 	province_modifier = {

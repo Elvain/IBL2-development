@@ -3919,6 +3919,61 @@
 	}
 }
 
+155000 = {
+	name = "Ibrahim"
+	dynasty = 1027003
+	religion = "ashari"
+	culture = baranis
+	950.1.1 = {
+		birth = "950.1.1"
+	}
+	1015.1.1 = {
+		death = "1015.1.1"
+	}
+}
+
+155001 = {
+	name = "abd-al-Rahman" #ibn Ibrahim
+	dynasty = 1027003
+	religion = "ashari"
+	culture = baranis
+	father = 155000
+	980.1.1 = {
+		birth = "980.1.1"
+	}
+	1039.1.1 = {
+		death = "1039.1.1"
+	}
+}
+
+155002 = {
+	name = "Muhammad" #ibn abd-al-Rahman
+	dynasty = 1027003
+	religion = "ashari"
+	culture = baranis
+	father = 155001
+	1010.1.1 = {
+		birth = "1010.1.1"
+	}
+	1066.1.1 = {
+		death = "1066.1.1"
+	}
+}
+
+155003 = {
+	name = "Qasim" #ibn Muhammad
+	dynasty = 1027003
+	religion = "ashari"
+	culture = baranis
+	father = 155002
+	1040.1.1 = {
+		birth = "1040.1.1"
+	}
+	1075.1.1 = {
+		death = "1075.1.1"
+	}
+}
+
 155004 = {
 	name = "Muhammad"
 	dynasty = 1027006
@@ -3973,6 +4028,34 @@
 	}
 	1082.1.1 = {
 		death = "1082.1.1"
+	}
+}
+
+155021 = {
+	name = "Abu-_Amr"
+	#placeholder
+	dynasty = 1027000
+	religion = "ashari"
+	culture = baranis
+	1045.1.1 = {
+		birth = "1045.1.1"
+	}
+	1109.1.1 = {
+		death = "1109.1.1"
+	}
+}
+
+155022 = {
+	name = "Wadih"
+	#placeholder
+	dynasty = 1027000
+	religion = "ashari"
+	culture = baranis
+	1087.1.1 = {
+		birth = "1087.1.1"
+	}
+	1152.1.1 = {
+		death = "1152.1.1"
 	}
 }
 
@@ -4795,10 +4878,10 @@
 	culture = guanches
 	father = 20842
 	1064.1.1 = {
-		birth = yes
+		birth = "1064.1.1"
 	}
 	1106.1.1 = {
-		death = yes
+		death = "1106.1.1"
 	}
 }
 
@@ -4871,7 +4954,7 @@
 		add_pressed_claim = title:d_sicily
 	}
 	1098.1.1 = {
-		death = yes
+		death = "1098.1.1"
 	}
 }
 
@@ -5216,6 +5299,257 @@
 	}
 }
 
+155116 = {
+	name = "Khazer"
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	845.1.1 = {
+		birth = "845.1.1"
+	}
+	900.1.1 = {
+		death = "900.1.1"
+	}
+}
+
+155117 = {
+	name = "Felful" #ibn Khazer
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155116
+	870.1.1 = {
+		birth = "870.1.1"
+	}
+	925.1.1 = {
+		death = "925.1.1"
+	}
+}
+
+155118 = {
+	name = "Khazrun" #ibn Felful
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155117
+	895.1.1 = {
+		birth = "895.1.1"
+	}
+	950.1.1 = {
+		death = "950.1.1"
+	}
+}
+
+155119 = {
+	name = "Abd-_Allah" #ibn Khazrun
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155118
+	914.1.1 = {
+		birth = "914.1.1"
+	}
+	965.1.1 = {
+		death = "965.1.1"
+	}
+}
+
+155120 = {
+	name = "Attia" #ibn Abdallah
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155119
+	933.1.1 = {
+		birth = "933.1.1"
+	}
+	980.1.1 = {
+		death = "980.1.1"
+	}
+}
+155121 = {
+	name = "Ziri" #ibn Attia
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155120
+	952.1.1 = {
+		birth = "952.1.1"
+	}
+	1002.1.1 = {
+		death = "1002.1.1"
+	}
+}
+155122 = {
+	name = "Said" #ibn Khazrun
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155118
+	920.1.1 = {
+		birth = "920.1.1"
+	}
+	975.1.1 = {
+		death = "975.1.1"
+	}
+}
+155123 = {
+	name = "Felful" #ibn Said
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155122
+	950.1.1 = {
+		birth = "950.1.1"
+	}
+	1009.1.1 = {
+		death = "1009.1.1"
+	}
+}
+155124 = {
+	name = "Warru" #ibn Said
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155122
+	955.1.1 = {
+		birth = "955.1.1"
+	}
+	1012.1.1 = {
+		death = "1012.1.1"
+	}
+}
+155125 = {
+	name = "Khazrun" #ibn Said
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155122
+	960.1.1 = {
+		birth = "960.1.1"
+	}
+	1022.1.1 = {
+		death = "1022.1.1"
+	}
+}
+155126 = {
+	name = "Khalifa" #ibn Warru
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155124
+	975.1.1 = {
+		birth = "975.1.1"
+	}
+	1028.1.1 = {
+		death = "1028.1.1"
+	}
+}
+155127 = {
+	name = "Said" #ibn Khazrun-ibn-Said
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155125
+	980.1.1 = {
+		birth = "980.1.1"
+	}
+	1038.1.1 = {
+		death = "1038.1.1"
+	}
+}
+155128 = {
+	name = "Khazrun" #ibn Khalifa-ibn-Warru
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155126
+	995.1.1 = {
+		birth = "995.1.1"
+	}
+	1053.1.1 = {
+		death = "1053.1.1"
+	}
+}
+155129 = {
+	name = "Abd-_Allah" #ibn Khazrun
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155128
+	1015.1.1 = {
+		birth = "1015.1.1"
+	}
+	1058.1.1 = {
+		death = "1058.1.1"
+	}
+}
+155130 = {
+	name = "al-Muntasir" #ibn Khazrun
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155128
+	1020.1.1 = {
+		birth = "1020.1.1"
+	}
+	1068.1.1 = {
+		death = "1068.1.1"
+	}
+}
+155131 = {
+	name = "Khalifa" #ibn Khazrun
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155128
+	1025.1.1 = {
+		birth = "1025.1.1"
+	}
+	1078.1.1 = {
+		death = "1078.1.1"
+	}
+}
+155132 = {
+	name = "Yahya"
+	#placeholder
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155129
+	1040.1.1 = {
+		birth = "1040.1.1"
+	}
+	1090.1.1 = {
+		death = "1090.1.1"
+	}
+}
+155133 = {
+	name = "Khazrun"
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155132
+	1070.1.1 = {
+		birth = "1070.1.1"
+	}
+	1115.1.1 = {
+		death = "1115.1.1"
+	}
+}
+155134 = {
+	name = "Muhammad" #ibn Khazrun
+	dynasty = 1027001
+	religion = "ashari"
+	culture = baranis
+	father = 155133
+	1095.1.1 = {
+		birth = "1095.1.1"
+	}
+	1146.1.1 = {
+		death = "1146.1.1"
+	}
+}
 155135 = {
 	name = "Matruh"
 	dynasty = 1027016
@@ -6324,6 +6658,18 @@
 		death = "772.1.1"
 	}
 }
+210032 = {
+	name = "Abu_Qurra" #first Ifrinid leader
+	dynasty = 1048004
+	religion = ibadi
+	culture = baranis
+	720.1.1 = {
+		birth = "720.1.1"
+	}
+	790.1.1 = {
+		death = "790.1.1"
+	}
+}
 210033 = {
 	name = "Al-Qasim" # Midrarid leader
 	dynasty = 1048005
@@ -7357,21 +7703,21 @@ baranis0027 = {
 }
 
 khali0001 = { #Banu Khali ancestor (fictional)
-    name = "Khali"
-    dynasty_house = house_khali
-    religion = ashari
-    culture = baranis
-    trait = education_martial_1
+	name = "Khali"
+	dynasty_house = house_khali
+	religion = ashari
+	culture = baranis
+	trait = education_martial_1
 
-    father = danis0000
+	father = danis0000
  
-    731.1.1 = {
-        birth = yes
-    }
+	731.1.1 = {
+		birth = yes
+	}
 
-    783.1.1 = {
-        death = yes   
-    }
+	783.1.1 = {
+		death = yes   
+	}
 }
 
 khali0002 = { #Banu Khali ancestor (fictional)
@@ -8232,15 +8578,15 @@ baranis0061 = {
 		effect = {
 			add_trait = lifestyle_mystic
 			add_trait_xp = {
-                trait = lifestyle_mystic
-                value = {
-                    integer_range = {
-                        min = medium_lifestyle_random_xp_low
-                        max = medium_lifestyle_random_xp_high
-                    }
-                }
-            }
-        }
+				trait = lifestyle_mystic
+				value = {
+					integer_range = {
+						min = medium_lifestyle_random_xp_low
+						max = medium_lifestyle_random_xp_high
+					}
+				}
+			}
+		}
 	}
 	1085.5.6 = {
 		religion = catholic

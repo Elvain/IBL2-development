@@ -1,0 +1,20 @@
+﻿on_game_start = {
+    on_actions = {
+        on_ibn_battutas_legacy_start
+    }
+}
+
+on_ibn_battutas_legacy_start = {
+	effect = {
+		set_global_variable = {
+			name = IBL_is_loaded
+			value = yes
+		}
+		if = { #Error Destroyer 4000
+			limit = {
+				exists = global_var:IBL_is_loaded
+			}
+			# Do nothing
+		}
+	}
+}

@@ -1,0 +1,911 @@
+﻿
+### ANIMAL COLOR ###
+
+# e.g. 'brown'
+GetAnimalColor = {
+	type = all
+	random_valid = yes
+
+	text = { # Brown
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:stag
+				var:animal_type ?= flag:hart
+				var:animal_type ?= flag:roe
+				var:animal_type ?= flag:antelope
+				var:animal_type ?= flag:gazelle
+				var:animal_type ?= flag:hare
+				var:animal_type ?= flag:boar
+				var:animal_type ?= flag:bison
+				var:animal_type ?= flag:bear
+				var:animal_type ?= flag:hyena
+				var:animal_type ?= flag:aurochs
+				var:animal_type ?= flag:goose
+				var:animal_type ?= flag:duck
+				var:animal_type ?= flag:hawk
+			}
+		}
+		localization_key = fur_color_brown
+		fallback = yes
+	}
+
+	text = { # Dark
+		trigger = {
+			trigger_if = { # Legendary
+				limit = {
+					hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+				}
+				var:animal_type ?= flag:leopard
+			}
+			trigger_else = { # Standard
+				OR = {
+					var:animal_type ?= flag:boar
+					var:animal_type ?= flag:bison
+					var:animal_type ?= flag:bear
+					var:animal_type ?= flag:hyena
+					var:animal_type ?= flag:falcon
+				}
+			}
+		}
+		localization_key = fur_color_dark
+	}
+
+	text = { # Bright
+		trigger = {
+			OR = {
+				var:animal_type ?= flag:unicorn # Mythical
+				trigger_if = { # Legendary
+					limit = {
+						hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+					}
+					NOT = { var:animal_type ?= flag:leopard }
+				}
+				trigger_else = { # Standard
+					OR = {
+						var:animal_type ?= flag:fox
+						var:animal_type ?= flag:tiger
+					}
+				}
+			}
+		}
+		localization_key = fur_color_bright
+	}
+
+	text = { # Sandy
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:roe
+				var:animal_type ?= flag:antelope
+				var:animal_type ?= flag:gazelle
+				var:animal_type ?= flag:hare
+				var:animal_type ?= flag:lion
+				var:animal_type ?= flag:aurochs
+			}			
+		}
+		localization_key = fur_color_sandy
+	}
+
+	text = { # Black
+		trigger = {
+			trigger_if = { # Legendary
+				limit = {
+					hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+				}	
+				var:animal_type ?= flag:leopard
+			}
+			trigger_else = { # Standard
+				OR = {
+					var:animal_type ?= flag:boar
+					var:animal_type ?= flag:dragon
+				}
+			}
+		}
+		localization_key = fur_color_black
+	}
+
+	text = { # Yellow
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:lion
+				var:animal_type ?= flag:leopard
+			}
+		}
+		localization_key = fur_color_yellow
+	}
+
+	text = { # Golden
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:lion
+				var:animal_type ?= flag:leopard
+			}
+		}
+		localization_key = fur_color_golden
+	}
+
+	text = { # Gray
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:wolf
+				var:animal_type ?= flag:heron
+				var:animal_type ?= flag:crane
+				var:animal_type ?= flag:goose
+				AND = { # Silver Fox
+					var:animal_type ?= flag:fox
+					activity_location = {
+						OR = {
+							terrain = taiga
+							terrain = high_boreal
+							terrain = mountains
+						}
+					}
+				}
+			}
+		}
+		localization_key = fur_color_gray
+	}
+
+	text = { # Silver
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:wolf
+				AND = { # Silver Fox
+					var:animal_type ?= flag:fox
+					activity_location = {
+						OR = {
+							terrain = taiga
+							terrain = high_boreal
+							terrain = mountains
+						}
+					}
+				}
+			}
+		}
+		localization_key = fur_color_silver
+	}
+
+	text = { # Orange
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:tiger
+				AND = {
+					var:animal_type ?= flag:fox
+					activity_location = {
+						NOR = {
+							terrain = taiga
+							terrain = high_boreal
+							terrain = mountains
+						}
+					}
+				}
+			}
+		}
+		localization_key = fur_color_orange
+	}
+
+	text = { # White
+		trigger = {
+			trigger_if = {
+				limit = {
+					hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+				}
+				NOT = { var:animal_type ?= flag:leopard }
+			}
+			trigger_else = {
+				OR = {
+					var:animal_type ?= flag:pelican
+					var:animal_type ?= flag:stork
+					var:animal_type ?= flag:heron
+					var:animal_type ?= flag:crane
+					var:animal_type ?= flag:egret
+					var:animal_type ?= flag:swan
+					var:animal_type ?= flag:goose
+					var:animal_type ?= flag:unicorn
+				}
+			}
+		}
+		localization_key = fur_color_white
+	}
+
+	text = { # Snowy
+		trigger = {
+			trigger_if = {
+				limit = {
+					hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+				}
+				NOT = { var:animal_type ?= flag:leopard }
+			}
+			trigger_else = { var:animal_type ?= flag:unicorn }
+		}
+		localization_key = fur_color_snowy
+	}
+
+	text = { # Dazzling
+		trigger = {
+			trigger_if = {
+				limit = {
+					hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+				}
+				NOT = { var:animal_type ?= flag:leopard }
+			}
+			trigger_else = { var:animal_type ?= flag:unicorn }
+		}
+		localization_key = fur_color_dazzling
+	}
+
+	text = { # Spotted
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:leopard
+				var:animal_type ?= flag:lynx
+				var:animal_type ?= flag:hyena
+				AND = { # Fallow
+					var:animal_type ?= flag:stag
+					activity_location = { geographical_region = world_europe }
+				}
+			}
+		}
+		localization_key = fur_color_spotted
+	}
+
+	text = { # Colorful
+		trigger = {
+			NOT = {
+				hunt_legendary_animal_custom_loc_trigger = { ACTIVITY = this }
+			}
+			OR = {
+				var:animal_type ?= flag:dragon
+				var:animal_type ?= flag:leopard
+				AND = {
+					var:animal_type ?= flag:fox
+					activity_location = {
+						NOR = {
+							terrain = taiga
+							terrain = high_boreal
+							terrain = mountains
+						}
+					}
+				}
+				var:animal_type ?= flag:tiger
+				var:animal_type ?= flag:gazelle
+				var:animal_type ?= flag:antelope
+			}
+		}
+		localization_key = fur_color_colorful
+	}
+
+	text = { # Speckled
+		trigger = {
+			hunt_activity_ground_bird_trigger = { VAR = var:animal_type }
+		}
+		localization_key = fur_color_speckled
+	}
+
+	text = { # Tawny
+		trigger = {
+			hunt_activity_ground_bird_trigger = { VAR = var:animal_type }
+		}
+		localization_key = fur_color_tawny
+	}
+
+	text = { # Pink
+		trigger = { var:animal_type ?= flag:flamingo }
+		localization_key = fur_color_pink
+	}
+}
+
+### FOLIAGE FLAVOR ###
+
+# e.g. 'dense trees'
+GetProvinceFoliageDesc = {
+	type = province
+	random_valid = yes
+
+	text = {
+		localization_key = foliage_dense_tree
+		trigger = {
+			OR = {
+				terrain = forest
+				terrain = mountains
+				terrain = taiga
+				terrain = high_boreal
+				terrain = jungle
+			}
+		}
+	}
+
+	text = {
+		localization_key = foliage_tree_specific
+		trigger = {
+			OR = {
+				terrain = plains
+				terrain = farmlands
+			}
+		}
+	}
+
+	text = {
+		localization_key = foliage_tree_line
+		trigger = {
+			OR = {
+				terrain = plains
+				terrain = farmlands
+			}
+		}
+	}
+
+	text = {
+		localization_key = foliage_pine
+		trigger = {
+			OR = {
+				terrain = taiga
+				terrain = high_boreal
+				terrain = mountains
+			}
+		}
+	}
+
+	text = {
+		localization_key = foliage_palm
+		trigger = {
+			OR = {
+				terrain = floodplains
+				terrain = desert
+				terrain = oasis
+			}
+		}
+	}
+
+	text = {
+		localization_key = foliage_bush
+		trigger = {
+			OR = {
+				terrain = plains
+				terrain = hills
+				terrain = dry_hills
+				terrain = forest
+				terrain = farmlands
+				terrain = mountains
+			}
+		}
+		fallback = yes
+	}
+
+	text = {
+		localization_key = foliage_scrub
+		trigger = {
+			OR = {
+				terrain = desert
+				terrain = desert_mountains
+				terrain = drylands
+				terrain = savanna
+			}
+		}
+	}
+
+	text = {
+		localization_key = foliage_undergrowth
+		trigger = {
+			OR = {
+				terrain = jungle
+				terrain = forest
+				terrain = taiga
+			}
+		}
+	}
+
+	text = {
+		localization_key = foliage_jungle
+		trigger = { terrain = jungle }
+	}
+
+	text = {
+		localization_key = foliage_reeds
+		trigger = {
+			OR = {
+				terrain = wetlands
+				terrain = floodplains
+				terrain = oasis
+			}
+		}
+	}
+
+	text = {
+		localization_key = foliage_grass
+		trigger = {
+			OR = {
+				terrain = plains
+				terrain = hills
+				terrain = steppe
+				terrain = drylands
+				terrain = savanna
+			}
+		}
+	}
+}
+
+### TERRAIN FLAVOR ###
+
+# Singular - e.g. 'flatland'
+GetTerrainType = {
+	type = province
+	random_valid = yes
+
+	text = {
+		localization_key = terrain_plain
+		trigger = { terrain = plains }
+	}
+
+	text = {
+		localization_key = terrain_hill
+		trigger = { terrain = hills }
+	}
+
+	text = {
+		localization_key = terrain_jungle
+		trigger = { terrain = jungle }
+	}
+
+	text = {
+		localization_key = terrain_wetland
+		trigger = { terrain = wetlands }
+	}
+
+	text = {
+		localization_key = terrain_floodplain
+		trigger = { terrain = floodplains }
+	}
+
+	text = {
+		localization_key = terrain_taiga
+		trigger = { terrain = taiga }
+	}
+
+	text = {
+		localization_key = terrain_dryland
+		trigger = { terrain = drylands }
+	}
+
+	text = {
+		localization_key = terrain_steppe
+		trigger = { terrain = steppe }
+	}
+
+	text = {
+		localization_key = terrain_forest
+		trigger = {
+			OR = {
+				terrain = forest
+				terrain = taiga
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_desert
+		trigger = {
+			OR = {
+				terrain = desert
+				terrain = desert_mountains
+				terrain = oasis
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_farmland
+		trigger = {
+			OR = {
+				terrain = farmlands
+				terrain = floodplains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_wood
+		trigger = {
+			OR = {
+				terrain = forest
+				terrain = taiga
+				terrain = high_boreal
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_grassland
+		trigger = {
+			OR = {
+				terrain = plains
+				terrain = hills
+				terrain = steppe
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_flatland
+		trigger = {
+			OR = {
+				terrain = plains
+				terrain = hills
+				terrain = steppe
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_valley
+		trigger = {
+			OR = {
+				terrain = mountains
+				terrain = desert_mountains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_mountain
+		trigger = {
+			OR = {
+				terrain = mountains
+				terrain = desert_mountains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_slope
+		trigger = {
+			OR = {
+				terrain = mountains
+				terrain = desert_mountains
+				terrain = high_boreal
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_field
+		trigger = {
+			OR = {
+				terrain = farmlands
+				terrain = floodplains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_swampland
+		trigger = {
+			OR = {
+				terrain = wetlands
+				terrain = floodplains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_scrubland
+		trigger = {
+			OR = {
+				terrain = drylands
+				terrain = savanna
+				terrain = oasis
+				terrain = desert
+				terrain = desert_mountains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_highland
+		trigger = {
+			OR = {
+				terrain = mountains
+				terrain = hills
+				terrain = dry_hills
+				terrain = desert_mountains
+				terrain = high_boreal
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_woodland
+		trigger = {
+			OR = {
+				terrain = forest
+				terrain = taiga
+				terrain = high_boreal
+			}
+		}
+	}
+	
+	#IBL
+	text = {
+		localization_key = terrain_dry_hills
+		trigger = { terrain = dry_hills }
+	}
+
+	text = {
+		localization_key = terrain_high_boreal
+		trigger = { terrain = savanna }
+	}
+
+	text = {
+		localization_key = terrain_high_boreal
+		trigger = { terrain = high_boreal }
+	}
+
+	text = {
+		localization_key = terrain_fallback
+		trigger = { always = no }
+		fallback = yes
+	}
+}
+
+### TERRAIN "LAND" ###
+
+# Singular - e.g. 'flatland'
+GetTerrainLand = {
+	type = province
+	random_valid = yes
+
+	text = {
+		localization_key = terrain_wetland
+		trigger = { terrain = wetlands }
+	}
+
+	text = {
+		localization_key = terrain_farmland
+		trigger = {
+			OR = {
+				terrain = farmlands
+				terrain = floodplains
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_grassland
+		trigger = {
+			OR = {
+				terrain = plains
+				terrain = hills
+				terrain = steppe
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_scrubland
+		trigger = {
+			OR = {
+				terrain = drylands
+				terrain = savanna
+				terrain = oasis
+				terrain = desert
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_highland
+		trigger = {
+			OR = {
+				terrain = mountains
+				terrain = hills
+				terrain = dry_hills
+				terrain = desert_mountains
+				terrain = high_boreal
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_woodland
+		trigger = {
+			OR = {
+				terrain = forest
+				terrain = taiga
+				terrain = high_boreal
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_fallback
+		trigger = { always = no }
+		fallback = yes
+	}
+}
+
+### WOODED FLAVOR ###
+
+# Singular - e.g. 'forest'
+GetTerrainTree = {
+	type = province
+	random_valid = yes
+
+	text = {
+		localization_key = terrain_forest
+		trigger = {
+			OR = {
+				terrain = plains
+				terrain = hills
+				terrain = steppe
+				terrain = wetlands
+				terrain = forest
+				terrain = taiga
+				terrain = high_boreal
+				terrain = desert
+				terrain = desert_mountains
+				terrain = oasis
+				terrain = floodplains
+			}
+		}
+		fallback = yes
+	}
+
+	text = {
+		localization_key = terrain_wood
+		trigger = {
+			OR = {
+				terrain = plains
+				terrain = hills
+				terrain = steppe
+				terrain = wetlands
+				terrain = forest
+				terrain = taiga
+				terrain = high_boreal
+				terrain = drylands
+				terrain = savanna
+			}
+		}
+	}
+
+	text = {
+		localization_key = terrain_jungle
+		trigger = { terrain = jungle }
+	}
+}
+
+### GROUND FLAVOR ###
+
+# e.g. 'sand'
+GetProvinceGroundDesc = {
+	type = province
+	random_valid = yes
+
+	text = {
+		localization_key = ground_leaves
+		trigger = {
+			OR = {
+				terrain = forest
+				terrain = jungle
+			}
+		}
+	}
+
+	text = {
+		localization_key = ground_roots
+		trigger = {
+			OR = {
+				terrain = forest
+				terrain = jungle
+				terrain = taiga
+				terrain = high_boreal
+			}
+		}
+	}
+
+	text = {
+		localization_key = ground_mud
+		trigger = {
+			OR = {
+				terrain = plains
+				terrain = forest
+				terrain = hills
+				terrain = taiga
+				terrain = high_boreal
+				terrain = wetlands
+				terrain = floodplains
+				terrain = farmlands
+				terrain = jungle
+			}
+		}
+	}
+
+	text = {
+		localization_key = ground_gravel
+		trigger = {
+			OR = {
+				terrain = mountains
+				terrain = desert_mountains
+				terrain = drylands
+				terrain = savanna
+			}
+		}
+	}
+
+	text = {
+		localization_key = ground_sand
+		trigger = {
+			OR = {
+				terrain = desert_mountains
+				terrain = desert
+				terrain = oasis
+			}
+		}
+	}
+
+	text = {
+		localization_key = ground_rocks
+		trigger = {
+			OR = {
+				terrain = mountains
+				terrain = desert_mountains
+				terrain = drylands
+				terrain = savanna
+				terrain = dry_hills
+			}
+		}
+	}
+
+	text = {
+		localization_key = ground_grass
+		trigger = {
+			OR = {
+				terrain = plains
+				terrain = hills
+				terrain = farmlands
+				terrain = mountains
+			}
+		}
+	}
+
+	text = {
+		localization_key = ground_scrub
+		trigger = {
+			OR = {
+				terrain = desert
+				terrain = desert_mountains
+				terrain = drylands
+				terrain = savanna
+				terrain = oasis
+			}
+		}
+	}
+
+	text = {
+		localization_key = ground_dirt
+		trigger = { always = yes }
+		fallback = yes
+	}
+}

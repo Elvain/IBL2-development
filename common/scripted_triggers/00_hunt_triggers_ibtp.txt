@@ -1,0 +1,125 @@
+﻿# Roe
+hunt_animal_roe_trigger = {
+	OR = {
+		AND = {
+			geographical_region = world_europe			
+			trigger_if = {
+				limit = {
+					exists = empire
+					empire = title:e_scandinavia
+				}
+				NOR = {
+					terrain = taiga
+					terrain = high_boreal
+					terrain = mountains
+					terrain = hills
+				}
+			}
+		}
+		geographical_region = world_asia_minor
+		geographical_region = world_india
+		geographical_region = world_burma
+		geographical_region = world_tibet
+	}
+}
+
+# Terrain Triggers
+hunt_animal_temperate_terrain_trigger = {
+	OR = {
+		# Flat
+		terrain = plains
+		terrain = farmlands
+		terrain = steppe		
+		terrain = wetlands
+		# Wooded
+		terrain = forest
+		terrain = taiga
+		terrain = high_boreal
+		# Rough
+		terrain = hills
+		terrain = mountains
+	}
+}
+
+hunt_animal_tropical_terrain_trigger = {
+	OR = {
+		# Flat
+		terrain = desert
+		terrain = drylands
+		terrain = savanna
+		terrain = floodplains
+		terrain = oasis
+		# Wooded
+		terrain = jungle
+		# Rough
+		terrain = desert_mountains
+	}
+}
+
+# Wolf
+hunt_animal_wolf_trigger = {
+	NOT = {	geographical_region = world_africa_west	}
+	OR = {
+		terrain = hills
+		terrain = forest
+		terrain = jungle
+		terrain = mountains
+		terrain = taiga
+		terrain = high_boreal
+	}
+}
+
+hunt_animal_lion_trigger = {
+	OR = {
+		geographical_region = world_africa
+		geographical_region = world_middle_east
+	}
+	OR = {
+		terrain = drylands
+		terrain = savanna
+		terrain = desert
+		terrain = desert_mountains
+		terrain = jungle
+		terrain = forest
+		terrain = hills
+		terrain = dry_hills
+		terrain = mountains
+	}
+	NOR = {
+		terrain = farmlands
+		terrain = floodplains
+	}
+}
+
+hunt_animal_tiger_trigger = {
+	OR = {
+		geographical_region = world_steppe
+		geographical_region = world_india
+		geographical_region = world_burma
+		geographical_region = world_middle_east_persia
+	}
+	OR = {
+		terrain = jungle
+		terrain = forest
+		terrain = taiga
+		terrain = high_boreal
+		terrain = mountains
+		terrain = hills
+		terrain = dry_hills
+	}
+	NOR = {
+		terrain = farmlands
+		terrain = floodplains
+	}
+}
+
+hunt_animal_steppe_trigger = { # Saiga/etc.
+	geographical_region = world_steppe
+	OR = {
+		terrain = steppe
+		terrain = hills
+		terrain = dry_hills
+		terrain = desert
+		terrain = wetlands
+	}
+}

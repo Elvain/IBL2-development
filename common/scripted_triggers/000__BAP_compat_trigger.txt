@@ -1,1 +1,0 @@
-﻿bap_is_loaded = { always = no }

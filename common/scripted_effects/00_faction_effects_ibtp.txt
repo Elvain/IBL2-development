@@ -1,16 +1,4 @@
-﻿
-
-#####################################################################
-# EFFECT LIST
-#####################################################################
-
-# join_faction_with_leave_blocker_effect - make a character join a faction, and prevent them from leaving
-# leave_faction_with_cooldown_effect - makes a character leave a FACTION and not rejoin another faction for YEARS years
-# get_popular_revolt_target_effect - looks for a valid title for a popular revolt to target (may not be the title the revolt gets if successful, just determines the 'region' the revolt is supposed to occur within),
-# successful_popular_revolt_outcome_effect - handles all of the title changes necessary for a successful popular revolt to break away as an independent realm.
-# get_popular_revolt_title_name - Script logic to check what the new name of dynamically-created peasant titles should be (e.g., Kingdom of Isma'ili Arabia).
-
-spawn_popular_revolt_troops = {
+﻿spawn_popular_revolt_troops = {
 	# Spawn Levies
 	spawn_army = {
 		levies = {
