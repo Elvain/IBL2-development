@@ -58,7 +58,7 @@
 		buildings = {
 			orchards_01
 			plantations_01
-			pastures_01
+			#pastures_01
 		}
 	}
 }
@@ -143,7 +143,7 @@
 
 ###c_kouga
 6613 = {	#KOUGA
-	culture = bozo
+	culture = zarma
 	religion = west_african_bidu_pagan
 	holding = castle_holding
 	960.1.1 = { #Berber expansion
@@ -174,8 +174,12 @@
 	holding = none
 
 }
-6621 = {	#SHOMA
+9751 = {	#MASSINA
 	holding = church_holding #to have some holdings
+
+}
+9967 = {	#BARA
+	holding = city_holding
 
 }
 

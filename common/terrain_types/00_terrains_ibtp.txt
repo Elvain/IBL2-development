@@ -1,8 +1,11 @@
 ﻿plains = {
-	color = { 190 220 120 }
+	color = rgb { 190 220 120 }
+	travel_danger_color = rgb { 190 220 120 }
+	travel_danger_score = 10
 	
 	province_modifier = {
 		supply_limit_mult = 0
+		travel_danger = 10
 	}
 	
 	audio_parameter = 1.0
@@ -11,29 +14,27 @@
 #ibl terrains
 savanna = {
 	color = { 240 80 20 }
+	travel_danger_color = { 240 80 20 }
+	travel_danger_score = savanna_danger_value
 	
 	province_modifier = {
 		supply_limit_mult = 0.05
 		development_growth_factor = 0.05
+		travel_danger = savanna_danger_value
 	}
 	
-	#attacker_modifier = { #never worked
-	#	pursuit_modifier = 0.2
-	#}
-	
-	#defender_modifier = {
-	#	pursuit_modifier = 0.2
-	#}
-
 	audio_parameter = 1.0
 }
 
 high_boreal = {
 	color = { 50 80 0 }
+	travel_danger_color = { 50 80 0 }
+	travel_danger_score = high_boreal_danger_value
 	
 	province_modifier = {
 		supply_limit_mult = -0.5
 		development_growth_factor = -0.3
+		travel_danger = high_boreal_danger_value
 	}
 
 	defender_combat_effects = {
@@ -50,10 +51,13 @@ high_boreal = {
 
 dry_hills = {
 	color = { 100 70 20 }
+	travel_danger_color = { 100 70 20 }
+	travel_danger_score = dry_hills_danger_value
 
 	province_modifier = {
 		supply_limit_mult = -0.2
 		development_growth_factor = -0.15
+		travel_danger = dry_hills_danger_value
 	}
 	
 	defender_combat_effects = {

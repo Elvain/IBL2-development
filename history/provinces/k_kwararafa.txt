@@ -57,9 +57,13 @@
 
 ###c_kasar_chiki
 8942 = {	#KASAR_CHIKI
-	culture = jukun
+	culture = gbagyi
 	religion = west_african_bori_pagan
 	holding = tribal_holding
+	# History
+	1050.1.1 = {
+		culture = jukun
+	}
 }
 6524 = {	#WASE
 	holding = none
@@ -75,9 +79,12 @@
 
 ###c_fika -> Biyri
 6534 = {	#FIKA
-	culture = jukun
+	culture = gbagyi
 	religion = west_african_bori_pagan
 	holding = tribal_holding
+	1060.1.1 = {
+		culture = bade
+	}
 
 }
 8939 = {	#DANISKI
@@ -133,7 +140,7 @@
 
 ###c_bauchi
 6521 = {	#BAUCHI
-	culture = hausa
+	culture = gbagyi
 	religion = west_african_bori_pagan
 	holding = tribal_holding
 
@@ -150,10 +157,9 @@
 
 ###c_ningi
 8927 = {	#NINGI
-	culture = hausa
+	culture = gbagyi
 	religion = west_african_bori_pagan
 	holding = tribal_holding
-
 }
 9712 = {	#KAGALAN
 	holding = none
@@ -164,9 +170,12 @@
 
 ###c_katagum
 6527 = {	#KATAGUM
-	culture = hausa
+	culture = gbagyi
 	religion = west_african_bori_pagan
 	holding = tribal_holding
+	1060.1.1 = {
+		culture = bade
+	}
 
 }
 6526 = {	#AZARE

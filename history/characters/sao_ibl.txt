@@ -1,0 +1,238 @@
+﻿sao0096 = {
+	name = "Wumborja" #fictional
+	dynasty = saodyn010
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0095
+	1050.1.1 = {
+		birth = yes
+	}
+	1107.1.1 = {
+		death = yes
+	}
+}
+sao0097 = {
+	name = "Sekkin" #fictional
+	dynasty = saodyn010
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0096
+	1086.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+sao0098 = {
+	name = "Cakara" #fictional
+	female = yes
+	dynasty = saodyn010
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0095
+	1050.1.1 = {
+		birth = yes
+	}
+	1107.1.1 = {
+		death = yes
+	}
+}
+
+#rulers in c_bornu before if became Kanuri
+sao0101 = {
+	name = "Matangi" #fictional
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	830.1.1 = {
+		birth = yes
+	}
+	892.1.1 = {
+		death = yes
+	}
+}
+sao0102 = {
+	name = "Kinana" #fictional
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0101
+	876.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		death = yes
+	}
+}
+sao0103 = {
+	name = "Akodu" #fictional
+	female = yes
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0101
+	856.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+sao0104 = {
+	name = "Barbushe" #fictional
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0102
+	903.1.1 = {
+		birth = yes
+	}
+	960.1.1 = {
+		death = yes
+	}
+}
+sao0105 = {
+	name = "Anak" #fictional
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0104
+	929.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+sao0106 = {
+	name = "Gumami" #fictional
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0105
+	966.1.1 = {
+		birth = yes
+	}
+	1024.1.1 = {
+		death = yes
+	}
+}
+sao0106a = {
+	name = "Barbushe" #fictional
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0106
+	998.1.1 = {
+		birth = yes
+	}
+	1053.1.1 = {
+		death = yes
+	}
+}
+sao0107 = {
+	name = "Kinana" #fictional
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0106a
+	1027.1.1 = {
+		birth = yes
+	}
+	1073.1.1 = {
+		death = yes
+	}
+}
+sao0108 = {
+	name = "Fasama" #fictional
+	female = yes
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0107
+	1051.1.1 = {
+		birth = yes
+	}
+	1108.1.1 = {
+		death = yes
+	}
+}
+sao0109 = {
+	name = "Anak" #fictional
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0107
+	1053.1.1 = {
+		birth = yes
+	}
+	1106.1.1 = {
+		death = yes
+	}
+}
+sao0110 = {
+	name = "Barbushe" #fictional
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0109
+	1088.1.1 = {
+		birth = yes
+	}
+	1136.1.1 = {
+		death = yes
+	}
+}
+sao0111 = {
+	name = "Anak" #fictional
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0110
+	1117.1.1 = {
+		birth = yes
+	}
+	1175.1.1 = {
+		death = yes
+	}
+}
+sao0112 = {
+	name = "Barbushe" #fictional
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0111
+	1153.1.1 = {
+		birth = yes
+	}
+	1207.1.1 = {
+		death = yes
+	}
+}
+sao0113 = {
+	name = "Gumami" #fictional
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0112
+	1186.1.1 = {
+		birth = yes
+	}
+	1246.1.1 = {
+		death = yes
+	}
+}
+sao0114 = {
+	name = "Gumami" #fictional
+	dynasty = saodyn011
+	religion = west_african_bori_pagan
+	culture = sao
+	father = sao0113
+	1215.1.1 = {
+		birth = yes
+	}
+	1271.1.1 = {
+		death = yes
+	}
+}

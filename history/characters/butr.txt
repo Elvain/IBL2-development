@@ -490,10 +490,11 @@
 #Banu Khattab in Fezzan
 248790 = {
 	name = "Al-Khattab" #semi-historical
-	dynasty = 1059963
+	dynasty_house = house_khattab
 	religion = ibadi
 	culture = butr
-	850.1.1 = {
+	father = 273136
+	855.1.1 = {
 		birth = yes
 	}
 	905.1.1 = {
@@ -502,7 +503,7 @@
 }
 248791 = {
 	name = "Abdallah_ibn_al_Khattab_al_Hawwari" #historical founder of the Banu Khatt? tribe/dynasty lived in 918
-	dynasty = 1059963
+	dynasty_house = house_khattab
 	religion = ibadi
 	culture = butr
 	father = 248790
@@ -515,7 +516,7 @@
 }
 248792 = {
 	name = "Abdallah" #fictional son of historical founder of the Banu Khatt? tribe/dynasty
-	dynasty = 1059963
+	dynasty_house = house_khattab
 	religion = ibadi
 	culture = butr
 	father = 248791
@@ -528,7 +529,7 @@
 }
 248793 = {
 	name = "ThakI_ya" #placeholder
-	dynasty = 1059963
+	dynasty_house = house_khattab
 	religion = ibadi
 	culture = butr
 	father = 248792
@@ -541,7 +542,7 @@
 }
 248794 = {
 	name = "Abdallah" #placeholder
-	dynasty = 1059963
+	dynasty_house = house_khattab
 	religion = ibadi
 	culture = butr
 	father = 248793
@@ -554,7 +555,7 @@
 }
 248795 = {
 	name = "Isma_il" #placeholder
-	dynasty = 1059963
+	dynasty_house = house_khattab
 	religion = ibadi
 	culture = butr
 	father = 248794
@@ -567,7 +568,7 @@
 }
 248796 = {
 	name = "ThakI_ya" #placeholder
-	dynasty = 1059963
+	dynasty_house = house_khattab
 	religion = ibadi
 	culture = butr
 	father = 248795
@@ -580,7 +581,7 @@
 }
 248797 = {
 	name = "Abdallah" #placeholder
-	dynasty = 1059963
+	dynasty_house = house_khattab
 	religion = ibadi
 	culture = butr
 	father = 248796
@@ -593,7 +594,7 @@
 }
 248798 = {
 	name = "Hiyan" #placeholder
-	dynasty = 1059963
+	dynasty_house = house_khattab
 	religion = ibadi
 	culture = butr
 	father = 248797
@@ -606,7 +607,7 @@
 }
 248799 = {
 	name = "Musa" #placeholder
-	dynasty = 1059963
+	dynasty_house = house_khattab
 	religion = ibadi
 	culture = butr
 	father = 248798
@@ -1981,7 +1982,7 @@
 		birth = yes
 	}
 	848.1.1 = {
-		spouse = hawwara002
+		add_spouse = hawwara002
 	}
 	866.10.10 = {
 		death = yes
@@ -2286,7 +2287,7 @@ butr0014 = {
 	dynasty = 1101149
 	religion = "ibadi"
 	culture = butr #zanata
-	800.1.1 = {
+	790.1.1 = {
 		birth = yes
 	}
 	845.1.1 = {
@@ -2298,6 +2299,7 @@ butr0014 = {
 	dynasty = 1101149
 	religion = "ibadi"
 	culture = butr #zanata
+	father = butr0014
 	823.1.1 = {
 		birth = yes
 	}
@@ -2380,7 +2382,7 @@ butr0015 = {
 	dynasty = 1101149
 	religion = "ibadi"
 	culture = butr #zanata
-	750.1.1 = {
+	755.1.1 = {
 		birth = yes
 	}
 	793.1.1 = {
@@ -2393,7 +2395,7 @@ butr0015 = {
 	religion = "sufri"
 	culture = butr #zanata
 	father = butr0015
-	775.1.1 = {
+	778.1.1 = {
 		birth = yes
 	}
 	823.1.1 = {
@@ -2848,7 +2850,7 @@ butr0015 = {
 }
 1236310 = {
 	name = "Yasal" #Elvain: should not be Maghrawid but Miknasid
-	dynasty = 1027003
+	dynasty_house = house_miknasid
 	religion = ashari
 	culture = butr #zanata
 	father = miknasa011 #Habus b. Manazil Miknasid
@@ -2862,7 +2864,7 @@ butr0015 = {
 }
 1236311 = {
 	name = "Hamid"
-	dynasty = 1027003 #Elvain: should not be Maghrawid but Miknasid
+	dynasty_house = house_miknasid #Elvain: should not be Maghrawid but Miknasid
 	religion = ashari
 	culture = butr #zanata
 	father = 1236310
@@ -2997,7 +2999,7 @@ butr0015 = {
 #vanilla characters moved from Baranis culture
 155000 = {
 	name = "Ibrahim" #AKA Abu Munqidh
-	dynasty = 1027003
+	dynasty_house = house_miknasid
 	religion = "ashari"
 	culture = butr
 	father = miknasa001
@@ -3011,7 +3013,7 @@ butr0015 = {
 
 155001 = {
 	name = "Abd-_Allah" #ibn Ibrahim
-	dynasty = 1027003
+	dynasty_house = house_miknasid
 	religion = "ashari"
 	culture = butr
 	father = 155000
@@ -3025,7 +3027,7 @@ butr0015 = {
 
 155002 = {
 	name = "Muhammad" #ibn Abd-_Allah
-	dynasty = 1027003
+	dynasty_house = house_miknasid
 	religion = "ashari"
 	culture = butr
 	father = 155001
@@ -3039,7 +3041,7 @@ butr0015 = {
 
 155003 = {
 	name = "Qasim" #ibn Muhammad
-	dynasty = 1027003
+	dynasty_house = house_miknasid
 	religion = "ashari"
 	culture = butr
 	father = 155002

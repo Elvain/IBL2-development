@@ -304,6 +304,176 @@ c_cordoba = {
 	}
 }
 
+c_pedroche = { #copied from c_cordoba
+	867.1.1 = { change_development_level = 20 }
+	1066.1.1 = { change_development_level = 25 }
+ 
+	21.1.1 = {
+		change_development_level = 12
+	}
+ 
+	1001.1.1 = {
+		change_development_level = 18
+	}
+ 
+	1101.1.1 = {
+		change_development_level = 22
+	}
+
+	711.1.1 = {
+		holder = levantine0041 # Mughit
+		liege = k_arabia
+		government = clan_government
+	}
+	756.3.16 = {
+		holder = 73679 # Sultan Abd al-Rahman I of Andalusia
+		liege = k_andalusia
+	}
+	788.9.29 = {
+		holder = 73680 # Sultan Hisham I of Andalusia
+	}
+	796.6.12 = {
+		holder = 73681 # Sultan al-Hakam I of Andalusia
+	}
+	822.5.21 = {
+		holder = 73682 # Sultan Abd al-Rahman II of Andalusia
+	}
+	852.9.22 = {
+		holder = 73683 # Sultan Muhammad I of Andalusia
+	}
+	886.8.4 = {
+		holder = 73684 # Sultan al-Mundir ibn Muhammad of Andalusia
+	}
+	888.6.24 = {
+		holder = 73685 # Sultan Abdallah ibn Muhammad of Andalusia
+	}
+	912.10.15 = {
+		holder = 3200 # Caliph Abd al-Rahman III of Andalusia
+	}
+	961.10.15 = {
+		holder = 3202 # Caliph al-Hakam II of Andalusia
+	}
+	976.10.1 = {
+		holder = 3204 # Caliph Hisham II of Andalusia
+	}
+	1009.2.15 = {
+		holder = 73671 # Caliph Muhammad II of Andalusia
+	}
+	1009.11.8 = {
+		holder = 73675 # Caliph Suleyman ibn al-Hakam of Andalusia
+	}
+	1010.5.10 = {
+		holder = 73671 # Caliph Muhammad II of Andalusia (restored)
+	}
+	1010.7.23 = {
+		holder = 3204 # Caliph Hisham II of Andalusia (restored)
+	}
+	1013.4.19 = {
+		holder = 73675 # Caliph Suleyman ibn al-Hakam of Andalusia (restored)
+	}
+	1016.7.1 = {
+		holder = 73687 # Caliph Ali ibn Hammud of Andalusia
+	}
+	1018.3.22 = {
+		holder = 73678 # Caliph Abd al-Rahman of Andalusia
+	}
+	1018.9.1 = {
+		holder = 73689 # Caliph al-Qasim al-Mamun of Andalusia
+	}
+	1021.8.4 = {
+		holder = 73690 # Caliph Yahya al-Muhtal of Andalusia
+	}
+	1023.2.6 = {
+		holder = 73689 # Caliph al-Qasim al-Mamun of Andalusia (restored)
+	}
+	1023.9.9 = {
+		holder = 73672 # Caliph Abd al-Rahman V of Andalusia
+	}
+	1024.1.17 = {
+		holder = 73668 # Caliph Muhammad III of Andalusia
+	}
+	1025.6.12 = {
+		holder = 73690 # Caliph Yahya al-Muhtal of Andalusia (restored)
+	}
+	1027.6.4 = {
+		holder = 3208 # Caliph Hisham III of Andalusia
+	}
+	1031.11.30 = {
+		holder = 45000 # Emir Jahwar ibn Muhammad of Cordoba
+		liege = d_cordoba
+	}
+	1043.8.6 = {
+		holder = 45001 # Emir al-Rasid of Cordoba
+	}
+	1063.1.1 = {
+		holder = 20852 # Emir al-Mansur of Cordoba
+	}
+	1070.6.1 = {
+		holder = 73213 # Abbad ibn Muhammad
+		liege = d_sevilla
+	}
+	1075.1.1 = {
+		holder = 3214 # Emir al-Mu'tamid of Sevilla
+	}
+	1075.2.15 = {
+		holder = 3926 # Emir al-Qadir of Toledo
+		liege = d_toledo
+	}
+	1078.9.4 = {
+		holder = 73214 # al-Fath ibn Muhammad
+		liege = d_sevilla
+	}
+	1091.1.1 = {
+		holder = 464010 # Muhammad Qaturbid
+		liege = k_maghreb
+	}
+	1119.1.1 = {
+		holder = 224025 # Amr Qaturbid
+	}
+	1144.1.1 = {
+		holder = 73665 # Ahmad Hamdanid
+		liege = d_cordoba
+	}
+	1145.1.1 = {
+		holder = 73181 # Ahmad Hudid
+	}
+	1145.7.1 = {
+		holder = 73665 # Ahmad Hamdanid
+	}
+	1146.1.1 = {
+		holder = 155072 # Yahya Massufid
+	}
+	1148.1.1 = {
+		holder = 224001 # Abd al-Razzaq Yahyavid
+		liege = k_maghreb
+	}
+	1189.1.1 = {
+		holder = 73615 # Muhammad Yahyavid
+	}
+	1208.1.1 = {
+		holder = 73616 # Yahya Yahyavid
+	}
+	1228.1.1 = {
+		holder = 73625 # Muhammad Hudid
+		liege = d_murcia
+	}
+	1236.1.1 = {
+		holder = 457620 # Fernando III de Borgo?a
+		liege = k_castille
+	}
+	1252.5.30 = {
+		holder = 457540 # Alfonso X de Borgo?a
+	}
+	1284.4.4 = {
+		holder = 457530 # Sancho IV de Borgo?a
+	}
+	1295.4.25 = {
+		holder = 457520 # Fernando IV de Borgo?a
+	}
+	1312.9.7 = {
+		holder = 457500 # Alfonso XI de Borgo?a
+	}
+}
 
 c_calatrava = {
 	867.1.1 = {
@@ -1365,6 +1535,160 @@ c_malaga = {
 	}
 }
 
+c_comares = { #copied from c_malaga
+	760.1.1 = {
+		holder = 200230 # Abd al-Malik Djazairid
+		liege = k_andalusia
+		government = clan_government
+	}
+	781.1.1 = {
+		holder = 200232 # Ya'qub Djazairid
+	}
+	816.1.1 = {
+		holder = 73681 # al-Hakam Umayyad
+	}
+	822.5.21 = {
+		holder = 73682 # Abd al-Rahman II Umayyad
+	}
+	850.9.22 = {
+		holder = 73802 # Ya'far Hafsunid
+	}
+	870.1.1 = {
+		holder = 73805 # Umar Hafsunid
+	}
+	917.1.1 = {
+		holder = 3200 # Abd al-Rahman III Umayyad
+	}
+	961.10.15 = {
+		holder = 3202 # al-Hakam II Umayyad
+	}
+	976.10.16 = {
+		holder = 3204 # Hisham II Umayyad
+	}
+	1009.2.15 = {
+		holder = 73671 # Muhammad II Umayyad
+	}
+	1009.11.1 = {
+		holder = 73675 # Suleyman Umayyad
+	}
+	1010.5.10 = {
+		holder = 73671 # Muhammad II Umayyad
+	}
+	1010.7.23 = {
+		holder = 3204 # Hisham II Umayyad
+	}
+	1013.4.19 = {
+		holder = 73675 # Suleyman Umayyad
+	}
+	1016.7.1 = {
+		holder = 73687 # Ali Hammudid
+	}
+	1018.3.22 = {
+		holder = 73678 # Abd al-Rahman IV Umayyad
+	}
+	1018.6.1 = {
+		holder = 73689 # al-Qasim Hammudid
+	}
+	1021.1.1 = {
+		holder = 73690 # Yahya Hammudid
+	}
+	1023.2.1 = {
+		holder = 73689 # al-Qasim Hammudid
+	}
+	1023.12.2 = {
+		holder = 73672 # Abd al-Rahman V Umayyad
+	}
+	1024.1.17 = {
+		holder = 73668 # Muhammad III Umayyad
+	}
+	1025.9.1 = {
+		holder = 73690 # Yahya Hammudid
+	}
+	1027.6.1 = {
+		liege = 0
+	}
+	1035.1.1 = {
+		holder = 159497 # Idris b. Ali Hammudid
+	}
+	1039.1.1 = {
+		holder = 159496 # Yahya b. Idris Hammudid I
+	}
+	1040.5.2 = {
+		holder = 159495 # Hasan Hammudid
+	}
+	1042.5.12 = {
+		holder = 159498 # Idris b. Yahya Hammudid I
+	}
+	1047.1.1 = {
+		holder = 159499 # Muhammad b. Idris Hammudid
+	}
+	1053.1.1 = {
+		holder = 200233 # Idris b. Yahya Hammudid II
+	}
+	1053.6.1 = {
+		holder = 159498 # Idris b. Yahya Hammudid I
+	}
+	1054.1.1 = {
+		holder = 200234 # Muhammad Hammudid
+	}
+	1055.1.1 = {
+		holder = 159500 # Yahya b. Idris Hammudid II
+	}
+	1057.1.1 = {
+		holder = 45016 # Badis Zirid
+		liege = d_granada
+	}
+	1073.1.1 = {
+		holder = 32951 # Tamim Zirid
+		liege = 0
+	}
+	1090.1.1 = {
+		holder = 224017 # Ya'qub Malaqid
+		liege = k_maghreb
+	}
+	1118.1.1 = {
+		holder = 73261 # Ibrahim Hishamid
+	}
+	1144.1.1 = {
+		holder = 73260 # Abd al-Hakam Hassunid
+	}
+	1145.1.1 = {
+		liege = 0
+	}
+	1153.1.1 = {
+		holder = 224015 # Ya'qub Bilalid
+		liege = k_maghreb
+	}
+	1178.1.1 = {
+		holder = 224016 # Abd al-Malik Gharnatid
+	}
+	1200.1.1 = {
+		holder = 73617 # Tariq Sebtaid
+	}
+	1228.1.1 = {
+		holder = 73636 # Zannun Zannunid
+		liege = 0
+	}
+	1238.1.1 = {
+		holder = 73651 # Muhammad I Nasrid
+		liege = d_granada
+	}
+	1273.1.1 = {
+		holder = 73654 # Isma'il b. Nasr Nasrid
+	}
+	1274.1.1 = {
+		holder = 73642 # Faraj Nasrid
+	}
+	1300.1.1 = {
+		holder = 73641 # Isma'il b. Faraj Nasrid
+	}
+	1325.1.1 = {
+		holder = 487001 # Muhammad IV Nasrid
+	}
+	1333.1.1 = {
+		holder = 487000 # Yusuf Nasrid
+	}
+}
 
 d_sevilla = {
 	867.1.1 = { change_development_level = 11 }
@@ -1511,6 +1835,237 @@ c_sevilla = {
 	}
 }
 
+c_carmona = { #copied from c_sevilla
+	867.1.1 = { change_development_level = 14 }
+	1066.1.1 = { change_development_level = 18 }
+	
+	769.1.1 = {
+		holder = 73680 # Hisham I Umayyad
+		liege = d_sevilla
+		government = clan_government
+	}
+	796.6.12 = {
+		holder = 73681 # al-Hakam I Umayyad
+		liege = k_andalusia
+	}
+	822.5.21 = {
+		holder = 73682 # Abd al-Rahman II Umayyad
+	}
+	852.9.22 = {
+		holder = 73683 # Muhammad I Umayyad
+	}
+	860.1.1 = {
+		holder = 73952 # Ahmad Zuhrid
+	}
+	895.1.1 = {
+		holder = 73954 # Muhammad Zuhrid
+	}
+	937.1.1 = {
+		holder = 3200 # Abd al-Rahman III Umayyad
+	}
+	961.10.15 = {
+		holder = 3202 # al-Hakam II Umayyad
+	}
+	976.10.16 = {
+		holder = 3204 # Hisham II Umayyad
+	}
+	1009.2.15 = {
+		holder = 73671 # Muhammad II Umayyad
+	}
+	1009.11.1 = {
+		holder = 73675 # Suleyman Umayyad
+	}
+	1010.5.10 = {
+		holder = 73671 # Muhammad II Umayyad
+	}
+	1010.7.23 = {
+		holder = 3204 # Hisham II Umayyad
+	}
+	1013.4.19 = {
+		holder = 73675 # Suleyman Umayyad
+	}
+	1016.7.1 = {
+		holder = 73687 # Ali Hammudid
+	}
+	1018.3.22 = {
+		holder = 73678 # Abd al-Rahman IV Umayyad
+	}
+	1018.6.1 = {
+		holder = 73689 # al-Qasim Hammudid
+	}
+	1021.1.1 = {
+		holder = 73690 # Yahya Hammudid
+	}
+	1023.1.1 = {
+		holder = 73209 # Muhammad I Abbadid
+		liege = d_sevilla
+	}
+	1042.1.1 = {
+		holder = 3212 # Abbad Abbadid
+	}
+	1069.1.15 = {
+		holder = 3214 # Muhammad II Abbadid
+	}
+	1091.1.1 = {
+		holder = 73222 # Sir Abu-Bakrid
+		liege = k_maghreb
+	}
+	1114.1.1 = {
+		holder = 73206 # Ali Yusufid
+	}
+	1136.1.1 = {
+		holder = 73224 # Ayuub Yaafarid
+	}
+	1148.1.1 = {
+		holder = 224020 # Muhammad Ishbiliyid
+	}
+	1190.1.1 = {
+		holder = 73611 # Yahya Utmanid
+	}
+	1212.1.1 = {
+		holder = 73612 # Umar Utmanid
+	}
+	1228.1.1 = {
+		holder = 73625 # Muhammad Hudid
+		liege = d_murcia
+	}
+	1238.1.1 = {
+		holder = 73639 # Abd al-Rahman Wadalqavirid
+		liege = 0
+	}
+	1248.1.1 = {
+		holder = 457620 # Fernando III de Borgoña
+		liege = k_castille
+	}
+	1252.5.30 = {
+		holder = 457540 # Alfonso X de Borgoña
+	}
+	1284.4.4 = {
+		holder = 457530 # Sancho IV de Borgoña
+	}
+	1295.4.25 = {
+		holder = 457520 # Fernando IV de Borgoña
+	}
+	1312.9.7 = {
+		holder = 457500 # Alfonso XI de Borgoña
+	}
+}
+
+c_cantillana = { #copied from c_sevilla
+	867.1.1 = { change_development_level = 14 }
+	1066.1.1 = { change_development_level = 18 }
+	
+	769.1.1 = {
+		holder = 73680 # Hisham I Umayyad
+		liege = d_sevilla
+		government = clan_government
+	}
+	796.6.12 = {
+		holder = 73681 # al-Hakam I Umayyad
+		liege = k_andalusia
+	}
+	822.5.21 = {
+		holder = 73682 # Abd al-Rahman II Umayyad
+	}
+	852.9.22 = {
+		holder = 73683 # Muhammad I Umayyad
+	}
+	860.1.1 = {
+		holder = 73952 # Ahmad Zuhrid
+	}
+	895.1.1 = {
+		holder = 73954 # Muhammad Zuhrid
+	}
+	937.1.1 = {
+		holder = 3200 # Abd al-Rahman III Umayyad
+	}
+	961.10.15 = {
+		holder = 3202 # al-Hakam II Umayyad
+	}
+	976.10.16 = {
+		holder = 3204 # Hisham II Umayyad
+	}
+	1009.2.15 = {
+		holder = 73671 # Muhammad II Umayyad
+	}
+	1009.11.1 = {
+		holder = 73675 # Suleyman Umayyad
+	}
+	1010.5.10 = {
+		holder = 73671 # Muhammad II Umayyad
+	}
+	1010.7.23 = {
+		holder = 3204 # Hisham II Umayyad
+	}
+	1013.4.19 = {
+		holder = 73675 # Suleyman Umayyad
+	}
+	1016.7.1 = {
+		holder = 73687 # Ali Hammudid
+	}
+	1018.3.22 = {
+		holder = 73678 # Abd al-Rahman IV Umayyad
+	}
+	1018.6.1 = {
+		holder = 73689 # al-Qasim Hammudid
+	}
+	1021.1.1 = {
+		holder = 73690 # Yahya Hammudid
+	}
+	1023.1.1 = {
+		holder = 73209 # Muhammad I Abbadid
+		liege = d_sevilla
+	}
+	1042.1.1 = {
+		holder = 3212 # Abbad Abbadid
+	}
+	1069.1.15 = {
+		holder = 3214 # Muhammad II Abbadid
+	}
+	1091.1.1 = {
+		holder = 73222 # Sir Abu-Bakrid
+		liege = k_maghreb
+	}
+	1114.1.1 = {
+		holder = 73206 # Ali Yusufid
+	}
+	1136.1.1 = {
+		holder = 73224 # Ayuub Yaafarid
+	}
+	1148.1.1 = {
+		holder = 224020 # Muhammad Ishbiliyid
+	}
+	1190.1.1 = {
+		holder = 73611 # Yahya Utmanid
+	}
+	1212.1.1 = {
+		holder = 73612 # Umar Utmanid
+	}
+	1228.1.1 = {
+		holder = 73625 # Muhammad Hudid
+		liege = d_murcia
+	}
+	1238.1.1 = {
+		holder = 73639 # Abd al-Rahman Wadalqavirid
+		liege = 0
+	}
+	1248.1.1 = {
+		holder = 457620 # Fernando III de Borgoña
+		liege = k_castille
+	}
+	1252.5.30 = {
+		holder = 457540 # Alfonso X de Borgoña
+	}
+	1284.4.4 = {
+		holder = 457530 # Sancho IV de Borgoña
+	}
+	1295.4.25 = {
+		holder = 457520 # Fernando IV de Borgoña
+	}
+	1312.9.7 = {
+		holder = 457500 # Alfonso XI de Borgoña
+	}
+}
 
 c_cadiz = {
 	769.1.1 = {
@@ -1745,6 +2300,132 @@ c_algeciras = {
 	}
 }
 
+c_ronda = { #copied from c_algeciras
+	769.1.1 = {
+		holder = 73680 # Hisham I Umayyad
+		liege = d_sevilla
+		government = clan_government
+	}
+	796.6.12 = {
+		holder = 73681 # al-Hakam I Umayyad
+		liege = k_andalusia
+	}
+	822.5.21 = {
+		holder = 73682 # Abd al-Rahman II Umayyad
+	}
+	850.1.1 = {
+		holder = 73941 # Attab Nasrid
+		liege = k_andalusia
+	}
+	910.1.1 = {
+		holder = 73685 # Abdallah Umayyad
+	}
+	912.10.15 = {
+		holder = 3200 # Abd al-Rahman III Umayyad
+	}
+	961.10.15 = {
+		holder = 3202 # al-Hakam II Umayyad
+	}
+	976.10.16 = {
+		holder = 3204 # Hisham II Umayyad
+	}
+	1009.2.15 = {
+		holder = 73671 # Muhammad II Umayyad
+	}
+	1009.11.1 = {
+		holder = 73675 # Suleyman Umayyad
+	}
+	1010.5.10 = {
+		holder = 73671 # Muhammad II Umayyad
+	}
+	1010.7.23 = {
+		holder = 3204 # Hisham II Umayyad
+	}
+	1013.4.19 = {
+		holder = 73675 # Suleyman Umayyad
+	}
+	1016.7.1 = {
+		holder = 73687 # Ali Hammudid
+	}
+	1018.3.22 = {
+		holder = 73678 # Abd al-Rahman IV Umayyad
+	}
+	1018.6.1 = {
+		holder = 73689 # al-Qasim Hammudid
+	}
+	1021.1.1 = {
+		holder = 73690 # Yahya Hammudid
+	}
+	1023.2.1 = {
+		holder = 73689 # al-Qasim Hammudid
+	}
+	1023.12.2 = {
+		holder = 73672 # Abd al-Rahman V Umayyad
+	}
+	1024.1.17 = {
+		holder = 73668 # Muhammad III Umayyad
+	}
+	1025.9.1 = {
+		holder = 73690 # Yahya Hammudid
+	}
+	1027.6.1 = {
+		holder = 3208 # Hisham III Umayyad
+	}
+	1031.1.1 = {
+		holder = 45000 # Abd al-Hazm Yahwarid
+		liege = d_cordoba
+	}
+	1035.1.1 = {
+		holder = 159490 # Muhammad Hammudid
+		liege = 0
+	}
+	1048.1.1 = {
+		holder = 159492 # al-Qasim Hammudid
+	}
+	1053.1.1 = {
+		holder = 3212 # Abbad Abbadid
+		liege = d_sevilla
+	}
+	1069.1.15 = {
+		holder = 3214 # Muhammad II Abbadid
+	}
+	1091.1.1 = {
+		holder = 73222 # Sir Abu-Bakrid
+		liege = k_maghreb
+	}
+	1114.1.1 = {
+		holder = 73206 # Ali Yusufid
+	}
+	1136.1.1 = {
+		holder = 73224 # Ayyub Yaafarid
+	}
+	1148.1.1 = {
+		holder = 224020 # Muhammad Ishbiliyid
+	}
+	1190.1.1 = {
+		holder = 73611 # Yahya Utmanid
+	}
+	1212.1.1 = {
+		holder = 73612 # Umar Utmanid
+	}
+	1228.1.1 = {
+		holder = 73625 # Muhammad Hudid
+		liege = d_murcia
+	}
+	1238.1.1 = {
+		holder = 73651 # Muhammad I Nasrid
+		liege = d_granada
+	}
+	1273.1.1 = {
+		holder = 73652 # Yusuf Nasrid
+	}
+	1295.1.1 = {
+		holder = 73642 # Faraj Nasrid
+	}
+	1300.1.1 = {
+		holder = 73643 # Muhammad b. Faraj Nasrid
+	}
+}
 
 c_niebla = {
 	756.3.16 = {
@@ -2198,9 +2879,8 @@ c_madrid = {
 		holder = 73931 # Yusuf Qutamid
 		liege = d_toledo
 	}
-	903.1.1 = {
-		holder = 73824 # Mutarrif Qasid
-		liege = d_toledo
+	903.11.17 = {
+		holder = 200028 # Walih Mutarrif ibn Muhammad of Toledo
 	}
 	906.1.1 = {
 		holder = 73823 # Muhammad Qasid
@@ -2461,9 +3141,9 @@ c_cuenca = {
 	802.1.1 = {
 		holder = 73800 # Yusuf Amrusid
 	}
-	838.1.1 = {
-		holder = 73801 # Umar Amrusid
-	}
+	#838.1.1 = {
+	#	holder = 73801 # Umar Amrusid
+	#}
 	840.1.1 = {
 		holder = 73682 # Abd al-Rahman II Umayyad
 		liege = k_andalusia
@@ -2613,10 +3293,10 @@ c_malagon = {
 		holder = 73931 # Yusuf Qutamid
 		liege = d_toledo
 	}
-	903.1.1 = {
-		holder = 73824 # Mutarrif Qasid
-		liege = d_toledo
-	}
+	#903.1.1 = {
+	#	holder = 73824 # Mutarrif Qasid
+	#	liege = d_toledo
+	#}
 	906.1.1 = {
 		holder = 73823 # Muhammad Qasid
 	}
@@ -2744,10 +3424,10 @@ c_mora = {
 		holder = 73931 # Yusuf Qutamid
 		liege = d_toledo
 	}
-	903.1.1 = {
-		holder = 73824 # Mutarrif Qasid
-		liege = d_toledo
-	}
+	#903.1.1 = {
+	#	holder = 73824 # Mutarrif Qasid
+	#	liege = d_toledo
+	#}
 	906.1.1 = {
 		holder = 73823 # Muhammad Qasid
 	}
@@ -2878,10 +3558,10 @@ c_alarcon = {
 		holder = 73931 # Yusuf Qutamid
 		liege = d_toledo
 	}
-	903.1.1 = {
-		holder = 73824 # Mutarrif Qasid
-		liege = d_toledo
-	}
+	#903.1.1 = {
+	#	holder = 73824 # Mutarrif Qasid
+	#	liege = d_toledo
+	#}
 	906.1.1 = {
 		holder = 73823 # Muhammad Qasid
 	}

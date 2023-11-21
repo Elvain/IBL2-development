@@ -15,7 +15,7 @@
 	}
 	1066.1.1 = {
 		buildings = {
-			pastures_01
+			#pastures_01
 			military_camps_01
 			plantations_01
 		}
@@ -171,8 +171,8 @@
 	#holding = none
 }
 
-###c_sersou
-4762 = {	#SERSOU
+###c_sersou #Bou Sa'ada
+4645 = {	#BOUSAADA
 	culture = butr
 	religion = ibadi
 	holding = castle_holding
@@ -180,8 +180,8 @@
 		religion = ashari
 	}
 }
-9925 = {	#Izmama
-	#holding = none
+9927 = {	#Tamazkida
+	holding = none
 }
 
 ##d_figuig ###################################
@@ -308,21 +308,23 @@
 
 ###c_ashir
 4647 = {	#ASHIR_YASHIR
-	culture = butr
-	religion = ibadi
+	culture = baranis
+	#culture = sanhaja
+	religion = ashari
 	holding = castle_holding
 	955.1.1 = {
 		religion = ashari
+		culture = butr
 	}
 }
-4645 = {	#BOUSAADA
+4762 = {	#SERSOU
 	holding = church_holding
+}
+9925 = {	#Izmama
+	#holding = none
 }
 4646 = {	#ASHIR_BANYA
 	holding = city_holding
-}
-9927 = {	#Tamazkida
-	holding = none
 }
 
 ###c_biskra
@@ -381,22 +383,19 @@
 4640 = {	#QALAA_BHAMMAD
 	culture = baranis
 	#culture = sanhaja
-	religion = ashari
-	holding = none
+	religion = najdat
+	holding = castle_holding
 
 	# History
 	955.1.1 = {
 		religion = ashari
 	}
-	1007.1.1 = {
-		holding = castle_holding
-	}
+	#1007.1.1 = { #the true founding of this place
+	#	holding = castle_holding
+	#}
 }
 9930 = {	#Haz
-	holding = castle_holding
-	1007.1.1 = {
-		holding = none
-	}
+	holding = none
 }
 
 ##d_mzab###################################

@@ -49,6 +49,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 2802;2803;river_large;3237;-1;-1;-1;-1;Hamburg-Buxtehude
 2814;2899;river_large;3239;1601;2867;-1;-1;Havelberg-Weben
 2438;2793;river_large;9868;-1;-1;-1;-1;Oldenburg-Bremen
+2097;2093;river_large;9874;-1;-1;-1;-1;Liege-Aachen
+2450;2104;river_large;9873;-1;-1;-1;-1;Geldern-Kleve
+2088;2433;river_large;3232;-1;-1;-1;-1;Cologne-Bergh
+2084;2086;river_large;9872;-1;-1;-1;-1;Koblenz-Adenau
+2694;2854;river_large;9867;-1;-1;-1;-1;Mainz-Limburg
+2732;2733;river_large;9867;-1;-1;-1;-1;Speyer-Heidelberg
+2741;2854;river_large;9875;-1;-1;-1;-1;Russelsheim-Limburg
 #ITALY
 2489;2491;river_large;3245;1513;2234;-1;-1;Roncaglia-Cremona
 2497;2530;river_large;3244;1549;2232;-1;-1;Mantua-Guastalla
@@ -94,6 +101,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3808;3976;river_large;1066;1977;-1;-1;-1;Esztergom-Bény
 3809;3916;river_large;1067;1958;2445;-1;-1;Komárom-Bátorkeszi
 3610;518;river_large;8560;-1;-1;-1;-1;Vakovo-Bacs
+3815;3822;river_large;9876;-1;-1;-1;-1;Pozsony-Moson
 #GREECE
 472;3710;sea;1038;2109;1829;2101;1825;Buthrothum-Corfu
 3701;474;sea;1037;2145;1754;2145;1743;Vonitsa-Cephalonia
@@ -198,6 +206,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 8137;8207;river_large;9859;-1;-1;-1;-1;Attie-Boubo
 8025;8135;river_large;9857;-1;-1;-1;-1;Aowin-East Attie
 8005;8031;river_large;9855;-1;-1;-1;-1;Afram-Wusuta
+8102;8107;river_large;8958;-1;-1;-1;-1;Opanda/Keana-Igala
 #MESOPOTAMIA
 4822;4823;river_large;6127;3464;1499;-1;-1;Kaskar-An-Numaniya
 4797;4824;river_large;6126;3423;1526;-1;-1;Iskaf-Humaniya

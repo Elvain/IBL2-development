@@ -362,6 +362,132 @@ c_amaya = {
 	}
 }
 
+c_frias = { #copied from c_amaya
+	702.1.1 = {
+		holder = 70010 # Duke Pedro of Cantabria
+		liege = d_cantabria
+	}
+	730.1.1 = {
+		holder = 70003 # King Alfonso I of Asturias
+	}
+	739.6.15 = {
+		holder = 70011 # Duke Fruela Pérez of Cantabria
+	}
+	741.1.1 = {
+		holder = 70012 # King Aurelio I of Asturias
+	}
+	768.1.1 = {
+		holder = 70013 # King Bermudo I of Asturias
+	}
+	791.1.1 = {
+		holder = 70006 # King Alfonso II of Asturias
+	}
+	842.3.20 = {
+		holder = basque0007 # King Nepociano of Asturias
+	}
+	843.1.1 = {
+		holder = 70015 # King Ramiro I of Asturias
+	}
+	851.1.15 = {
+		holder = 70017 # King Ordoño I of Asturias
+	}
+	854.1.1 = {
+		holder = 73763 # Duke Rodrigo of Castilla
+		liege = d_castilla
+	}
+	873.10.3 = {
+		holder = 73765 # Duke Diego Rodríguez 'Porcelos' of Castilla
+	}
+	885.1.1 = {
+		holder = 200066 # Count Munio Nuñez of Burgos
+		liege = k_asturias
+	}
+	901.1.1 = {
+		holder = 200071 # Count Gonzalo Téllez of Viscaya
+	}
+	904.1.1 = {
+		holder = 200066 # Count Munio Nuñez of Burgos (restored)
+	}
+	910.12.20 = {
+		liege = k_leon
+	}
+	912.1.1 = {
+		holder = 73769 # Count Gonzalo Fernández of Burgos
+	}
+	915.1.1 = {
+		holder = 200074 # Fernando Díaz
+	}
+	920.1.1 = {
+		holder = 200069 # Nuño Fernández
+	}
+	927.1.1 = {
+		holder = 72549 # Fernando Ansúrez
+	}
+	929.11.1 = {
+		holder = 107680 # Duke Fernán González of Castille
+	}
+	931.1.1 = {
+		liege = d_castilla
+	}
+	944.1.1 = {
+		holder = 72550 # Duke Ansur Fernández of Castille
+	}
+	945.1.1 = {
+		holder = 107680 # Duke Fernán González of Castille (restored)
+	}
+	970.6.1 = {
+		holder = 107670 # Duke García I of Castille
+	}
+	995.6.29 = {
+		holder = 107660 # Duke Sancho García of Castille
+	}
+	1017.2.5 = {
+		holder = 70286 # Duke García II of Castille
+	}
+	1029.5.13 = {
+		holder = 107510 # King Fernando I of León
+	}
+	1065.12.27 = {
+		holder = 107500 # King Sancho II of Castille
+		liege = k_castille
+	}
+	1072.10.7 = {
+		holder = 108500 # King Alfonso VI of León
+	}
+	1109.7.1 = {
+		holder = 72894 # Fruela Díaz
+	}
+	1121.12.2 = {
+		holder = 72897 # Diego Froilaz
+	}
+	1140.6.26 = {
+		holder = 72899 # Ramiro Froilaz I
+	}
+	1172.9.13 = {
+		holder = 72905 # Diego Ramírez I
+	}
+	1185.8.1 = {
+		holder = 72906 # Fruela Ramírez
+	}
+	1202.9.9 = {
+		holder = 72915 # Nuño Froilaz
+	}
+	1217.1.1 = {
+		holder = 72916 # Ramiro Froilaz II
+	}
+	1240.1.1 = {
+		holder = 72921 # Gonzalo Ramírez
+	}
+	1259.1.1 = {
+		holder = 72925 # Ramiro Froilaz III
+	}
+	1268.1.1 = {
+		holder = 72927 # Diego Ramírez II
+	}
+	1330.1.1 = {
+		holder = 72933 # Rodrigo Díaz
+	}
+}
 
 d_castilla = {
 	854.1.1 = {
@@ -866,12 +992,13 @@ c_lara = {
 
 
 c_cuellar = {
-	757.1.1 = {
-		holder = 200041 # Yusuf Yusufid
-		liege = k_andalusia
-	}
+	#757.1.1 = {
+	#	holder = 200041 # Yusuf Yusufid
+	#	liege = k_andalusia
+	#}
 	777.1.1 = {
 		holder = 73679 # Abd al-Rahman I Umayyad
+		liege = k_andalusia
 	}
 	788.10.7 = {
 		holder = 73680 # Hisham I Umayyad
@@ -960,12 +1087,13 @@ c_cuellar = {
 
 
 c_avila = {
-	757.1.1 = {
-		holder = 200041 # Yusuf Yusufid
-		liege = k_andalusia
-	}
+	#757.1.1 = {
+	#	holder = 200041 # Yusuf Yusufid
+	#	liege = k_andalusia
+	#}
 	777.1.1 = {
 		holder = 73679 # Abd al-Rahman I Umayyad
+		liege = k_andalusia
 	}
 	788.10.7 = {
 		holder = 73680 # Hisham I Umayyad
@@ -1053,12 +1181,12 @@ c_avila = {
 }
 
 
-d_avila = {
-	#711.1.1 = {
-	#	de_jure_liege = k_asturias
-	#}
-	#1037.9.4 = {
-	#	de_jure_liege = k_castille
-	#}
-}
+#d_avila = {
+#	#711.1.1 = {
+#	#	de_jure_liege = k_asturias
+#	#}
+#	#1037.9.4 = {
+#	#	de_jure_liege = k_castille
+#	#}
+#}
 

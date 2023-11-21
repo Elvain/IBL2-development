@@ -284,4 +284,5 @@ impassable_mountains = RANGE { 8802 8919 }
 impassable_mountains = RANGE { 9660 9699 }
 impassable_mountains = RANGE { 9766 9767 }
 impassable_mountains = RANGE { 9818 9825 }
+impassable_mountains = RANGE { 9960 9964 } #empty provinces
 impassable_mountains = LIST { 3222 9816 9828 }

@@ -671,6 +671,8 @@ c_askedal = {
 }
 
 c_fakkan = { #temporary placeholder copy of Tahert
+	949.1.1 = {	change_development_level = 6 } #city founded
+	1066.1.1 = { change_development_level = 9 }
 
 	768.1.1 = {
 		holder = 210032
@@ -1448,18 +1450,38 @@ c_tanas = {
 }
 
 c_wansharis = { #largely copied c_algier
-	823.1.1 = {
+	740.1.1 = {
 		government = clan_government
 		liege = "d_alger"
-		holder = 163097
+		holder = zanata0065
 	}
-	866.1.1 = {
-		holder = 163149
+	769.1.1 = {
+		holder = zanata0066
 	}
-
-	1008.1.1 = {
+	810.1.1 = {
+		holder = zanata0067
+	}
+	829.1.1 = {
+		holder = zanata0068
+	}
+	863.1.1 = {
+		holder = zanata0069
+	}
+	897.1.1 = {
+		holder = zanata0070
+	}
+	915.1.1 = {
+		holder = zanata0071
+	}
+	954.1.1 = {
+		holder = zanata0072
+	}
+	981.1.1 = {
 		holder = zanata0039
 	}
+	#1008.1.1 = {
+	#	holder = zanata0039
+	#}
 	1023.1.1 = {
 		holder = zanata0040
 	}
@@ -1557,7 +1579,7 @@ c_wansharis = { #largely copied c_algier
 d_zab = {
 	867.1.1 = {
 		government = clan_government
-		holder = 6882	#Just to keep him from tribalifying bits of Algeria unecessarily.
+		#holder = 6882	#Just to keep him from tribalifying bits of Algeria unecessarily.
 	}
 	1066.1.1 = {
 		government = tribal_government
@@ -1570,6 +1592,9 @@ d_zab = {
 
 
 c_hodna = {
+	867.1.1 = {	change_development_level = 7 }
+	1066.1.1 = { change_development_level = 10 }
+
 	768.1.1 = {
 		government = clan_government
 		holder = 210029
@@ -1684,9 +1709,107 @@ c_hodna = {
 	1318.1.1 = {
 		holder = 33032
 	}
-	
-	
 
+}
+
+c_badis = {
+	850.1.1 = {	
+		#liege = k_africa
+		holder = zanata0085
+	}
+	865.1.1 = {	
+		holder = zanata0086
+	}
+	903.1.1 = {
+		holder = zanata0087
+	}
+	931.1.1 = {
+		holder = zanata0088
+	}
+	961.1.1 = {
+		holder = zanata0089
+	}
+	992.1.1 = {
+		holder = zanata0090
+	}
+	1021.1.1 = {
+		holder = zanata0091
+	}
+	1056.1.1 = {
+		holder = zanata0092
+	}
+	1062.1.1 = {
+		liege = d_kairouan
+	}
+	1070.1.1 = {
+		holder = 155029
+	}
+	1090.1.1 = {
+		holder = 155030
+	}
+	1120.1.1 = {
+		holder = 155031
+	}
+	1159.7.1 = {
+		holder = 33012
+	}
+	1176.1.1 = {
+		holder = 33013
+	}
+	1186.1.1 = {
+		liege = "d_tripolitania"
+	}
+	1186.1.1 = {
+		holder = 32977
+	}
+	1187.10.15 = {
+		liege = "d_tunis"
+	}
+	1187.10.15 = {
+		holder = 33013
+	}
+	1198.1.1 = {
+		holder = 32977
+	}
+	1207.1.1 = {
+		holder = 33014
+	}
+	1224.1.1 = {
+		holder = 33020
+	}
+	1229.1.1 = {
+		holder = 33021
+	}
+	1251.1.1 = {
+		holder = 33024
+	}
+	1276.1.1 = {
+		holder = 33026
+	}
+	1279.1.1 = {
+		holder = 33025
+	}
+	1284.1.1 = {
+		holder = 33017
+	}
+	1295.1.1 = {
+		holder = 33027
+	}
+	1309.1.1 = {
+		holder = 33028
+	}
+	1310.1.1 = {
+		holder = 33031
+	}
+	1311.1.1 = {
+		holder = 33042
+	}
+	1317.1.1 = {
+		holder = 33043
+	}
+	1318.1.1 = {
+		holder = 33032
+	}
 }
 
 
@@ -1811,19 +1934,28 @@ c_biskra = {
 }
 
 c_qalaat = {
-	767.1.1 = {
+	#867.1.1 = {	change_development_level = 5 }
+	1066.1.1 = { change_development_level = 10 }
+
+	800.1.1 = {
 		government = clan_government
-		liege = "d_alger"
-		holder = 210035
+		liege = d_alger
+		holder = sanhaja050
 	}
-	823.1.1 = {
-		liege = "d_alger"
+	831.1.1 = {
+		holder = sanhaja051
 	}
-	823.1.1 = {
-		holder = 163097
+	864.1.1 = {
+		holder = sanhaja052
 	}
-	866.1.1 = {
-		holder = 163149
+	890.1.1 = {
+		holder = sanhaja053
+	}
+	915.1.1 = {
+		holder = sanhaja054
+	}
+	951.1.1 = {
+		holder = sanhaja055
 	}
 	1062.1.1 = {
 		liege = "d_bejaia"

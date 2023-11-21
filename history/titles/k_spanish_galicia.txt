@@ -104,7 +104,7 @@ c_coruna = {
 	850.2.1 = {
 		holder = 70017 # Ordoño I de Cantabria
 	}
-	866.5.27 = {
+	862.1.1 = {
 		holder = 70019 # Alfonso III de Cantabria
 	}
 	900.1.1 = {
@@ -207,7 +207,7 @@ c_mondonedo = {
 	850.2.1 = {
 		holder = 70017 # Ordoño I de Cantabria
 	}
-	866.5.27 = {
+	862.1.1 = {
 		holder = 70019 # Alfonso III de Cantabria
 	}
 	900.1.1 = {
@@ -1171,13 +1171,15 @@ c_aveiro = {
 
 
 c_castelo_branco = {
-	758.1.1 = {
-		holder = 200032 # Suleyman Suleymanid
-		liege = k_andalusia
-		government = clan_government
-	}
+	#758.1.1 = {
+	#	holder = 200032 # Suleyman Suleymanid
+	#	liege = k_andalusia
+	#	government = clan_government
+	#}
 	789.1.1 = {
 		holder = 73680 # Hisham I Umayyad
+		liege = k_andalusia
+		government = clan_government
 	}
 	796.6.12 = {
 		holder = 73681 # al-Hakam Umayyad
@@ -1330,12 +1332,13 @@ d_porto = {
 
 
 c_porto = {
-	765.1.1 = {
-		holder = 200045 # Abd al-Rahman Abdalramanid
-		liege = k_andalusia
-	}
+	#765.1.1 = {
+	#	holder = 200045 # Abd al-Rahman Abdalramanid
+	#	liege = k_andalusia
+	#}
 	791.1.1 = {
 		holder = 73680 # Hisham I Umayyad
+		liege = k_andalusia
 	}
 	796.6.12 = {
 		holder = 73681 # al-Hakam Umayyad
@@ -1432,7 +1435,7 @@ c_porto = {
 
 
 b_guimaraes = {
-	1066.1.1 = {
+	1065.12.2 = {
 		holder = 142465
 	}
 	1110.1.1 = {
@@ -1463,12 +1466,13 @@ b_guimaraes = {
 
 
 c_braganza = {
-	760.1.1 = {
-		holder = 200031 # Musa Musavid
-		liege = k_andalusia
-	}
+	#760.1.1 = {
+	#	holder = 200031 # Musa Musavid
+	#	liege = k_andalusia
+	#}
 	790.1.1 = {
 		holder = 73680 # Hisham I Umayyad
+		liege = k_andalusia
 	}
 	796.6.12 = {
 		holder = 73681 # al-Hakam Umayyad
@@ -1489,10 +1493,10 @@ c_braganza = {
 	922.1.1 = {
 		holder = 142004 # Alvito Lucides Vimaranes
 	}
-	967.1.1 = {
-		holder = 109600 # Nuno Alvites Vimaranes I
-	}
-	987.1.1 = {
+	#967.1.1 = {
+	#	holder = 109600 # Nuno Alvites Vimaranes I
+	#}
+	973.1.1 = {
 		holder = 109601 # Alvito Nunes Vimaranes
 	}
 	1015.1.1 = {

@@ -1,0 +1,5 @@
+l_spanish:
+ religious_decision.0201.savanna:0 "Las llanuras de hierva de [savanna_location.GetNameNoTier]."
+
+ religious_decision.0211.desc.beginning.savanna:0 "El aire seco de [ROOT.Char.GetCurrentActivity.GetLocation.GetName], las garrigas llenan mis pulmones y recorren mi piel."
+

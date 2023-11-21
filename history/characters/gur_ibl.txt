@@ -1,0 +1,1680 @@
+﻿
+#fictional rulers of c_daboya
+dagaaba0001 = {
+	name = "Dabuo" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	820.1.1 = {
+		birth = yes
+	}
+	879.1.1 = {
+		death = yes
+	}
+}
+dagaaba0002 = {
+	name = "Ayuo" #fictional
+	female = yes
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0001
+	842.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+dagaaba0003 = {
+	name = "De_r" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0001
+	845.1.1 = {
+		birth = yes
+	}
+	904.1.1 = {
+		death = yes
+	}
+}
+dagaaba0004 = {
+	name = "Ziem" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0003
+	866.1.1 = {
+		birth = yes
+	}
+	920.1.1 = {
+		death = yes
+	}
+}
+dagaaba0005 = {
+	name = "Bayuo" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0004
+	904.1.1 = {
+		birth = yes
+	}
+	957.1.1 = {
+		death = yes
+	}
+}
+dagaaba0006 = {
+	name = "Ziem" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0005
+	933.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+dagaaba0007 = {
+	name = "Daliri" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0006
+	963.1.1 = {
+		birth = yes
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+dagaaba0017 = {
+	name = "Kasi" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0007
+	990.1.1 = {
+		birth = yes
+	}
+	1039.1.1 = {
+		death = yes
+	}
+}
+dagaaba0008 = {
+	name = "Asuro" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0017
+	1018.1.1 = {
+		birth = yes
+	}
+	1059.1.1 = {
+		death = yes
+	}
+}
+dagaaba0009 = {
+	name = "Damba" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0008
+	1043.1.1 = {
+		birth = yes
+	}
+	1098.1.1 = {
+		death = yes
+	}
+}
+dagaaba0010 = {
+	name = "Chimsi" #fictional
+	female = yes
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0008
+	1044.1.1 = {
+		birth = yes
+	}
+	1108.1.1 = {
+		death = yes
+	}
+}
+dagaaba0011 = {
+	name = "Faako" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0009
+	1064.1.1 = {
+		birth = yes
+	}
+	1107.1.1 = {
+		death = yes
+	}
+}
+dagaaba0012 = {
+	name = "M-bo" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0011
+	1092.1.1 = {
+		birth = yes
+	}
+	1147.1.1 = {
+		death = yes
+	}
+}
+dagaaba0013 = {
+	name = "Ziem" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0012
+	1123.1.1 = {
+		birth = yes
+	}
+	1178.1.1 = {
+		death = yes
+	}
+}
+dagaaba0014 = {
+	name = "Timtooni" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0013
+	1148.1.1 = {
+		birth = yes
+	}
+	1186.1.1 = {
+		death = yes
+	}
+}
+dagaaba0015 = {
+	name = "Zoosim" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0014
+	1169.1.1 = {
+		birth = yes
+	}
+	1212.1.1 = {
+		death = yes
+	}
+}
+dagaaba0016 = {
+	name = "Faako" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0015
+	1195.1.1 = {
+		birth = yes
+	}
+	1238.1.1 = {
+		death = yes
+	}
+}
+dagaaba0018 = {
+	name = "Dabuo" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0016
+	1217.1.1 = {
+		birth = yes
+	}
+	1260.1.1 = {
+		death = yes
+	}
+}
+dagaaba0019 = {
+	name = "Bayuo" #fictional
+	dynasty = dagadyn001
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0018
+	1240.1.1 = {
+		birth = yes
+	}
+	1287.1.1 = {
+		death = yes
+	}
+}
+
+
+kurumba0001 = {
+	name = "Sawadogo" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	820.1.1 = {
+		birth = yes
+	}
+	866.1.1 = {
+		death = yes
+	}
+}
+kurumba0002 = {
+	name = "Foufati" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0001
+	840.1.1 = {
+		birth = yes
+	}
+	897.1.1 = {
+		death = yes
+	}
+}
+kurumba0003 = {
+	name = "Sabouna" #fictional
+	female = yes
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0001
+	842.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+kurumba0004 = {
+	name = "Wumtanango" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0002
+	863.1.1 = {
+		birth = yes
+	}
+	915.1.1 = {
+		death = yes
+	}
+}
+kurumba0005 = {
+	name = "Kosambaonga" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0004
+	895.1.1 = {
+		birth = yes
+	}
+	949.1.1 = {
+		death = yes
+	}
+}
+kurumba0006 = {
+	name = "Salu" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0005
+	921.1.1 = {
+		birth = yes
+	}
+	980.1.1 = {
+		death = yes
+	}
+}
+kurumba0007 = {
+	name = "Demba" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0006
+	957.1.1 = {
+		birth = yes
+	}
+	1013.1.1 = {
+		death = yes
+	}
+}
+kurumba0008 = {
+	name = "Wumtanango" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0007
+	990.1.1 = {
+		birth = yes
+	}
+	1039.1.1 = {
+		death = yes
+	}
+}
+kurumba0009 = {
+	name = "Salu" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0008
+	1018.1.1 = {
+		birth = yes
+	}
+	1062.1.1 = {
+		death = yes
+	}
+}
+kurumba0010 = {
+	name = "Kosambaonga" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0009
+	1040.1.1 = {
+		birth = yes
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}
+kurumba0011 = {
+	name = "Medo" #fictional
+	female = yes
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0009
+	1044.1.1 = {
+		birth = yes
+	}
+	1103.1.1 = {
+		death = yes
+	}
+}
+kurumba0012 = {
+	name = "Kosambaonga" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0010
+	1064.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+kurumba0013 = {
+	name = "Sinda" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0012
+	1092.1.1 = {
+		birth = yes
+	}
+	1150.1.1 = {
+		death = yes
+	}
+}
+kurumba0014 = {
+	name = "Sawadogo" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0013
+	1118.1.1 = {
+		birth = yes
+	}
+	1153.1.1 = {
+		death = yes
+	}
+}
+kurumba0015 = {
+	name = "Salu" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0014
+	1138.1.1 = {
+		birth = yes
+	}
+	1193.1.1 = {
+		death = yes
+	}
+}
+kurumba0016 = {
+	name = "Sinda" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0015
+	1168.1.1 = {
+		birth = yes
+	}
+	1209.1.1 = {
+		death = yes
+	}
+}
+kurumba0017 = {
+	name = "Berba" #fictional
+	female = yes
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0016
+	1186.1.1 = {
+		birth = yes
+	}
+	1250.1.1 = {
+		death = yes
+	}
+}
+kurumba0018= {
+	name = "Foufati" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0016
+	1188.1.1 = {
+		birth = yes
+	}
+	1234.1.1 = {
+		death = yes
+	}
+}
+kurumba0019 = {
+	name = "Sandigsa" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0018
+	1208.1.1 = {
+		birth = yes
+	}
+	1262.1.1 = {
+		death = yes
+	}
+}
+kurumba0020 = {
+	name = "Wumtanango" #fictional
+	dynasty = kurumdyn001
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0019
+	1240.1.1 = {
+		birth = yes
+	}
+	1294.1.1 = {
+		death = yes
+	}
+}
+
+#fictional rulers of c_oursi
+kurumba0021 = {
+	name = "Aliu" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	812.1.1 = {
+		birth = yes
+	}
+	856.1.1 = {
+		death = yes
+	}
+}
+kurumba0022 = {
+	name = "Dobidia" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0021
+	837.1.1 = {
+		birth = yes
+	}
+	890.1.1 = {
+		death = yes
+	}
+}
+kurumba0023 = {
+	name = "Nurumba" #fictional
+	female = yes
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0021
+	833.1.1 = {
+		birth = yes
+	}
+	895.1.1 = {
+		death = yes
+	}
+}
+kurumba0024 = {
+	name = "Dylm" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0022
+	861.1.1 = {
+		birth = yes
+	}
+	910.1.1 = {
+		death = yes
+	}
+}
+kurumba0025 = {
+	name = "Sawadogo" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0024
+	890.1.1 = {
+		birth = yes
+	}
+	942.1.1 = {
+		death = yes
+	}
+}
+kurumba0026 = {
+	name = "Kwiimba" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0025
+	917.1.1 = {
+		birth = yes
+	}
+	970.1.1 = {
+		death = yes
+	}
+}
+kurumba0027 = {
+	name = "Daramani" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0026
+	950.1.1 = {
+		birth = yes
+	}
+	1008.1.1 = {
+		death = yes
+	}
+}
+kurumba0028 = {
+	name = "Lubatko" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0027
+	981.1.1 = {
+		birth = yes
+	}
+	1032.1.1 = {
+		death = yes
+	}
+}
+kurumba0029 = {
+	name = "Gamambu" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0028
+	1010.1.1 = {
+		birth = yes
+	}
+	1061.1.1 = {
+		death = yes
+	}
+}
+kurumba0030 = {
+	name = "Sime" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0029
+	1036.1.1 = {
+		birth = yes
+	}
+	1093.1.1 = {
+		death = yes
+	}
+}
+kurumba0031 = {
+	name = "Yide" #fictional
+	female = yes
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0030
+	1054.1.1 = {
+		birth = yes
+	}
+	1108.1.1 = {
+		death = yes
+	}
+}
+kurumba0032 = {
+	name = "Waja" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0030
+	1058.1.1 = {
+		birth = yes
+	}
+	1110.1.1 = {
+		death = yes
+	}
+}
+kurumba0033 = {
+	name = "BalA_a" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0032
+	1090.1.1 = {
+		birth = yes
+	}
+	1138.1.1 = {
+		death = yes
+	}
+}
+kurumba0035 = {
+	name = "Waja" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0033
+	1116.1.1 = {
+		birth = yes
+	}
+	1173.1.1 = {
+		death = yes
+	}
+}
+kurumba0036 = {
+	name = "Sime" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0035
+	1136.1.1 = {
+		birth = yes
+	}
+	1179.1.1 = {
+		death = yes
+	}
+}
+kurumba0037 = {
+	name = "BalA_a" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0036
+	1160.1.1 = {
+		birth = yes
+	}
+	1208.1.1 = {
+		death = yes
+	}
+}
+kurumba0038 = {
+	name = "Waja" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0037
+	1182.1.1 = {
+		birth = yes
+	}
+	1234.1.1 = {
+		death = yes
+	}
+}
+kurumba0039 = {
+	name = "Gamambu" #fictional
+	dynasty = kurumdyn002
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0038
+	1207.1.1 = {
+		birth = yes
+	}
+	1262.1.1 = {
+		death = yes
+	}
+}
+
+# fictional Kurumba rulers of c_oursi
+kurumba0040 = {
+	name = "Daramani" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	835.1.1 = {
+		birth = yes
+	}
+	888.1.1 = {
+		death = yes
+	}
+}
+kurumba0041 = {
+	name = "Kwiimba" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0040
+	853.1.1 = {
+		birth = yes
+	}
+	907.1.1 = {
+		death = yes
+	}
+}
+kurumba0042 = {
+	name = "Sekkin" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0048
+	1033.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+kurumba0043 = {
+	name = "Kaba" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0042
+	1051.1.1 = {
+		birth = yes
+	}
+	1107.1.1 = {
+		death = yes
+	}
+}
+kurumba0044 = {
+	name = "Bagula" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0043
+	1073.1.1 = {
+		birth = yes
+	}
+	1122.1.1 = {
+		death = yes
+	}
+}
+kurumba0045 = {
+	name = "Afa_Ajuri" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0044
+	1100.1.1 = {
+		birth = yes
+	}
+	1159.1.1 = {
+		death = yes
+	}
+}
+kurumba0046 = {
+	name = "Labidiedo" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0045
+	1132.1.1 = {
+		birth = yes
+	}
+	1190.1.1 = {
+		death = yes
+	}
+}
+kurumba0047 = {
+	name = "Mahama" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0046
+	1151.1.1 = {
+		birth = yes
+	}
+	1208.1.1 = {
+		death = yes
+	}
+}
+kurumba0048 = {
+	name = "Sekkin" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0049
+	1000.1.1 = {
+		birth = yes
+	}
+	1047.1.1 = {
+		death = yes
+	}
+}
+kurumba0049 = {
+	name = "Mahama" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0050
+	970.1.1 = {
+		birth = yes
+	}
+	1023.1.1 = {
+		death = yes
+	}
+}
+kurumba0050 = {
+	name = "Sekkin" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0051
+	945.1.1 = {
+		birth = yes
+	}
+	990.1.1 = {
+		death = yes
+	}
+}
+kurumba0051 = {
+	name = "Waris" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0052
+	910.1.1 = {
+		birth = yes
+	}
+	963.1.1 = {
+		death = yes
+	}
+}
+kurumba0052 = {
+	name = "Baadindiye" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0041
+	880.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		death = yes
+	}
+}
+kurumba0053 = {
+	name = "Dimbi" #fictional
+	female = yes
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0040
+	851.1.1 = {
+		birth = yes
+	}
+	903.1.1 = {
+		death = yes
+	}
+}
+kurumba0054 = {
+	name = "Nurumba" #fictional
+	female = yes
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0048
+	1036.1.1 = {
+		birth = yes
+	}
+	1089.1.1 = {
+		death = yes
+	}
+}
+kurumba0055 = {
+	name = "Djeneba" #fictional
+	female = yes
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0042
+	1050.1.1 = {
+		birth = yes
+	}
+	1097.1.1 = {
+		death = yes
+	}
+}
+kurumba0056 = {
+	name = "Labidiedo" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0047
+	1180.1.1 = {
+		birth = yes
+	}
+	1229.1.1 = {
+		death = yes
+	}
+}
+kurumba0057 = {
+	name = "Gamambu" #fictional
+	dynasty = kurumdyn003
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0056
+	1206.1.1 = {
+		birth = yes
+	}
+	1260.1.1 = {
+		death = yes
+	}
+}
+
+#fictional rulers in c_mamprusi
+
+dagaaba0020 = {
+	name = "Tenin" #fictional
+	dynasty = dagadyn002
+	religion = west_african_pagan
+	culture = dagaaba
+	830.1.1 = {
+		birth = yes
+	}
+	880.1.1 = {
+		death = yes
+	}
+}
+dagaaba0021 = {
+	name = "Tenin" #fictional
+	dynasty = dagadyn002
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0020
+	850.1.1 = {
+		birth = yes
+	}
+	912.1.1 = {
+		death = yes
+	}
+}
+dagaaba0022 = {
+	name = "Toimu" #fictional
+	dynasty = dagadyn002
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0021
+	895.1.1 = {
+		birth = yes
+	}
+	970.1.1 = {
+		death = yes
+	}
+}
+dagaaba0023 = {
+	name = "Foday" #fictional
+	dynasty = dagadyn002
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0033
+	972.1.1 = {
+		birth = yes
+	}
+	1025.1.1 = {
+		death = yes
+	}
+}
+dagaaba0024 = {
+	name = "Dolo" #fictional
+	dynasty = dagadyn002
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0023
+	1000.1.1 = {
+		birth = yes
+	}
+	1060.1.1 = {
+		death = yes
+	}
+}
+dagaaba0025 = {
+	name = "Djeliba" #fictional
+	dynasty = dagadyn002
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0024
+	1038.1.1 = {
+		birth = yes
+	}
+	1095.1.1 = {
+		death = yes
+	}
+}
+dagaaba0026 = {
+	name = "Armah" #fictional
+	dynasty = dagadyn002
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0025
+	1065.1.1 = {
+		birth = yes
+	}
+	1127.1.1 = {
+		death = yes
+	}
+}
+dagaaba0027 = {
+	name = "Alamin" #fictional
+	dynasty = dagadyn002
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0026
+	1098.1.1 = {
+		birth = yes
+	}
+	1158.1.1 = {
+		death = yes
+	}
+}
+dagaaba0028 = {
+	name = "Bolonbooti" #fictional
+	dynasty = dagadyn002
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0027
+	1135.1.1 = {
+		birth = yes
+	}
+	1189.1.1 = {
+		death = yes
+	}
+}
+dagaaba0029 = {
+	name = "Toimu" #fictional
+	dynasty = dagadyn002
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0028
+	1173.1.1 = {
+		birth = yes
+	}
+	1228.1.1 = {
+		death = yes
+	}
+}
+dagaaba0030 = {
+	name = "Alamin" #fictional
+	dynasty = dagadyn002
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0029
+	1207.1.1 = {
+		birth = yes
+	}
+	1269.1.1 = {
+		death = yes
+	}
+}
+dagaaba0031 = {
+	name = "Solyini" #fictional
+	female = yes
+	dynasty = dagadyn002
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0020
+	852.1.1 = {
+		birth = yes
+	}
+	908.1.1 = {
+		death = yes
+	}
+}
+dagaaba0032 = {
+	name = "Pogbi" #fictional
+	female = yes
+	dynasty = dagadyn002
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0024
+	1036.1.1 = {
+		birth = yes
+	}
+	1093.1.1 = {
+		death = yes
+	}
+}
+dagaaba0033 = {
+	name = "Foday" #fictional
+	dynasty = dagadyn002
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0022
+	929.1.1 = {
+		birth = yes
+	}
+	986.1.1 = {
+		death = yes
+	}
+}
+
+#fictional rulers in c_po
+
+dagaaba0034 = {
+	name = "Waris" #fictional
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	828.1.1 = {
+		birth = yes
+	}
+	866.1.1 = {
+		death = yes
+	}
+}
+dagaaba0035 = {
+	name = "Bakarou" #fictional
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0034
+	847.1.1 = {
+		birth = yes
+	}
+	898.1.1 = {
+		death = yes
+	}
+}
+dagaaba0036 = {
+	name = "Sisabge" #fictional
+	female = yes
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0034
+	849.1.1 = {
+		birth = yes
+	}
+	906.1.1 = {
+		death = yes
+	}
+}
+dagaaba0037 = {
+	name = "Aliu" #fictional
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0035
+	865.1.1 = {
+		birth = yes
+	}
+	926.1.1 = {
+		death = yes
+	}
+}
+dagaaba0038 = {
+	name = "Baadindiye" #fictional
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0037
+	899.1.1 = {
+		birth = yes
+	}
+	968.1.1 = {
+		death = yes
+	}
+}
+dagaaba0039 = {
+	name = "Dawuni" #fictional
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0038
+	927.1.1 = {
+		birth = yes
+	}
+	983.1.1 = {
+		death = yes
+	}
+}
+dagaaba0040 = {
+	name = "Aliu" #fictional
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0039
+	960.1.1 = {
+		birth = yes
+	}
+	1022.1.1 = {
+		death = yes
+	}
+}
+dagaaba0041 = {
+	name = "Sounon" #fictional
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0040
+	997.1.1 = {
+		birth = yes
+	}
+	1051.1.1 = {
+		death = yes
+	}
+}
+dagaaba0042 = {
+	name = "Ermanala" #fictional
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0041
+	1027.1.1 = {
+		birth = yes
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+dagaaba0043 = {
+	name = "Aoua" #fictional
+	female = yes
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0041
+	1030.1.1 = {
+		birth = yes
+	}
+	1096.1.1 = {
+		death = yes
+	}
+}
+dagaaba0044 = {
+	name = "Nambare" #fictional
+	female = yes
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0042
+	1056.1.1 = {
+		birth = yes
+	}
+	1116.1.1 = {
+		death = yes
+	}
+}
+dagaaba0045 = {
+	name = "Sikam" #fictional
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0042
+	1059.1.1 = {
+		birth = yes
+	}
+	1120.1.1 = {
+		death = yes
+	}
+}
+dagaaba0046 = {
+	name = "Sounon" #fictional
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0045
+	1093.1.1 = {
+		birth = yes
+	}
+	1146.1.1 = {
+		death = yes
+	}
+}
+dagaaba0047 = {
+	name = "Nambare" #fictional
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0046
+	1128.1.1 = {
+		birth = yes
+	}
+	1182.1.1 = {
+		death = yes
+	}
+}
+dagaaba0048 = {
+	name = "Begli" #fictional
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0047
+	1160.1.1 = {
+		birth = yes
+	}
+	1208.1.1 = {
+		death = yes
+	}
+}
+dagaaba0049 = {
+	name = "Sounon" #fictional
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0048
+	1185.1.1 = {
+		birth = yes
+	}
+	1230.1.1 = {
+		death = yes
+	}
+}
+dagaaba0050 = {
+	name = "Doro" #fictional
+	dynasty = dagadyn003
+	religion = west_african_pagan
+	culture = dagaaba
+	father = dagaaba0049
+	1212.1.1 = {
+		birth = yes
+	}
+	1265.1.1 = {
+		death = yes
+	}
+}
+
+# fictional Kurumba rulers of c_bulsa
+kurumba0060 = {
+	name = "Gamambu" #fictional
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	825.1.1 = {
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+kurumba0061 = {
+	name = "Kiffa" #fictional
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0060
+	848.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+kurumba0062 = {
+	name = "U_lO_kU_" #fictional
+	female = yes
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0060
+	850.1.1 = {
+		birth = yes
+	}
+	907.1.1 = {
+		death = yes
+	}
+}
+kurumba0063 = {
+	name = "Mazi" #fictional
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0061
+	883.1.1 = {
+		birth = yes
+	}
+	930.1.1 = {
+		death = yes
+	}
+}
+kurumba0064 = {
+	name = "Doro" #fictional
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0063
+	908.1.1 = {
+		birth = yes
+	}
+	971.1.1 = {
+		death = yes
+	}
+}
+kurumba0065 = {
+	name = "Mazi" #fictional
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0064
+	950.1.1 = {
+		birth = yes
+	}
+	1006.1.1 = {
+		death = yes
+	}
+}
+kurumba0066 = {
+	name = "Rigau" #fictional
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0065
+	988.1.1 = {
+		birth = yes
+	}
+	1046.1.1 = {
+		death = yes
+	}
+}
+kurumba0067 = {
+	name = "Sima" #fictional
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0066
+	1027.1.1 = {
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+kurumba0068 = {
+	name = "Rasmata" #fictional
+	female = yes
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0067
+	1051.1.1 = {
+		birth = yes
+	}
+	1107.1.1 = {
+		death = yes
+	}
+}
+kurumba0069 = {
+	name = "Malo" #fictional
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0067
+	1054.1.1 = {
+		birth = yes
+	}
+	1108.1.1 = {
+		death = yes
+	}
+}
+kurumba0070 = {
+	name = "Dylm" #fictional
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0069
+	1087.1.1 = {
+		birth = yes
+	}
+	1140.1.1 = {
+		death = yes
+	}
+}
+kurumba0071 = {
+	name = "Mazi" #fictional
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0070
+	1113.1.1 = {
+		birth = yes
+	}
+	1169.1.1 = {
+		death = yes
+	}
+}
+kurumba0072 = {
+	name = "Gawrang" #fictional
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0071
+	1150.1.1 = {
+		birth = yes
+	}
+	1203.1.1 = {
+		death = yes
+	}
+}
+kurumba0073 = {
+	name = "Bagula" #fictional
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0072
+	1178.1.1 = {
+		birth = yes
+	}
+	1237.1.1 = {
+		death = yes
+	}
+}
+kurumba0074 = {
+	name = "Nmad" #fictional
+	female = yes
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0072
+	1172.1.1 = {
+		birth = yes
+	}
+	1226.1.1 = {
+		death = yes
+	}
+}
+kurumba0075 = {
+	name = "Mazi" #fictional
+	dynasty = kurumdyn004
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0073
+	1207.1.1 = {
+		birth = yes
+	}
+	1261.1.1 = {
+		death = yes
+	}
+}
+
+#fictional rulers of c_zaran
+kurumba0076 = {
+	name = "Lafia" #fictional
+	dynasty = kurumdyn005
+	religion = west_african_pagan
+	culture = kurumba
+	825.1.1 = {
+		birth = yes
+	}
+	870.1.1 = {
+		death = yes
+	}
+}
+kurumba0077 = {
+	name = "Kpera" #fictional
+	dynasty = kurumdyn005
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0076
+	850.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+kurumba0078 = {
+	name = "Alima" #fictional
+	female = yes
+	dynasty = kurumdyn005
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0076
+	851.1.1 = {
+		birth = yes
+	}
+	902.1.1 = {
+		death = yes
+	}
+}
+kurumba0079 = {
+	name = "Bar" #fictional
+	dynasty = kurumdyn005
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0077
+	883.1.1 = {
+		birth = yes
+	}
+	929.1.1 = {
+		death = yes
+	}
+}
+kurumba0080 = {
+	name = "Lubatko" #fictional
+	dynasty = kurumdyn005
+	religion = west_african_pagan
+	culture = kurumba
+	father = kurumba0079
+	910.1.1 = {
+		birth = yes
+	}
+	954.1.1 = {
+		death = yes
+	}
+}

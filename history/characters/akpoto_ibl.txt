@@ -1,0 +1,197 @@
+﻿# Akpoto characters
+# fictional rulers of c_idoma
+igbo0019 = {
+	name = "Taabansi" #fictional
+	dynasty = igbodyn003
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	840.1.1 = {
+		birth = yes
+	}
+	893.1.1 = {
+		death = yes
+	}
+}
+igbo0020 = {
+	name = "Udene" #fictional
+	dynasty = igbodyn003
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	father = igbo0019
+	859.1.1 = {
+		birth = yes
+	}
+	919.1.1 = {
+		death = yes
+	}
+}
+igbo0021 = {
+	name = "Obidiegwu" #fictional
+	dynasty = igbodyn003
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	father = akpoto0004
+	1023.1.1 = {
+		birth = yes
+	}
+	1079.1.1 = {
+		death = yes
+	}
+}
+igbo0022 = {
+	name = "Onyeso" #fictional
+	dynasty = igbodyn003
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	father = igbo0021
+	1048.1.1 = {
+		birth = yes
+	}
+	1109.1.1 = {
+		death = yes
+	}
+}
+igbo0023 = {
+	name = "Taabansi" #fictional
+	dynasty = igbodyn003
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	father = igbo0022
+	1076.1.1 = {
+		birth = yes
+	}
+	1131.1.1 = {
+		death = yes
+	}
+}
+igbo0024 = {
+	name = "Ezeudo" #fictional
+	dynasty = igbodyn003
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	father = igbo0023
+	1109.1.1 = {
+		birth = yes
+	}
+	1166.1.1 = {
+		death = yes
+	}
+}
+igbo0025 = {
+	name = "Golibe" #fictional
+	dynasty = igbodyn003
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	father = igbo0024
+	1146.1.1 = {
+		birth = yes
+	}
+	1209.1.1 = {
+		death = yes
+	}
+}
+
+# fictional rulers of c_igala
+igbo0026 = {
+	name = "Afamefuna" #fictional
+	dynasty = igbodyn004
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	835.1.1 = {
+		birth = yes
+	}
+	888.1.1 = {
+		death = yes
+	}
+}
+igbo0027 = {
+	name = "Akuabata" #fictional
+	dynasty = igbodyn004
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	father = igbo0026
+	853.1.1 = {
+		birth = yes
+	}
+	907.1.1 = {
+		death = yes
+	}
+}
+igbo0028 = {
+	name = "Amadi" #fictional
+	dynasty = igbodyn004
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	father = akpoto0011
+	1033.1.1 = {
+		birth = yes
+	}
+	1075.1.1 = {
+		death = yes
+	}
+}
+igbo0029 = {
+	name = "Ifediaso" #fictional
+	dynasty = igbodyn004
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	father = igbo0028
+	1051.1.1 = {
+		birth = yes
+	}
+	1107.1.1 = {
+		death = yes
+	}
+}
+igbo0030 = {
+	name = "Chikwado" #fictional
+	dynasty = igbodyn004
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	father = igbo0029
+	1073.1.1 = {
+		birth = yes
+	}
+	1122.1.1 = {
+		death = yes
+	}
+}
+igbo0031 = {
+	name = "Chukwuka" #fictional
+	dynasty = igbodyn004
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	father = igbo0030
+	1100.1.1 = {
+		birth = yes
+	}
+	1159.1.1 = {
+		death = yes
+	}
+}
+igbo0032 = {
+	name = "Azubuike" #fictional
+	dynasty = igbodyn004
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	father = igbo0031
+	1132.1.1 = {
+		birth = yes
+	}
+	1190.1.1 = {
+		death = yes
+	}
+}
+igbo0033 = {
+	name = "Azubuike" #fictional
+	dynasty = igbodyn004
+	religion = west_african_orisha_pagan
+	culture = akpoto
+	father = igbo0032
+	1151.1.1 = {
+		birth = yes
+	}
+	1208.1.1 = {
+		death = yes
+	}
+}

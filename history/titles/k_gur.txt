@@ -1,3 +1,50 @@
+d_lobi = {
+	867.1.1 = {	change_development_level = 1 }
+	1066.1.1 = { change_development_level = 3 }
+
+	868.1.1 = {
+		government = tribal_government
+		holder = lobi0013
+		liege = 0
+	}
+	888.1.1 = {
+		holder = lobi0014
+	}
+	919.1.1 = {
+		holder = lobi0015
+	}
+	960.1.1 = {
+		holder = lobi0016
+	}
+	984.1.1 = {
+		holder = lobi0017
+	}
+	1011.1.1 = {
+		holder = lobi0018
+	}
+	1059.1.1 = {
+		holder = lobi0019
+	}
+	1084.1.1 = {
+		holder = lobi0020
+	}
+	1121.1.1 = {
+		holder = lobi0021
+	}
+	1149.1.1 = {
+		holder = lobi0022
+	}
+	1188.1.1 = {
+		holder = lobi0023
+	}
+	1205.1.1 = {
+		holder = lobi0024
+	}
+	1249.1.1 = {
+		holder = 0
+	}
+}
+
 
 c_dagomba = {
 	800.1.1 = {
@@ -11,40 +58,90 @@ c_dagomba = {
 	1101.1.1 = {
 		change_development_level = 6
 	}
-	
-	860.1.1 = {
-		holder = guan0021
+		
+	850.1.1 = {
 		government = tribal_government
+		holder = guan0041
 	}
-	897.1.1 = {
-		holder = guan0022
+	890.1.1 = {
+		holder = guan0042
 	}
-	933.1.1 = {
-		holder = guan0023
+	913.1.1 = {
+		holder = guan0043
 	}
-	978.1.1 = {
-		holder = guan0024
+	1066.1.1 = {
+		holder = gur0073
 	}
-	1030.1.1 = {
-		holder = guan0025
-	}
-	1070.1.1 = {
-		holder = guan0026
+	1090.1.1 = {
+		holder = gur0074
 	}
 	1116.1.1 = {
-		holder = guan0027
+		holder = gur0075
 	}
-	1145.1.1 = {
-		holder = guan0028
+	1148.1.1 = {
+		holder = gur0076
 	}
-	1183.1.1 = {
-		holder = guan0029
+	1176.1.1 = {
+		holder = gur0077
 	}
-	1217.1.1 = {
-		holder = guan0030
+	1199.1.1 = {
+		holder = gur0078
+	}
+	1246.1.1 = {
+		holder = gur0079
+	}
+	1277.1.1 = {
+		holder = gur0080
 	}
 }
 
+
+
+c_pura = {
+	800.1.1 = {
+		change_development_level = 3
+	}
+	
+	1001.1.1 = {
+		change_development_level = 5
+	}
+	
+	1101.1.1 = {
+		change_development_level = 7
+	}
+	
+	860.1.1 = {
+		holder = kibsi0011
+		government = tribal_government
+	}
+	890.1.1 = {
+		holder = kibsi0012
+	}
+	933.1.1 = {
+		holder = kibsi0013
+	}
+	990.1.1 = {
+		holder = kibsi0014
+	}
+	1050.1.1 = {
+		holder = kibsi0015
+	}
+	1081.1.1 = {
+		holder = kibsi0016
+	}
+	1120.1.1 = {
+		holder = kibsi0017
+	}
+	1159.1.1 = {
+		holder = kibsi0018
+	}
+	1199.1.1 = {
+		holder = kibsi0019
+	}
+	1235.1.1 = {
+		holder = kibsi0020
+	}
+}
 
 c_gonja = {
 	800.1.1 = {
@@ -107,96 +204,187 @@ c_daboya = {
 	}
 	
 	860.1.1 = {
-		holder = guan0031
+		holder = dagaaba0001
 		government = tribal_government
 	}
-	908.1.1 = {
-		holder = guan0032
+	879.1.1 = {
+		holder = dagaaba0003
 	}
-	962.1.1 = {
-		holder = guan0033
+	904.1.1 = {
+		holder = dagaaba0004
 	}
-	1012.1.1 = {
-		holder = guan0034
+	920.1.1 = {
+		holder = dagaaba0005
 	}
-	1053.1.1 = {
-		holder = guan0035
+	957.1.1 = {
+		holder = dagaaba0006
+	}
+	990.1.1 = {
+		holder = dagaaba0007
+	}
+	1025.1.1 = {
+		holder = dagaaba0017
+	}
+	1039.1.1 = {
+		holder = dagaaba0008
+	}
+	1059.1.1 = {
+		holder = dagaaba0009
 	}
 	1098.1.1 = {
-		holder = guan0036
+		holder = dagaaba0011
 	}
-	1120.1.1 = {
-		holder = guan0037
+	1107.1.1 = {
+		holder = dagaaba0012
 	}
-	1156.1.1 = {
-		holder = guan0038
+	1147.1.1 = {
+		holder = dagaaba0013
 	}
-	1188.1.1 = {
-		holder = guan0039
+	1178.1.1 = {
+		holder = dagaaba0014
 	}
-	1222.1.1 = {
-		holder = guan0040
+	1186.1.1 = {
+		holder = dagaaba0015
+	}
+	1212.1.1 = {
+		holder = dagaaba0016
+	}
+	1238.1.1 = {
+		holder = dagaaba0018
+	}
+	1260.1.1 = {
+		holder = dagaaba0019
 	}
 }
 
 
-c_wagadugu = {
-	800.1.1 = {
-		change_development_level = 3
-	}
-	
-	1001.1.1 = {
-		change_development_level = 5
-	}
-	
-	1101.1.1 = {
-		change_development_level = 7
-	}
-	860.1.1 = {
+c_lobi = {
+	850.1.1 = {
+		holder = lobi0029
+		liege = d_lobi
 		government = tribal_government
-		holder = marka0013
-		liege = 0
+	}
+	870.1.1 = {
+		holder = lobi0031
+	}
+	909.1.1 = {
+		holder = lobi0032
+	}
+	957.1.1 = {
+		holder = lobi0033
+	}
+	992.1.1 = {
+		holder = lobi0034
+	}
+	1025.1.1 = {
+		holder = lobi0035
+	}
+	1053.1.1 = {
+		holder = lobi0036
+	}
+	1069.1.1 = {
+		holder = lobi0038
+	}
+	1106.1.1 = {
+		holder = lobi0039
+	}
+	1138.1.1 = {
+		holder = lobi0040
+	}
+	1175.1.1 = {
+		holder = lobi0041
+	}
+	1182.1.1 = {
+		holder = lobi0042
+	}
+	1219.1.1 = {
+		holder = lobi0043
+	}
+	1246.1.1 = {
+		holder = lobi0044
+	}
+}
+
+c_gueguere = {
+	867.1.1 = {	change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	
+	840.1.1 = {
+		holder = kibsi0021a
+		government = tribal_government
+	}
+	858.1.1 = {
+		holder = kibsi0021
+	}
+	890.1.1 = {
+		holder = kibsi0022
+	}
+	920.1.1 = {
+		liege = d_lobi
+	}
+	933.1.1 = {
+		holder = kibsi0023
+	}
+	990.1.1 = {
+		holder = kibsi0024
+	}
+	1050.1.1 = {
+		holder = kibsi0025
+	}
+	1081.1.1 = {
+		holder = kibsi0026
+	}
+	1120.1.1 = {
+		holder = kibsi0027
+	}
+	1159.1.1 = {
+		holder = kibsi0028
+	}
+	1199.1.1 = {
+		holder = kibsi0029
+	}
+	1235.1.1 = {
+		holder = kibsi0030
+	}
+}
+
+
+c_jebugu = {
+	860.1.1 = {
+		holder = lobi0013
 	}
 	888.1.1 = {
-		holder = marka0014
+		holder = lobi0014
 	}
 	919.1.1 = {
-		holder = marka0015
+		holder = lobi0015
 	}
 	960.1.1 = {
-		holder = marka0016
+		holder = lobi0016
 	}
 	984.1.1 = {
-		holder = marka0017
+		holder = lobi0017
 	}
 	1011.1.1 = {
-		holder = marka0018
+		holder = lobi0018
 	}
-	1015.1.1 = {
-		holder = gur0013
-		liege = d_lower_gurma
-	}
-	1033.1.1 = {
-		holder = gur0012
-	}
-	1068.1.1 = {
-		liege = 0
-		holder = marka0019
+	1059.1.1 = {
+		holder = lobi0019
 	}
 	1084.1.1 = {
-		holder = marka0020
+		holder = lobi0020
 	}
 	1121.1.1 = {
-		holder = marka0021
+		holder = lobi0021
 	}
 	1149.1.1 = {
-		holder = marka0022
+		holder = lobi0022
 	}
 	1188.1.1 = {
-		holder = marka0023
+		holder = lobi0023
 	}
 	1205.1.1 = {
-		holder = marka0024
+		holder = lobi0024
 	}
 	1249.1.1 = {
 		holder = 0
@@ -204,244 +392,90 @@ c_wagadugu = {
 }
 
 
-c_po = {
-	800.1.1 = {
-		change_development_level = 1
-	}
-	
-	1001.1.1 = {
-		change_development_level = 3
-	}
-	
-	1101.1.1 = {
-		change_development_level = 5
-	}
-	
-	850.1.1 = {
-		government = tribal_government
-		holder = guan0041
-	}
-	890.1.1 = {
-		holder = guan0042
-	}
-	913.1.1 = {
-		holder = guan0043
-	}
-	1066.1.1 = {
-		holder = gur0073
-	}
-	1090.1.1 = {
-		holder = gur0074
-	}
-	1116.1.1 = {
-		holder = gur0075
-	}
-	1148.1.1 = {
-		holder = gur0076
-	}
-	1176.1.1 = {
-		holder = gur0077
-	}
-	1199.1.1 = {
-		holder = gur0078
-	}
-	1246.1.1 = {
-		holder = gur0079
-	}
-	1277.1.1 = {
-		holder = gur0080
-	}
-}
+c_wa = {
+	867.1.1 = {	change_development_level = 0 }
+	1066.1.1 = { change_development_level = 1 }
 
-c_tenkudugo = {
 	860.1.1 = {
 		government = tribal_government
-		holder = gur0067
-		liege = d_lower_gurma
 	}
-	880.1.1 = {
-		holder = gur0066
-	}
-	912.1.1 = {
-		holder = gur0065
-	}
-	930.1.1 = {
-		holder = gur0064
-	}
-	970.1.1 = {
-		holder = gur0014
-	}
-	1006.1.1 = {
-		holder = gur0013
-	}
-	1033.1.1 = {
-		holder = gur0012
-	}
-	1068.1.1 = {
-		holder = gur0011
-	}
-	1097.1.1 = {
-		holder = gur0010
-	}
-	1120.1.1 = {
-		holder = gur0009
-	}
-	1160.1.1 = {
-		holder = gur0008
-	}
-	1169.1.1 = {
-		holder = gur0007
-	}
-	1207.1.1 = {
-		holder = gur0006
-	}
-	1250.1.1 = {
-		holder = gur0005
-	}
-	1272.1.1 = {
-		holder = gur0004
-	}
-	1305.1.1 = {
-		holder = gur0003
-	}
-	1326.1.1 = {
-		holder = gur0002
-	}
-}
-
-
-c_mamprusi = {
-	850.1.1 = {
-		holder = gur0093
+	
+	860.1.1 = {
+		holder = bobo0031
+		#liege = d_lobi
 		government = tribal_government
 	}
 	899.1.1 = {
-		holder = gur0094
+		holder = bobo0032
 	}
-	930.1.1 = {
-		holder = gur0095
+	950.1.1 = {
+		holder = bobo0033
 	}
-	963.1.1 = {
-		holder = gur0096
+	1005.1.1 = {
+		holder = bobo0034
 	}
-	992.1.1 = {
-		holder = gur0097
+	1058.1.1 = {
+		holder = bobo0035
 	}
-	1006.1.1 = {
-		holder = gur0098
+	1102.1.1 = {
+		holder = bobo0036
 	}
-	1036.1.1 = {
-		holder = gur0099
+	1136.1.1 = {
+		holder = bobo0037
 	}
-	1066.1.1 = {
-		liege = d_borgu
-		holder = gur0100
-	}
-	1098.1.1 = {
-		holder = gur0101
-	}
-	1120.1.1 = {
-		holder = gur0102
-	}
-	1153.1.1 = {
-		holder = gur0103
-	}
-	1184.1.1 = {
-		holder = gur0104
-	}
-	1203.1.1 = {
-		holder = gur0105
-	}
-}
-
-
-c_kuisugu = {
-	850.1.1 = {
-		holder = gur0093
-		government = tribal_government
-	}
-	899.1.1 = {
-		holder = gur0094
-	}
-	930.1.1 = {
-		holder = gur0095
-	}
-	963.1.1 = {
-		holder = gur0096
-	}
-	992.1.1 = {
-		holder = gur0097
-	}
-	1006.1.1 = {
-		holder = gur0098
-	}
-	1036.1.1 = {
-		holder = gur0099
-	}
-	1066.1.1 = {
-		liege = d_borgu
-		holder = gur0100
-	}
-	1098.1.1 = {
-		holder = gur0101
-	}
-	1120.1.1 = {
-		holder = gur0102
-	}
-	1153.1.1 = {
-		holder = gur0103
-	}
-	1184.1.1 = {
-		holder = gur0104
-	}
-	1203.1.1 = {
-		holder = gur0105
-	}
-}
-
-
-c_pendjari = {
-	850.1.1 = {
-		holder = 942069
-	}
-	907.1.1 = {
-		holder = gur0081
-	}
-	936.1.1 = {
-		holder = gur0082
-	}
-	953.1.1 = {
-		holder = gur0083
-	}
-	984.1.1 = {
-		holder = gur0084
-	}
-	1003.1.1 = {
-		holder = gur0085
-	}
-	1039.1.1 = {
-		holder = gur0086
-	}
-	1048.1.1 = {
-		holder = gur0087
-	}
-	1066.1.1 = {
-		holder = 969420
-	}
-	1110.1.1 = {
-		holder = gur0088
-	}
-	1115.1.1 = {
-		holder = gur0089
-	}
-	1162.1.1 = {
-		holder = gur0090
-	}
-	1189.1.1 = {
-		holder = gur0091
+	1178.1.1 = {
+		holder = bobo0038
 	}
 	1221.1.1 = {
-		holder = gur0092
+		holder = bobo0039
+	}
+	1263.1.1 = {
+		holder = bobo0040
 	}
 }
+
+
+c_bouna = {
+	#currently copy of c_wa
+	867.1.1 = {	change_development_level = 0 }
+	1066.1.1 = { change_development_level = 1 }
+
+	860.1.1 = {
+		government = tribal_government
+	}
+	
+	860.1.1 = {
+		holder = bobo0031
+		#liege = d_lobi
+		government = tribal_government
+	}
+	899.1.1 = {
+		holder = bobo0032
+	}
+	950.1.1 = {
+		holder = bobo0033
+	}
+	1005.1.1 = {
+		holder = bobo0034
+	}
+	1058.1.1 = {
+		holder = bobo0035
+	}
+	1102.1.1 = {
+		holder = bobo0036
+	}
+	1136.1.1 = {
+		holder = bobo0037
+	}
+	1178.1.1 = {
+		holder = bobo0038
+	}
+	1221.1.1 = {
+		holder = bobo0039
+	}
+	1263.1.1 = {
+		holder = bobo0040
+	}
+}
+
 

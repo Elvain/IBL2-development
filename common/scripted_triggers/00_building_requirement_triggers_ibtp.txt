@@ -41,25 +41,25 @@ building_hunting_grounds_requirement_terrain = {
 }
 
 building_military_camps_requirement_terrain = {
-	OR = {
-		terrain = farmlands
-		terrain = plains
-		terrain = drylands
-		terrain = savanna
-		terrain = desert
-		terrain = oasis
-		terrain = floodplains
-		terrain = steppe
-		terrain = mountains
-		terrain = desert_mountains
-		terrain = wetlands
-		terrain = forest
-		terrain = taiga
-		terrain = high_boreal
-		terrain = jungle
-		terrain = hills
-		terrain = dry_hills
-	}
+	#OR = { # All Terrains
+	#	terrain = farmlands
+	#	terrain = plains
+	#	terrain = drylands
+	#	terrain = savanna
+	#	terrain = desert
+	#	terrain = oasis
+	#	terrain = floodplains
+	#	terrain = steppe
+	#	terrain = mountains
+	#	terrain = desert_mountains
+	#	terrain = wetlands
+	#	terrain = forest
+	#	terrain = taiga
+	#	terrain = high_boreal
+	#	terrain = jungle
+	#	terrain = hills
+	#	terrain = dry_hills
+	#}
 }
 
 building_watchtowers_requirement_terrain = {
@@ -68,8 +68,6 @@ building_watchtowers_requirement_terrain = {
 		terrain = drylands
 		terrain = savanna
 		terrain = oasis
-		terrain = floodplains
-		terrain = jungle
 		terrain = steppe
 	}
 }
@@ -81,43 +79,52 @@ building_cereal_fields_requirement_terrain = {
 		terrain = drylands
 		terrain = savanna
 		terrain = floodplains
+		county = {
+			has_county_modifier = fertile_desert_mountains_modifier
+		}
 	}
 }
 
 building_outposts_requirement_terrain = {
 	OR = {
-		terrain = steppe
 		terrain = wetlands
 		terrain = taiga
 		terrain = forest
 		terrain = jungle
 		terrain = high_boreal
-		terrain = mountains
-		terrain = desert_mountains
-		terrain = desert
-		terrain = savanna
 	}
 }
 
 building_barracks_requirement_terrain = {
+	#OR = {
+	#	terrain = farmlands
+	#	terrain = plains
+	#	terrain = drylands
+	#	terrain = savanna
+	#	terrain = floodplains # new
+	#	terrain = hills
+	#	terrain = dry_hills
+	#	terrain = mountains
+	#	terrain = forest
+	#	terrain = taiga
+	#	terrain = high_boreal
+	#	terrain = jungle
+	#	terrain = wetlands
+	#	terrain = steppe
+	#}
+}
+
+building_camel_farms_requirement_terrain = {
+	geographical_region = world_innovation_camels # new
 	OR = {
-		terrain = farmlands
-		terrain = plains
-		terrain = drylands
-		terrain = savanna
-		terrain = hills
-		terrain = dry_hills
-		terrain = mountains
-		terrain = forest
-		terrain = taiga
-		terrain = high_boreal
-		terrain = jungle
-		terrain = wetlands
-		terrain = steppe
+		terrain = desert
+		terrain = desert_mountains
+		terrain = oasis
+		terrain = floodplains
+		terrain = drylands # new
 		terrain = savanna
 	}
 }
-
 building_hill_farms_requirement_terrain = {
 	OR = {
 		terrain = hills
@@ -125,11 +132,20 @@ building_hill_farms_requirement_terrain = {
 	}
 }
 
+building_plantations_requirement_terrain = {
+	OR = {
+		terrain = drylands
+		terrain = savanna
+		terrain = desert
+		terrain = oasis
+	}
+}
+
 building_quarries_requirement_terrain = {
 	OR = {
 		terrain = mountains
 		terrain = desert_mountains
-		terrain = high_boreal
+		#terrain = high_boreal
 		AND = {
 			OR = { 
 				terrain = hills
@@ -142,12 +158,67 @@ building_quarries_requirement_terrain = {
 	}
 }
 
+building_warrior_lodges_requirement_terrain = {
+	OR = {
+		terrain = mountains
+		terrain = desert_mountains
+		terrain = hills
+		terrain = dry_hills
+	}
+	NOT = { geographical_region = world_horse_buildings_in_hills_and_mountains }
+}
+
+building_hillside_grazing_requirement_terrain = {
+	OR = {
+		terrain = mountains
+		terrain = desert_mountains
+		terrain = hills
+		#terrain = dry_hills
+	}
+	geographical_region = world_horse_buildings_in_hills_and_mountains
+}
 building_hill_forts_requirement_terrain = {
 	OR = {
 		terrain = mountains
 		terrain = desert_mountains
 		terrain = hills
 		terrain = dry_hills
-		terrain = high_boreal
+		#terrain = high_boreal
+	}
+}
+
+building_watermills_requirement_terrain = {
+	county ?= {
+		any_county_province = {
+			OR = {
+				terrain = mountains
+				terrain = wetlands
+				terrain = forest
+				terrain = taiga
+				terrain = jungle
+				terrain = high_boreal
+				is_riverside_province = yes
+			}
+		}
+	}
+}
+
+building_caravanserai_requirement_terrain = {
+	county ?= {
+		any_county_province = {
+			OR = {
+				terrain = drylands
+				terrain = savanna
+				terrain = desert
+				terrain = oasis
+				terrain = floodplains
+				terrain = steppe
+				terrain = desert_mountains
+				AND = {
+					geographical_region = world_europe_west_iberia
+					has_global_variable = fp2_struggle_conciliation_ending
+				}
+			}
+		}
 	}
 }

@@ -1,0 +1,6 @@
+colors = {
+	# used by cultures and languages
+	soninke = hsv{ 0.72 0.60 0.5 }
+	malinke = hsv{ 0.66 0.69 0.58 }
+	zaghawa = { 198 105 71 }
+}

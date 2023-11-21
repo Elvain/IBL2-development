@@ -52,7 +52,7 @@
 		buildings = {
 			curtain_walls_01
 			cereal_fields_01
-			military_camps_01
+			#military_camps_01
 		}
 	}
 }
@@ -102,7 +102,7 @@
 		buildings = {
 			cereal_fields_01
 			barracks_01
-			hunting_grounds_01
+			#hunting_grounds_01
 		}
 	}
 }
@@ -690,7 +690,7 @@
 		buildings = {
 			curtain_walls_01
 			barracks_01
-			military_camps_01
+			#military_camps_01
 		}
 	}
 }
@@ -826,14 +826,14 @@
 			temple_02
 			monastic_schools_01
 			pastures_01
-			hunting_grounds_01
+			#hunting_grounds_01
 		}
 	}
 }
 2693 = {	#WIESBADEN
 	holding = castle_holding
 }
-2692 = {	#KATZENELNBOGEN
+2692 = {	#KATZENELNBOGEN ##meow meow
 	holding = none
 	1095.1.1 = {
 		holding = castle_holding
@@ -852,7 +852,7 @@
 		buildings = {
 			farm_estates_01
 			cereal_fields_02
-			military_camps_01
+			#military_camps_01
 		}
 	}
 }
@@ -1034,7 +1034,7 @@
 	1066.1.1 = {
 		buildings = {
 			curtain_walls_01
-			hunting_grounds_01
+			#hunting_grounds_01
 			barracks_01
 		}
 	}

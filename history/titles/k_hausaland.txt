@@ -122,61 +122,39 @@ c_kano = {
 }
 
 c_biram = {
-	# c_kano
 	860.1.1 = {
-		#holder = 251179
+		holder = bade0011a
+		government = tribal_government
 	}
 	865.1.1 = {
-		holder = 251180
+		holder = bade0011
 	}
-	
-	910.1.1 = {
-		holder = 251181
+	898.1.1 = {
+		holder = bade0012
 	}
-	970.1.1 = {
-		liege = d_kano
+	950.1.1 = {
+		holder = bade0013
 	}
-	981.1.1 = {
-		holder = 251208
+	1000.1.1 = {
+		holder = bade0014
 	}
-	999.1.1 = {
-		holder = 251209
+	1035.1.1 = {
+		holder = bade0015
 	}
-	1063.1.1 = {
-		holder = 251210
+	1070.1.1 = {
+		holder = bade0016
 	}
-	1095.1.1 = {
-		holder = 251211
+	1098.1.1 = {
+		holder = bade0017
 	}
-	1134.1.1 = {
-		holder = 251212
+	1133.1.1 = {
+		holder = bade0018
 	}
-	1136.1.1 = {
-		holder = 251213
+	1163.1.1 = {
+		holder = bade0019
 	}
-	1194.1.1 = {
-		holder = 251215
-	}
-	1247.1.1 = {
-		holder = 251216
-	}
-	1290.1.1 = {
-		holder = 251217
-	}
-	1307.1.1 = {
-		holder = 251218
-	}
-	1343.1.1 = {
-		holder = 251219
-	}
-	1349.1.1 = {
-		holder = 251220
-	}
-	1385.1.1 = {
-		holder = 251221
-	}
-	1390.1.1 = {
-		holder = 251222
+	1195.1.1 = {
+		holder = bade0020
 	}
 }
 

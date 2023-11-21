@@ -6,9 +6,7 @@
 	culture = hausa
 	religion = west_african_bori_pagan
 	holding = tribal_holding
-	#1060.1.1 = {
-	#	culture = jukun
-	#}
+
 }
 6528 = {	#KUDU
 	holding = none
@@ -22,10 +20,9 @@
 
 ###c_biram
 6517 = {	#HADEJIA
-	culture = hausa
+	culture = bade
 	religion = west_african_bori_pagan
 	holding = tribal_holding
-
 }
 6535 = {	#GABAS -> AUYO
 	holding = none
@@ -70,9 +67,13 @@
 
 ###c_rano
 6529 = {	#RANO
-	culture = hausa
+	culture = gbagyi
 	religion = west_african_bori_pagan
 	holding = tribal_holding
+	# History
+	1150.1.1 = {
+		culture = hausa
+	}
 }
 6520 = {	#KURA
 	holding = none
@@ -109,6 +110,10 @@
 	culture = hausa
 	religion = west_african_bori_pagan
 	holding = tribal_holding
+	# History
+	1050.1.1 = {
+		culture = gbagyi
+	}
 }
 6545 = {	#TURUNKU
 	holding = none
