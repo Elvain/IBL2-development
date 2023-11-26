@@ -7208,20 +7208,6 @@
 	}
 }
 
-163133 = {
-	name = "Hamdan"
-	dynasty = 7518
-
-	culture = "levantine"
-	religion = "ismaili"
-
-	837.1.1 = {
-		birth = "837.1.1"
-	}
-	874.1.1 = {
-		death = "874.1.1"
-	}
-}
 163167 = {
 	name = "Muhammad"
 	dynasty = 1029123
@@ -7985,36 +7971,6 @@ levantine000011 = { #Ayyub's father
 		birth = yes
 	}
 	865.1.1 = {
-		death = yes
-	}
-}
-
-levantine000009 = { #Ruler in 867
-	name = "Ayyub"
-	dynasty = 1042127 #Banu Taghlib
-	religion = ashari
-	culture = levantine
-	father = levantine000011
-	
-	840.1.1 = {
-		birth = yes
-	}
-	889.1.1 = {
-		death = yes
-	}
-}
-
-levantine000012 = { #Ayyub's son
-	name = "Hasan"
-	dynasty = 1042127 #Banu Taghlib
-	religion = ashari
-	culture = levantine
-	father = levantine000009
-	
-	856.1.1 = {
-		birth = yes
-	}
-	913.1.1 = {
 		death = yes
 	}
 }
@@ -9155,20 +9111,6 @@ levantine000010 = { #fictional ruler of Banu Kilab
 		birth = yes
 	}
 	820.1.1 = {
-		death = yes
-	}
-}
-
-levantine0001 = {
-	name = "MA_lik" #Governor of Damascus and Urdunn in early 870's
-	dynasty = bedouindyn007
-	religion = "ashari"
-	culture = levantine
-	father = bedouin0051
-	840.1.1 = {
-		birth = yes
-	}
-	896.1.1 = {
 		death = yes
 	}
 }

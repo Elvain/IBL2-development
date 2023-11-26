@@ -24,7 +24,7 @@
 
 		buildings = {
 			castle_02
-			curtain_walls_01
+			#curtain_walls_01
 			farm_estates_02
 			#cereal_fields_01
 			#regimental_grounds_01
@@ -286,10 +286,10 @@
 		holding = city_holding
 	}
 }
-1841 = {	# ALMONTE -> Sanlúcar
+1841 = {	# ALMONTE -> Sanlï¿½car
 	holding = city_holding
 }
-1993 = {	# TRIANA/Aznalcóllar
+1993 = {	# TRIANA/Aznalcï¿½llar
 	holding = none
 }
 9787 = {	# SAN_YSIDORO
@@ -531,7 +531,7 @@
 1923 = {	# MADRID
 	holding = castle_holding
 }
-1928 = {	# ARGANDA -> Alcalá
+1928 = {	# ARGANDA -> Alcalï¿½
 	holding = none
 }
 1929 = {	# VILLAREJO DE SALVANES
@@ -556,7 +556,7 @@
 1947 = {	# 1947 - CUENCA
 	holding = city_holding
 }
-1945 = {	# ALTO TAJO/Huélamo
+1945 = {	# ALTO TAJO/Huï¿½lamo
 	holding = none
 }
 
@@ -579,7 +579,7 @@
 	holding = city_holding
 }
 
-###c_mora/Ucles/Uclés
+###c_mora/Ucles/Uclï¿½s
 1952 = {	# UCLES
 	# Misc
 	culture = andalusian
@@ -660,7 +660,7 @@
 1987 = {	# ALARCOS
 	holding = castle_holding
 }
-1989 = {	# ALMADER/Almadén
+1989 = {	# ALMADER/Almadï¿½n
 	holding = none
 }
 1960 = {	# MALAGON
