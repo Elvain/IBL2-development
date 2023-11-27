@@ -365,7 +365,7 @@ world_africa_west = {
 		d_kwararafa d_upper_kwararafa d_bauchi
 		
 		#Kanem
-		d_kanem d_bornu d_kagha d_bedde
+		d_kanem d_bornu d_kagha
 		#Sao
 		d_baguirmi d_salamat d_wandala
 		#Hausaland
@@ -1521,7 +1521,7 @@ custom_sahara_proper = {
 		#k_anbiya
 		d_zammour d_adrar d_touat d_taghaza
 		#k_sahara
-		d_tadmekka d_ghat d_air d_kawar d_tibesti d_fezzan d_ahaggar
+		d_tadmekka d_ghat d_air d_kawar d_tibesti d_fezzan
 	}
 }
 
@@ -1530,13 +1530,13 @@ custom_sahel_proper = {
 		#k_takrur
 		d_takrur d_silla d_djolof
 		#k_ghana
-		d_wagadu d_mema d_tagant d_diafunu d_kaniaga d_soso d_diara
+		d_wagadu d_mema d_tagant d_diafunu d_kaniaga
 		#k_songhay
 		d_kawkaw d_timbuktu d_dendi d_upper_gurma d_zarma
 		#k_hausaland
 		d_kano d_katsina d_kebbi d_gobir d_zamfara
 		#k_kanem
-		d_kanem d_bornu d_kagha d_bedde
+		d_kanem d_bornu d_kagha
 		#k_sao
 		d_baguirmi d_salamat d_wandala
 		#k_darfur
@@ -1759,12 +1759,12 @@ world_horse_buildings_in_hills_and_mountains = {
 		#Gurma
 		d_lower_gurma d_wagadugu d_mamprusi d_lurum
 		#Ghana
-		d_wagadu d_mema d_tagant d_diafunu d_kaniaga d_soso d_diara
+		d_wagadu d_mema d_tagant d_diafunu d_kaniaga
 		#Jenne
 		d_jenne d_yatenga d_kirikongo d_bobo
 
 		#Kanem
-		d_kanem d_bornu d_kagha d_bedde
+		d_kanem d_bornu d_kagha
 		#Sao
 		d_baguirmi d_salamat d_wandala
 		#Hausaland
@@ -2503,7 +2503,7 @@ ghw_region_the_sahel = {
 		#Gurma
 		d_lower_gurma d_mamprusi d_lurum d_wagadugu
 		#Ghana
-		d_wagadu d_mema d_tagant d_diafunu d_kaniaga d_soso d_diara
+		d_wagadu d_mema d_tagant d_diafunu d_kaniaga
 		#Mali
 		d_manding d_bambuk d_futa_jalon
 		#Takrur
@@ -2517,7 +2517,7 @@ ghw_region_the_sahel = {
 ghw_region_north_african_interior = {
 	duchies = {
 		#Kanem
-		d_kanem d_bornu d_kagha d_bedde
+		d_kanem d_bornu d_kagha
 		#Sao
 		d_baguirmi d_salamat d_wandala
 		#Hausaland
@@ -3337,7 +3337,7 @@ dlc_fp2_old_vasconia = {
 		d_viscaya d_navarra d_armagnac
 	}
 	counties = {
-		c_labourd c_albret c_marsan c_alto_aragon c_foix c_urgell c_lleida c_fraga c_puigcerda c_huesca c_sobrarbe c_pallas
+		c_labourd c_albret c_marsan c_alto_aragon c_foix c_urgell c_lleida c_fraga c_puigcerda c_huesca c_sobrarbe
 	}
 }
 
