@@ -60889,7 +60889,6 @@ e_guinea = {
 	k_kong = {
 		color = { 178 28 0 }
 		
-		
 		capital = c_kong
 		
 		d_worodugu = {
