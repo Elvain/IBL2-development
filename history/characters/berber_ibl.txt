@@ -1708,7 +1708,7 @@ kutama025 = {
 	religion = najdat
 	culture = baranis #kutama
 	father = kutama024
-	867.1.1 = {
+	866.1.1 = {
 		birth = yes
 	}
 	894.1.1 = {

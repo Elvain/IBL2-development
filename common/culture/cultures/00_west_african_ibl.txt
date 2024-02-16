@@ -106,3 +106,35 @@ dyula = { #a mix of Malinke and Bobo
 		10 = african
 	}
 }
+
+bambara = {
+	color = hsv { 0.57 0.55 0.57 }
+	created = 1200.1.1
+	parents = { malinke bozo }
+	
+	ethos = ethos_communal
+	heritage = heritage_west_african
+	language = language_manding
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_agrarian
+		tradition_isolationist
+		tradition_zealous_people
+	}
+	
+	dlc_tradition = {
+		trait = tradition_sorcerous_metallurgy
+		requires_dlc_flag = royal_court
+	}
+	
+	name_list = name_list_malinke
+	
+	coa_gfx = { west_african_group_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+	ethnicities = {
+		10 = african
+	}
+}

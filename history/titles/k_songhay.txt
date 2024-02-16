@@ -921,39 +921,40 @@ c_upper_gurma = {
 }
 
 c_hombori = {
-	840.1.1 = {
-		holder = zarma0096
+	860.1.1 = {
+		holder = kibsi0031
 		government = tribal_government
 	}
-	863.1.1 = {
-		holder = zarma0021
+	899.1.1 = {
+		holder = kibsi0032
 	}
-	890.1.1 = {
-		holder = zarma0022
+	950.1.1 = {
+		holder = kibsi0033
 	}
-	933.1.1 = {
-		holder = zarma0023
+	1005.1.1 = {
+		holder = kibsi0034
 	}
-	990.1.1 = {
-		holder = zarma0024
+	1058.1.1 = {
+		holder = kibsi0035
 	}
-	1050.1.1 = {
-		holder = zarma0025
+
+	1072.1.1 = {
+		holder = zarma0035
 	}
-	1081.1.1 = {
-		holder = zarma0026
+	1102.1.1 = {
+		holder = zarma0036
 	}
-	1120.1.1 = {
-		holder = zarma0027
+	1136.1.1 = {
+		holder = zarma0037
 	}
-	1159.1.1 = {
-		holder = zarma0028
+	1178.1.1 = {
+		holder = zarma0038
 	}
-	1199.1.1 = {
-		holder = zarma0029
+	1221.1.1 = {
+		holder = zarma0039
 	}
-	1235.1.1 = {
-		holder = zarma0030
+	1263.1.1 = {
+		holder = zarma0040
 	}
 }
 

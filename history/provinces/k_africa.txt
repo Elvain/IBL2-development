@@ -211,9 +211,6 @@
 	religion = ashari
 	holding = castle_holding
 }
-10034 = {	#AL-BULL
-	#holding = city_holding
-}
 10022 = {	#AGBIA
 	#holding = none
 }

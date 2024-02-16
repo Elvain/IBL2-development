@@ -144,7 +144,7 @@
 
 #### d_badajoz
 ###c_badajoz
-1992 = {	# ZAFRA
+1835 = {	#  BADAJOZ
 	# Misc
 	culture = andalusian
 	religion = mozarabic_church
@@ -159,7 +159,7 @@
 		religion = catholic
 	}
 }
-1835 = {	#  BADAJOZ
+1992 = {	# ZAFRA
 	holding = city_holding
 }
 1836 = {	# OLIVENZA

@@ -100,7 +100,7 @@
 6907 = {	#KUTIGI
 	holding = none
 }
-6548 = {	#GBAJIGBO
+6909 = {	#GBAJIGBO
 	holding = none
 }
 

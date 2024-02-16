@@ -178,19 +178,23 @@
 	# History
 	812.1.1 = { religion = muwalladi }
 	939.1.1 = { culture = andalusian }
-	1280.1.1 = {
-		culture = castilian
-		religion = catholic
-	}
 	1066.1.1 = {
 		buildings = {
 			common_tradeport_02
 			hill_forts_02
 		}
 	}
+	1280.1.1 = {
+		culture = castilian
+		religion = catholic
+	}
 }
 1849 = {	# ALMERIA
 	holding = church_holding
+	955.1.1 = { 
+		special_building_slot = alcazaba_almeria_01
+		special_building = alcazaba_almeria_01
+	}
 }
 9802 = {	# VERA
 	holding = none
@@ -251,20 +255,22 @@
 ###c_sevilla
 1981 = {	# SEVILLA
 	#Misc
-	culture = andalusian
+	culture = visigothic
 	religion = muwalladi
 	
 	holding = castle_holding
 	
 	# History
+	800.1.1 = { culture = andalusian }
 	867.1.1 = {
 		buildings = {
 			farm_estates_01
 			military_camps_01
 		}
 	}
-	929.1.1 = {
-		culture = andalusian
+	913.1.1 = { 
+		special_building_slot = alcazar_seville_01
+		special_building = alcazar_seville_01
 	}
 	1066.1.1 = {
 		buildings = {

@@ -19,7 +19,7 @@
 
 ###c_hombori
 6677 = {	# HOMBORI
-	culture = zarma
+	culture = tellem
 	religion = west_african_pagan
 	holding = tribal_holding
 

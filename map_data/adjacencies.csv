@@ -22,7 +22,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 1833;1835;river_large;3252;570;1835;-1;-1;Zalaca-Badajoz
 1845;4682;sea;954;657;1643;658;1630;Algeciras-Sabta
 1979;1995;river_large;3253;687;1758;-1;-1;Cabra-Cordoba
-1981;1993;river_large;3253;619;1732;-1;-1;Seville-Triana
+1981;9787;river_large;3253;619;1732;-1;-1;Seville-San Ysidoro
 1759;1760;river_large;9851;-1;-1;-1;-1;Aveiro-Porto
 1858;1859;river_large;9848;-1;-1;-1;-1;Amposta-Tortosa
 1883;1892;river_large;9849;-1;-1;-1;-1;Caspe-Alcaniz

@@ -182,7 +182,7 @@
 
 ###c_seno
 6706 = {	# BANKASS
-	culture = zarma
+	culture = tellem
 	religion = west_african_pagan
 	holding = tribal_holding
 	
@@ -201,7 +201,7 @@
 
 ###c_bandiagara
 6705 = {	# BANDIAGARA
-	culture = zarma
+	culture = tellem
 	religion = west_african_pagan
 	holding = tribal_holding
 }
@@ -212,7 +212,7 @@
 
 ###c_gondo
 6675 = {	# DOUENTZA
-	culture = zarma
+	culture = tellem
 	religion = west_african_pagan
 	holding = tribal_holding
 	

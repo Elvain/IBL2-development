@@ -1,0 +1,37 @@
+﻿bambara = {
+	trigger = {
+		OR = {
+			AND = {
+				scope:culture = culture:malinke
+				scope:other_culture = { has_cultural_pillar = heritage_west_african }
+			}
+			AND = {
+				scope:culture = { has_cultural_pillar = heritage_west_african }
+				scope:other_culture = culture:malinke
+			}
+		}
+		OR = {
+			capital_county = {
+				title:k_jenne = {
+					is_de_jure_liege_or_above_target = prev
+				}
+			}
+			primary_title = title:k_maghreb
+			# You are an Malinke expanding into Niger delta
+			AND = {
+				OR = {
+					scope:culture = culture:malinke
+					scope:other_culture = culture:malinke
+				}
+				has_title = title:k_jenne
+			}
+		}
+		any_sub_realm_county = {
+			OR = {
+				culture = scope:culture
+				culture = scope:other_culture
+			}
+		}
+	}
+	hybrid = yes
+}
